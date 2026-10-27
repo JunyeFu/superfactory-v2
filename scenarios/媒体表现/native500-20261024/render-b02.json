@@ -1,0 +1,3321 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B02",
+  "device_count": 50,
+  "lod_models": 100,
+  "checks": [
+    {
+      "id": "guillotine-paper-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.guillotine-paper-cutter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137700,
+      "nodes": 85,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        73
+      ],
+      "captures": [
+        "guillotine-paper-cutter/simple-iso.png",
+        "guillotine-paper-cutter/simple-front.png",
+        "guillotine-paper-cutter/simple-back.png",
+        "guillotine-paper-cutter/simple-left.png",
+        "guillotine-paper-cutter/simple-right.png",
+        "guillotine-paper-cutter/simple-top.png",
+        "guillotine-paper-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "guillotine-paper-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.guillotine-paper-cutter",
+        "version": "1.0.0"
+      },
+      "bytes": 917624,
+      "nodes": 132,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        120
+      ],
+      "captures": [
+        "guillotine-paper-cutter/detailed-iso.png",
+        "guillotine-paper-cutter/detailed-front.png",
+        "guillotine-paper-cutter/detailed-back.png",
+        "guillotine-paper-cutter/detailed-left.png",
+        "guillotine-paper-cutter/detailed-right.png",
+        "guillotine-paper-cutter/detailed-top.png",
+        "guillotine-paper-cutter/detailed-bottom.png",
+        "guillotine-paper-cutter/action-0.png",
+        "guillotine-paper-cutter/action-50.png",
+        "guillotine-paper-cutter/action-100.png"
+      ]
+    },
+    {
+      "id": "three-knife-trimmer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.three-knife-trimmer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134324,
+      "nodes": 87,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        73
+      ],
+      "captures": [
+        "three-knife-trimmer/simple-iso.png",
+        "three-knife-trimmer/simple-front.png",
+        "three-knife-trimmer/simple-back.png",
+        "three-knife-trimmer/simple-left.png",
+        "three-knife-trimmer/simple-right.png",
+        "three-knife-trimmer/simple-top.png",
+        "three-knife-trimmer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "three-knife-trimmer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.three-knife-trimmer",
+        "version": "1.0.0"
+      },
+      "bytes": 942056,
+      "nodes": 134,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        120
+      ],
+      "captures": [
+        "three-knife-trimmer/detailed-iso.png",
+        "three-knife-trimmer/detailed-front.png",
+        "three-knife-trimmer/detailed-back.png",
+        "three-knife-trimmer/detailed-left.png",
+        "three-knife-trimmer/detailed-right.png",
+        "three-knife-trimmer/detailed-top.png",
+        "three-knife-trimmer/detailed-bottom.png",
+        "three-knife-trimmer/action-0.png",
+        "three-knife-trimmer/action-50.png",
+        "three-knife-trimmer/action-100.png"
+      ]
+    },
+    {
+      "id": "pile-turner",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pile-turner.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135056,
+      "nodes": 78,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "pile-turner/simple-iso.png",
+        "pile-turner/simple-front.png",
+        "pile-turner/simple-back.png",
+        "pile-turner/simple-left.png",
+        "pile-turner/simple-right.png",
+        "pile-turner/simple-top.png",
+        "pile-turner/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pile-turner",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pile-turner",
+        "version": "1.0.0"
+      },
+      "bytes": 877096,
+      "nodes": 112,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "pile-turner/detailed-iso.png",
+        "pile-turner/detailed-front.png",
+        "pile-turner/detailed-back.png",
+        "pile-turner/detailed-left.png",
+        "pile-turner/detailed-right.png",
+        "pile-turner/detailed-top.png",
+        "pile-turner/detailed-bottom.png",
+        "pile-turner/action-0.png",
+        "pile-turner/action-50.png",
+        "pile-turner/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-jogger",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-jogger.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 113192,
+      "nodes": 69,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "paper-jogger/simple-iso.png",
+        "paper-jogger/simple-front.png",
+        "paper-jogger/simple-back.png",
+        "paper-jogger/simple-left.png",
+        "paper-jogger/simple-right.png",
+        "paper-jogger/simple-top.png",
+        "paper-jogger/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-jogger",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-jogger",
+        "version": "1.0.0"
+      },
+      "bytes": 711372,
+      "nodes": 92,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "paper-jogger/detailed-iso.png",
+        "paper-jogger/detailed-front.png",
+        "paper-jogger/detailed-back.png",
+        "paper-jogger/detailed-left.png",
+        "paper-jogger/detailed-right.png",
+        "paper-jogger/detailed-top.png",
+        "paper-jogger/detailed-bottom.png",
+        "paper-jogger/action-0.png",
+        "paper-jogger/action-50.png",
+        "paper-jogger/action-100.png"
+      ]
+    },
+    {
+      "id": "air-table-loader",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.air-table-loader.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 126812,
+      "nodes": 75,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        59
+      ],
+      "captures": [
+        "air-table-loader/simple-iso.png",
+        "air-table-loader/simple-front.png",
+        "air-table-loader/simple-back.png",
+        "air-table-loader/simple-left.png",
+        "air-table-loader/simple-right.png",
+        "air-table-loader/simple-top.png",
+        "air-table-loader/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "air-table-loader",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.air-table-loader",
+        "version": "1.0.0"
+      },
+      "bytes": 852716,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        127,
+        131
+      ],
+      "captures": [
+        "air-table-loader/detailed-iso.png",
+        "air-table-loader/detailed-front.png",
+        "air-table-loader/detailed-back.png",
+        "air-table-loader/detailed-left.png",
+        "air-table-loader/detailed-right.png",
+        "air-table-loader/detailed-top.png",
+        "air-table-loader/detailed-bottom.png",
+        "air-table-loader/action-0.png",
+        "air-table-loader/action-50.png",
+        "air-table-loader/action-100.png"
+      ]
+    },
+    {
+      "id": "suction-separator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.suction-separator.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159744,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        59,
+        78
+      ],
+      "captures": [
+        "suction-separator/simple-iso.png",
+        "suction-separator/simple-front.png",
+        "suction-separator/simple-back.png",
+        "suction-separator/simple-left.png",
+        "suction-separator/simple-right.png",
+        "suction-separator/simple-top.png",
+        "suction-separator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "suction-separator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.suction-separator",
+        "version": "1.0.0"
+      },
+      "bytes": 1017484,
+      "nodes": 160,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        88,
+        131
+      ],
+      "captures": [
+        "suction-separator/detailed-iso.png",
+        "suction-separator/detailed-front.png",
+        "suction-separator/detailed-back.png",
+        "suction-separator/detailed-left.png",
+        "suction-separator/detailed-right.png",
+        "suction-separator/detailed-top.png",
+        "suction-separator/detailed-bottom.png",
+        "suction-separator/action-0.png",
+        "suction-separator/action-50.png",
+        "suction-separator/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-unwinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-unwinder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 157032,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        80
+      ],
+      "captures": [
+        "paper-unwinder/simple-iso.png",
+        "paper-unwinder/simple-front.png",
+        "paper-unwinder/simple-back.png",
+        "paper-unwinder/simple-left.png",
+        "paper-unwinder/simple-right.png",
+        "paper-unwinder/simple-top.png",
+        "paper-unwinder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-unwinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-unwinder",
+        "version": "1.0.0"
+      },
+      "bytes": 1025284,
+      "nodes": 163,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        132
+      ],
+      "captures": [
+        "paper-unwinder/detailed-iso.png",
+        "paper-unwinder/detailed-front.png",
+        "paper-unwinder/detailed-back.png",
+        "paper-unwinder/detailed-left.png",
+        "paper-unwinder/detailed-right.png",
+        "paper-unwinder/detailed-top.png",
+        "paper-unwinder/detailed-bottom.png",
+        "paper-unwinder/action-0.png",
+        "paper-unwinder/action-50.png",
+        "paper-unwinder/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-rewinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-rewinder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156720,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        86
+      ],
+      "captures": [
+        "paper-rewinder/simple-iso.png",
+        "paper-rewinder/simple-front.png",
+        "paper-rewinder/simple-back.png",
+        "paper-rewinder/simple-left.png",
+        "paper-rewinder/simple-right.png",
+        "paper-rewinder/simple-top.png",
+        "paper-rewinder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-rewinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-rewinder",
+        "version": "1.0.0"
+      },
+      "bytes": 1024976,
+      "nodes": 163,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        138
+      ],
+      "captures": [
+        "paper-rewinder/detailed-iso.png",
+        "paper-rewinder/detailed-front.png",
+        "paper-rewinder/detailed-back.png",
+        "paper-rewinder/detailed-left.png",
+        "paper-rewinder/detailed-right.png",
+        "paper-rewinder/detailed-top.png",
+        "paper-rewinder/detailed-bottom.png",
+        "paper-rewinder/action-0.png",
+        "paper-rewinder/action-50.png",
+        "paper-rewinder/action-100.png"
+      ]
+    },
+    {
+      "id": "slitter-rewinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.slitter-rewinder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 168128,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        73,
+        107
+      ],
+      "captures": [
+        "slitter-rewinder/simple-iso.png",
+        "slitter-rewinder/simple-front.png",
+        "slitter-rewinder/simple-back.png",
+        "slitter-rewinder/simple-left.png",
+        "slitter-rewinder/simple-right.png",
+        "slitter-rewinder/simple-top.png",
+        "slitter-rewinder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "slitter-rewinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.slitter-rewinder",
+        "version": "1.0.0"
+      },
+      "bytes": 1016332,
+      "nodes": 201,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        101,
+        176
+      ],
+      "captures": [
+        "slitter-rewinder/detailed-iso.png",
+        "slitter-rewinder/detailed-front.png",
+        "slitter-rewinder/detailed-back.png",
+        "slitter-rewinder/detailed-left.png",
+        "slitter-rewinder/detailed-right.png",
+        "slitter-rewinder/detailed-top.png",
+        "slitter-rewinder/detailed-bottom.png",
+        "slitter-rewinder/action-0.png",
+        "slitter-rewinder/action-50.png",
+        "slitter-rewinder/action-100.png"
+      ]
+    },
+    {
+      "id": "rotary-sheet-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-sheet-cutter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 171124,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        73,
+        105
+      ],
+      "captures": [
+        "rotary-sheet-cutter/simple-iso.png",
+        "rotary-sheet-cutter/simple-front.png",
+        "rotary-sheet-cutter/simple-back.png",
+        "rotary-sheet-cutter/simple-left.png",
+        "rotary-sheet-cutter/simple-right.png",
+        "rotary-sheet-cutter/simple-top.png",
+        "rotary-sheet-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotary-sheet-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-sheet-cutter",
+        "version": "1.0.0"
+      },
+      "bytes": 1074664,
+      "nodes": 183,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        101,
+        174
+      ],
+      "captures": [
+        "rotary-sheet-cutter/detailed-iso.png",
+        "rotary-sheet-cutter/detailed-front.png",
+        "rotary-sheet-cutter/detailed-back.png",
+        "rotary-sheet-cutter/detailed-left.png",
+        "rotary-sheet-cutter/detailed-right.png",
+        "rotary-sheet-cutter/detailed-top.png",
+        "rotary-sheet-cutter/detailed-bottom.png",
+        "rotary-sheet-cutter/action-0.png",
+        "rotary-sheet-cutter/action-50.png",
+        "rotary-sheet-cutter/action-100.png"
+      ]
+    },
+    {
+      "id": "flexo-slotter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.flexo-slotter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 150996,
+      "nodes": 116,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        81
+      ],
+      "captures": [
+        "flexo-slotter/simple-iso.png",
+        "flexo-slotter/simple-front.png",
+        "flexo-slotter/simple-back.png",
+        "flexo-slotter/simple-left.png",
+        "flexo-slotter/simple-right.png",
+        "flexo-slotter/simple-top.png",
+        "flexo-slotter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flexo-slotter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.flexo-slotter",
+        "version": "1.0.0"
+      },
+      "bytes": 951980,
+      "nodes": 221,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        145
+      ],
+      "captures": [
+        "flexo-slotter/detailed-iso.png",
+        "flexo-slotter/detailed-front.png",
+        "flexo-slotter/detailed-back.png",
+        "flexo-slotter/detailed-left.png",
+        "flexo-slotter/detailed-right.png",
+        "flexo-slotter/detailed-top.png",
+        "flexo-slotter/detailed-bottom.png",
+        "flexo-slotter/action-0.png",
+        "flexo-slotter/action-50.png",
+        "flexo-slotter/action-100.png"
+      ]
+    },
+    {
+      "id": "corrugated-slotter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.corrugated-slotter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 157724,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80
+      ],
+      "captures": [
+        "corrugated-slotter/simple-iso.png",
+        "corrugated-slotter/simple-front.png",
+        "corrugated-slotter/simple-back.png",
+        "corrugated-slotter/simple-left.png",
+        "corrugated-slotter/simple-right.png",
+        "corrugated-slotter/simple-top.png",
+        "corrugated-slotter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "corrugated-slotter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.corrugated-slotter",
+        "version": "1.0.0"
+      },
+      "bytes": 1013680,
+      "nodes": 208,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132
+      ],
+      "captures": [
+        "corrugated-slotter/detailed-iso.png",
+        "corrugated-slotter/detailed-front.png",
+        "corrugated-slotter/detailed-back.png",
+        "corrugated-slotter/detailed-left.png",
+        "corrugated-slotter/detailed-right.png",
+        "corrugated-slotter/detailed-top.png",
+        "corrugated-slotter/detailed-bottom.png",
+        "corrugated-slotter/action-0.png",
+        "corrugated-slotter/action-50.png",
+        "corrugated-slotter/action-100.png"
+      ]
+    },
+    {
+      "id": "board-edge-trimmer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.board-edge-trimmer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159192,
+      "nodes": 105,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        85,
+        86
+      ],
+      "captures": [
+        "board-edge-trimmer/simple-iso.png",
+        "board-edge-trimmer/simple-front.png",
+        "board-edge-trimmer/simple-back.png",
+        "board-edge-trimmer/simple-left.png",
+        "board-edge-trimmer/simple-right.png",
+        "board-edge-trimmer/simple-top.png",
+        "board-edge-trimmer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "board-edge-trimmer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.board-edge-trimmer",
+        "version": "1.0.0"
+      },
+      "bytes": 1070092,
+      "nodes": 196,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        143,
+        144
+      ],
+      "captures": [
+        "board-edge-trimmer/detailed-iso.png",
+        "board-edge-trimmer/detailed-front.png",
+        "board-edge-trimmer/detailed-back.png",
+        "board-edge-trimmer/detailed-left.png",
+        "board-edge-trimmer/detailed-right.png",
+        "board-edge-trimmer/detailed-top.png",
+        "board-edge-trimmer/detailed-bottom.png",
+        "board-edge-trimmer/action-0.png",
+        "board-edge-trimmer/action-50.png",
+        "board-edge-trimmer/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-perforator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-perforator.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 170196,
+      "nodes": 175,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80
+      ],
+      "captures": [
+        "paper-perforator/simple-iso.png",
+        "paper-perforator/simple-front.png",
+        "paper-perforator/simple-back.png",
+        "paper-perforator/simple-left.png",
+        "paper-perforator/simple-right.png",
+        "paper-perforator/simple-top.png",
+        "paper-perforator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-perforator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-perforator",
+        "version": "1.0.0"
+      },
+      "bytes": 1030484,
+      "nodes": 268,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132
+      ],
+      "captures": [
+        "paper-perforator/detailed-iso.png",
+        "paper-perforator/detailed-front.png",
+        "paper-perforator/detailed-back.png",
+        "paper-perforator/detailed-left.png",
+        "paper-perforator/detailed-right.png",
+        "paper-perforator/detailed-top.png",
+        "paper-perforator/detailed-bottom.png",
+        "paper-perforator/action-0.png",
+        "paper-perforator/action-50.png",
+        "paper-perforator/action-100.png"
+      ]
+    },
+    {
+      "id": "platen-creaser",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.platen-creaser.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135588,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        73
+      ],
+      "captures": [
+        "platen-creaser/simple-iso.png",
+        "platen-creaser/simple-front.png",
+        "platen-creaser/simple-back.png",
+        "platen-creaser/simple-left.png",
+        "platen-creaser/simple-right.png",
+        "platen-creaser/simple-top.png",
+        "platen-creaser/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "platen-creaser",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.platen-creaser",
+        "version": "1.0.0"
+      },
+      "bytes": 943320,
+      "nodes": 133,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        120
+      ],
+      "captures": [
+        "platen-creaser/detailed-iso.png",
+        "platen-creaser/detailed-front.png",
+        "platen-creaser/detailed-back.png",
+        "platen-creaser/detailed-left.png",
+        "platen-creaser/detailed-right.png",
+        "platen-creaser/detailed-top.png",
+        "platen-creaser/detailed-bottom.png",
+        "platen-creaser/action-0.png",
+        "platen-creaser/action-50.png",
+        "platen-creaser/action-100.png"
+      ]
+    },
+    {
+      "id": "hot-foil-stamper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.hot-foil-stamper.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 162812,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        83
+      ],
+      "captures": [
+        "hot-foil-stamper/simple-iso.png",
+        "hot-foil-stamper/simple-front.png",
+        "hot-foil-stamper/simple-back.png",
+        "hot-foil-stamper/simple-left.png",
+        "hot-foil-stamper/simple-right.png",
+        "hot-foil-stamper/simple-top.png",
+        "hot-foil-stamper/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "hot-foil-stamper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.hot-foil-stamper",
+        "version": "1.0.0"
+      },
+      "bytes": 1038352,
+      "nodes": 135,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        123
+      ],
+      "captures": [
+        "hot-foil-stamper/detailed-iso.png",
+        "hot-foil-stamper/detailed-front.png",
+        "hot-foil-stamper/detailed-back.png",
+        "hot-foil-stamper/detailed-left.png",
+        "hot-foil-stamper/detailed-right.png",
+        "hot-foil-stamper/detailed-top.png",
+        "hot-foil-stamper/detailed-bottom.png",
+        "hot-foil-stamper/action-0.png",
+        "hot-foil-stamper/action-50.png",
+        "hot-foil-stamper/action-100.png"
+      ]
+    },
+    {
+      "id": "blind-embosser",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.blind-embosser.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137072,
+      "nodes": 90,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        73
+      ],
+      "captures": [
+        "blind-embosser/simple-iso.png",
+        "blind-embosser/simple-front.png",
+        "blind-embosser/simple-back.png",
+        "blind-embosser/simple-left.png",
+        "blind-embosser/simple-right.png",
+        "blind-embosser/simple-top.png",
+        "blind-embosser/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "blind-embosser",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.blind-embosser",
+        "version": "1.0.0"
+      },
+      "bytes": 944812,
+      "nodes": 137,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        120
+      ],
+      "captures": [
+        "blind-embosser/detailed-iso.png",
+        "blind-embosser/detailed-front.png",
+        "blind-embosser/detailed-back.png",
+        "blind-embosser/detailed-left.png",
+        "blind-embosser/detailed-right.png",
+        "blind-embosser/detailed-top.png",
+        "blind-embosser/detailed-bottom.png",
+        "blind-embosser/action-0.png",
+        "blind-embosser/action-50.png",
+        "blind-embosser/action-100.png"
+      ]
+    },
+    {
+      "id": "spot-uv-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spot-uv-printer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 141824,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        74,
+        64,
+        82
+      ],
+      "captures": [
+        "spot-uv-printer/simple-iso.png",
+        "spot-uv-printer/simple-front.png",
+        "spot-uv-printer/simple-back.png",
+        "spot-uv-printer/simple-left.png",
+        "spot-uv-printer/simple-right.png",
+        "spot-uv-printer/simple-top.png",
+        "spot-uv-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spot-uv-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spot-uv-printer",
+        "version": "1.0.0"
+      },
+      "bytes": 1076508,
+      "nodes": 124,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        103,
+        93,
+        111
+      ],
+      "captures": [
+        "spot-uv-printer/detailed-iso.png",
+        "spot-uv-printer/detailed-front.png",
+        "spot-uv-printer/detailed-back.png",
+        "spot-uv-printer/detailed-left.png",
+        "spot-uv-printer/detailed-right.png",
+        "spot-uv-printer/detailed-top.png",
+        "spot-uv-printer/detailed-bottom.png",
+        "spot-uv-printer/action-0.png",
+        "spot-uv-printer/action-50.png",
+        "spot-uv-printer/action-100.png"
+      ]
+    },
+    {
+      "id": "screen-print-press",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.screen-print-press.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 124236,
+      "nodes": 75,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "screen-print-press/simple-iso.png",
+        "screen-print-press/simple-front.png",
+        "screen-print-press/simple-back.png",
+        "screen-print-press/simple-left.png",
+        "screen-print-press/simple-right.png",
+        "screen-print-press/simple-top.png",
+        "screen-print-press/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "screen-print-press",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.screen-print-press",
+        "version": "1.0.0"
+      },
+      "bytes": 859852,
+      "nodes": 104,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        93
+      ],
+      "captures": [
+        "screen-print-press/detailed-iso.png",
+        "screen-print-press/detailed-front.png",
+        "screen-print-press/detailed-back.png",
+        "screen-print-press/detailed-left.png",
+        "screen-print-press/detailed-right.png",
+        "screen-print-press/detailed-top.png",
+        "screen-print-press/detailed-bottom.png",
+        "screen-print-press/action-0.png",
+        "screen-print-press/action-50.png",
+        "screen-print-press/action-100.png"
+      ]
+    },
+    {
+      "id": "pad-print-press",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pad-print-press.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 124376,
+      "nodes": 73,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61
+      ],
+      "captures": [
+        "pad-print-press/simple-iso.png",
+        "pad-print-press/simple-front.png",
+        "pad-print-press/simple-back.png",
+        "pad-print-press/simple-left.png",
+        "pad-print-press/simple-right.png",
+        "pad-print-press/simple-top.png",
+        "pad-print-press/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pad-print-press",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pad-print-press",
+        "version": "1.0.0"
+      },
+      "bytes": 761720,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90
+      ],
+      "captures": [
+        "pad-print-press/detailed-iso.png",
+        "pad-print-press/detailed-front.png",
+        "pad-print-press/detailed-back.png",
+        "pad-print-press/detailed-left.png",
+        "pad-print-press/detailed-right.png",
+        "pad-print-press/detailed-top.png",
+        "pad-print-press/detailed-bottom.png",
+        "pad-print-press/action-0.png",
+        "pad-print-press/action-50.png",
+        "pad-print-press/action-100.png"
+      ]
+    },
+    {
+      "id": "digital-label-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.digital-label-printer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 197612,
+      "nodes": 123,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        88,
+        92,
+        103
+      ],
+      "captures": [
+        "digital-label-printer/simple-iso.png",
+        "digital-label-printer/simple-front.png",
+        "digital-label-printer/simple-back.png",
+        "digital-label-printer/simple-left.png",
+        "digital-label-printer/simple-right.png",
+        "digital-label-printer/simple-top.png",
+        "digital-label-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "digital-label-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.digital-label-printer",
+        "version": "1.0.0"
+      },
+      "bytes": 1229584,
+      "nodes": 167,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        127,
+        131,
+        142
+      ],
+      "captures": [
+        "digital-label-printer/detailed-iso.png",
+        "digital-label-printer/detailed-front.png",
+        "digital-label-printer/detailed-back.png",
+        "digital-label-printer/detailed-left.png",
+        "digital-label-printer/detailed-right.png",
+        "digital-label-printer/detailed-top.png",
+        "digital-label-printer/detailed-bottom.png",
+        "digital-label-printer/action-0.png",
+        "digital-label-printer/action-50.png",
+        "digital-label-printer/action-100.png"
+      ]
+    },
+    {
+      "id": "label-die-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-die-cutter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 167680,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        83,
+        94
+      ],
+      "captures": [
+        "label-die-cutter/simple-iso.png",
+        "label-die-cutter/simple-front.png",
+        "label-die-cutter/simple-back.png",
+        "label-die-cutter/simple-left.png",
+        "label-die-cutter/simple-right.png",
+        "label-die-cutter/simple-top.png",
+        "label-die-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "label-die-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-die-cutter",
+        "version": "1.0.0"
+      },
+      "bytes": 1043716,
+      "nodes": 159,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        123,
+        134
+      ],
+      "captures": [
+        "label-die-cutter/detailed-iso.png",
+        "label-die-cutter/detailed-front.png",
+        "label-die-cutter/detailed-back.png",
+        "label-die-cutter/detailed-left.png",
+        "label-die-cutter/detailed-right.png",
+        "label-die-cutter/detailed-top.png",
+        "label-die-cutter/detailed-bottom.png",
+        "label-die-cutter/action-0.png",
+        "label-die-cutter/action-50.png",
+        "label-die-cutter/action-100.png"
+      ]
+    },
+    {
+      "id": "label-peeler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-peeler.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156264,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        80
+      ],
+      "captures": [
+        "label-peeler/simple-iso.png",
+        "label-peeler/simple-front.png",
+        "label-peeler/simple-back.png",
+        "label-peeler/simple-left.png",
+        "label-peeler/simple-right.png",
+        "label-peeler/simple-top.png",
+        "label-peeler/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "label-peeler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-peeler",
+        "version": "1.0.0"
+      },
+      "bytes": 1024516,
+      "nodes": 163,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        132
+      ],
+      "captures": [
+        "label-peeler/detailed-iso.png",
+        "label-peeler/detailed-front.png",
+        "label-peeler/detailed-back.png",
+        "label-peeler/detailed-left.png",
+        "label-peeler/detailed-right.png",
+        "label-peeler/detailed-top.png",
+        "label-peeler/detailed-bottom.png",
+        "label-peeler/action-0.png",
+        "label-peeler/action-50.png",
+        "label-peeler/action-100.png"
+      ]
+    },
+    {
+      "id": "label-web-inspector",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-web-inspector.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 207712,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        92,
+        107
+      ],
+      "captures": [
+        "label-web-inspector/simple-iso.png",
+        "label-web-inspector/simple-front.png",
+        "label-web-inspector/simple-back.png",
+        "label-web-inspector/simple-left.png",
+        "label-web-inspector/simple-right.png",
+        "label-web-inspector/simple-top.png",
+        "label-web-inspector/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "label-web-inspector",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-web-inspector",
+        "version": "1.0.0"
+      },
+      "bytes": 1253204,
+      "nodes": 171,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        131,
+        146
+      ],
+      "captures": [
+        "label-web-inspector/detailed-iso.png",
+        "label-web-inspector/detailed-front.png",
+        "label-web-inspector/detailed-back.png",
+        "label-web-inspector/detailed-left.png",
+        "label-web-inspector/detailed-right.png",
+        "label-web-inspector/detailed-top.png",
+        "label-web-inspector/detailed-bottom.png",
+        "label-web-inspector/action-0.png",
+        "label-web-inspector/action-50.png",
+        "label-web-inspector/action-100.png"
+      ]
+    },
+    {
+      "id": "honeycomb-laminator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.honeycomb-laminator.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 208192,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        73,
+        82,
+        109
+      ],
+      "captures": [
+        "honeycomb-laminator/simple-iso.png",
+        "honeycomb-laminator/simple-front.png",
+        "honeycomb-laminator/simple-back.png",
+        "honeycomb-laminator/simple-left.png",
+        "honeycomb-laminator/simple-right.png",
+        "honeycomb-laminator/simple-top.png",
+        "honeycomb-laminator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "honeycomb-laminator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.honeycomb-laminator",
+        "version": "1.0.0"
+      },
+      "bytes": 1373896,
+      "nodes": 256,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        103,
+        107,
+        116,
+        184
+      ],
+      "captures": [
+        "honeycomb-laminator/detailed-iso.png",
+        "honeycomb-laminator/detailed-front.png",
+        "honeycomb-laminator/detailed-back.png",
+        "honeycomb-laminator/detailed-left.png",
+        "honeycomb-laminator/detailed-right.png",
+        "honeycomb-laminator/detailed-top.png",
+        "honeycomb-laminator/detailed-bottom.png",
+        "honeycomb-laminator/action-0.png",
+        "honeycomb-laminator/action-50.png",
+        "honeycomb-laminator/action-100.png"
+      ]
+    },
+    {
+      "id": "corner-board-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.corner-board-former.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 216644,
+      "nodes": 134,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        73,
+        82,
+        114,
+        115
+      ],
+      "captures": [
+        "corner-board-former/simple-iso.png",
+        "corner-board-former/simple-front.png",
+        "corner-board-former/simple-back.png",
+        "corner-board-former/simple-left.png",
+        "corner-board-former/simple-right.png",
+        "corner-board-former/simple-top.png",
+        "corner-board-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "corner-board-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.corner-board-former",
+        "version": "1.0.0"
+      },
+      "bytes": 1435352,
+      "nodes": 248,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        103,
+        107,
+        116,
+        195,
+        196
+      ],
+      "captures": [
+        "corner-board-former/detailed-iso.png",
+        "corner-board-former/detailed-front.png",
+        "corner-board-former/detailed-back.png",
+        "corner-board-former/detailed-left.png",
+        "corner-board-former/detailed-right.png",
+        "corner-board-former/detailed-top.png",
+        "corner-board-former/detailed-bottom.png",
+        "corner-board-former/action-0.png",
+        "corner-board-former/action-50.png",
+        "corner-board-former/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-tube-winder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-tube-winder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 204656,
+      "nodes": 116,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        73,
+        82,
+        105
+      ],
+      "captures": [
+        "paper-tube-winder/simple-iso.png",
+        "paper-tube-winder/simple-front.png",
+        "paper-tube-winder/simple-back.png",
+        "paper-tube-winder/simple-left.png",
+        "paper-tube-winder/simple-right.png",
+        "paper-tube-winder/simple-top.png",
+        "paper-tube-winder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-tube-winder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-tube-winder",
+        "version": "1.0.0"
+      },
+      "bytes": 1315944,
+      "nodes": 191,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        103,
+        107,
+        116,
+        180
+      ],
+      "captures": [
+        "paper-tube-winder/detailed-iso.png",
+        "paper-tube-winder/detailed-front.png",
+        "paper-tube-winder/detailed-back.png",
+        "paper-tube-winder/detailed-left.png",
+        "paper-tube-winder/detailed-right.png",
+        "paper-tube-winder/detailed-top.png",
+        "paper-tube-winder/detailed-bottom.png",
+        "paper-tube-winder/action-0.png",
+        "paper-tube-winder/action-50.png",
+        "paper-tube-winder/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-tube-cutoff",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-tube-cutoff.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153004,
+      "nodes": 87,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        67,
+        68
+      ],
+      "captures": [
+        "paper-tube-cutoff/simple-iso.png",
+        "paper-tube-cutoff/simple-front.png",
+        "paper-tube-cutoff/simple-back.png",
+        "paper-tube-cutoff/simple-left.png",
+        "paper-tube-cutoff/simple-right.png",
+        "paper-tube-cutoff/simple-top.png",
+        "paper-tube-cutoff/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-tube-cutoff",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-tube-cutoff",
+        "version": "1.0.0"
+      },
+      "bytes": 1006912,
+      "nodes": 161,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        108,
+        109
+      ],
+      "captures": [
+        "paper-tube-cutoff/detailed-iso.png",
+        "paper-tube-cutoff/detailed-front.png",
+        "paper-tube-cutoff/detailed-back.png",
+        "paper-tube-cutoff/detailed-left.png",
+        "paper-tube-cutoff/detailed-right.png",
+        "paper-tube-cutoff/detailed-top.png",
+        "paper-tube-cutoff/detailed-bottom.png",
+        "paper-tube-cutoff/action-0.png",
+        "paper-tube-cutoff/action-50.png",
+        "paper-tube-cutoff/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-core-grinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-core-grinder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154512,
+      "nodes": 87,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        67,
+        68
+      ],
+      "captures": [
+        "paper-core-grinder/simple-iso.png",
+        "paper-core-grinder/simple-front.png",
+        "paper-core-grinder/simple-back.png",
+        "paper-core-grinder/simple-left.png",
+        "paper-core-grinder/simple-right.png",
+        "paper-core-grinder/simple-top.png",
+        "paper-core-grinder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-core-grinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-core-grinder",
+        "version": "1.0.0"
+      },
+      "bytes": 974728,
+      "nodes": 133,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        108,
+        109
+      ],
+      "captures": [
+        "paper-core-grinder/detailed-iso.png",
+        "paper-core-grinder/detailed-front.png",
+        "paper-core-grinder/detailed-back.png",
+        "paper-core-grinder/detailed-left.png",
+        "paper-core-grinder/detailed-right.png",
+        "paper-core-grinder/detailed-top.png",
+        "paper-core-grinder/detailed-bottom.png",
+        "paper-core-grinder/action-0.png",
+        "paper-core-grinder/action-50.png",
+        "paper-core-grinder/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-cup-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-cup-former.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 141724,
+      "nodes": 97,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        66,
+        86
+      ],
+      "captures": [
+        "paper-cup-former/simple-iso.png",
+        "paper-cup-former/simple-front.png",
+        "paper-cup-former/simple-back.png",
+        "paper-cup-former/simple-left.png",
+        "paper-cup-former/simple-right.png",
+        "paper-cup-former/simple-top.png",
+        "paper-cup-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-cup-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-cup-former",
+        "version": "1.0.0"
+      },
+      "bytes": 764300,
+      "nodes": 126,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        89,
+        115
+      ],
+      "captures": [
+        "paper-cup-former/detailed-iso.png",
+        "paper-cup-former/detailed-front.png",
+        "paper-cup-former/detailed-back.png",
+        "paper-cup-former/detailed-left.png",
+        "paper-cup-former/detailed-right.png",
+        "paper-cup-former/detailed-top.png",
+        "paper-cup-former/detailed-bottom.png",
+        "paper-cup-former/action-0.png",
+        "paper-cup-former/action-50.png",
+        "paper-cup-former/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-bowl-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-bowl-former.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 142440,
+      "nodes": 97,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        66,
+        86
+      ],
+      "captures": [
+        "paper-bowl-former/simple-iso.png",
+        "paper-bowl-former/simple-front.png",
+        "paper-bowl-former/simple-back.png",
+        "paper-bowl-former/simple-left.png",
+        "paper-bowl-former/simple-right.png",
+        "paper-bowl-former/simple-top.png",
+        "paper-bowl-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-bowl-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-bowl-former",
+        "version": "1.0.0"
+      },
+      "bytes": 765012,
+      "nodes": 126,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        89,
+        115
+      ],
+      "captures": [
+        "paper-bowl-former/detailed-iso.png",
+        "paper-bowl-former/detailed-front.png",
+        "paper-bowl-former/detailed-back.png",
+        "paper-bowl-former/detailed-left.png",
+        "paper-bowl-former/detailed-right.png",
+        "paper-bowl-former/detailed-top.png",
+        "paper-bowl-former/detailed-bottom.png",
+        "paper-bowl-former/action-0.png",
+        "paper-bowl-former/action-50.png",
+        "paper-bowl-former/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-plate-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-plate-former.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 166004,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        90
+      ],
+      "captures": [
+        "paper-plate-former/simple-iso.png",
+        "paper-plate-former/simple-front.png",
+        "paper-plate-former/simple-back.png",
+        "paper-plate-former/simple-left.png",
+        "paper-plate-former/simple-right.png",
+        "paper-plate-former/simple-top.png",
+        "paper-plate-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-plate-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-plate-former",
+        "version": "1.0.0"
+      },
+      "bytes": 1058444,
+      "nodes": 167,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        154
+      ],
+      "captures": [
+        "paper-plate-former/detailed-iso.png",
+        "paper-plate-former/detailed-front.png",
+        "paper-plate-former/detailed-back.png",
+        "paper-plate-former/detailed-left.png",
+        "paper-plate-former/detailed-right.png",
+        "paper-plate-former/detailed-top.png",
+        "paper-plate-former/detailed-bottom.png",
+        "paper-plate-former/action-0.png",
+        "paper-plate-former/action-50.png",
+        "paper-plate-former/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-bag-tuber",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-bag-tuber.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 157764,
+      "nodes": 91,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        74,
+        78
+      ],
+      "captures": [
+        "paper-bag-tuber/simple-iso.png",
+        "paper-bag-tuber/simple-front.png",
+        "paper-bag-tuber/simple-back.png",
+        "paper-bag-tuber/simple-left.png",
+        "paper-bag-tuber/simple-right.png",
+        "paper-bag-tuber/simple-top.png",
+        "paper-bag-tuber/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-bag-tuber",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-bag-tuber",
+        "version": "1.0.0"
+      },
+      "bytes": 997784,
+      "nodes": 143,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        102,
+        118
+      ],
+      "captures": [
+        "paper-bag-tuber/detailed-iso.png",
+        "paper-bag-tuber/detailed-front.png",
+        "paper-bag-tuber/detailed-back.png",
+        "paper-bag-tuber/detailed-left.png",
+        "paper-bag-tuber/detailed-right.png",
+        "paper-bag-tuber/detailed-top.png",
+        "paper-bag-tuber/detailed-bottom.png",
+        "paper-bag-tuber/action-0.png",
+        "paper-bag-tuber/action-50.png",
+        "paper-bag-tuber/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-bag-bottomer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-bag-bottomer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 175584,
+      "nodes": 110,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        59,
+        80,
+        84,
+        94,
+        98
+      ],
+      "captures": [
+        "paper-bag-bottomer/simple-iso.png",
+        "paper-bag-bottomer/simple-front.png",
+        "paper-bag-bottomer/simple-back.png",
+        "paper-bag-bottomer/simple-left.png",
+        "paper-bag-bottomer/simple-right.png",
+        "paper-bag-bottomer/simple-top.png",
+        "paper-bag-bottomer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-bag-bottomer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-bag-bottomer",
+        "version": "1.0.0"
+      },
+      "bytes": 1197920,
+      "nodes": 192,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        94,
+        138,
+        142,
+        152,
+        168
+      ],
+      "captures": [
+        "paper-bag-bottomer/detailed-iso.png",
+        "paper-bag-bottomer/detailed-front.png",
+        "paper-bag-bottomer/detailed-back.png",
+        "paper-bag-bottomer/detailed-left.png",
+        "paper-bag-bottomer/detailed-right.png",
+        "paper-bag-bottomer/detailed-top.png",
+        "paper-bag-bottomer/detailed-bottom.png",
+        "paper-bag-bottomer/action-0.png",
+        "paper-bag-bottomer/action-50.png",
+        "paper-bag-bottomer/action-100.png"
+      ]
+    },
+    {
+      "id": "bag-handle-attacher",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bag-handle-attacher.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 184684,
+      "nodes": 104,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        73,
+        92
+      ],
+      "captures": [
+        "bag-handle-attacher/simple-iso.png",
+        "bag-handle-attacher/simple-front.png",
+        "bag-handle-attacher/simple-back.png",
+        "bag-handle-attacher/simple-left.png",
+        "bag-handle-attacher/simple-right.png",
+        "bag-handle-attacher/simple-top.png",
+        "bag-handle-attacher/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bag-handle-attacher",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bag-handle-attacher",
+        "version": "1.0.0"
+      },
+      "bytes": 1244776,
+      "nodes": 150,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        103,
+        107,
+        138
+      ],
+      "captures": [
+        "bag-handle-attacher/detailed-iso.png",
+        "bag-handle-attacher/detailed-front.png",
+        "bag-handle-attacher/detailed-back.png",
+        "bag-handle-attacher/detailed-left.png",
+        "bag-handle-attacher/detailed-right.png",
+        "bag-handle-attacher/detailed-top.png",
+        "bag-handle-attacher/detailed-bottom.png",
+        "bag-handle-attacher/action-0.png",
+        "bag-handle-attacher/action-50.png",
+        "bag-handle-attacher/action-100.png"
+      ]
+    },
+    {
+      "id": "rope-handle-twister",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rope-handle-twister.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 168336,
+      "nodes": 100,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        80,
+        81
+      ],
+      "captures": [
+        "rope-handle-twister/simple-iso.png",
+        "rope-handle-twister/simple-front.png",
+        "rope-handle-twister/simple-back.png",
+        "rope-handle-twister/simple-left.png",
+        "rope-handle-twister/simple-right.png",
+        "rope-handle-twister/simple-top.png",
+        "rope-handle-twister/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rope-handle-twister",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rope-handle-twister",
+        "version": "1.0.0"
+      },
+      "bytes": 1047528,
+      "nodes": 167,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        114,
+        115
+      ],
+      "captures": [
+        "rope-handle-twister/detailed-iso.png",
+        "rope-handle-twister/detailed-front.png",
+        "rope-handle-twister/detailed-back.png",
+        "rope-handle-twister/detailed-left.png",
+        "rope-handle-twister/detailed-right.png",
+        "rope-handle-twister/detailed-top.png",
+        "rope-handle-twister/detailed-bottom.png",
+        "rope-handle-twister/action-0.png",
+        "rope-handle-twister/action-50.png",
+        "rope-handle-twister/action-100.png"
+      ]
+    },
+    {
+      "id": "envelope-folder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.envelope-folder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 165584,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        59,
+        80,
+        84
+      ],
+      "captures": [
+        "envelope-folder/simple-iso.png",
+        "envelope-folder/simple-front.png",
+        "envelope-folder/simple-back.png",
+        "envelope-folder/simple-left.png",
+        "envelope-folder/simple-right.png",
+        "envelope-folder/simple-top.png",
+        "envelope-folder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "envelope-folder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.envelope-folder",
+        "version": "1.0.0"
+      },
+      "bytes": 1157988,
+      "nodes": 156,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        94,
+        138,
+        142
+      ],
+      "captures": [
+        "envelope-folder/detailed-iso.png",
+        "envelope-folder/detailed-front.png",
+        "envelope-folder/detailed-back.png",
+        "envelope-folder/detailed-left.png",
+        "envelope-folder/detailed-right.png",
+        "envelope-folder/detailed-top.png",
+        "envelope-folder/detailed-bottom.png",
+        "envelope-folder/action-0.png",
+        "envelope-folder/action-50.png",
+        "envelope-folder/action-100.png"
+      ]
+    },
+    {
+      "id": "mailing-bag-sealer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.mailing-bag-sealer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 162300,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        90
+      ],
+      "captures": [
+        "mailing-bag-sealer/simple-iso.png",
+        "mailing-bag-sealer/simple-front.png",
+        "mailing-bag-sealer/simple-back.png",
+        "mailing-bag-sealer/simple-left.png",
+        "mailing-bag-sealer/simple-right.png",
+        "mailing-bag-sealer/simple-top.png",
+        "mailing-bag-sealer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "mailing-bag-sealer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.mailing-bag-sealer",
+        "version": "1.0.0"
+      },
+      "bytes": 1073884,
+      "nodes": 166,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        154
+      ],
+      "captures": [
+        "mailing-bag-sealer/detailed-iso.png",
+        "mailing-bag-sealer/detailed-front.png",
+        "mailing-bag-sealer/detailed-back.png",
+        "mailing-bag-sealer/detailed-left.png",
+        "mailing-bag-sealer/detailed-right.png",
+        "mailing-bag-sealer/detailed-top.png",
+        "mailing-bag-sealer/detailed-bottom.png",
+        "mailing-bag-sealer/action-0.png",
+        "mailing-bag-sealer/action-50.png",
+        "mailing-bag-sealer/action-100.png"
+      ]
+    },
+    {
+      "id": "partition-slotter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.partition-slotter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159868,
+      "nodes": 108,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        90
+      ],
+      "captures": [
+        "partition-slotter/simple-iso.png",
+        "partition-slotter/simple-front.png",
+        "partition-slotter/simple-back.png",
+        "partition-slotter/simple-left.png",
+        "partition-slotter/simple-right.png",
+        "partition-slotter/simple-top.png",
+        "partition-slotter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "partition-slotter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.partition-slotter",
+        "version": "1.0.0"
+      },
+      "bytes": 1071460,
+      "nodes": 172,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        154
+      ],
+      "captures": [
+        "partition-slotter/detailed-iso.png",
+        "partition-slotter/detailed-front.png",
+        "partition-slotter/detailed-back.png",
+        "partition-slotter/detailed-left.png",
+        "partition-slotter/detailed-right.png",
+        "partition-slotter/detailed-top.png",
+        "partition-slotter/detailed-bottom.png",
+        "partition-slotter/action-0.png",
+        "partition-slotter/action-50.png",
+        "partition-slotter/action-100.png"
+      ]
+    },
+    {
+      "id": "divider-assembler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.divider-assembler.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 141144,
+      "nodes": 91,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        79
+      ],
+      "captures": [
+        "divider-assembler/simple-iso.png",
+        "divider-assembler/simple-front.png",
+        "divider-assembler/simple-back.png",
+        "divider-assembler/simple-left.png",
+        "divider-assembler/simple-right.png",
+        "divider-assembler/simple-top.png",
+        "divider-assembler/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "divider-assembler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.divider-assembler",
+        "version": "1.0.0"
+      },
+      "bytes": 948884,
+      "nodes": 138,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        126
+      ],
+      "captures": [
+        "divider-assembler/detailed-iso.png",
+        "divider-assembler/detailed-front.png",
+        "divider-assembler/detailed-back.png",
+        "divider-assembler/detailed-left.png",
+        "divider-assembler/detailed-right.png",
+        "divider-assembler/detailed-top.png",
+        "divider-assembler/detailed-bottom.png",
+        "divider-assembler/action-0.png",
+        "divider-assembler/action-50.png",
+        "divider-assembler/action-100.png"
+      ]
+    },
+    {
+      "id": "box-lid-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.box-lid-former.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 128032,
+      "nodes": 79,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        64,
+        68
+      ],
+      "captures": [
+        "box-lid-former/simple-iso.png",
+        "box-lid-former/simple-front.png",
+        "box-lid-former/simple-back.png",
+        "box-lid-former/simple-left.png",
+        "box-lid-former/simple-right.png",
+        "box-lid-former/simple-top.png",
+        "box-lid-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "box-lid-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.box-lid-former",
+        "version": "1.0.0"
+      },
+      "bytes": 868100,
+      "nodes": 138,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        99,
+        115
+      ],
+      "captures": [
+        "box-lid-former/detailed-iso.png",
+        "box-lid-former/detailed-front.png",
+        "box-lid-former/detailed-back.png",
+        "box-lid-former/detailed-left.png",
+        "box-lid-former/detailed-right.png",
+        "box-lid-former/detailed-top.png",
+        "box-lid-former/detailed-bottom.png",
+        "box-lid-former/action-0.png",
+        "box-lid-former/action-50.png",
+        "box-lid-former/action-100.png"
+      ]
+    },
+    {
+      "id": "sleeve-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.sleeve-former.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 194696,
+      "nodes": 112,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        94,
+        98
+      ],
+      "captures": [
+        "sleeve-former/simple-iso.png",
+        "sleeve-former/simple-front.png",
+        "sleeve-former/simple-back.png",
+        "sleeve-former/simple-left.png",
+        "sleeve-former/simple-right.png",
+        "sleeve-former/simple-top.png",
+        "sleeve-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sleeve-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.sleeve-former",
+        "version": "1.0.0"
+      },
+      "bytes": 1297308,
+      "nodes": 187,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        169,
+        173
+      ],
+      "captures": [
+        "sleeve-former/detailed-iso.png",
+        "sleeve-former/detailed-front.png",
+        "sleeve-former/detailed-back.png",
+        "sleeve-former/detailed-left.png",
+        "sleeve-former/detailed-right.png",
+        "sleeve-former/detailed-top.png",
+        "sleeve-former/detailed-bottom.png",
+        "sleeve-former/action-0.png",
+        "sleeve-former/action-50.png",
+        "sleeve-former/action-100.png"
+      ]
+    },
+    {
+      "id": "book-cover-caser",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.book-cover-caser.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 170632,
+      "nodes": 117,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        73,
+        97,
+        101
+      ],
+      "captures": [
+        "book-cover-caser/simple-iso.png",
+        "book-cover-caser/simple-front.png",
+        "book-cover-caser/simple-back.png",
+        "book-cover-caser/simple-left.png",
+        "book-cover-caser/simple-right.png",
+        "book-cover-caser/simple-top.png",
+        "book-cover-caser/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "book-cover-caser",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.book-cover-caser",
+        "version": "1.0.0"
+      },
+      "bytes": 1115000,
+      "nodes": 162,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        103,
+        107,
+        142,
+        146
+      ],
+      "captures": [
+        "book-cover-caser/detailed-iso.png",
+        "book-cover-caser/detailed-front.png",
+        "book-cover-caser/detailed-back.png",
+        "book-cover-caser/detailed-left.png",
+        "book-cover-caser/detailed-right.png",
+        "book-cover-caser/detailed-top.png",
+        "book-cover-caser/detailed-bottom.png",
+        "book-cover-caser/action-0.png",
+        "book-cover-caser/action-50.png",
+        "book-cover-caser/action-100.png"
+      ]
+    },
+    {
+      "id": "spine-gluer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spine-gluer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 170020,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        77,
+        81
+      ],
+      "captures": [
+        "spine-gluer/simple-iso.png",
+        "spine-gluer/simple-front.png",
+        "spine-gluer/simple-back.png",
+        "spine-gluer/simple-left.png",
+        "spine-gluer/simple-right.png",
+        "spine-gluer/simple-top.png",
+        "spine-gluer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spine-gluer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spine-gluer",
+        "version": "1.0.0"
+      },
+      "bytes": 1165816,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        123,
+        127
+      ],
+      "captures": [
+        "spine-gluer/detailed-iso.png",
+        "spine-gluer/detailed-front.png",
+        "spine-gluer/detailed-back.png",
+        "spine-gluer/detailed-left.png",
+        "spine-gluer/detailed-right.png",
+        "spine-gluer/detailed-top.png",
+        "spine-gluer/detailed-bottom.png",
+        "spine-gluer/action-0.png",
+        "spine-gluer/action-50.png",
+        "spine-gluer/action-100.png"
+      ]
+    },
+    {
+      "id": "saddle-stitcher",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.saddle-stitcher.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154676,
+      "nodes": 91,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        56,
+        79
+      ],
+      "captures": [
+        "saddle-stitcher/simple-iso.png",
+        "saddle-stitcher/simple-front.png",
+        "saddle-stitcher/simple-back.png",
+        "saddle-stitcher/simple-left.png",
+        "saddle-stitcher/simple-right.png",
+        "saddle-stitcher/simple-top.png",
+        "saddle-stitcher/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "saddle-stitcher",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.saddle-stitcher",
+        "version": "1.0.0"
+      },
+      "bytes": 1137456,
+      "nodes": 137,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        91,
+        125
+      ],
+      "captures": [
+        "saddle-stitcher/detailed-iso.png",
+        "saddle-stitcher/detailed-front.png",
+        "saddle-stitcher/detailed-back.png",
+        "saddle-stitcher/detailed-left.png",
+        "saddle-stitcher/detailed-right.png",
+        "saddle-stitcher/detailed-top.png",
+        "saddle-stitcher/detailed-bottom.png",
+        "saddle-stitcher/action-0.png",
+        "saddle-stitcher/action-50.png",
+        "saddle-stitcher/action-100.png"
+      ]
+    },
+    {
+      "id": "wire-o-binder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wire-o-binder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135740,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64,
+        87
+      ],
+      "captures": [
+        "wire-o-binder/simple-iso.png",
+        "wire-o-binder/simple-front.png",
+        "wire-o-binder/simple-back.png",
+        "wire-o-binder/simple-left.png",
+        "wire-o-binder/simple-right.png",
+        "wire-o-binder/simple-top.png",
+        "wire-o-binder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wire-o-binder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wire-o-binder",
+        "version": "1.0.0"
+      },
+      "bytes": 832256,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99,
+        134
+      ],
+      "captures": [
+        "wire-o-binder/detailed-iso.png",
+        "wire-o-binder/detailed-front.png",
+        "wire-o-binder/detailed-back.png",
+        "wire-o-binder/detailed-left.png",
+        "wire-o-binder/detailed-right.png",
+        "wire-o-binder/detailed-top.png",
+        "wire-o-binder/detailed-bottom.png",
+        "wire-o-binder/action-0.png",
+        "wire-o-binder/action-50.png",
+        "wire-o-binder/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-drilling-machine",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-drilling-machine.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 168792,
+      "nodes": 101,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        82
+      ],
+      "captures": [
+        "paper-drilling-machine/simple-iso.png",
+        "paper-drilling-machine/simple-front.png",
+        "paper-drilling-machine/simple-back.png",
+        "paper-drilling-machine/simple-left.png",
+        "paper-drilling-machine/simple-right.png",
+        "paper-drilling-machine/simple-top.png",
+        "paper-drilling-machine/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-drilling-machine",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-drilling-machine",
+        "version": "1.0.0"
+      },
+      "bytes": 1113304,
+      "nodes": 147,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        128
+      ],
+      "captures": [
+        "paper-drilling-machine/detailed-iso.png",
+        "paper-drilling-machine/detailed-front.png",
+        "paper-drilling-machine/detailed-back.png",
+        "paper-drilling-machine/detailed-left.png",
+        "paper-drilling-machine/detailed-right.png",
+        "paper-drilling-machine/detailed-top.png",
+        "paper-drilling-machine/detailed-bottom.png",
+        "paper-drilling-machine/action-0.png",
+        "paper-drilling-machine/action-50.png",
+        "paper-drilling-machine/action-100.png"
+      ]
+    },
+    {
+      "id": "corner-rounding-machine",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.corner-rounding-machine.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 138284,
+      "nodes": 85,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        73
+      ],
+      "captures": [
+        "corner-rounding-machine/simple-iso.png",
+        "corner-rounding-machine/simple-front.png",
+        "corner-rounding-machine/simple-back.png",
+        "corner-rounding-machine/simple-left.png",
+        "corner-rounding-machine/simple-right.png",
+        "corner-rounding-machine/simple-top.png",
+        "corner-rounding-machine/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "corner-rounding-machine",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.corner-rounding-machine",
+        "version": "1.0.0"
+      },
+      "bytes": 894732,
+      "nodes": 132,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        120
+      ],
+      "captures": [
+        "corner-rounding-machine/detailed-iso.png",
+        "corner-rounding-machine/detailed-front.png",
+        "corner-rounding-machine/detailed-back.png",
+        "corner-rounding-machine/detailed-left.png",
+        "corner-rounding-machine/detailed-right.png",
+        "corner-rounding-machine/detailed-top.png",
+        "corner-rounding-machine/detailed-bottom.png",
+        "corner-rounding-machine/action-0.png",
+        "corner-rounding-machine/action-50.png",
+        "corner-rounding-machine/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-waste-baler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-waste-baler.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 178272,
+      "nodes": 117,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        102
+      ],
+      "captures": [
+        "paper-waste-baler/simple-iso.png",
+        "paper-waste-baler/simple-front.png",
+        "paper-waste-baler/simple-back.png",
+        "paper-waste-baler/simple-left.png",
+        "paper-waste-baler/simple-right.png",
+        "paper-waste-baler/simple-top.png",
+        "paper-waste-baler/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-waste-baler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-waste-baler",
+        "version": "1.0.0"
+      },
+      "bytes": 1118684,
+      "nodes": 157,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        142
+      ],
+      "captures": [
+        "paper-waste-baler/detailed-iso.png",
+        "paper-waste-baler/detailed-front.png",
+        "paper-waste-baler/detailed-back.png",
+        "paper-waste-baler/detailed-left.png",
+        "paper-waste-baler/detailed-right.png",
+        "paper-waste-baler/detailed-top.png",
+        "paper-waste-baler/detailed-bottom.png",
+        "paper-waste-baler/action-0.png",
+        "paper-waste-baler/action-50.png",
+        "paper-waste-baler/action-100.png"
+      ]
+    },
+    {
+      "id": "board-pile-palletizer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.board-pile-palletizer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 196640,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        95,
+        99,
+        112
+      ],
+      "captures": [
+        "board-pile-palletizer/simple-iso.png",
+        "board-pile-palletizer/simple-front.png",
+        "board-pile-palletizer/simple-back.png",
+        "board-pile-palletizer/simple-left.png",
+        "board-pile-palletizer/simple-right.png",
+        "board-pile-palletizer/simple-top.png",
+        "board-pile-palletizer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "board-pile-palletizer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.board-pile-palletizer",
+        "version": "1.0.0"
+      },
+      "bytes": 1324340,
+      "nodes": 184,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        158,
+        162,
+        175
+      ],
+      "captures": [
+        "board-pile-palletizer/detailed-iso.png",
+        "board-pile-palletizer/detailed-front.png",
+        "board-pile-palletizer/detailed-back.png",
+        "board-pile-palletizer/detailed-left.png",
+        "board-pile-palletizer/detailed-right.png",
+        "board-pile-palletizer/detailed-top.png",
+        "board-pile-palletizer/detailed-bottom.png",
+        "board-pile-palletizer/action-0.png",
+        "board-pile-palletizer/action-50.png",
+        "board-pile-palletizer/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

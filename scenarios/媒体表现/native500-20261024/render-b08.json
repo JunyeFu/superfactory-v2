@@ -1,0 +1,3283 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B08",
+  "device_count": 50,
+  "lod_models": 100,
+  "checks": [
+    {
+      "id": "produce-washer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.produce-washer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 163048,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        85,
+        62,
+        93
+      ],
+      "captures": [
+        "produce-washer-cell/simple-iso.png",
+        "produce-washer-cell/simple-front.png",
+        "produce-washer-cell/simple-back.png",
+        "produce-washer-cell/simple-left.png",
+        "produce-washer-cell/simple-right.png",
+        "produce-washer-cell/simple-top.png",
+        "produce-washer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "produce-washer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.produce-washer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1113852,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        125,
+        97,
+        133
+      ],
+      "captures": [
+        "produce-washer-cell/detailed-iso.png",
+        "produce-washer-cell/detailed-front.png",
+        "produce-washer-cell/detailed-back.png",
+        "produce-washer-cell/detailed-left.png",
+        "produce-washer-cell/detailed-right.png",
+        "produce-washer-cell/detailed-top.png",
+        "produce-washer-cell/detailed-bottom.png",
+        "produce-washer-cell/action-0.png",
+        "produce-washer-cell/action-50.png",
+        "produce-washer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "produce-brush-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.produce-brush-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156152,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        54,
+        69,
+        98
+      ],
+      "captures": [
+        "produce-brush-cell/simple-iso.png",
+        "produce-brush-cell/simple-front.png",
+        "produce-brush-cell/simple-back.png",
+        "produce-brush-cell/simple-left.png",
+        "produce-brush-cell/simple-right.png",
+        "produce-brush-cell/simple-top.png",
+        "produce-brush-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "produce-brush-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.produce-brush-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1085288,
+      "nodes": 180,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        159,
+        77,
+        115,
+        167
+      ],
+      "captures": [
+        "produce-brush-cell/detailed-iso.png",
+        "produce-brush-cell/detailed-front.png",
+        "produce-brush-cell/detailed-back.png",
+        "produce-brush-cell/detailed-left.png",
+        "produce-brush-cell/detailed-right.png",
+        "produce-brush-cell/detailed-top.png",
+        "produce-brush-cell/detailed-bottom.png",
+        "produce-brush-cell/action-0.png",
+        "produce-brush-cell/action-50.png",
+        "produce-brush-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "produce-peeler-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.produce-peeler-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 144180,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62
+      ],
+      "captures": [
+        "produce-peeler-cell/simple-iso.png",
+        "produce-peeler-cell/simple-front.png",
+        "produce-peeler-cell/simple-back.png",
+        "produce-peeler-cell/simple-left.png",
+        "produce-peeler-cell/simple-right.png",
+        "produce-peeler-cell/simple-top.png",
+        "produce-peeler-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "produce-peeler-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.produce-peeler-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 895912,
+      "nodes": 126,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        97
+      ],
+      "captures": [
+        "produce-peeler-cell/detailed-iso.png",
+        "produce-peeler-cell/detailed-front.png",
+        "produce-peeler-cell/detailed-back.png",
+        "produce-peeler-cell/detailed-left.png",
+        "produce-peeler-cell/detailed-right.png",
+        "produce-peeler-cell/detailed-top.png",
+        "produce-peeler-cell/detailed-bottom.png",
+        "produce-peeler-cell/action-0.png",
+        "produce-peeler-cell/action-50.png",
+        "produce-peeler-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "produce-slicer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.produce-slicer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 157124,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80
+      ],
+      "captures": [
+        "produce-slicer-cell/simple-iso.png",
+        "produce-slicer-cell/simple-front.png",
+        "produce-slicer-cell/simple-back.png",
+        "produce-slicer-cell/simple-left.png",
+        "produce-slicer-cell/simple-right.png",
+        "produce-slicer-cell/simple-top.png",
+        "produce-slicer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "produce-slicer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.produce-slicer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1013080,
+      "nodes": 208,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132
+      ],
+      "captures": [
+        "produce-slicer-cell/detailed-iso.png",
+        "produce-slicer-cell/detailed-front.png",
+        "produce-slicer-cell/detailed-back.png",
+        "produce-slicer-cell/detailed-left.png",
+        "produce-slicer-cell/detailed-right.png",
+        "produce-slicer-cell/detailed-top.png",
+        "produce-slicer-cell/detailed-bottom.png",
+        "produce-slicer-cell/action-0.png",
+        "produce-slicer-cell/action-50.png",
+        "produce-slicer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "produce-dicer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.produce-dicer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 164628,
+      "nodes": 110,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        71,
+        75
+      ],
+      "captures": [
+        "produce-dicer-cell/simple-iso.png",
+        "produce-dicer-cell/simple-front.png",
+        "produce-dicer-cell/simple-back.png",
+        "produce-dicer-cell/simple-left.png",
+        "produce-dicer-cell/simple-right.png",
+        "produce-dicer-cell/simple-top.png",
+        "produce-dicer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "produce-dicer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.produce-dicer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1055284,
+      "nodes": 174,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        94,
+        98
+      ],
+      "captures": [
+        "produce-dicer-cell/detailed-iso.png",
+        "produce-dicer-cell/detailed-front.png",
+        "produce-dicer-cell/detailed-back.png",
+        "produce-dicer-cell/detailed-left.png",
+        "produce-dicer-cell/detailed-right.png",
+        "produce-dicer-cell/detailed-top.png",
+        "produce-dicer-cell/detailed-bottom.png",
+        "produce-dicer-cell/action-0.png",
+        "produce-dicer-cell/action-50.png",
+        "produce-dicer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "produce-sorter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.produce-sorter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 202128,
+      "nodes": 129,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        99,
+        115
+      ],
+      "captures": [
+        "produce-sorter-cell/simple-iso.png",
+        "produce-sorter-cell/simple-front.png",
+        "produce-sorter-cell/simple-back.png",
+        "produce-sorter-cell/simple-left.png",
+        "produce-sorter-cell/simple-right.png",
+        "produce-sorter-cell/simple-top.png",
+        "produce-sorter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "produce-sorter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.produce-sorter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1301024,
+      "nodes": 198,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        162,
+        184
+      ],
+      "captures": [
+        "produce-sorter-cell/detailed-iso.png",
+        "produce-sorter-cell/detailed-front.png",
+        "produce-sorter-cell/detailed-back.png",
+        "produce-sorter-cell/detailed-left.png",
+        "produce-sorter-cell/detailed-right.png",
+        "produce-sorter-cell/detailed-top.png",
+        "produce-sorter-cell/detailed-bottom.png",
+        "produce-sorter-cell/action-0.png",
+        "produce-sorter-cell/action-50.png",
+        "produce-sorter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "destoner-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.destoner-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 167592,
+      "nodes": 107,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        98
+      ],
+      "captures": [
+        "destoner-cell/simple-iso.png",
+        "destoner-cell/simple-front.png",
+        "destoner-cell/simple-back.png",
+        "destoner-cell/simple-left.png",
+        "destoner-cell/simple-right.png",
+        "destoner-cell/simple-top.png",
+        "destoner-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "destoner-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.destoner-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 981400,
+      "nodes": 135,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        126
+      ],
+      "captures": [
+        "destoner-cell/detailed-iso.png",
+        "destoner-cell/detailed-front.png",
+        "destoner-cell/detailed-back.png",
+        "destoner-cell/detailed-left.png",
+        "destoner-cell/detailed-right.png",
+        "destoner-cell/detailed-top.png",
+        "destoner-cell/detailed-bottom.png",
+        "destoner-cell/action-0.png",
+        "destoner-cell/action-50.png",
+        "destoner-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "grain-huller-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.grain-huller-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 166252,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        80,
+        116
+      ],
+      "captures": [
+        "grain-huller-cell/simple-iso.png",
+        "grain-huller-cell/simple-front.png",
+        "grain-huller-cell/simple-back.png",
+        "grain-huller-cell/simple-left.png",
+        "grain-huller-cell/simple-right.png",
+        "grain-huller-cell/simple-top.png",
+        "grain-huller-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "grain-huller-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.grain-huller-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 988808,
+      "nodes": 226,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        126,
+        197
+      ],
+      "captures": [
+        "grain-huller-cell/detailed-iso.png",
+        "grain-huller-cell/detailed-front.png",
+        "grain-huller-cell/detailed-back.png",
+        "grain-huller-cell/detailed-left.png",
+        "grain-huller-cell/detailed-right.png",
+        "grain-huller-cell/detailed-top.png",
+        "grain-huller-cell/detailed-bottom.png",
+        "grain-huller-cell/action-0.png",
+        "grain-huller-cell/action-50.png",
+        "grain-huller-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "rice-polisher-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rice-polisher-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 143792,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62
+      ],
+      "captures": [
+        "rice-polisher-cell/simple-iso.png",
+        "rice-polisher-cell/simple-front.png",
+        "rice-polisher-cell/simple-back.png",
+        "rice-polisher-cell/simple-left.png",
+        "rice-polisher-cell/simple-right.png",
+        "rice-polisher-cell/simple-top.png",
+        "rice-polisher-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rice-polisher-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rice-polisher-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 895520,
+      "nodes": 126,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        97
+      ],
+      "captures": [
+        "rice-polisher-cell/detailed-iso.png",
+        "rice-polisher-cell/detailed-front.png",
+        "rice-polisher-cell/detailed-back.png",
+        "rice-polisher-cell/detailed-left.png",
+        "rice-polisher-cell/detailed-right.png",
+        "rice-polisher-cell/detailed-top.png",
+        "rice-polisher-cell/detailed-bottom.png",
+        "rice-polisher-cell/action-0.png",
+        "rice-polisher-cell/action-50.png",
+        "rice-polisher-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "grain-mill-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.grain-mill-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153700,
+      "nodes": 128,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        69,
+        86
+      ],
+      "captures": [
+        "grain-mill-cell/simple-iso.png",
+        "grain-mill-cell/simple-front.png",
+        "grain-mill-cell/simple-back.png",
+        "grain-mill-cell/simple-left.png",
+        "grain-mill-cell/simple-right.png",
+        "grain-mill-cell/simple-top.png",
+        "grain-mill-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "grain-mill-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.grain-mill-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 984756,
+      "nodes": 202,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        115,
+        155
+      ],
+      "captures": [
+        "grain-mill-cell/detailed-iso.png",
+        "grain-mill-cell/detailed-front.png",
+        "grain-mill-cell/detailed-back.png",
+        "grain-mill-cell/detailed-left.png",
+        "grain-mill-cell/detailed-right.png",
+        "grain-mill-cell/detailed-top.png",
+        "grain-mill-cell/detailed-bottom.png",
+        "grain-mill-cell/action-0.png",
+        "grain-mill-cell/action-50.png",
+        "grain-mill-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "flour-sifter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.flour-sifter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135424,
+      "nodes": 96,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "flour-sifter-cell/simple-iso.png",
+        "flour-sifter-cell/simple-front.png",
+        "flour-sifter-cell/simple-back.png",
+        "flour-sifter-cell/simple-left.png",
+        "flour-sifter-cell/simple-right.png",
+        "flour-sifter-cell/simple-top.png",
+        "flour-sifter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flour-sifter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.flour-sifter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 877084,
+      "nodes": 124,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "flour-sifter-cell/detailed-iso.png",
+        "flour-sifter-cell/detailed-front.png",
+        "flour-sifter-cell/detailed-back.png",
+        "flour-sifter-cell/detailed-left.png",
+        "flour-sifter-cell/detailed-right.png",
+        "flour-sifter-cell/detailed-top.png",
+        "flour-sifter-cell/detailed-bottom.png",
+        "flour-sifter-cell/action-0.png",
+        "flour-sifter-cell/action-50.png",
+        "flour-sifter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "dough-mixer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.dough-mixer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 160448,
+      "nodes": 90,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69
+      ],
+      "captures": [
+        "dough-mixer-cell/simple-iso.png",
+        "dough-mixer-cell/simple-front.png",
+        "dough-mixer-cell/simple-back.png",
+        "dough-mixer-cell/simple-left.png",
+        "dough-mixer-cell/simple-right.png",
+        "dough-mixer-cell/simple-top.png",
+        "dough-mixer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "dough-mixer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.dough-mixer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 963848,
+      "nodes": 154,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        128
+      ],
+      "captures": [
+        "dough-mixer-cell/detailed-iso.png",
+        "dough-mixer-cell/detailed-front.png",
+        "dough-mixer-cell/detailed-back.png",
+        "dough-mixer-cell/detailed-left.png",
+        "dough-mixer-cell/detailed-right.png",
+        "dough-mixer-cell/detailed-top.png",
+        "dough-mixer-cell/detailed-bottom.png",
+        "dough-mixer-cell/action-0.png",
+        "dough-mixer-cell/action-50.png",
+        "dough-mixer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "dough-divider-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.dough-divider-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 178216,
+      "nodes": 108,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        73,
+        99
+      ],
+      "captures": [
+        "dough-divider-cell/simple-iso.png",
+        "dough-divider-cell/simple-front.png",
+        "dough-divider-cell/simple-back.png",
+        "dough-divider-cell/simple-left.png",
+        "dough-divider-cell/simple-right.png",
+        "dough-divider-cell/simple-top.png",
+        "dough-divider-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "dough-divider-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.dough-divider-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1186612,
+      "nodes": 142,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        107,
+        133
+      ],
+      "captures": [
+        "dough-divider-cell/detailed-iso.png",
+        "dough-divider-cell/detailed-front.png",
+        "dough-divider-cell/detailed-back.png",
+        "dough-divider-cell/detailed-left.png",
+        "dough-divider-cell/detailed-right.png",
+        "dough-divider-cell/detailed-top.png",
+        "dough-divider-cell/detailed-bottom.png",
+        "dough-divider-cell/action-0.png",
+        "dough-divider-cell/action-50.png",
+        "dough-divider-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "dough-rounder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.dough-rounder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 127280,
+      "nodes": 70,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "dough-rounder-cell/simple-iso.png",
+        "dough-rounder-cell/simple-front.png",
+        "dough-rounder-cell/simple-back.png",
+        "dough-rounder-cell/simple-left.png",
+        "dough-rounder-cell/simple-right.png",
+        "dough-rounder-cell/simple-top.png",
+        "dough-rounder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "dough-rounder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.dough-rounder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 772604,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "dough-rounder-cell/detailed-iso.png",
+        "dough-rounder-cell/detailed-front.png",
+        "dough-rounder-cell/detailed-back.png",
+        "dough-rounder-cell/detailed-left.png",
+        "dough-rounder-cell/detailed-right.png",
+        "dough-rounder-cell/detailed-top.png",
+        "dough-rounder-cell/detailed-bottom.png",
+        "dough-rounder-cell/action-0.png",
+        "dough-rounder-cell/action-50.png",
+        "dough-rounder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "dough-sheeter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.dough-sheeter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 148128,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        81
+      ],
+      "captures": [
+        "dough-sheeter-cell/simple-iso.png",
+        "dough-sheeter-cell/simple-front.png",
+        "dough-sheeter-cell/simple-back.png",
+        "dough-sheeter-cell/simple-left.png",
+        "dough-sheeter-cell/simple-right.png",
+        "dough-sheeter-cell/simple-top.png",
+        "dough-sheeter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "dough-sheeter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.dough-sheeter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 944776,
+      "nodes": 218,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        145
+      ],
+      "captures": [
+        "dough-sheeter-cell/detailed-iso.png",
+        "dough-sheeter-cell/detailed-front.png",
+        "dough-sheeter-cell/detailed-back.png",
+        "dough-sheeter-cell/detailed-left.png",
+        "dough-sheeter-cell/detailed-right.png",
+        "dough-sheeter-cell/detailed-top.png",
+        "dough-sheeter-cell/detailed-bottom.png",
+        "dough-sheeter-cell/action-0.png",
+        "dough-sheeter-cell/action-50.png",
+        "dough-sheeter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "noodle-cutter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.noodle-cutter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 157812,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80
+      ],
+      "captures": [
+        "noodle-cutter-cell/simple-iso.png",
+        "noodle-cutter-cell/simple-front.png",
+        "noodle-cutter-cell/simple-back.png",
+        "noodle-cutter-cell/simple-left.png",
+        "noodle-cutter-cell/simple-right.png",
+        "noodle-cutter-cell/simple-top.png",
+        "noodle-cutter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "noodle-cutter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.noodle-cutter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1013768,
+      "nodes": 208,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132
+      ],
+      "captures": [
+        "noodle-cutter-cell/detailed-iso.png",
+        "noodle-cutter-cell/detailed-front.png",
+        "noodle-cutter-cell/detailed-back.png",
+        "noodle-cutter-cell/detailed-left.png",
+        "noodle-cutter-cell/detailed-right.png",
+        "noodle-cutter-cell/detailed-top.png",
+        "noodle-cutter-cell/detailed-bottom.png",
+        "noodle-cutter-cell/action-0.png",
+        "noodle-cutter-cell/action-50.png",
+        "noodle-cutter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "cookie-depositor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.cookie-depositor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 205424,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        111
+      ],
+      "captures": [
+        "cookie-depositor-cell/simple-iso.png",
+        "cookie-depositor-cell/simple-front.png",
+        "cookie-depositor-cell/simple-back.png",
+        "cookie-depositor-cell/simple-left.png",
+        "cookie-depositor-cell/simple-right.png",
+        "cookie-depositor-cell/simple-top.png",
+        "cookie-depositor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "cookie-depositor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.cookie-depositor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1254732,
+      "nodes": 164,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        150
+      ],
+      "captures": [
+        "cookie-depositor-cell/detailed-iso.png",
+        "cookie-depositor-cell/detailed-front.png",
+        "cookie-depositor-cell/detailed-back.png",
+        "cookie-depositor-cell/detailed-left.png",
+        "cookie-depositor-cell/detailed-right.png",
+        "cookie-depositor-cell/detailed-top.png",
+        "cookie-depositor-cell/detailed-bottom.png",
+        "cookie-depositor-cell/action-0.png",
+        "cookie-depositor-cell/action-50.png",
+        "cookie-depositor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "encrusting-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.encrusting-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 158756,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        69,
+        90
+      ],
+      "captures": [
+        "encrusting-cell/simple-iso.png",
+        "encrusting-cell/simple-front.png",
+        "encrusting-cell/simple-back.png",
+        "encrusting-cell/simple-left.png",
+        "encrusting-cell/simple-right.png",
+        "encrusting-cell/simple-top.png",
+        "encrusting-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "encrusting-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.encrusting-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1002872,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        83,
+        103,
+        141
+      ],
+      "captures": [
+        "encrusting-cell/detailed-iso.png",
+        "encrusting-cell/detailed-front.png",
+        "encrusting-cell/detailed-back.png",
+        "encrusting-cell/detailed-left.png",
+        "encrusting-cell/detailed-right.png",
+        "encrusting-cell/detailed-top.png",
+        "encrusting-cell/detailed-bottom.png",
+        "encrusting-cell/action-0.png",
+        "encrusting-cell/action-50.png",
+        "encrusting-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "proofing-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.proofing-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 118288,
+      "nodes": 79,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        61
+      ],
+      "captures": [
+        "proofing-cell/simple-iso.png",
+        "proofing-cell/simple-front.png",
+        "proofing-cell/simple-back.png",
+        "proofing-cell/simple-left.png",
+        "proofing-cell/simple-right.png",
+        "proofing-cell/simple-top.png",
+        "proofing-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "proofing-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.proofing-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 879060,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        84
+      ],
+      "captures": [
+        "proofing-cell/detailed-iso.png",
+        "proofing-cell/detailed-front.png",
+        "proofing-cell/detailed-back.png",
+        "proofing-cell/detailed-left.png",
+        "proofing-cell/detailed-right.png",
+        "proofing-cell/detailed-top.png",
+        "proofing-cell/detailed-bottom.png",
+        "proofing-cell/action-0.png",
+        "proofing-cell/action-50.png",
+        "proofing-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "tunnel-bakery-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tunnel-bakery-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156452,
+      "nodes": 105,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        61,
+        92
+      ],
+      "captures": [
+        "tunnel-bakery-cell/simple-iso.png",
+        "tunnel-bakery-cell/simple-front.png",
+        "tunnel-bakery-cell/simple-back.png",
+        "tunnel-bakery-cell/simple-left.png",
+        "tunnel-bakery-cell/simple-right.png",
+        "tunnel-bakery-cell/simple-top.png",
+        "tunnel-bakery-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tunnel-bakery-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tunnel-bakery-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1114096,
+      "nodes": 157,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        136,
+        108,
+        144
+      ],
+      "captures": [
+        "tunnel-bakery-cell/detailed-iso.png",
+        "tunnel-bakery-cell/detailed-front.png",
+        "tunnel-bakery-cell/detailed-back.png",
+        "tunnel-bakery-cell/detailed-left.png",
+        "tunnel-bakery-cell/detailed-right.png",
+        "tunnel-bakery-cell/detailed-top.png",
+        "tunnel-bakery-cell/detailed-bottom.png",
+        "tunnel-bakery-cell/action-0.png",
+        "tunnel-bakery-cell/action-50.png",
+        "tunnel-bakery-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "rotary-rack-oven",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-rack-oven.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 129744,
+      "nodes": 88,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        66,
+        74
+      ],
+      "captures": [
+        "rotary-rack-oven/simple-iso.png",
+        "rotary-rack-oven/simple-front.png",
+        "rotary-rack-oven/simple-back.png",
+        "rotary-rack-oven/simple-left.png",
+        "rotary-rack-oven/simple-right.png",
+        "rotary-rack-oven/simple-top.png",
+        "rotary-rack-oven/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotary-rack-oven",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-rack-oven",
+        "version": "1.0.0"
+      },
+      "bytes": 907704,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        97
+      ],
+      "captures": [
+        "rotary-rack-oven/detailed-iso.png",
+        "rotary-rack-oven/detailed-front.png",
+        "rotary-rack-oven/detailed-back.png",
+        "rotary-rack-oven/detailed-left.png",
+        "rotary-rack-oven/detailed-right.png",
+        "rotary-rack-oven/detailed-top.png",
+        "rotary-rack-oven/detailed-bottom.png",
+        "rotary-rack-oven/action-0.png",
+        "rotary-rack-oven/action-50.png",
+        "rotary-rack-oven/action-100.png"
+      ]
+    },
+    {
+      "id": "continuous-fryer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.continuous-fryer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 155524,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        77
+      ],
+      "captures": [
+        "continuous-fryer-cell/simple-iso.png",
+        "continuous-fryer-cell/simple-front.png",
+        "continuous-fryer-cell/simple-back.png",
+        "continuous-fryer-cell/simple-left.png",
+        "continuous-fryer-cell/simple-right.png",
+        "continuous-fryer-cell/simple-top.png",
+        "continuous-fryer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "continuous-fryer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.continuous-fryer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 994244,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        86,
+        100
+      ],
+      "captures": [
+        "continuous-fryer-cell/detailed-iso.png",
+        "continuous-fryer-cell/detailed-front.png",
+        "continuous-fryer-cell/detailed-back.png",
+        "continuous-fryer-cell/detailed-left.png",
+        "continuous-fryer-cell/detailed-right.png",
+        "continuous-fryer-cell/detailed-top.png",
+        "continuous-fryer-cell/detailed-bottom.png",
+        "continuous-fryer-cell/action-0.png",
+        "continuous-fryer-cell/action-50.png",
+        "continuous-fryer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "steam-cooker-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.steam-cooker-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 116308,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        61
+      ],
+      "captures": [
+        "steam-cooker-cell/simple-iso.png",
+        "steam-cooker-cell/simple-front.png",
+        "steam-cooker-cell/simple-back.png",
+        "steam-cooker-cell/simple-left.png",
+        "steam-cooker-cell/simple-right.png",
+        "steam-cooker-cell/simple-top.png",
+        "steam-cooker-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "steam-cooker-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.steam-cooker-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 849268,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        84
+      ],
+      "captures": [
+        "steam-cooker-cell/detailed-iso.png",
+        "steam-cooker-cell/detailed-front.png",
+        "steam-cooker-cell/detailed-back.png",
+        "steam-cooker-cell/detailed-left.png",
+        "steam-cooker-cell/detailed-right.png",
+        "steam-cooker-cell/detailed-top.png",
+        "steam-cooker-cell/detailed-bottom.png",
+        "steam-cooker-cell/action-0.png",
+        "steam-cooker-cell/action-50.png",
+        "steam-cooker-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "retort-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.retort-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 115056,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        61
+      ],
+      "captures": [
+        "retort-cell/simple-iso.png",
+        "retort-cell/simple-front.png",
+        "retort-cell/simple-back.png",
+        "retort-cell/simple-left.png",
+        "retort-cell/simple-right.png",
+        "retort-cell/simple-top.png",
+        "retort-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "retort-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.retort-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 848020,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        84
+      ],
+      "captures": [
+        "retort-cell/detailed-iso.png",
+        "retort-cell/detailed-front.png",
+        "retort-cell/detailed-back.png",
+        "retort-cell/detailed-left.png",
+        "retort-cell/detailed-right.png",
+        "retort-cell/detailed-top.png",
+        "retort-cell/detailed-bottom.png",
+        "retort-cell/action-0.png",
+        "retort-cell/action-50.png",
+        "retort-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "blancher-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.blancher-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 152804,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        77
+      ],
+      "captures": [
+        "blancher-cell/simple-iso.png",
+        "blancher-cell/simple-front.png",
+        "blancher-cell/simple-back.png",
+        "blancher-cell/simple-left.png",
+        "blancher-cell/simple-right.png",
+        "blancher-cell/simple-top.png",
+        "blancher-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "blancher-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.blancher-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 991524,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        86,
+        100
+      ],
+      "captures": [
+        "blancher-cell/detailed-iso.png",
+        "blancher-cell/detailed-front.png",
+        "blancher-cell/detailed-back.png",
+        "blancher-cell/detailed-left.png",
+        "blancher-cell/detailed-right.png",
+        "blancher-cell/detailed-top.png",
+        "blancher-cell/detailed-bottom.png",
+        "blancher-cell/action-0.png",
+        "blancher-cell/action-50.png",
+        "blancher-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "iqf-freezer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.iqf-freezer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 150896,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        85,
+        64,
+        93
+      ],
+      "captures": [
+        "iqf-freezer-cell/simple-iso.png",
+        "iqf-freezer-cell/simple-front.png",
+        "iqf-freezer-cell/simple-back.png",
+        "iqf-freezer-cell/simple-left.png",
+        "iqf-freezer-cell/simple-right.png",
+        "iqf-freezer-cell/simple-top.png",
+        "iqf-freezer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "iqf-freezer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.iqf-freezer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1050912,
+      "nodes": 134,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        113,
+        87,
+        121
+      ],
+      "captures": [
+        "iqf-freezer-cell/detailed-iso.png",
+        "iqf-freezer-cell/detailed-front.png",
+        "iqf-freezer-cell/detailed-back.png",
+        "iqf-freezer-cell/detailed-left.png",
+        "iqf-freezer-cell/detailed-right.png",
+        "iqf-freezer-cell/detailed-top.png",
+        "iqf-freezer-cell/detailed-bottom.png",
+        "iqf-freezer-cell/action-0.png",
+        "iqf-freezer-cell/action-50.png",
+        "iqf-freezer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "food-dryer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.food-dryer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 152896,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        85,
+        64,
+        93
+      ],
+      "captures": [
+        "food-dryer-cell/simple-iso.png",
+        "food-dryer-cell/simple-front.png",
+        "food-dryer-cell/simple-back.png",
+        "food-dryer-cell/simple-left.png",
+        "food-dryer-cell/simple-right.png",
+        "food-dryer-cell/simple-top.png",
+        "food-dryer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "food-dryer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.food-dryer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1052912,
+      "nodes": 134,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        113,
+        87,
+        121
+      ],
+      "captures": [
+        "food-dryer-cell/detailed-iso.png",
+        "food-dryer-cell/detailed-front.png",
+        "food-dryer-cell/detailed-back.png",
+        "food-dryer-cell/detailed-left.png",
+        "food-dryer-cell/detailed-right.png",
+        "food-dryer-cell/detailed-top.png",
+        "food-dryer-cell/detailed-bottom.png",
+        "food-dryer-cell/action-0.png",
+        "food-dryer-cell/action-50.png",
+        "food-dryer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "spray-dryer-food-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spray-dryer-food-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 143444,
+      "nodes": 83,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        74
+      ],
+      "captures": [
+        "spray-dryer-food-cell/simple-iso.png",
+        "spray-dryer-food-cell/simple-front.png",
+        "spray-dryer-food-cell/simple-back.png",
+        "spray-dryer-food-cell/simple-left.png",
+        "spray-dryer-food-cell/simple-right.png",
+        "spray-dryer-food-cell/simple-top.png",
+        "spray-dryer-food-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spray-dryer-food-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spray-dryer-food-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 758124,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        85,
+        97
+      ],
+      "captures": [
+        "spray-dryer-food-cell/detailed-iso.png",
+        "spray-dryer-food-cell/detailed-front.png",
+        "spray-dryer-food-cell/detailed-back.png",
+        "spray-dryer-food-cell/detailed-left.png",
+        "spray-dryer-food-cell/detailed-right.png",
+        "spray-dryer-food-cell/detailed-top.png",
+        "spray-dryer-food-cell/detailed-bottom.png",
+        "spray-dryer-food-cell/action-0.png",
+        "spray-dryer-food-cell/action-50.png",
+        "spray-dryer-food-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vacuum-concentrator-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vacuum-concentrator-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 195912,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        89
+      ],
+      "captures": [
+        "vacuum-concentrator-cell/simple-iso.png",
+        "vacuum-concentrator-cell/simple-front.png",
+        "vacuum-concentrator-cell/simple-back.png",
+        "vacuum-concentrator-cell/simple-left.png",
+        "vacuum-concentrator-cell/simple-right.png",
+        "vacuum-concentrator-cell/simple-top.png",
+        "vacuum-concentrator-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vacuum-concentrator-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vacuum-concentrator-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1082384,
+      "nodes": 183,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        128,
+        153
+      ],
+      "captures": [
+        "vacuum-concentrator-cell/detailed-iso.png",
+        "vacuum-concentrator-cell/detailed-front.png",
+        "vacuum-concentrator-cell/detailed-back.png",
+        "vacuum-concentrator-cell/detailed-left.png",
+        "vacuum-concentrator-cell/detailed-right.png",
+        "vacuum-concentrator-cell/detailed-top.png",
+        "vacuum-concentrator-cell/detailed-bottom.png",
+        "vacuum-concentrator-cell/action-0.png",
+        "vacuum-concentrator-cell/action-50.png",
+        "vacuum-concentrator-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "milk-pasteurizer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.milk-pasteurizer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 140412,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        76,
+        93
+      ],
+      "captures": [
+        "milk-pasteurizer-cell/simple-iso.png",
+        "milk-pasteurizer-cell/simple-front.png",
+        "milk-pasteurizer-cell/simple-back.png",
+        "milk-pasteurizer-cell/simple-left.png",
+        "milk-pasteurizer-cell/simple-right.png",
+        "milk-pasteurizer-cell/simple-top.png",
+        "milk-pasteurizer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "milk-pasteurizer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.milk-pasteurizer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 778024,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99,
+        116
+      ],
+      "captures": [
+        "milk-pasteurizer-cell/detailed-iso.png",
+        "milk-pasteurizer-cell/detailed-front.png",
+        "milk-pasteurizer-cell/detailed-back.png",
+        "milk-pasteurizer-cell/detailed-left.png",
+        "milk-pasteurizer-cell/detailed-right.png",
+        "milk-pasteurizer-cell/detailed-top.png",
+        "milk-pasteurizer-cell/detailed-bottom.png",
+        "milk-pasteurizer-cell/action-0.png",
+        "milk-pasteurizer-cell/action-50.png",
+        "milk-pasteurizer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "homogenizer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.homogenizer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 168236,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        93
+      ],
+      "captures": [
+        "homogenizer-cell/simple-iso.png",
+        "homogenizer-cell/simple-front.png",
+        "homogenizer-cell/simple-back.png",
+        "homogenizer-cell/simple-left.png",
+        "homogenizer-cell/simple-right.png",
+        "homogenizer-cell/simple-top.png",
+        "homogenizer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "homogenizer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.homogenizer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 973500,
+      "nodes": 130,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        121
+      ],
+      "captures": [
+        "homogenizer-cell/detailed-iso.png",
+        "homogenizer-cell/detailed-front.png",
+        "homogenizer-cell/detailed-back.png",
+        "homogenizer-cell/detailed-left.png",
+        "homogenizer-cell/detailed-right.png",
+        "homogenizer-cell/detailed-top.png",
+        "homogenizer-cell/detailed-bottom.png",
+        "homogenizer-cell/action-0.png",
+        "homogenizer-cell/action-50.png",
+        "homogenizer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "juice-extractor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.juice-extractor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 168352,
+      "nodes": 142,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        92
+      ],
+      "captures": [
+        "juice-extractor-cell/simple-iso.png",
+        "juice-extractor-cell/simple-front.png",
+        "juice-extractor-cell/simple-back.png",
+        "juice-extractor-cell/simple-left.png",
+        "juice-extractor-cell/simple-right.png",
+        "juice-extractor-cell/simple-top.png",
+        "juice-extractor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "juice-extractor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.juice-extractor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1028868,
+      "nodes": 175,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        120
+      ],
+      "captures": [
+        "juice-extractor-cell/detailed-iso.png",
+        "juice-extractor-cell/detailed-front.png",
+        "juice-extractor-cell/detailed-back.png",
+        "juice-extractor-cell/detailed-left.png",
+        "juice-extractor-cell/detailed-right.png",
+        "juice-extractor-cell/detailed-top.png",
+        "juice-extractor-cell/detailed-bottom.png",
+        "juice-extractor-cell/action-0.png",
+        "juice-extractor-cell/action-50.png",
+        "juice-extractor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "food-pulper-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.food-pulper-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 155464,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        77
+      ],
+      "captures": [
+        "food-pulper-cell/simple-iso.png",
+        "food-pulper-cell/simple-front.png",
+        "food-pulper-cell/simple-back.png",
+        "food-pulper-cell/simple-left.png",
+        "food-pulper-cell/simple-right.png",
+        "food-pulper-cell/simple-top.png",
+        "food-pulper-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "food-pulper-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.food-pulper-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 994432,
+      "nodes": 160,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        105
+      ],
+      "captures": [
+        "food-pulper-cell/detailed-iso.png",
+        "food-pulper-cell/detailed-front.png",
+        "food-pulper-cell/detailed-back.png",
+        "food-pulper-cell/detailed-left.png",
+        "food-pulper-cell/detailed-right.png",
+        "food-pulper-cell/detailed-top.png",
+        "food-pulper-cell/detailed-bottom.png",
+        "food-pulper-cell/action-0.png",
+        "food-pulper-cell/action-50.png",
+        "food-pulper-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "colloid-mill-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.colloid-mill-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 136752,
+      "nodes": 82,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55
+      ],
+      "captures": [
+        "colloid-mill-cell/simple-iso.png",
+        "colloid-mill-cell/simple-front.png",
+        "colloid-mill-cell/simple-back.png",
+        "colloid-mill-cell/simple-left.png",
+        "colloid-mill-cell/simple-right.png",
+        "colloid-mill-cell/simple-top.png",
+        "colloid-mill-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "colloid-mill-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.colloid-mill-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 846916,
+      "nodes": 110,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78
+      ],
+      "captures": [
+        "colloid-mill-cell/detailed-iso.png",
+        "colloid-mill-cell/detailed-front.png",
+        "colloid-mill-cell/detailed-back.png",
+        "colloid-mill-cell/detailed-left.png",
+        "colloid-mill-cell/detailed-right.png",
+        "colloid-mill-cell/detailed-top.png",
+        "colloid-mill-cell/detailed-bottom.png",
+        "colloid-mill-cell/action-0.png",
+        "colloid-mill-cell/action-50.png",
+        "colloid-mill-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vacuum-tumbler-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vacuum-tumbler-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 169704,
+      "nodes": 107,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        82
+      ],
+      "captures": [
+        "vacuum-tumbler-cell/simple-iso.png",
+        "vacuum-tumbler-cell/simple-front.png",
+        "vacuum-tumbler-cell/simple-back.png",
+        "vacuum-tumbler-cell/simple-left.png",
+        "vacuum-tumbler-cell/simple-right.png",
+        "vacuum-tumbler-cell/simple-top.png",
+        "vacuum-tumbler-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vacuum-tumbler-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vacuum-tumbler-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 999628,
+      "nodes": 152,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        97,
+        122
+      ],
+      "captures": [
+        "vacuum-tumbler-cell/detailed-iso.png",
+        "vacuum-tumbler-cell/detailed-front.png",
+        "vacuum-tumbler-cell/detailed-back.png",
+        "vacuum-tumbler-cell/detailed-left.png",
+        "vacuum-tumbler-cell/detailed-right.png",
+        "vacuum-tumbler-cell/detailed-top.png",
+        "vacuum-tumbler-cell/detailed-bottom.png",
+        "vacuum-tumbler-cell/action-0.png",
+        "vacuum-tumbler-cell/action-50.png",
+        "vacuum-tumbler-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "meat-grinder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.meat-grinder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 167320,
+      "nodes": 104,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        95
+      ],
+      "captures": [
+        "meat-grinder-cell/simple-iso.png",
+        "meat-grinder-cell/simple-front.png",
+        "meat-grinder-cell/simple-back.png",
+        "meat-grinder-cell/simple-left.png",
+        "meat-grinder-cell/simple-right.png",
+        "meat-grinder-cell/simple-top.png",
+        "meat-grinder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "meat-grinder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.meat-grinder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 944752,
+      "nodes": 132,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        123
+      ],
+      "captures": [
+        "meat-grinder-cell/detailed-iso.png",
+        "meat-grinder-cell/detailed-front.png",
+        "meat-grinder-cell/detailed-back.png",
+        "meat-grinder-cell/detailed-left.png",
+        "meat-grinder-cell/detailed-right.png",
+        "meat-grinder-cell/detailed-top.png",
+        "meat-grinder-cell/detailed-bottom.png",
+        "meat-grinder-cell/action-0.png",
+        "meat-grinder-cell/action-50.png",
+        "meat-grinder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "sausage-filler-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.sausage-filler-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 169756,
+      "nodes": 105,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        95
+      ],
+      "captures": [
+        "sausage-filler-cell/simple-iso.png",
+        "sausage-filler-cell/simple-front.png",
+        "sausage-filler-cell/simple-back.png",
+        "sausage-filler-cell/simple-left.png",
+        "sausage-filler-cell/simple-right.png",
+        "sausage-filler-cell/simple-top.png",
+        "sausage-filler-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sausage-filler-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.sausage-filler-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 951520,
+      "nodes": 133,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        123
+      ],
+      "captures": [
+        "sausage-filler-cell/detailed-iso.png",
+        "sausage-filler-cell/detailed-front.png",
+        "sausage-filler-cell/detailed-back.png",
+        "sausage-filler-cell/detailed-left.png",
+        "sausage-filler-cell/detailed-right.png",
+        "sausage-filler-cell/detailed-top.png",
+        "sausage-filler-cell/detailed-bottom.png",
+        "sausage-filler-cell/action-0.png",
+        "sausage-filler-cell/action-50.png",
+        "sausage-filler-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "sausage-clipper-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.sausage-clipper-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135728,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "sausage-clipper-cell/simple-iso.png",
+        "sausage-clipper-cell/simple-front.png",
+        "sausage-clipper-cell/simple-back.png",
+        "sausage-clipper-cell/simple-left.png",
+        "sausage-clipper-cell/simple-right.png",
+        "sausage-clipper-cell/simple-top.png",
+        "sausage-clipper-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sausage-clipper-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.sausage-clipper-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 913080,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "sausage-clipper-cell/detailed-iso.png",
+        "sausage-clipper-cell/detailed-front.png",
+        "sausage-clipper-cell/detailed-back.png",
+        "sausage-clipper-cell/detailed-left.png",
+        "sausage-clipper-cell/detailed-right.png",
+        "sausage-clipper-cell/detailed-top.png",
+        "sausage-clipper-cell/detailed-bottom.png",
+        "sausage-clipper-cell/action-0.png",
+        "sausage-clipper-cell/action-50.png",
+        "sausage-clipper-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "bottle-rinser-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bottle-rinser-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135860,
+      "nodes": 91,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        70,
+        54,
+        78
+      ],
+      "captures": [
+        "bottle-rinser-cell/simple-iso.png",
+        "bottle-rinser-cell/simple-front.png",
+        "bottle-rinser-cell/simple-back.png",
+        "bottle-rinser-cell/simple-left.png",
+        "bottle-rinser-cell/simple-right.png",
+        "bottle-rinser-cell/simple-top.png",
+        "bottle-rinser-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bottle-rinser-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bottle-rinser-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 886120,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        93,
+        77,
+        101
+      ],
+      "captures": [
+        "bottle-rinser-cell/detailed-iso.png",
+        "bottle-rinser-cell/detailed-front.png",
+        "bottle-rinser-cell/detailed-back.png",
+        "bottle-rinser-cell/detailed-left.png",
+        "bottle-rinser-cell/detailed-right.png",
+        "bottle-rinser-cell/detailed-top.png",
+        "bottle-rinser-cell/detailed-bottom.png",
+        "bottle-rinser-cell/action-0.png",
+        "bottle-rinser-cell/action-50.png",
+        "bottle-rinser-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "bottle-filler-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bottle-filler-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 192640,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        94
+      ],
+      "captures": [
+        "bottle-filler-cell/simple-iso.png",
+        "bottle-filler-cell/simple-front.png",
+        "bottle-filler-cell/simple-back.png",
+        "bottle-filler-cell/simple-left.png",
+        "bottle-filler-cell/simple-right.png",
+        "bottle-filler-cell/simple-top.png",
+        "bottle-filler-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bottle-filler-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bottle-filler-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1220424,
+      "nodes": 145,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        133
+      ],
+      "captures": [
+        "bottle-filler-cell/detailed-iso.png",
+        "bottle-filler-cell/detailed-front.png",
+        "bottle-filler-cell/detailed-back.png",
+        "bottle-filler-cell/detailed-left.png",
+        "bottle-filler-cell/detailed-right.png",
+        "bottle-filler-cell/detailed-top.png",
+        "bottle-filler-cell/detailed-bottom.png",
+        "bottle-filler-cell/action-0.png",
+        "bottle-filler-cell/action-50.png",
+        "bottle-filler-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "bottle-capper-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bottle-capper-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 141356,
+      "nodes": 84,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        71
+      ],
+      "captures": [
+        "bottle-capper-cell/simple-iso.png",
+        "bottle-capper-cell/simple-front.png",
+        "bottle-capper-cell/simple-back.png",
+        "bottle-capper-cell/simple-left.png",
+        "bottle-capper-cell/simple-right.png",
+        "bottle-capper-cell/simple-top.png",
+        "bottle-capper-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bottle-capper-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bottle-capper-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 796600,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        100
+      ],
+      "captures": [
+        "bottle-capper-cell/detailed-iso.png",
+        "bottle-capper-cell/detailed-front.png",
+        "bottle-capper-cell/detailed-back.png",
+        "bottle-capper-cell/detailed-left.png",
+        "bottle-capper-cell/detailed-right.png",
+        "bottle-capper-cell/detailed-top.png",
+        "bottle-capper-cell/detailed-bottom.png",
+        "bottle-capper-cell/action-0.png",
+        "bottle-capper-cell/action-50.png",
+        "bottle-capper-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "can-seamer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.can-seamer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 144644,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        71
+      ],
+      "captures": [
+        "can-seamer-cell/simple-iso.png",
+        "can-seamer-cell/simple-front.png",
+        "can-seamer-cell/simple-back.png",
+        "can-seamer-cell/simple-left.png",
+        "can-seamer-cell/simple-right.png",
+        "can-seamer-cell/simple-top.png",
+        "can-seamer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "can-seamer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.can-seamer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 804220,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        100
+      ],
+      "captures": [
+        "can-seamer-cell/detailed-iso.png",
+        "can-seamer-cell/detailed-front.png",
+        "can-seamer-cell/detailed-back.png",
+        "can-seamer-cell/detailed-left.png",
+        "can-seamer-cell/detailed-right.png",
+        "can-seamer-cell/detailed-top.png",
+        "can-seamer-cell/detailed-bottom.png",
+        "can-seamer-cell/action-0.png",
+        "can-seamer-cell/action-50.png",
+        "can-seamer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "induction-cap-sealer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.induction-cap-sealer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 166200,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        85
+      ],
+      "captures": [
+        "induction-cap-sealer/simple-iso.png",
+        "induction-cap-sealer/simple-front.png",
+        "induction-cap-sealer/simple-back.png",
+        "induction-cap-sealer/simple-left.png",
+        "induction-cap-sealer/simple-right.png",
+        "induction-cap-sealer/simple-top.png",
+        "induction-cap-sealer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "induction-cap-sealer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.induction-cap-sealer",
+        "version": "1.0.0"
+      },
+      "bytes": 1028828,
+      "nodes": 157,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        143
+      ],
+      "captures": [
+        "induction-cap-sealer/detailed-iso.png",
+        "induction-cap-sealer/detailed-front.png",
+        "induction-cap-sealer/detailed-back.png",
+        "induction-cap-sealer/detailed-left.png",
+        "induction-cap-sealer/detailed-right.png",
+        "induction-cap-sealer/detailed-top.png",
+        "induction-cap-sealer/detailed-bottom.png",
+        "induction-cap-sealer/action-0.png",
+        "induction-cap-sealer/action-50.png",
+        "induction-cap-sealer/action-100.png"
+      ]
+    },
+    {
+      "id": "cup-fill-seal-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.cup-fill-seal-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 194664,
+      "nodes": 116,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        85,
+        104
+      ],
+      "captures": [
+        "cup-fill-seal-cell/simple-iso.png",
+        "cup-fill-seal-cell/simple-front.png",
+        "cup-fill-seal-cell/simple-back.png",
+        "cup-fill-seal-cell/simple-left.png",
+        "cup-fill-seal-cell/simple-right.png",
+        "cup-fill-seal-cell/simple-top.png",
+        "cup-fill-seal-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "cup-fill-seal-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.cup-fill-seal-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1244432,
+      "nodes": 162,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        119,
+        150
+      ],
+      "captures": [
+        "cup-fill-seal-cell/detailed-iso.png",
+        "cup-fill-seal-cell/detailed-front.png",
+        "cup-fill-seal-cell/detailed-back.png",
+        "cup-fill-seal-cell/detailed-left.png",
+        "cup-fill-seal-cell/detailed-right.png",
+        "cup-fill-seal-cell/detailed-top.png",
+        "cup-fill-seal-cell/detailed-bottom.png",
+        "cup-fill-seal-cell/action-0.png",
+        "cup-fill-seal-cell/action-50.png",
+        "cup-fill-seal-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vffs-pack-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vffs-pack-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 179724,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        68,
+        72,
+        90
+      ],
+      "captures": [
+        "vffs-pack-cell/simple-iso.png",
+        "vffs-pack-cell/simple-front.png",
+        "vffs-pack-cell/simple-back.png",
+        "vffs-pack-cell/simple-left.png",
+        "vffs-pack-cell/simple-right.png",
+        "vffs-pack-cell/simple-top.png",
+        "vffs-pack-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vffs-pack-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vffs-pack-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1088540,
+      "nodes": 161,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        86,
+        91,
+        107,
+        149
+      ],
+      "captures": [
+        "vffs-pack-cell/detailed-iso.png",
+        "vffs-pack-cell/detailed-front.png",
+        "vffs-pack-cell/detailed-back.png",
+        "vffs-pack-cell/detailed-left.png",
+        "vffs-pack-cell/detailed-right.png",
+        "vffs-pack-cell/detailed-top.png",
+        "vffs-pack-cell/detailed-bottom.png",
+        "vffs-pack-cell/action-0.png",
+        "vffs-pack-cell/action-50.png",
+        "vffs-pack-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "hffs-pack-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.hffs-pack-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 177360,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80,
+        115
+      ],
+      "captures": [
+        "hffs-pack-cell/simple-iso.png",
+        "hffs-pack-cell/simple-front.png",
+        "hffs-pack-cell/simple-back.png",
+        "hffs-pack-cell/simple-left.png",
+        "hffs-pack-cell/simple-right.png",
+        "hffs-pack-cell/simple-top.png",
+        "hffs-pack-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "hffs-pack-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.hffs-pack-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1182132,
+      "nodes": 232,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132,
+        220
+      ],
+      "captures": [
+        "hffs-pack-cell/detailed-iso.png",
+        "hffs-pack-cell/detailed-front.png",
+        "hffs-pack-cell/detailed-back.png",
+        "hffs-pack-cell/detailed-left.png",
+        "hffs-pack-cell/detailed-right.png",
+        "hffs-pack-cell/detailed-top.png",
+        "hffs-pack-cell/detailed-bottom.png",
+        "hffs-pack-cell/action-0.png",
+        "hffs-pack-cell/action-50.png",
+        "hffs-pack-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vacuum-pack-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vacuum-pack-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 143716,
+      "nodes": 96,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        66,
+        84
+      ],
+      "captures": [
+        "vacuum-pack-cell/simple-iso.png",
+        "vacuum-pack-cell/simple-front.png",
+        "vacuum-pack-cell/simple-back.png",
+        "vacuum-pack-cell/simple-left.png",
+        "vacuum-pack-cell/simple-right.png",
+        "vacuum-pack-cell/simple-top.png",
+        "vacuum-pack-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vacuum-pack-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vacuum-pack-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1033968,
+      "nodes": 131,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        119
+      ],
+      "captures": [
+        "vacuum-pack-cell/detailed-iso.png",
+        "vacuum-pack-cell/detailed-front.png",
+        "vacuum-pack-cell/detailed-back.png",
+        "vacuum-pack-cell/detailed-left.png",
+        "vacuum-pack-cell/detailed-right.png",
+        "vacuum-pack-cell/detailed-top.png",
+        "vacuum-pack-cell/detailed-bottom.png",
+        "vacuum-pack-cell/action-0.png",
+        "vacuum-pack-cell/action-50.png",
+        "vacuum-pack-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "tray-seal-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tray-seal-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 130864,
+      "nodes": 88,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        76
+      ],
+      "captures": [
+        "tray-seal-cell/simple-iso.png",
+        "tray-seal-cell/simple-front.png",
+        "tray-seal-cell/simple-back.png",
+        "tray-seal-cell/simple-left.png",
+        "tray-seal-cell/simple-right.png",
+        "tray-seal-cell/simple-top.png",
+        "tray-seal-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tray-seal-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tray-seal-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 890568,
+      "nodes": 123,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        85,
+        111
+      ],
+      "captures": [
+        "tray-seal-cell/detailed-iso.png",
+        "tray-seal-cell/detailed-front.png",
+        "tray-seal-cell/detailed-back.png",
+        "tray-seal-cell/detailed-left.png",
+        "tray-seal-cell/detailed-right.png",
+        "tray-seal-cell/detailed-top.png",
+        "tray-seal-cell/detailed-bottom.png",
+        "tray-seal-cell/action-0.png",
+        "tray-seal-cell/action-50.png",
+        "tray-seal-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "checkweight-reject-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.checkweight-reject-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 121968,
+      "nodes": 79,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        65
+      ],
+      "captures": [
+        "checkweight-reject-cell/simple-iso.png",
+        "checkweight-reject-cell/simple-front.png",
+        "checkweight-reject-cell/simple-back.png",
+        "checkweight-reject-cell/simple-left.png",
+        "checkweight-reject-cell/simple-right.png",
+        "checkweight-reject-cell/simple-top.png",
+        "checkweight-reject-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "checkweight-reject-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.checkweight-reject-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 774152,
+      "nodes": 108,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        94
+      ],
+      "captures": [
+        "checkweight-reject-cell/detailed-iso.png",
+        "checkweight-reject-cell/detailed-front.png",
+        "checkweight-reject-cell/detailed-back.png",
+        "checkweight-reject-cell/detailed-left.png",
+        "checkweight-reject-cell/detailed-right.png",
+        "checkweight-reject-cell/detailed-top.png",
+        "checkweight-reject-cell/detailed-bottom.png",
+        "checkweight-reject-cell/action-0.png",
+        "checkweight-reject-cell/action-50.png",
+        "checkweight-reject-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "food-xray-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.food-xray-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159436,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        61,
+        87
+      ],
+      "captures": [
+        "food-xray-cell/simple-iso.png",
+        "food-xray-cell/simple-front.png",
+        "food-xray-cell/simple-back.png",
+        "food-xray-cell/simple-left.png",
+        "food-xray-cell/simple-right.png",
+        "food-xray-cell/simple-top.png",
+        "food-xray-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "food-xray-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.food-xray-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1140608,
+      "nodes": 150,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        136,
+        108,
+        139
+      ],
+      "captures": [
+        "food-xray-cell/detailed-iso.png",
+        "food-xray-cell/detailed-front.png",
+        "food-xray-cell/detailed-back.png",
+        "food-xray-cell/detailed-left.png",
+        "food-xray-cell/detailed-right.png",
+        "food-xray-cell/detailed-top.png",
+        "food-xray-cell/detailed-bottom.png",
+        "food-xray-cell/action-0.png",
+        "food-xray-cell/action-50.png",
+        "food-xray-cell/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

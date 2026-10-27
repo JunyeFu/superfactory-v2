@@ -1,0 +1,3393 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 50,
+  "lod_models": 100,
+  "checks": [
+    {
+      "id": "sheet-feeder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-feeder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 148196,
+      "nodes": 87,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        37,
+        57,
+        60
+      ],
+      "captures": [
+        "sheet-feeder/simple-iso.png",
+        "sheet-feeder/simple-front.png",
+        "sheet-feeder/simple-back.png",
+        "sheet-feeder/simple-left.png",
+        "sheet-feeder/simple-right.png",
+        "sheet-feeder/simple-top.png",
+        "sheet-feeder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sheet-feeder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-feeder",
+        "version": "1.0.0"
+      },
+      "bytes": 881160,
+      "nodes": 117,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        82,
+        85
+      ],
+      "captures": [
+        "sheet-feeder/detailed-iso.png",
+        "sheet-feeder/detailed-front.png",
+        "sheet-feeder/detailed-back.png",
+        "sheet-feeder/detailed-left.png",
+        "sheet-feeder/detailed-right.png",
+        "sheet-feeder/detailed-top.png",
+        "sheet-feeder/detailed-bottom.png",
+        "sheet-feeder/action-0.png",
+        "sheet-feeder/action-50.png",
+        "sheet-feeder/action-100.png"
+      ]
+    },
+    {
+      "id": "pile-lift",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.pile-lift.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 129832,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        37
+      ],
+      "captures": [
+        "pile-lift/simple-iso.png",
+        "pile-lift/simple-front.png",
+        "pile-lift/simple-back.png",
+        "pile-lift/simple-left.png",
+        "pile-lift/simple-right.png",
+        "pile-lift/simple-top.png",
+        "pile-lift/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pile-lift",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.pile-lift",
+        "version": "1.0.0"
+      },
+      "bytes": 768396,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55
+      ],
+      "captures": [
+        "pile-lift/detailed-iso.png",
+        "pile-lift/detailed-front.png",
+        "pile-lift/detailed-back.png",
+        "pile-lift/detailed-left.png",
+        "pile-lift/detailed-right.png",
+        "pile-lift/detailed-top.png",
+        "pile-lift/detailed-bottom.png",
+        "pile-lift/action-0.png",
+        "pile-lift/action-50.png",
+        "pile-lift/action-100.png"
+      ]
+    },
+    {
+      "id": "flexo-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.flexo-printer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 162004,
+      "nodes": 116,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "flexo-printer/simple-iso.png",
+        "flexo-printer/simple-front.png",
+        "flexo-printer/simple-back.png",
+        "flexo-printer/simple-left.png",
+        "flexo-printer/simple-right.png",
+        "flexo-printer/simple-top.png",
+        "flexo-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flexo-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.flexo-printer",
+        "version": "1.0.0"
+      },
+      "bytes": 1038972,
+      "nodes": 175,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "flexo-printer/detailed-iso.png",
+        "flexo-printer/detailed-front.png",
+        "flexo-printer/detailed-back.png",
+        "flexo-printer/detailed-left.png",
+        "flexo-printer/detailed-right.png",
+        "flexo-printer/detailed-top.png",
+        "flexo-printer/detailed-bottom.png",
+        "flexo-printer/action-0.png",
+        "flexo-printer/action-50.png",
+        "flexo-printer/action-100.png"
+      ]
+    },
+    {
+      "id": "offset-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.offset-printer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159716,
+      "nodes": 132,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "offset-printer/simple-iso.png",
+        "offset-printer/simple-front.png",
+        "offset-printer/simple-back.png",
+        "offset-printer/simple-left.png",
+        "offset-printer/simple-right.png",
+        "offset-printer/simple-top.png",
+        "offset-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "offset-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.offset-printer",
+        "version": "1.0.0"
+      },
+      "bytes": 1037928,
+      "nodes": 204,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "offset-printer/detailed-iso.png",
+        "offset-printer/detailed-front.png",
+        "offset-printer/detailed-back.png",
+        "offset-printer/detailed-left.png",
+        "offset-printer/detailed-right.png",
+        "offset-printer/detailed-top.png",
+        "offset-printer/detailed-bottom.png",
+        "offset-printer/action-0.png",
+        "offset-printer/action-50.png",
+        "offset-printer/action-100.png"
+      ]
+    },
+    {
+      "id": "inkjet-marker",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.inkjet-marker.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 165644,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        92
+      ],
+      "captures": [
+        "inkjet-marker/simple-iso.png",
+        "inkjet-marker/simple-front.png",
+        "inkjet-marker/simple-back.png",
+        "inkjet-marker/simple-left.png",
+        "inkjet-marker/simple-right.png",
+        "inkjet-marker/simple-top.png",
+        "inkjet-marker/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "inkjet-marker",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.inkjet-marker",
+        "version": "1.0.0"
+      },
+      "bytes": 1128068,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        132
+      ],
+      "captures": [
+        "inkjet-marker/detailed-iso.png",
+        "inkjet-marker/detailed-front.png",
+        "inkjet-marker/detailed-back.png",
+        "inkjet-marker/detailed-left.png",
+        "inkjet-marker/detailed-right.png",
+        "inkjet-marker/detailed-top.png",
+        "inkjet-marker/detailed-bottom.png",
+        "inkjet-marker/action-0.png",
+        "inkjet-marker/action-50.png",
+        "inkjet-marker/action-100.png"
+      ]
+    },
+    {
+      "id": "varnish-coater",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.varnish-coater.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156892,
+      "nodes": 100,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "varnish-coater/simple-iso.png",
+        "varnish-coater/simple-front.png",
+        "varnish-coater/simple-back.png",
+        "varnish-coater/simple-left.png",
+        "varnish-coater/simple-right.png",
+        "varnish-coater/simple-top.png",
+        "varnish-coater/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "varnish-coater",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.varnish-coater",
+        "version": "1.0.0"
+      },
+      "bytes": 1032588,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "varnish-coater/detailed-iso.png",
+        "varnish-coater/detailed-front.png",
+        "varnish-coater/detailed-back.png",
+        "varnish-coater/detailed-left.png",
+        "varnish-coater/detailed-right.png",
+        "varnish-coater/detailed-top.png",
+        "varnish-coater/detailed-bottom.png",
+        "varnish-coater/action-0.png",
+        "varnish-coater/action-50.png",
+        "varnish-coater/action-100.png"
+      ]
+    },
+    {
+      "id": "uv-curer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.uv-curer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 148132,
+      "nodes": 97,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57
+      ],
+      "captures": [
+        "uv-curer/simple-iso.png",
+        "uv-curer/simple-front.png",
+        "uv-curer/simple-back.png",
+        "uv-curer/simple-left.png",
+        "uv-curer/simple-right.png",
+        "uv-curer/simple-top.png",
+        "uv-curer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "uv-curer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.uv-curer",
+        "version": "1.0.0"
+      },
+      "bytes": 1072256,
+      "nodes": 144,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80
+      ],
+      "captures": [
+        "uv-curer/detailed-iso.png",
+        "uv-curer/detailed-front.png",
+        "uv-curer/detailed-back.png",
+        "uv-curer/detailed-left.png",
+        "uv-curer/detailed-right.png",
+        "uv-curer/detailed-top.png",
+        "uv-curer/detailed-bottom.png",
+        "uv-curer/action-0.png",
+        "uv-curer/action-50.png",
+        "uv-curer/action-100.png"
+      ]
+    },
+    {
+      "id": "film-laminator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.film-laminator.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 160452,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "film-laminator/simple-iso.png",
+        "film-laminator/simple-front.png",
+        "film-laminator/simple-back.png",
+        "film-laminator/simple-left.png",
+        "film-laminator/simple-right.png",
+        "film-laminator/simple-top.png",
+        "film-laminator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "film-laminator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.film-laminator",
+        "version": "1.0.0"
+      },
+      "bytes": 1053368,
+      "nodes": 149,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "film-laminator/detailed-iso.png",
+        "film-laminator/detailed-front.png",
+        "film-laminator/detailed-back.png",
+        "film-laminator/detailed-left.png",
+        "film-laminator/detailed-right.png",
+        "film-laminator/detailed-top.png",
+        "film-laminator/detailed-bottom.png",
+        "film-laminator/action-0.png",
+        "film-laminator/action-50.png",
+        "film-laminator/action-100.png"
+      ]
+    },
+    {
+      "id": "flute-laminator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.flute-laminator.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 165928,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "flute-laminator/simple-iso.png",
+        "flute-laminator/simple-front.png",
+        "flute-laminator/simple-back.png",
+        "flute-laminator/simple-left.png",
+        "flute-laminator/simple-right.png",
+        "flute-laminator/simple-top.png",
+        "flute-laminator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flute-laminator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.flute-laminator",
+        "version": "1.0.0"
+      },
+      "bytes": 1078064,
+      "nodes": 152,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "flute-laminator/detailed-iso.png",
+        "flute-laminator/detailed-front.png",
+        "flute-laminator/detailed-back.png",
+        "flute-laminator/detailed-left.png",
+        "flute-laminator/detailed-right.png",
+        "flute-laminator/detailed-top.png",
+        "flute-laminator/detailed-bottom.png",
+        "flute-laminator/action-0.png",
+        "flute-laminator/action-50.png",
+        "flute-laminator/action-100.png"
+      ]
+    },
+    {
+      "id": "sheet-slitter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-slitter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159712,
+      "nodes": 107,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "sheet-slitter/simple-iso.png",
+        "sheet-slitter/simple-front.png",
+        "sheet-slitter/simple-back.png",
+        "sheet-slitter/simple-left.png",
+        "sheet-slitter/simple-right.png",
+        "sheet-slitter/simple-top.png",
+        "sheet-slitter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sheet-slitter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-slitter",
+        "version": "1.0.0"
+      },
+      "bytes": 1015292,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "sheet-slitter/detailed-iso.png",
+        "sheet-slitter/detailed-front.png",
+        "sheet-slitter/detailed-back.png",
+        "sheet-slitter/detailed-left.png",
+        "sheet-slitter/detailed-right.png",
+        "sheet-slitter/detailed-top.png",
+        "sheet-slitter/detailed-bottom.png",
+        "sheet-slitter/action-0.png",
+        "sheet-slitter/action-50.png",
+        "sheet-slitter/action-100.png"
+      ]
+    },
+    {
+      "id": "rotary-scorer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.rotary-scorer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 165360,
+      "nodes": 107,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "rotary-scorer/simple-iso.png",
+        "rotary-scorer/simple-front.png",
+        "rotary-scorer/simple-back.png",
+        "rotary-scorer/simple-left.png",
+        "rotary-scorer/simple-right.png",
+        "rotary-scorer/simple-top.png",
+        "rotary-scorer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotary-scorer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.rotary-scorer",
+        "version": "1.0.0"
+      },
+      "bytes": 1020944,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "rotary-scorer/detailed-iso.png",
+        "rotary-scorer/detailed-front.png",
+        "rotary-scorer/detailed-back.png",
+        "rotary-scorer/detailed-left.png",
+        "rotary-scorer/detailed-right.png",
+        "rotary-scorer/detailed-top.png",
+        "rotary-scorer/detailed-bottom.png",
+        "rotary-scorer/action-0.png",
+        "rotary-scorer/action-50.png",
+        "rotary-scorer/action-100.png"
+      ]
+    },
+    {
+      "id": "platen-die-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.platen-die-cutter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 120000,
+      "nodes": 68,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44
+      ],
+      "captures": [
+        "platen-die-cutter/simple-iso.png",
+        "platen-die-cutter/simple-front.png",
+        "platen-die-cutter/simple-back.png",
+        "platen-die-cutter/simple-left.png",
+        "platen-die-cutter/simple-right.png",
+        "platen-die-cutter/simple-top.png",
+        "platen-die-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "platen-die-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.platen-die-cutter",
+        "version": "1.0.0"
+      },
+      "bytes": 772304,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        74
+      ],
+      "captures": [
+        "platen-die-cutter/detailed-iso.png",
+        "platen-die-cutter/detailed-front.png",
+        "platen-die-cutter/detailed-back.png",
+        "platen-die-cutter/detailed-left.png",
+        "platen-die-cutter/detailed-right.png",
+        "platen-die-cutter/detailed-top.png",
+        "platen-die-cutter/detailed-bottom.png",
+        "platen-die-cutter/action-0.png",
+        "platen-die-cutter/action-50.png",
+        "platen-die-cutter/action-100.png"
+      ]
+    },
+    {
+      "id": "rotary-die-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.rotary-die-cutter.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154316,
+      "nodes": 105,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "rotary-die-cutter/simple-iso.png",
+        "rotary-die-cutter/simple-front.png",
+        "rotary-die-cutter/simple-back.png",
+        "rotary-die-cutter/simple-left.png",
+        "rotary-die-cutter/simple-right.png",
+        "rotary-die-cutter/simple-top.png",
+        "rotary-die-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotary-die-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.rotary-die-cutter",
+        "version": "1.0.0"
+      },
+      "bytes": 1025688,
+      "nodes": 151,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "rotary-die-cutter/detailed-iso.png",
+        "rotary-die-cutter/detailed-front.png",
+        "rotary-die-cutter/detailed-back.png",
+        "rotary-die-cutter/detailed-left.png",
+        "rotary-die-cutter/detailed-right.png",
+        "rotary-die-cutter/detailed-top.png",
+        "rotary-die-cutter/detailed-bottom.png",
+        "rotary-die-cutter/action-0.png",
+        "rotary-die-cutter/action-50.png",
+        "rotary-die-cutter/action-100.png"
+      ]
+    },
+    {
+      "id": "digital-flatbed-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.digital-flatbed-cutter.simple",
+        "version": "1.0.1"
+      },
+      "bytes": 136348,
+      "nodes": 73,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44,
+        42
+      ],
+      "captures": [
+        "digital-flatbed-cutter/simple-iso.png",
+        "digital-flatbed-cutter/simple-front.png",
+        "digital-flatbed-cutter/simple-back.png",
+        "digital-flatbed-cutter/simple-left.png",
+        "digital-flatbed-cutter/simple-right.png",
+        "digital-flatbed-cutter/simple-top.png",
+        "digital-flatbed-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "digital-flatbed-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.digital-flatbed-cutter",
+        "version": "1.0.1"
+      },
+      "bytes": 837232,
+      "nodes": 104,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        60
+      ],
+      "captures": [
+        "digital-flatbed-cutter/detailed-iso.png",
+        "digital-flatbed-cutter/detailed-front.png",
+        "digital-flatbed-cutter/detailed-back.png",
+        "digital-flatbed-cutter/detailed-left.png",
+        "digital-flatbed-cutter/detailed-right.png",
+        "digital-flatbed-cutter/detailed-top.png",
+        "digital-flatbed-cutter/detailed-bottom.png",
+        "digital-flatbed-cutter/action-0.png",
+        "digital-flatbed-cutter/action-50.png",
+        "digital-flatbed-cutter/action-100.png"
+      ]
+    },
+    {
+      "id": "blank-stripper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.blank-stripper.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 125732,
+      "nodes": 83,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44
+      ],
+      "captures": [
+        "blank-stripper/simple-iso.png",
+        "blank-stripper/simple-front.png",
+        "blank-stripper/simple-back.png",
+        "blank-stripper/simple-left.png",
+        "blank-stripper/simple-right.png",
+        "blank-stripper/simple-top.png",
+        "blank-stripper/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "blank-stripper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.blank-stripper",
+        "version": "1.0.0"
+      },
+      "bytes": 782232,
+      "nodes": 118,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        74
+      ],
+      "captures": [
+        "blank-stripper/detailed-iso.png",
+        "blank-stripper/detailed-front.png",
+        "blank-stripper/detailed-back.png",
+        "blank-stripper/detailed-left.png",
+        "blank-stripper/detailed-right.png",
+        "blank-stripper/detailed-top.png",
+        "blank-stripper/detailed-bottom.png",
+        "blank-stripper/action-0.png",
+        "blank-stripper/action-50.png",
+        "blank-stripper/action-100.png"
+      ]
+    },
+    {
+      "id": "folder-gluer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.folder-gluer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 171244,
+      "nodes": 104,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        79,
+        81
+      ],
+      "captures": [
+        "folder-gluer/simple-iso.png",
+        "folder-gluer/simple-front.png",
+        "folder-gluer/simple-back.png",
+        "folder-gluer/simple-left.png",
+        "folder-gluer/simple-right.png",
+        "folder-gluer/simple-top.png",
+        "folder-gluer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "folder-gluer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.folder-gluer",
+        "version": "1.0.0"
+      },
+      "bytes": 1044520,
+      "nodes": 138,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        112,
+        114
+      ],
+      "captures": [
+        "folder-gluer/detailed-iso.png",
+        "folder-gluer/detailed-front.png",
+        "folder-gluer/detailed-back.png",
+        "folder-gluer/detailed-left.png",
+        "folder-gluer/detailed-right.png",
+        "folder-gluer/detailed-top.png",
+        "folder-gluer/detailed-bottom.png",
+        "folder-gluer/action-0.png",
+        "folder-gluer/action-50.png",
+        "folder-gluer/action-100.png"
+      ]
+    },
+    {
+      "id": "crash-lock-gluer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.crash-lock-gluer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 174416,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        79,
+        81,
+        97
+      ],
+      "captures": [
+        "crash-lock-gluer/simple-iso.png",
+        "crash-lock-gluer/simple-front.png",
+        "crash-lock-gluer/simple-back.png",
+        "crash-lock-gluer/simple-left.png",
+        "crash-lock-gluer/simple-right.png",
+        "crash-lock-gluer/simple-top.png",
+        "crash-lock-gluer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "crash-lock-gluer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.crash-lock-gluer",
+        "version": "1.0.0"
+      },
+      "bytes": 1052036,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        112,
+        114,
+        131
+      ],
+      "captures": [
+        "crash-lock-gluer/detailed-iso.png",
+        "crash-lock-gluer/detailed-front.png",
+        "crash-lock-gluer/detailed-back.png",
+        "crash-lock-gluer/detailed-left.png",
+        "crash-lock-gluer/detailed-right.png",
+        "crash-lock-gluer/detailed-top.png",
+        "crash-lock-gluer/detailed-bottom.png",
+        "crash-lock-gluer/action-0.png",
+        "crash-lock-gluer/action-50.png",
+        "crash-lock-gluer/action-100.png"
+      ]
+    },
+    {
+      "id": "tray-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.tray-former.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 126352,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44
+      ],
+      "captures": [
+        "tray-former/simple-iso.png",
+        "tray-former/simple-front.png",
+        "tray-former/simple-back.png",
+        "tray-former/simple-left.png",
+        "tray-former/simple-right.png",
+        "tray-former/simple-top.png",
+        "tray-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tray-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.tray-former",
+        "version": "1.0.0"
+      },
+      "bytes": 834112,
+      "nodes": 107,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        74
+      ],
+      "captures": [
+        "tray-former/detailed-iso.png",
+        "tray-former/detailed-front.png",
+        "tray-former/detailed-back.png",
+        "tray-former/detailed-left.png",
+        "tray-former/detailed-right.png",
+        "tray-former/detailed-top.png",
+        "tray-former/detailed-bottom.png",
+        "tray-former/action-0.png",
+        "tray-former/action-50.png",
+        "tray-former/action-100.png"
+      ]
+    },
+    {
+      "id": "carton-erector",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.carton-erector.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 119908,
+      "nodes": 68,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        41
+      ],
+      "captures": [
+        "carton-erector/simple-iso.png",
+        "carton-erector/simple-front.png",
+        "carton-erector/simple-back.png",
+        "carton-erector/simple-left.png",
+        "carton-erector/simple-right.png",
+        "carton-erector/simple-top.png",
+        "carton-erector/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "carton-erector",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.carton-erector",
+        "version": "1.0.0"
+      },
+      "bytes": 741148,
+      "nodes": 91,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        59
+      ],
+      "captures": [
+        "carton-erector/detailed-iso.png",
+        "carton-erector/detailed-front.png",
+        "carton-erector/detailed-back.png",
+        "carton-erector/detailed-left.png",
+        "carton-erector/detailed-right.png",
+        "carton-erector/detailed-top.png",
+        "carton-erector/detailed-bottom.png",
+        "carton-erector/action-0.png",
+        "carton-erector/action-50.png",
+        "carton-erector/action-100.png"
+      ]
+    },
+    {
+      "id": "rigid-box-wrapper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.rigid-box-wrapper.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 111712,
+      "nodes": 65,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        39
+      ],
+      "captures": [
+        "rigid-box-wrapper/simple-iso.png",
+        "rigid-box-wrapper/simple-front.png",
+        "rigid-box-wrapper/simple-back.png",
+        "rigid-box-wrapper/simple-left.png",
+        "rigid-box-wrapper/simple-right.png",
+        "rigid-box-wrapper/simple-top.png",
+        "rigid-box-wrapper/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rigid-box-wrapper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.rigid-box-wrapper",
+        "version": "1.0.0"
+      },
+      "bytes": 719960,
+      "nodes": 88,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57
+      ],
+      "captures": [
+        "rigid-box-wrapper/detailed-iso.png",
+        "rigid-box-wrapper/detailed-front.png",
+        "rigid-box-wrapper/detailed-back.png",
+        "rigid-box-wrapper/detailed-left.png",
+        "rigid-box-wrapper/detailed-right.png",
+        "rigid-box-wrapper/detailed-top.png",
+        "rigid-box-wrapper/detailed-bottom.png",
+        "rigid-box-wrapper/action-0.png",
+        "rigid-box-wrapper/action-50.png",
+        "rigid-box-wrapper/action-100.png"
+      ]
+    },
+    {
+      "id": "window-patcher",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.window-patcher.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 163404,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        83
+      ],
+      "captures": [
+        "window-patcher/simple-iso.png",
+        "window-patcher/simple-front.png",
+        "window-patcher/simple-back.png",
+        "window-patcher/simple-left.png",
+        "window-patcher/simple-right.png",
+        "window-patcher/simple-top.png",
+        "window-patcher/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "window-patcher",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.window-patcher",
+        "version": "1.0.0"
+      },
+      "bytes": 1056320,
+      "nodes": 149,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        122
+      ],
+      "captures": [
+        "window-patcher/detailed-iso.png",
+        "window-patcher/detailed-front.png",
+        "window-patcher/detailed-back.png",
+        "window-patcher/detailed-left.png",
+        "window-patcher/detailed-right.png",
+        "window-patcher/detailed-top.png",
+        "window-patcher/detailed-bottom.png",
+        "window-patcher/action-0.png",
+        "window-patcher/action-50.png",
+        "window-patcher/action-100.png"
+      ]
+    },
+    {
+      "id": "carton-stitcher",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.carton-stitcher.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 114352,
+      "nodes": 65,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        39
+      ],
+      "captures": [
+        "carton-stitcher/simple-iso.png",
+        "carton-stitcher/simple-front.png",
+        "carton-stitcher/simple-back.png",
+        "carton-stitcher/simple-left.png",
+        "carton-stitcher/simple-right.png",
+        "carton-stitcher/simple-top.png",
+        "carton-stitcher/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "carton-stitcher",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.carton-stitcher",
+        "version": "1.0.0"
+      },
+      "bytes": 731260,
+      "nodes": 88,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57
+      ],
+      "captures": [
+        "carton-stitcher/detailed-iso.png",
+        "carton-stitcher/detailed-front.png",
+        "carton-stitcher/detailed-back.png",
+        "carton-stitcher/detailed-left.png",
+        "carton-stitcher/detailed-right.png",
+        "carton-stitcher/detailed-top.png",
+        "carton-stitcher/detailed-bottom.png",
+        "carton-stitcher/action-0.png",
+        "carton-stitcher/action-50.png",
+        "carton-stitcher/action-100.png"
+      ]
+    },
+    {
+      "id": "adhesive-dispenser",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.adhesive-dispenser.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 171780,
+      "nodes": 100,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        92
+      ],
+      "captures": [
+        "adhesive-dispenser/simple-iso.png",
+        "adhesive-dispenser/simple-front.png",
+        "adhesive-dispenser/simple-back.png",
+        "adhesive-dispenser/simple-left.png",
+        "adhesive-dispenser/simple-right.png",
+        "adhesive-dispenser/simple-top.png",
+        "adhesive-dispenser/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "adhesive-dispenser",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.adhesive-dispenser",
+        "version": "1.0.0"
+      },
+      "bytes": 1134204,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        132
+      ],
+      "captures": [
+        "adhesive-dispenser/detailed-iso.png",
+        "adhesive-dispenser/detailed-front.png",
+        "adhesive-dispenser/detailed-back.png",
+        "adhesive-dispenser/detailed-left.png",
+        "adhesive-dispenser/detailed-right.png",
+        "adhesive-dispenser/detailed-top.png",
+        "adhesive-dispenser/detailed-bottom.png",
+        "adhesive-dispenser/action-0.png",
+        "adhesive-dispenser/action-50.png",
+        "adhesive-dispenser/action-100.png"
+      ]
+    },
+    {
+      "id": "compression-stack",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.compression-stack.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 150836,
+      "nodes": 93,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        79
+      ],
+      "captures": [
+        "compression-stack/simple-iso.png",
+        "compression-stack/simple-front.png",
+        "compression-stack/simple-back.png",
+        "compression-stack/simple-left.png",
+        "compression-stack/simple-right.png",
+        "compression-stack/simple-top.png",
+        "compression-stack/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "compression-stack",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.compression-stack",
+        "version": "1.0.0"
+      },
+      "bytes": 965320,
+      "nodes": 126,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        112
+      ],
+      "captures": [
+        "compression-stack/detailed-iso.png",
+        "compression-stack/detailed-front.png",
+        "compression-stack/detailed-back.png",
+        "compression-stack/detailed-left.png",
+        "compression-stack/detailed-right.png",
+        "compression-stack/detailed-top.png",
+        "compression-stack/detailed-bottom.png",
+        "compression-stack/action-0.png",
+        "compression-stack/action-50.png",
+        "compression-stack/action-100.png"
+      ]
+    },
+    {
+      "id": "vision-carton-inspector",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.vision-carton-inspector.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 184276,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        92
+      ],
+      "captures": [
+        "vision-carton-inspector/simple-iso.png",
+        "vision-carton-inspector/simple-front.png",
+        "vision-carton-inspector/simple-back.png",
+        "vision-carton-inspector/simple-left.png",
+        "vision-carton-inspector/simple-right.png",
+        "vision-carton-inspector/simple-top.png",
+        "vision-carton-inspector/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vision-carton-inspector",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.vision-carton-inspector",
+        "version": "1.0.0"
+      },
+      "bytes": 1158720,
+      "nodes": 143,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        132
+      ],
+      "captures": [
+        "vision-carton-inspector/detailed-iso.png",
+        "vision-carton-inspector/detailed-front.png",
+        "vision-carton-inspector/detailed-back.png",
+        "vision-carton-inspector/detailed-left.png",
+        "vision-carton-inspector/detailed-right.png",
+        "vision-carton-inspector/detailed-top.png",
+        "vision-carton-inspector/detailed-bottom.png",
+        "vision-carton-inspector/action-0.png",
+        "vision-carton-inspector/action-50.png",
+        "vision-carton-inspector/action-100.png"
+      ]
+    },
+    {
+      "id": "carton-counter-stacker",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.carton-counter-stacker.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 149820,
+      "nodes": 87,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        81
+      ],
+      "captures": [
+        "carton-counter-stacker/simple-iso.png",
+        "carton-counter-stacker/simple-front.png",
+        "carton-counter-stacker/simple-back.png",
+        "carton-counter-stacker/simple-left.png",
+        "carton-counter-stacker/simple-right.png",
+        "carton-counter-stacker/simple-top.png",
+        "carton-counter-stacker/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "carton-counter-stacker",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.carton-counter-stacker",
+        "version": "1.0.0"
+      },
+      "bytes": 968516,
+      "nodes": 120,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        114
+      ],
+      "captures": [
+        "carton-counter-stacker/detailed-iso.png",
+        "carton-counter-stacker/detailed-front.png",
+        "carton-counter-stacker/detailed-back.png",
+        "carton-counter-stacker/detailed-left.png",
+        "carton-counter-stacker/detailed-right.png",
+        "carton-counter-stacker/detailed-top.png",
+        "carton-counter-stacker/detailed-bottom.png",
+        "carton-counter-stacker/action-0.png",
+        "carton-counter-stacker/action-50.png",
+        "carton-counter-stacker/action-100.png"
+      ]
+    },
+    {
+      "id": "strapper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.strapper.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156236,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        85
+      ],
+      "captures": [
+        "strapper/simple-iso.png",
+        "strapper/simple-front.png",
+        "strapper/simple-back.png",
+        "strapper/simple-left.png",
+        "strapper/simple-right.png",
+        "strapper/simple-top.png",
+        "strapper/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "strapper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.strapper",
+        "version": "1.0.0"
+      },
+      "bytes": 1052100,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        118
+      ],
+      "captures": [
+        "strapper/detailed-iso.png",
+        "strapper/detailed-front.png",
+        "strapper/detailed-back.png",
+        "strapper/detailed-left.png",
+        "strapper/detailed-right.png",
+        "strapper/detailed-top.png",
+        "strapper/detailed-bottom.png",
+        "strapper/action-0.png",
+        "strapper/action-50.png",
+        "strapper/action-100.png"
+      ]
+    },
+    {
+      "id": "shrink-wrapper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.shrink-wrapper.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 158088,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        90
+      ],
+      "captures": [
+        "shrink-wrapper/simple-iso.png",
+        "shrink-wrapper/simple-front.png",
+        "shrink-wrapper/simple-back.png",
+        "shrink-wrapper/simple-left.png",
+        "shrink-wrapper/simple-right.png",
+        "shrink-wrapper/simple-top.png",
+        "shrink-wrapper/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "shrink-wrapper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.shrink-wrapper",
+        "version": "1.0.0"
+      },
+      "bytes": 1095108,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        137
+      ],
+      "captures": [
+        "shrink-wrapper/detailed-iso.png",
+        "shrink-wrapper/detailed-front.png",
+        "shrink-wrapper/detailed-back.png",
+        "shrink-wrapper/detailed-left.png",
+        "shrink-wrapper/detailed-right.png",
+        "shrink-wrapper/detailed-top.png",
+        "shrink-wrapper/detailed-bottom.png",
+        "shrink-wrapper/action-0.png",
+        "shrink-wrapper/action-50.png",
+        "shrink-wrapper/action-100.png"
+      ]
+    },
+    {
+      "id": "case-packer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.case-packer.simple",
+        "version": "1.0.1"
+      },
+      "bytes": 126480,
+      "nodes": 74,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44,
+        42
+      ],
+      "captures": [
+        "case-packer/simple-iso.png",
+        "case-packer/simple-front.png",
+        "case-packer/simple-back.png",
+        "case-packer/simple-left.png",
+        "case-packer/simple-right.png",
+        "case-packer/simple-top.png",
+        "case-packer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "case-packer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.case-packer",
+        "version": "1.0.1"
+      },
+      "bytes": 788596,
+      "nodes": 97,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        60
+      ],
+      "captures": [
+        "case-packer/detailed-iso.png",
+        "case-packer/detailed-front.png",
+        "case-packer/detailed-back.png",
+        "case-packer/detailed-left.png",
+        "case-packer/detailed-right.png",
+        "case-packer/detailed-top.png",
+        "case-packer/detailed-bottom.png",
+        "case-packer/action-0.png",
+        "case-packer/action-50.png",
+        "case-packer/action-100.png"
+      ]
+    },
+    {
+      "id": "tape-case-sealer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.sealer.simple",
+        "version": "0.4.0"
+      },
+      "bytes": 211920,
+      "nodes": 172,
+      "phase_ids": [
+        "infeed",
+        "seal",
+        "outfeed"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        6,
+        148,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        42,
+        45,
+        48,
+        51,
+        54
+      ],
+      "captures": [
+        "tape-case-sealer/simple-iso.png",
+        "tape-case-sealer/simple-front.png",
+        "tape-case-sealer/simple-back.png",
+        "tape-case-sealer/simple-left.png",
+        "tape-case-sealer/simple-right.png",
+        "tape-case-sealer/simple-top.png",
+        "tape-case-sealer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tape-case-sealer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.sealer",
+        "version": "0.4.0"
+      },
+      "bytes": 18743204,
+      "nodes": 284,
+      "phase_ids": [
+        "infeed",
+        "seal",
+        "outfeed"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        6,
+        260,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        42,
+        45,
+        48,
+        51,
+        54
+      ],
+      "captures": [
+        "tape-case-sealer/detailed-iso.png",
+        "tape-case-sealer/detailed-front.png",
+        "tape-case-sealer/detailed-back.png",
+        "tape-case-sealer/detailed-left.png",
+        "tape-case-sealer/detailed-right.png",
+        "tape-case-sealer/detailed-top.png",
+        "tape-case-sealer/detailed-bottom.png",
+        "tape-case-sealer/action-0.png",
+        "tape-case-sealer/action-50.png",
+        "tape-case-sealer/action-100.png"
+      ]
+    },
+    {
+      "id": "label-applicator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.label-applicator.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 172396,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        92
+      ],
+      "captures": [
+        "label-applicator/simple-iso.png",
+        "label-applicator/simple-front.png",
+        "label-applicator/simple-back.png",
+        "label-applicator/simple-left.png",
+        "label-applicator/simple-right.png",
+        "label-applicator/simple-top.png",
+        "label-applicator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "label-applicator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.label-applicator",
+        "version": "1.0.0"
+      },
+      "bytes": 1166960,
+      "nodes": 142,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        132
+      ],
+      "captures": [
+        "label-applicator/detailed-iso.png",
+        "label-applicator/detailed-front.png",
+        "label-applicator/detailed-back.png",
+        "label-applicator/detailed-left.png",
+        "label-applicator/detailed-right.png",
+        "label-applicator/detailed-top.png",
+        "label-applicator/detailed-bottom.png",
+        "label-applicator/action-0.png",
+        "label-applicator/action-50.png",
+        "label-applicator/action-100.png"
+      ]
+    },
+    {
+      "id": "pallet-stretch-wrapper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.pallet-stretch-wrapper.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 123796,
+      "nodes": 40,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        2,
+        8
+      ],
+      "captures": [
+        "pallet-stretch-wrapper/simple-iso.png",
+        "pallet-stretch-wrapper/simple-front.png",
+        "pallet-stretch-wrapper/simple-back.png",
+        "pallet-stretch-wrapper/simple-left.png",
+        "pallet-stretch-wrapper/simple-right.png",
+        "pallet-stretch-wrapper/simple-top.png",
+        "pallet-stretch-wrapper/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pallet-stretch-wrapper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.pallet-stretch-wrapper",
+        "version": "1.0.0"
+      },
+      "bytes": 635768,
+      "nodes": 52,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        2,
+        8
+      ],
+      "captures": [
+        "pallet-stretch-wrapper/detailed-iso.png",
+        "pallet-stretch-wrapper/detailed-front.png",
+        "pallet-stretch-wrapper/detailed-back.png",
+        "pallet-stretch-wrapper/detailed-left.png",
+        "pallet-stretch-wrapper/detailed-right.png",
+        "pallet-stretch-wrapper/detailed-top.png",
+        "pallet-stretch-wrapper/detailed-bottom.png",
+        "pallet-stretch-wrapper/action-0.png",
+        "pallet-stretch-wrapper/action-50.png",
+        "pallet-stretch-wrapper/action-100.png"
+      ]
+    },
+    {
+      "id": "manual-packing",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.packing.simple",
+        "version": "0.4.1"
+      },
+      "bytes": 168012,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        67
+      ],
+      "captures": [
+        "manual-packing/simple-iso.png",
+        "manual-packing/simple-front.png",
+        "manual-packing/simple-back.png",
+        "manual-packing/simple-left.png",
+        "manual-packing/simple-right.png",
+        "manual-packing/simple-top.png",
+        "manual-packing/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "manual-packing",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.packing",
+        "version": "0.4.1"
+      },
+      "bytes": 11925584,
+      "nodes": 187,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        105,
+        109
+      ],
+      "captures": [
+        "manual-packing/detailed-iso.png",
+        "manual-packing/detailed-front.png",
+        "manual-packing/detailed-back.png",
+        "manual-packing/detailed-left.png",
+        "manual-packing/detailed-right.png",
+        "manual-packing/detailed-top.png",
+        "manual-packing/detailed-bottom.png",
+        "manual-packing/action-0.png",
+        "manual-packing/action-50.png",
+        "manual-packing/action-100.png"
+      ]
+    },
+    {
+      "id": "belt-conveyor",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.conveyor.simple",
+        "version": "0.4.0"
+      },
+      "bytes": 100736,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        39,
+        40
+      ],
+      "captures": [
+        "belt-conveyor/simple-iso.png",
+        "belt-conveyor/simple-front.png",
+        "belt-conveyor/simple-back.png",
+        "belt-conveyor/simple-left.png",
+        "belt-conveyor/simple-right.png",
+        "belt-conveyor/simple-top.png",
+        "belt-conveyor/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "belt-conveyor",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.conveyor",
+        "version": "0.4.0"
+      },
+      "bytes": 11402992,
+      "nodes": 120,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        87,
+        88
+      ],
+      "captures": [
+        "belt-conveyor/detailed-iso.png",
+        "belt-conveyor/detailed-front.png",
+        "belt-conveyor/detailed-back.png",
+        "belt-conveyor/detailed-left.png",
+        "belt-conveyor/detailed-right.png",
+        "belt-conveyor/detailed-top.png",
+        "belt-conveyor/detailed-bottom.png",
+        "belt-conveyor/action-0.png",
+        "belt-conveyor/action-50.png",
+        "belt-conveyor/action-100.png"
+      ]
+    },
+    {
+      "id": "roller-conveyor",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.roller-conveyor.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 167316,
+      "nodes": 120,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        61,
+        64,
+        67,
+        70,
+        73,
+        76,
+        79,
+        82,
+        85,
+        88,
+        91,
+        94,
+        97,
+        100,
+        103
+      ],
+      "captures": [
+        "roller-conveyor/simple-iso.png",
+        "roller-conveyor/simple-front.png",
+        "roller-conveyor/simple-back.png",
+        "roller-conveyor/simple-left.png",
+        "roller-conveyor/simple-right.png",
+        "roller-conveyor/simple-top.png",
+        "roller-conveyor/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "roller-conveyor",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.roller-conveyor",
+        "version": "1.0.0"
+      },
+      "bytes": 921992,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        84,
+        87,
+        90,
+        93,
+        96,
+        99,
+        102,
+        105,
+        108,
+        111,
+        114,
+        117,
+        120,
+        123,
+        126
+      ],
+      "captures": [
+        "roller-conveyor/detailed-iso.png",
+        "roller-conveyor/detailed-front.png",
+        "roller-conveyor/detailed-back.png",
+        "roller-conveyor/detailed-left.png",
+        "roller-conveyor/detailed-right.png",
+        "roller-conveyor/detailed-top.png",
+        "roller-conveyor/detailed-bottom.png",
+        "roller-conveyor/action-0.png",
+        "roller-conveyor/action-50.png",
+        "roller-conveyor/action-100.png"
+      ]
+    },
+    {
+      "id": "curved-conveyor",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.curved-conveyor.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 222456,
+      "nodes": 165,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        23,
+        29,
+        35,
+        41,
+        47,
+        53,
+        59,
+        65,
+        71,
+        77,
+        83,
+        89,
+        95,
+        101
+      ],
+      "captures": [
+        "curved-conveyor/simple-iso.png",
+        "curved-conveyor/simple-front.png",
+        "curved-conveyor/simple-back.png",
+        "curved-conveyor/simple-left.png",
+        "curved-conveyor/simple-right.png",
+        "curved-conveyor/simple-top.png",
+        "curved-conveyor/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "curved-conveyor",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.curved-conveyor",
+        "version": "1.0.0"
+      },
+      "bytes": 841940,
+      "nodes": 189,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        35,
+        41,
+        47,
+        53,
+        59,
+        65,
+        71,
+        77,
+        83,
+        89,
+        95,
+        101,
+        107,
+        113
+      ],
+      "captures": [
+        "curved-conveyor/detailed-iso.png",
+        "curved-conveyor/detailed-front.png",
+        "curved-conveyor/detailed-back.png",
+        "curved-conveyor/detailed-left.png",
+        "curved-conveyor/detailed-right.png",
+        "curved-conveyor/detailed-top.png",
+        "curved-conveyor/detailed-bottom.png",
+        "curved-conveyor/action-0.png",
+        "curved-conveyor/action-50.png",
+        "curved-conveyor/action-100.png"
+      ]
+    },
+    {
+      "id": "right-angle-transfer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.right-angle-transfer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 167780,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        61,
+        64,
+        67,
+        70,
+        73,
+        76,
+        79,
+        82,
+        85,
+        88,
+        91,
+        104
+      ],
+      "captures": [
+        "right-angle-transfer/simple-iso.png",
+        "right-angle-transfer/simple-front.png",
+        "right-angle-transfer/simple-back.png",
+        "right-angle-transfer/simple-left.png",
+        "right-angle-transfer/simple-right.png",
+        "right-angle-transfer/simple-top.png",
+        "right-angle-transfer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "right-angle-transfer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.right-angle-transfer",
+        "version": "1.0.0"
+      },
+      "bytes": 954648,
+      "nodes": 147,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        84,
+        87,
+        90,
+        93,
+        96,
+        99,
+        102,
+        105,
+        108,
+        111,
+        114,
+        137
+      ],
+      "captures": [
+        "right-angle-transfer/detailed-iso.png",
+        "right-angle-transfer/detailed-front.png",
+        "right-angle-transfer/detailed-back.png",
+        "right-angle-transfer/detailed-left.png",
+        "right-angle-transfer/detailed-right.png",
+        "right-angle-transfer/detailed-top.png",
+        "right-angle-transfer/detailed-bottom.png",
+        "right-angle-transfer/action-0.png",
+        "right-angle-transfer/action-50.png",
+        "right-angle-transfer/action-100.png"
+      ]
+    },
+    {
+      "id": "lift-conveyor",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.lift-conveyor.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 136632,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        37
+      ],
+      "captures": [
+        "lift-conveyor/simple-iso.png",
+        "lift-conveyor/simple-front.png",
+        "lift-conveyor/simple-back.png",
+        "lift-conveyor/simple-left.png",
+        "lift-conveyor/simple-right.png",
+        "lift-conveyor/simple-top.png",
+        "lift-conveyor/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "lift-conveyor",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.lift-conveyor",
+        "version": "1.0.0"
+      },
+      "bytes": 779540,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55
+      ],
+      "captures": [
+        "lift-conveyor/detailed-iso.png",
+        "lift-conveyor/detailed-front.png",
+        "lift-conveyor/detailed-back.png",
+        "lift-conveyor/detailed-left.png",
+        "lift-conveyor/detailed-right.png",
+        "lift-conveyor/detailed-top.png",
+        "lift-conveyor/detailed-bottom.png",
+        "lift-conveyor/action-0.png",
+        "lift-conveyor/action-50.png",
+        "lift-conveyor/action-100.png"
+      ]
+    },
+    {
+      "id": "six-axis-robot",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.robot.simple",
+        "version": "0.4.0"
+      },
+      "bytes": 147028,
+      "nodes": 58,
+      "phase_ids": [
+        "approach",
+        "grip",
+        "loaded_move",
+        "release",
+        "return"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        7,
+        17,
+        30,
+        41,
+        45,
+        5,
+        37
+      ],
+      "captures": [
+        "six-axis-robot/simple-iso.png",
+        "six-axis-robot/simple-front.png",
+        "six-axis-robot/simple-back.png",
+        "six-axis-robot/simple-left.png",
+        "six-axis-robot/simple-right.png",
+        "six-axis-robot/simple-top.png",
+        "six-axis-robot/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "six-axis-robot",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.robot",
+        "version": "0.4.0"
+      },
+      "bytes": 11435928,
+      "nodes": 273,
+      "phase_ids": [
+        "approach",
+        "grip",
+        "loaded_move",
+        "release",
+        "return"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        23,
+        90,
+        160,
+        243,
+        251,
+        21,
+        215
+      ],
+      "captures": [
+        "six-axis-robot/detailed-iso.png",
+        "six-axis-robot/detailed-front.png",
+        "six-axis-robot/detailed-back.png",
+        "six-axis-robot/detailed-left.png",
+        "six-axis-robot/detailed-right.png",
+        "six-axis-robot/detailed-top.png",
+        "six-axis-robot/detailed-bottom.png",
+        "six-axis-robot/action-0.png",
+        "six-axis-robot/action-50.png",
+        "six-axis-robot/action-100.png"
+      ]
+    },
+    {
+      "id": "scara-robot",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.scara-robot.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 71332,
+      "nodes": 22,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        10,
+        4,
+        7
+      ],
+      "captures": [
+        "scara-robot/simple-iso.png",
+        "scara-robot/simple-front.png",
+        "scara-robot/simple-back.png",
+        "scara-robot/simple-left.png",
+        "scara-robot/simple-right.png",
+        "scara-robot/simple-top.png",
+        "scara-robot/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "scara-robot",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.scara-robot",
+        "version": "1.0.0"
+      },
+      "bytes": 348232,
+      "nodes": 35,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        22,
+        16,
+        19
+      ],
+      "captures": [
+        "scara-robot/detailed-iso.png",
+        "scara-robot/detailed-front.png",
+        "scara-robot/detailed-back.png",
+        "scara-robot/detailed-left.png",
+        "scara-robot/detailed-right.png",
+        "scara-robot/detailed-top.png",
+        "scara-robot/detailed-bottom.png",
+        "scara-robot/action-0.png",
+        "scara-robot/action-50.png",
+        "scara-robot/action-100.png"
+      ]
+    },
+    {
+      "id": "gantry-pick-place",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.gantry-pick-place.simple",
+        "version": "1.0.1"
+      },
+      "bytes": 128468,
+      "nodes": 73,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44,
+        42
+      ],
+      "captures": [
+        "gantry-pick-place/simple-iso.png",
+        "gantry-pick-place/simple-front.png",
+        "gantry-pick-place/simple-back.png",
+        "gantry-pick-place/simple-left.png",
+        "gantry-pick-place/simple-right.png",
+        "gantry-pick-place/simple-top.png",
+        "gantry-pick-place/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "gantry-pick-place",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.gantry-pick-place",
+        "version": "1.0.1"
+      },
+      "bytes": 790584,
+      "nodes": 96,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        60
+      ],
+      "captures": [
+        "gantry-pick-place/detailed-iso.png",
+        "gantry-pick-place/detailed-front.png",
+        "gantry-pick-place/detailed-back.png",
+        "gantry-pick-place/detailed-left.png",
+        "gantry-pick-place/detailed-right.png",
+        "gantry-pick-place/detailed-top.png",
+        "gantry-pick-place/detailed-bottom.png",
+        "gantry-pick-place/action-0.png",
+        "gantry-pick-place/action-50.png",
+        "gantry-pick-place/action-100.png"
+      ]
+    },
+    {
+      "id": "vacuum-palletizer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.vacuum-palletizer.simple",
+        "version": "1.0.1"
+      },
+      "bytes": 128068,
+      "nodes": 73,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44,
+        42
+      ],
+      "captures": [
+        "vacuum-palletizer/simple-iso.png",
+        "vacuum-palletizer/simple-front.png",
+        "vacuum-palletizer/simple-back.png",
+        "vacuum-palletizer/simple-left.png",
+        "vacuum-palletizer/simple-right.png",
+        "vacuum-palletizer/simple-top.png",
+        "vacuum-palletizer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vacuum-palletizer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.vacuum-palletizer",
+        "version": "1.0.1"
+      },
+      "bytes": 790348,
+      "nodes": 96,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        60
+      ],
+      "captures": [
+        "vacuum-palletizer/detailed-iso.png",
+        "vacuum-palletizer/detailed-front.png",
+        "vacuum-palletizer/detailed-back.png",
+        "vacuum-palletizer/detailed-left.png",
+        "vacuum-palletizer/detailed-right.png",
+        "vacuum-palletizer/detailed-top.png",
+        "vacuum-palletizer/detailed-bottom.png",
+        "vacuum-palletizer/action-0.png",
+        "vacuum-palletizer/action-50.png",
+        "vacuum-palletizer/action-100.png"
+      ]
+    },
+    {
+      "id": "screw-assembly",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.assembly.simple",
+        "version": "0.4.1"
+      },
+      "bytes": 346800,
+      "nodes": 166,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        70,
+        76,
+        95,
+        110,
+        135,
+        139,
+        147,
+        149
+      ],
+      "captures": [
+        "screw-assembly/simple-iso.png",
+        "screw-assembly/simple-front.png",
+        "screw-assembly/simple-back.png",
+        "screw-assembly/simple-left.png",
+        "screw-assembly/simple-right.png",
+        "screw-assembly/simple-top.png",
+        "screw-assembly/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "screw-assembly",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.assembly",
+        "version": "0.4.1"
+      },
+      "bytes": 12669892,
+      "nodes": 524,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        128,
+        138,
+        280,
+        318,
+        344,
+        348,
+        360,
+        422
+      ],
+      "captures": [
+        "screw-assembly/detailed-iso.png",
+        "screw-assembly/detailed-front.png",
+        "screw-assembly/detailed-back.png",
+        "screw-assembly/detailed-left.png",
+        "screw-assembly/detailed-right.png",
+        "screw-assembly/detailed-top.png",
+        "screw-assembly/detailed-bottom.png",
+        "screw-assembly/action-0.png",
+        "screw-assembly/action-50.png",
+        "screw-assembly/action-100.png"
+      ]
+    },
+    {
+      "id": "identity-rework",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.rework.simple",
+        "version": "0.4.1"
+      },
+      "bytes": 374732,
+      "nodes": 178,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        70,
+        76,
+        95,
+        110,
+        135,
+        139,
+        152,
+        154
+      ],
+      "captures": [
+        "identity-rework/simple-iso.png",
+        "identity-rework/simple-front.png",
+        "identity-rework/simple-back.png",
+        "identity-rework/simple-left.png",
+        "identity-rework/simple-right.png",
+        "identity-rework/simple-top.png",
+        "identity-rework/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "identity-rework",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.rework",
+        "version": "0.4.1"
+      },
+      "bytes": 12822576,
+      "nodes": 537,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        128,
+        138,
+        280,
+        318,
+        344,
+        348,
+        365,
+        427
+      ],
+      "captures": [
+        "identity-rework/detailed-iso.png",
+        "identity-rework/detailed-front.png",
+        "identity-rework/detailed-back.png",
+        "identity-rework/detailed-left.png",
+        "identity-rework/detailed-right.png",
+        "identity-rework/detailed-top.png",
+        "identity-rework/detailed-bottom.png",
+        "identity-rework/action-0.png",
+        "identity-rework/action-50.png",
+        "identity-rework/action-100.png"
+      ]
+    },
+    {
+      "id": "optical-inspector",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.inspection.simple",
+        "version": "0.4.1"
+      },
+      "bytes": 231516,
+      "nodes": 123,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        101,
+        105
+      ],
+      "captures": [
+        "optical-inspector/simple-iso.png",
+        "optical-inspector/simple-front.png",
+        "optical-inspector/simple-back.png",
+        "optical-inspector/simple-left.png",
+        "optical-inspector/simple-right.png",
+        "optical-inspector/simple-top.png",
+        "optical-inspector/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "optical-inspector",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.inspection",
+        "version": "0.4.1"
+      },
+      "bytes": 12122240,
+      "nodes": 244,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        162,
+        197,
+        201
+      ],
+      "captures": [
+        "optical-inspector/detailed-iso.png",
+        "optical-inspector/detailed-front.png",
+        "optical-inspector/detailed-back.png",
+        "optical-inspector/detailed-left.png",
+        "optical-inspector/detailed-right.png",
+        "optical-inspector/detailed-top.png",
+        "optical-inspector/detailed-bottom.png",
+        "optical-inspector/action-0.png",
+        "optical-inspector/action-50.png",
+        "optical-inspector/action-100.png"
+      ]
+    },
+    {
+      "id": "cnc-mill",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.cnc-mill.simple",
+        "version": "1.0.1"
+      },
+      "bytes": 139052,
+      "nodes": 78,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44,
+        42
+      ],
+      "captures": [
+        "cnc-mill/simple-iso.png",
+        "cnc-mill/simple-front.png",
+        "cnc-mill/simple-back.png",
+        "cnc-mill/simple-left.png",
+        "cnc-mill/simple-right.png",
+        "cnc-mill/simple-top.png",
+        "cnc-mill/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "cnc-mill",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.cnc-mill",
+        "version": "1.0.1"
+      },
+      "bytes": 893252,
+      "nodes": 101,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        60
+      ],
+      "captures": [
+        "cnc-mill/detailed-iso.png",
+        "cnc-mill/detailed-front.png",
+        "cnc-mill/detailed-back.png",
+        "cnc-mill/detailed-left.png",
+        "cnc-mill/detailed-right.png",
+        "cnc-mill/detailed-top.png",
+        "cnc-mill/detailed-bottom.png",
+        "cnc-mill/action-0.png",
+        "cnc-mill/action-50.png",
+        "cnc-mill/action-100.png"
+      ]
+    },
+    {
+      "id": "cnc-lathe",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.cnc-lathe.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 122596,
+      "nodes": 67,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        35,
+        40
+      ],
+      "captures": [
+        "cnc-lathe/simple-iso.png",
+        "cnc-lathe/simple-front.png",
+        "cnc-lathe/simple-back.png",
+        "cnc-lathe/simple-left.png",
+        "cnc-lathe/simple-right.png",
+        "cnc-lathe/simple-top.png",
+        "cnc-lathe/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "cnc-lathe",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.cnc-lathe",
+        "version": "1.0.0"
+      },
+      "bytes": 852816,
+      "nodes": 90,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        53,
+        58
+      ],
+      "captures": [
+        "cnc-lathe/detailed-iso.png",
+        "cnc-lathe/detailed-front.png",
+        "cnc-lathe/detailed-back.png",
+        "cnc-lathe/detailed-left.png",
+        "cnc-lathe/detailed-right.png",
+        "cnc-lathe/detailed-top.png",
+        "cnc-lathe/detailed-bottom.png",
+        "cnc-lathe/action-0.png",
+        "cnc-lathe/action-50.png",
+        "cnc-lathe/action-100.png"
+      ]
+    },
+    {
+      "id": "drill-press",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.drill-press.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153220,
+      "nodes": 73,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        46
+      ],
+      "captures": [
+        "drill-press/simple-iso.png",
+        "drill-press/simple-front.png",
+        "drill-press/simple-back.png",
+        "drill-press/simple-left.png",
+        "drill-press/simple-right.png",
+        "drill-press/simple-top.png",
+        "drill-press/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "drill-press",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.drill-press",
+        "version": "1.0.0"
+      },
+      "bytes": 901196,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        71
+      ],
+      "captures": [
+        "drill-press/detailed-iso.png",
+        "drill-press/detailed-front.png",
+        "drill-press/detailed-back.png",
+        "drill-press/detailed-left.png",
+        "drill-press/detailed-right.png",
+        "drill-press/detailed-top.png",
+        "drill-press/detailed-bottom.png",
+        "drill-press/action-0.png",
+        "drill-press/action-50.png",
+        "drill-press/action-100.png"
+      ]
+    },
+    {
+      "id": "hydraulic-press",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.hydraulic-press.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 119492,
+      "nodes": 68,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44
+      ],
+      "captures": [
+        "hydraulic-press/simple-iso.png",
+        "hydraulic-press/simple-front.png",
+        "hydraulic-press/simple-back.png",
+        "hydraulic-press/simple-left.png",
+        "hydraulic-press/simple-right.png",
+        "hydraulic-press/simple-top.png",
+        "hydraulic-press/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "hydraulic-press",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.hydraulic-press",
+        "version": "1.0.0"
+      },
+      "bytes": 771636,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        74
+      ],
+      "captures": [
+        "hydraulic-press/detailed-iso.png",
+        "hydraulic-press/detailed-front.png",
+        "hydraulic-press/detailed-back.png",
+        "hydraulic-press/detailed-left.png",
+        "hydraulic-press/detailed-right.png",
+        "hydraulic-press/detailed-top.png",
+        "hydraulic-press/detailed-bottom.png",
+        "hydraulic-press/action-0.png",
+        "hydraulic-press/action-50.png",
+        "hydraulic-press/action-100.png"
+      ]
+    },
+    {
+      "id": "checkweigher",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.checkweigher.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 146772,
+      "nodes": 88,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        79
+      ],
+      "captures": [
+        "checkweigher/simple-iso.png",
+        "checkweigher/simple-front.png",
+        "checkweigher/simple-back.png",
+        "checkweigher/simple-left.png",
+        "checkweigher/simple-right.png",
+        "checkweigher/simple-top.png",
+        "checkweigher/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "checkweigher",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.checkweigher",
+        "version": "1.0.0"
+      },
+      "bytes": 980388,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        112
+      ],
+      "captures": [
+        "checkweigher/detailed-iso.png",
+        "checkweigher/detailed-front.png",
+        "checkweigher/detailed-back.png",
+        "checkweigher/detailed-left.png",
+        "checkweigher/detailed-right.png",
+        "checkweigher/detailed-top.png",
+        "checkweigher/detailed-bottom.png",
+        "checkweigher/action-0.png",
+        "checkweigher/action-50.png",
+        "checkweigher/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}
