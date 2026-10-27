@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "checks": [
+    {
+      "id": "digital-flatbed-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.digital-flatbed-cutter.simple",
+        "version": "1.1.0"
+      },
+      "corners": [
+        {
+          "i": 0,
+          "barrel_top_m": 0.9899999986588955,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": false
+        },
+        {
+          "i": 1,
+          "barrel_top_m": 0.9899999986588955,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": false
+        },
+        {
+          "i": 2,
+          "barrel_top_m": 0.9899999986588955,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": false
+        },
+        {
+          "i": 3,
+          "barrel_top_m": 0.9899999986588955,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "digital-flatbed-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.digital-flatbed-cutter",
+        "version": "1.1.0"
+      },
+      "corners": [
+        {
+          "i": 0,
+          "barrel_top_m": 0.9899999986588955,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": false
+        },
+        {
+          "i": 1,
+          "barrel_top_m": 0.9899999986588955,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": false
+        },
+        {
+          "i": 2,
+          "barrel_top_m": 0.9899999986588955,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": false
+        },
+        {
+          "i": 3,
+          "barrel_top_m": 0.9899999986588955,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": false
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

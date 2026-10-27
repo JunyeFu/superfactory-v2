@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "not_Native_acceptance": true,
+  "checks": [
+    {
+      "id": "six-axis-robot",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.4300000133290327
+    },
+    {
+      "id": "scara-robot",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.4300000333600589
+    },
+    {
+      "id": "gantry-pick-place",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.429999978095293
+    },
+    {
+      "id": "vacuum-palletizer",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.429999978095293
+    }
+  ]
+}

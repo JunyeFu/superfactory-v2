@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 8,
+  "checks": [
+    {
+      "id": "digital-label-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.digital-label-printer.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "digital-label-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.digital-label-printer",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "label-die-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-die-cutter.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "label-die-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-die-cutter",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "label-peeler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-peeler.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "label-peeler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-peeler",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "label-web-inspector",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-web-inspector.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "label-web-inspector",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-web-inspector",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "scope": "actual GLB mechanisms, finished packages, six separate products and occupied output separation; not Native",
+  "checks": [
+    {
+      "id": "strapper",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.72
+        },
+        {
+          "stage": "output_wait",
+          "phase": "load",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 1.1099999992419034
+    },
+    {
+      "id": "shrink-wrapper",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.72
+        },
+        {
+          "stage": "output_wait",
+          "phase": "load",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 1.1099999992419034
+    },
+    {
+      "id": "case-packer",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.72
+        },
+        {
+          "stage": "output_wait",
+          "phase": "unload",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 0.34849999924190345
+    }
+  ]
+}

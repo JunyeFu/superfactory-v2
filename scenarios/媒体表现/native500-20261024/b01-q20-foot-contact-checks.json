@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 6,
+  "checks": [
+    {
+      "id": "carton-counter-stacker",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.carton-counter-stacker.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "carton-counter-stacker",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.carton-counter-stacker",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "pallet-stretch-wrapper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.pallet-stretch-wrapper.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "pallet-stretch-wrapper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.pallet-stretch-wrapper",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "manual-packing",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.manual-packing.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "manual-packing",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.manual-packing",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    }
+  ]
+}

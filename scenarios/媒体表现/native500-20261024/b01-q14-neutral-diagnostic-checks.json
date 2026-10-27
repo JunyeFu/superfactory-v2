@@ -1,0 +1,75 @@
+{
+  "overall_device_acceptance": false,
+  "actual_product_decoder": true,
+  "actual_GLB_neutral_linkage_passed": true,
+  "max_neutral_gap_m": 0.0000015474094565278974,
+  "actual_mesh_paper_volume_m3": 0.00005940000187959517,
+  "finite_layers_passed": false,
+  "samples": [
+    {
+      "u": 0,
+      "missing_face_allowance_m": 0.000600000000000012
+    },
+    {
+      "u": 0.03125,
+      "missing_face_allowance_m": 0.0006000000426462588
+    },
+    {
+      "u": 0.1,
+      "missing_face_allowance_m": 0.0006000000946934285
+    },
+    {
+      "u": 0.2,
+      "missing_face_allowance_m": 0.000600000117570846
+    },
+    {
+      "u": 0.3,
+      "missing_face_allowance_m": 0.0006000012676566616
+    },
+    {
+      "u": 0.4,
+      "missing_face_allowance_m": 0.0006000001066081383
+    },
+    {
+      "u": 0.5,
+      "missing_face_allowance_m": 0.0006000006150162795
+    },
+    {
+      "u": 0.6,
+      "missing_face_allowance_m": 0.00060000267485598
+    },
+    {
+      "u": 0.7,
+      "missing_face_allowance_m": 0.0006000035437387742
+    },
+    {
+      "u": 0.8,
+      "missing_face_allowance_m": 0.0006000003765643596
+    },
+    {
+      "u": 0.9,
+      "missing_face_allowance_m": 0.0006000009950106449
+    },
+    {
+      "u": 0.95,
+      "missing_face_allowance_m": 0.0006000009491849438
+    },
+    {
+      "u": 0.98,
+      "missing_face_allowance_m": 0.0006000058015578507
+    },
+    {
+      "u": 0.99,
+      "missing_face_allowance_m": 0.0006000031042880793
+    },
+    {
+      "u": 0.999,
+      "missing_face_allowance_m": 0.0006000000575711633
+    },
+    {
+      "u": 1,
+      "missing_face_allowance_m": 0.000600002194622654
+    }
+  ],
+  "Native": false
+}

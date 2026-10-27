@@ -1,0 +1,245 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "offset-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.offset-printer.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InkSupplyTableLeg-0.126_-0.126",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg-0.126_0.126",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg0.126_-0.126",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg0.126_0.126",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "offset-printer/simple-foot-contact.png"
+    },
+    {
+      "id": "offset-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.offset-printer",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InkSupplyTableLeg-0.126_-0.126",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg-0.126_0.126",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg0.126_-0.126",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg0.126_0.126",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "offset-printer/detailed-foot-contact.png"
+    }
+  ]
+}

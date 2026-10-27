@@ -1,0 +1,360 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B02",
+  "device_count": 5,
+  "lod_models": 10,
+  "checks": [
+    {
+      "id": "hot-foil-stamper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.hot-foil-stamper.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 808012,
+      "nodes": 200,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        104,
+        116,
+        120,
+        124,
+        128,
+        148
+      ],
+      "captures": [
+        "hot-foil-stamper/simple-iso.png",
+        "hot-foil-stamper/simple-front.png",
+        "hot-foil-stamper/simple-back.png",
+        "hot-foil-stamper/simple-left.png",
+        "hot-foil-stamper/simple-right.png",
+        "hot-foil-stamper/simple-top.png",
+        "hot-foil-stamper/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "hot-foil-stamper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.hot-foil-stamper",
+        "version": "1.1.0"
+      },
+      "bytes": 3940604,
+      "nodes": 223,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        127,
+        139,
+        143,
+        147,
+        151,
+        171
+      ],
+      "captures": [
+        "hot-foil-stamper/detailed-iso.png",
+        "hot-foil-stamper/detailed-front.png",
+        "hot-foil-stamper/detailed-back.png",
+        "hot-foil-stamper/detailed-left.png",
+        "hot-foil-stamper/detailed-right.png",
+        "hot-foil-stamper/detailed-top.png",
+        "hot-foil-stamper/detailed-bottom.png",
+        "hot-foil-stamper/action-0.png",
+        "hot-foil-stamper/action-50.png",
+        "hot-foil-stamper/action-100.png"
+      ]
+    },
+    {
+      "id": "blind-embosser",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.blind-embosser.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 603968,
+      "nodes": 136,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        93,
+        103,
+        107,
+        111,
+        115,
+        131
+      ],
+      "captures": [
+        "blind-embosser/simple-iso.png",
+        "blind-embosser/simple-front.png",
+        "blind-embosser/simple-back.png",
+        "blind-embosser/simple-left.png",
+        "blind-embosser/simple-right.png",
+        "blind-embosser/simple-top.png",
+        "blind-embosser/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "blind-embosser",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.blind-embosser",
+        "version": "1.1.0"
+      },
+      "bytes": 2433168,
+      "nodes": 159,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        116,
+        126,
+        130,
+        134,
+        138,
+        154
+      ],
+      "captures": [
+        "blind-embosser/detailed-iso.png",
+        "blind-embosser/detailed-front.png",
+        "blind-embosser/detailed-back.png",
+        "blind-embosser/detailed-left.png",
+        "blind-embosser/detailed-right.png",
+        "blind-embosser/detailed-top.png",
+        "blind-embosser/detailed-bottom.png",
+        "blind-embosser/action-0.png",
+        "blind-embosser/action-50.png",
+        "blind-embosser/action-100.png"
+      ]
+    },
+    {
+      "id": "spot-uv-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spot-uv-printer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 531996,
+      "nodes": 200,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        117,
+        161
+      ],
+      "captures": [
+        "spot-uv-printer/simple-iso.png",
+        "spot-uv-printer/simple-front.png",
+        "spot-uv-printer/simple-back.png",
+        "spot-uv-printer/simple-left.png",
+        "spot-uv-printer/simple-right.png",
+        "spot-uv-printer/simple-top.png",
+        "spot-uv-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spot-uv-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spot-uv-printer",
+        "version": "1.1.0"
+      },
+      "bytes": 4189112,
+      "nodes": 223,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        140,
+        184
+      ],
+      "captures": [
+        "spot-uv-printer/detailed-iso.png",
+        "spot-uv-printer/detailed-front.png",
+        "spot-uv-printer/detailed-back.png",
+        "spot-uv-printer/detailed-left.png",
+        "spot-uv-printer/detailed-right.png",
+        "spot-uv-printer/detailed-top.png",
+        "spot-uv-printer/detailed-bottom.png",
+        "spot-uv-printer/action-0.png",
+        "spot-uv-printer/action-50.png",
+        "spot-uv-printer/action-100.png"
+      ]
+    },
+    {
+      "id": "screen-print-press",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.screen-print-press.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 447568,
+      "nodes": 178,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        117,
+        161
+      ],
+      "captures": [
+        "screen-print-press/simple-iso.png",
+        "screen-print-press/simple-front.png",
+        "screen-print-press/simple-back.png",
+        "screen-print-press/simple-left.png",
+        "screen-print-press/simple-right.png",
+        "screen-print-press/simple-top.png",
+        "screen-print-press/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "screen-print-press",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.screen-print-press",
+        "version": "1.1.0"
+      },
+      "bytes": 3640936,
+      "nodes": 201,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        140,
+        184
+      ],
+      "captures": [
+        "screen-print-press/detailed-iso.png",
+        "screen-print-press/detailed-front.png",
+        "screen-print-press/detailed-back.png",
+        "screen-print-press/detailed-left.png",
+        "screen-print-press/detailed-right.png",
+        "screen-print-press/detailed-top.png",
+        "screen-print-press/detailed-bottom.png",
+        "screen-print-press/action-0.png",
+        "screen-print-press/action-50.png",
+        "screen-print-press/action-100.png"
+      ]
+    },
+    {
+      "id": "pad-print-press",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pad-print-press.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 461384,
+      "nodes": 166,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        124,
+        147
+      ],
+      "captures": [
+        "pad-print-press/simple-iso.png",
+        "pad-print-press/simple-front.png",
+        "pad-print-press/simple-back.png",
+        "pad-print-press/simple-left.png",
+        "pad-print-press/simple-right.png",
+        "pad-print-press/simple-top.png",
+        "pad-print-press/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pad-print-press",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pad-print-press",
+        "version": "1.1.0"
+      },
+      "bytes": 3221800,
+      "nodes": 189,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        147,
+        170
+      ],
+      "captures": [
+        "pad-print-press/detailed-iso.png",
+        "pad-print-press/detailed-front.png",
+        "pad-print-press/detailed-back.png",
+        "pad-print-press/detailed-left.png",
+        "pad-print-press/detailed-right.png",
+        "pad-print-press/detailed-top.png",
+        "pad-print-press/detailed-bottom.png",
+        "pad-print-press/action-0.png",
+        "pad-print-press/action-50.png",
+        "pad-print-press/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

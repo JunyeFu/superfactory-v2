@@ -1,0 +1,86 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "sheet-slitter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-slitter.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 611188,
+      "nodes": 200,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        105,
+        115,
+        131,
+        140,
+        158,
+        170
+      ],
+      "captures": [
+        "sheet-slitter/simple-iso.png",
+        "sheet-slitter/simple-front.png",
+        "sheet-slitter/simple-back.png",
+        "sheet-slitter/simple-left.png",
+        "sheet-slitter/simple-right.png",
+        "sheet-slitter/simple-top.png",
+        "sheet-slitter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sheet-slitter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-slitter",
+        "version": "1.1.0"
+      },
+      "bytes": 3881424,
+      "nodes": 227,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        112,
+        128,
+        138,
+        154,
+        163,
+        183,
+        197
+      ],
+      "captures": [
+        "sheet-slitter/detailed-iso.png",
+        "sheet-slitter/detailed-front.png",
+        "sheet-slitter/detailed-back.png",
+        "sheet-slitter/detailed-left.png",
+        "sheet-slitter/detailed-right.png",
+        "sheet-slitter/detailed-top.png",
+        "sheet-slitter/detailed-bottom.png",
+        "sheet-slitter/action-0.png",
+        "sheet-slitter/action-50.png",
+        "sheet-slitter/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

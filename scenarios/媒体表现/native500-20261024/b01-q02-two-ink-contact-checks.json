@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "flexo-printer",
+      "lod": "simple",
+      "samples": [
+        {
+          "u": 0,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.1,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.25,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.275,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.3,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.325,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.4,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.5,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.6,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.675,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.7,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.725,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.8,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 1,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.5,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        }
+      ]
+    },
+    {
+      "id": "flexo-printer",
+      "lod": "detailed",
+      "samples": [
+        {
+          "u": 0,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.1,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.25,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.275,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.3,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.325,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.4,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.5,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.6,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.675,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.7,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.725,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.8,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 1,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0.5,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        },
+        {
+          "u": 0,
+          "actual_sheet_and_two_separate_ink_volumes": true
+        }
+      ]
+    }
+  ]
+}

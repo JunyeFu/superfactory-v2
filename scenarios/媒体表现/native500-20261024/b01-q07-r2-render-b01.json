@@ -1,0 +1,92 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "platen-die-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.platen-die-cutter.simple",
+        "version": "1.1.2"
+      },
+      "bytes": 577396,
+      "nodes": 231,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        168,
+        179,
+        190,
+        201,
+        102,
+        116,
+        117,
+        121,
+        125,
+        129
+      ],
+      "captures": [
+        "platen-die-cutter/simple-iso.png",
+        "platen-die-cutter/simple-front.png",
+        "platen-die-cutter/simple-back.png",
+        "platen-die-cutter/simple-left.png",
+        "platen-die-cutter/simple-right.png",
+        "platen-die-cutter/simple-top.png",
+        "platen-die-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "platen-die-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.platen-die-cutter",
+        "version": "1.1.2"
+      },
+      "bytes": 4210584,
+      "nodes": 254,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        191,
+        202,
+        213,
+        224,
+        125,
+        139,
+        140,
+        144,
+        148,
+        152
+      ],
+      "captures": [
+        "platen-die-cutter/detailed-iso.png",
+        "platen-die-cutter/detailed-front.png",
+        "platen-die-cutter/detailed-back.png",
+        "platen-die-cutter/detailed-left.png",
+        "platen-die-cutter/detailed-right.png",
+        "platen-die-cutter/detailed-top.png",
+        "platen-die-cutter/detailed-bottom.png",
+        "platen-die-cutter/action-0.png",
+        "platen-die-cutter/action-50.png",
+        "platen-die-cutter/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

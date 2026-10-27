@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "evidence_origin": "actual_exported_GLB_component",
+  "checks": [
+    {
+      "id": "rigid-box-wrapper",
+      "inner_wall_turn_in": [
+        {
+          "name": "LongInnerFacing_-1",
+          "vertical_drop_m": 0.01999999751773611
+        },
+        {
+          "name": "LongInnerFacing_1",
+          "vertical_drop_m": 0.01999999751773611
+        },
+        {
+          "name": "EndInnerFacing_-1",
+          "vertical_drop_m": 0.01999999751773611
+        },
+        {
+          "name": "EndInnerFacing_1",
+          "vertical_drop_m": 0.01999999751773611
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "window-patcher",
+      "ram_above_film_m": 0.0799999914646149,
+      "passed": true
+    },
+    {
+      "id": "carton-stitcher",
+      "three_crowns_inside_lap": true,
+      "passed": true
+    }
+  ]
+}

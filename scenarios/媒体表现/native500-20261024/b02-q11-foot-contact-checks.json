@@ -1,0 +1,319 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 12,
+  "checks": [
+    {
+      "id": "bag-handle-attacher",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bag-handle-attacher.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "bag-handle-attacher",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bag-handle-attacher",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "rope-handle-twister",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rope-handle-twister.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "rope-handle-twister",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rope-handle-twister",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "partition-slotter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.partition-slotter.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "partition-slotter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.partition-slotter",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "divider-assembler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.divider-assembler.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "divider-assembler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.divider-assembler",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "paper-waste-baler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-waste-baler.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "paper-waste-baler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-waste-baler",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "board-pile-palletizer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.board-pile-palletizer.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "board-pile-palletizer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.board-pile-palletizer",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    }
+  ]
+}

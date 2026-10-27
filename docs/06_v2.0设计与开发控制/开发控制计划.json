@@ -1,0 +1,3842 @@
+{
+  "document_kind": "superfactory_v2_authorized_implementation_control",
+  "date": "2026-10-27",
+  "current_product_track": "v2_implementation",
+  "version_labels": {
+    "user_current": "v2.0",
+    "technical_manifest_current": "2.0.0",
+    "user_next": "v2.0",
+    "v2_manifest_version": "2.0.0",
+    "last_verified_baseline_manifest": "0.1.0"
+  },
+  "v2_phase": "implementation_in_progress",
+  "v2_implementation_allowed": true,
+  "v2_execution_started": true,
+  "v1_acceptance_complete": true,
+  "scope_authority": "用户2026-10-26明确要求v1完整存档后，由v2.0实现窗口1统筹切分并派发空闲窗口并行v2开发。此前仅设计指令被本次实施授权替代。",
+  "workflow_ref": "docs/04_开发与验收/项目搭建与执行工作流.md",
+  "requirement_ref": "docs/01_业务需求/任务8_应用形态功能需求与实现缺口.md",
+  "human_readable_ref": "docs/06_v2.0设计与开发控制/开发控制设计.md",
+  "gates": [
+    {
+      "id": "G-V1",
+      "state": "satisfied_normal_use_and_archive",
+      "condition": "用户最新正常使用验收6/6完成且完整存档可恢复，不恢复原压力门槛。",
+      "refs": [
+        "docs/04_开发与验收/正常使用收尾.json",
+        "D:\\Agent\\ICNSD-KEL\\大作业\\02_竞赛作品\\超级工厂\\版本存档\\v1.0_20261026_完整存档\\ARCHIVE.json"
+      ]
+    },
+    {
+      "id": "G-DESIGN",
+      "state": "revalidate_per_actual_implementation_slice",
+      "condition": "由统筹基于冻结v1源码核对当前切片必要接口、真实消费者和互不重叠写范围；先公共契约后独立并行，不要求所有未来切片一次性完美或全160设计案例先运行。",
+      "refs": [
+        "docs/04_开发与验收/编码任务包与AI实现审查.md"
+      ]
+    },
+    {
+      "id": "G-START",
+      "state": "open_by_explicit_user_authorization",
+      "condition": "用户已明确授权v2.0实现窗口1统筹切分及窗口并行开发；存档已完成，允许开始，不再按历史design_only总禁令停止。",
+      "refs": []
+    }
+  ],
+  "allowed_now": [
+    "v2产品源码、接口/数据库/网关/设备/Host/界面消费者及必要依赖实现",
+    "按明确依赖和私有写范围向空闲窗口派发完整独立任务",
+    "必要局部检查及典型真实服务/设备/Native端到端验证，按正常可用标准收尾"
+  ],
+  "not_allowed_as_v2_now": [
+    "改写v1冻结存档",
+    "未经授权的付费购买或对外发布",
+    "打断忙碌窗口、让并行包争写同一公共源码/锁/桌面",
+    "把设计样例、程序存在或mock链当实际功能通过",
+    "恢复已取消的v1海量压力和严格帧矩阵"
+  ],
+  "architecture_decision": {
+    "id": "V2-A01",
+    "state": "selected_implementation_in_progress",
+    "authoritative_engine": "existing Windows Native Host / single Engine per execution session",
+    "cloud_responsibility": "device telemetry, DaaS queries and aggregates, command/receipt persistence and relay; no second stock/resource/acceptance owner",
+    "gateway": "Native内受管actor＋固定HTTPS出站；私有Gateway上下文，不新增独立网关进程或公网本机管道",
+    "reason": "保留v1已经建立的Host权限/归档和唯一Engine；不以task8要求为由预先迁移Tauri/Windows Host至Linux云端",
+    "future_cloud_engine_migration": "outside current v2 demo slice"
+  },
+  "v1_observation": {
+    "at": "2026-10-26T23:10:35.777948+08:00",
+    "normal_use_acceptance_complete": true,
+    "acceptance_ref": "docs/04_开发与验收/正常使用收尾.json",
+    "actual_recheck_ref": "output/playwright/20261026-v1-usable-closeout/goal-recheck.json",
+    "archive_status": "complete",
+    "archive_manifest": "D:\\Agent\\ICNSD-KEL\\大作业\\02_竞赛作品\\超级工厂\\版本存档\\v1.0_20261026_完整存档\\ARCHIVE.json",
+    "candidate": "C57",
+    "historical_pressure_gate_is_current_prerequisite": false,
+    "old_source_lease_records_not_current_authority": true
+  },
+  "design_decisions_pending": [
+    {
+      "id": "DEC-01",
+      "subject": "PaaS实例、数据存储产品、依赖版本及实际预算",
+      "closure": "Sealos北京A区实际PG16.4、运行连接加密、镜像digest、迁移和可信HTTPS10项通过；预算15内继续真实生产/导出/遥测联验及资源收尾。",
+      "state": "actual_hosted_PG16_4_TLS_digest_migration_HTTPS_verified",
+      "design_snapshot": {
+        "closure": "用户选择国产替代并回复准备好了；已验证Sealos北京A区既有私有凭据、工作空间连接和7项创建权限。当前目标改为Sealos＋托管PostgreSQL，原Render规格保留作历史参考；真实PG版本/TLS、镜像发布及费用仍待部署前落实。",
+        "state": "sealos_access_and_local_linux_PG_TLS_image_verified_actual_platform_and_paid_deployment_pending"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages",
+      "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json"
+    },
+    {
+      "id": "DEC-02",
+      "subject": "已绑定Job到可替代设备集合的端口/资源/物料路由映射",
+      "closure": "geometry-v4实际r4工程/候选绑定和精确对象已形成并保存重开，3旧Run保留；真实HTTPS停用A比较待验。",
+      "state": "actual_geometry_v4_r4_fixture_saved_reopened_bound",
+      "design_snapshot": {
+        "closure": "V2-A02/A05已给出逻辑工单、候选绑定、命令冻结和改派资格；仍需v1最终工程的精确ID映射",
+        "state": "candidate_binding_rule_selected_pending_v1_final_fixture"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "DEC-03",
+      "subject": "外部阶段等待与合法完成回执的内核入口",
+      "closure": "外部阶段等待/完成的Engine、Host和Native actor已实际集成；合法云回执驱动的托管整链尚待完成。",
+      "state": "Engine_Host_Native_integrated_actual_cloud_completion_pending",
+      "design_snapshot": {
+        "closure": "V2-A03/04/06/07与接口/事务草案已明确准入、时钟/截止、独立结果投影及消息提交边界；仍待v1最终接点核对和实现试证",
+        "state": "rules_and_interface_draft_detailed_v1_rebase_and_runtime_pending"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "DEC-04",
+      "subject": "新增Host操作与schema/TS生成方式",
+      "closure": "领域337例与Host wire743例/31schema、实际TS及11项操作消费者已核对；Native canonical应答回归已修复并实测。",
+      "state": "Rust_schema_TS_and_11_Host_consumers_verified_scoped",
+      "design_snapshot": {
+        "closure": "draft11含154定义、26正反结构例；3份schema元检查/显式date-time及26预期已一致；实际Rust生成/往返/typed consumers仍未验",
+        "state": "actual_Rust_schema_TS_generated_read_control_preparation_consumed_H10_H11_in_progress"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "DEC-05",
+      "subject": "最终课题设备口径",
+      "closure": "软件在环与物理真机结果分别声明；当前实际Native消费者不伪填物理真机验收，不追加已取消人工前置。",
+      "design_snapshot": {
+        "closure": "软件在环与真机结果分别声明；题目未明确虚拟设备最终口径，不伪填真机验收"
+      },
+      "state": "software_in_loop_qualification_retained",
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "DEC-06",
+      "subject": "执行源冻结输入及三维/时间轴观察的独立契约",
+      "closure": "H01冻结/H09观察/素材、实际工程存档/新OS重开/只读恢复和MCP已验；原执行r4与草稿r5分离。托管云来源整链仍待完成。",
+      "state": "actual_Native_archive_restore_and_readonly_origin_verified",
+      "design_snapshot": {
+        "closure": "V2-A08/09已给出冻结文档与素材归档、H09/C16/C17、固定R/F/T观察及三维/时间轴消费者设计；待v1最终接点和实际类型/归档/Native验证",
+        "state": "actual_H01_freeze_H09_observation_media_components_Workbench_integrated_project_archive_and_Native_pending"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "DEC-07",
+      "subject": "Agent与同源执行报告的实际消费",
+      "closure": "MCP26/Python14及真实Native MCP15通过，H10四格式/实际文件已验；真实云H11全量消费者待验。",
+      "state": "actual_MCP_Host_Native_H10_verified_H11_cloud_pending",
+      "design_snapshot": {
+        "closure": "有限操作/角色/提示、原请求Task查询、H10及16组CSV字段已设计；实际MCP/Host/四格式输出未执行",
+        "state": "report_producer_actual_16_checks_H10_Host_batch_in_progress_Agent_flow_pending"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "DEC-08",
+      "subject": "首次run与重连的遥测资格",
+      "closure": "设备/受管actor/Host及关闭排空生命周期已有实际检查；真实托管probe、十路1800秒遥测及100帧时延尚待完成。",
+      "state": "device_actor_lifecycle_verified_hosted_probe_and_telemetry_pending",
+      "design_snapshot": {
+        "closure": "V2-A10采用原Host一次性probe、实际收到后新采样、原发起时钟年龄上界；复用C06/C03/C04/H07，未新增端点或表；实际设备/网关/时钟消费者仍未运行",
+        "state": "one_shot_probe_original_clock_deadline_detailed_runtime_pending"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "DEC-09",
+      "subject": "T8-A07本地预测Run与云执行报告的真实来源及比较",
+      "closure": "真实保存预测Run与冻结r4来源、Host/Native四格式和17CSV已验；真实云正常/停用运行的来源与指标比较待验。",
+      "state": "actual_r4_prediction_and_Native_H10_verified_cloud_comparison_pending",
+      "design_snapshot": {
+        "closure": "V2-A14/draft11含真实终态Run、按对象联合等待、逐指标可比条件、H10/回执及同一canonical17表；实际源/类型/输出待验",
+        "state": "actual_saved_prediction_and_report_producer_H10_and_HTTPS_comparison_pending"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "DEC-10",
+      "subject": "当前筛选全部结果导出",
+      "closure": "百万行5000页流式及独立读回、本地PG Host400行两页和真实Native目录权限已验；实际托管Native/Agent H11全部结果待验。",
+      "state": "million_streaming_and_local_Host_verified_hosted_Native_H11_pending",
+      "design_snapshot": {
+        "closure": "V2-A15/draft10含H11、固定F/设备集合或精确R、CSV/JSONL流式与目录提交；旧报告内存导出不代替此能力；实际实现及验证待准入",
+        "state": "actual_streaming_producer_37_checks_and_1M_export_H11_Host_batch_in_progress"
+      },
+      "current_work_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    }
+  ],
+  "locations": [
+    {
+      "id": "L01",
+      "path": "Cargo.toml",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 3,
+          "symbol": "workspace.members"
+        },
+        {
+          "line": 6,
+          "symbol": "workspace.package.version"
+        }
+      ],
+      "change": "v2启动后注册新云服务crate；版本号仅在v2交付阶段统一处理，当前不改"
+    },
+    {
+      "id": "L02",
+      "path": "package.json",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 3,
+          "symbol": "version"
+        },
+        {
+          "line": 5,
+          "symbol": "workspaces"
+        }
+      ],
+      "change": "仅在实际需要新增前端workspace或发布v2时修改，不为设计阶段预先升版"
+    },
+    {
+      "id": "L03",
+      "path": "packages/domain/src/ids.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 41,
+          "symbol": "string_id!(TaskId)"
+        }
+      ],
+      "change": "拟新增ExecutionSessionId/ExecutionEpochId/DispatchCommandId/CloudProjectId/CloudDatasetId/DeviceBootId/ObservationProbeId七个透明身份类型，沿用原string_id规则；TaskId只给异步任务，本轮不改"
+    },
+    {
+      "id": "L04",
+      "path": "packages/domain/src/models.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 536,
+          "symbol": "LongTaskKind"
+        },
+        {
+          "line": 951,
+          "symbol": "DeviceInstance"
+        },
+        {
+          "line": 1152,
+          "symbol": "ProjectState"
+        },
+        {
+          "line": 2028,
+          "symbol": "JobState"
+        },
+        {
+          "line": 2161,
+          "symbol": "RunResult"
+        },
+        {
+          "line": 2858,
+          "symbol": "SimulationEventPayload"
+        },
+        {
+          "line": 2884,
+          "symbol": "ContractTypeBundle"
+        },
+        {
+          "line": 745,
+          "symbol": "Issue pure domain DTO"
+        },
+        {
+          "line": 2150,
+          "symbol": "RunInputRef pure domain DTO"
+        },
+        {
+          "line": 536,
+          "symbol": "LongTaskKind"
+        },
+        {
+          "line": 2199,
+          "symbol": "TaskHandle"
+        },
+        {
+          "line": 2884,
+          "symbol": "ContractTypeBundle generation anchor"
+        },
+        {
+          "line": 1117,
+          "symbol": "ScenarioInput actual frozen input"
+        },
+        {
+          "line": 3379,
+          "symbol": "ReportRunInputRef path-free report identity"
+        },
+        {
+          "line": 512,
+          "symbol": "WaitReasonKind model wait categories"
+        },
+        {
+          "line": 2081,
+          "symbol": "WaitInterval actual model intervals"
+        }
+      ],
+      "change": "准备Task种类、独立ExecutionSnapshot及实际生成根；复用真实业务事实，不伪造或嵌套旧RunResult，不给历史格式强塞必填字段"
+    },
+    {
+      "id": "L05",
+      "path": "packages/domain/src/lib.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 5,
+          "symbol": "business_inputs module"
+        },
+        {
+          "line": 20,
+          "symbol": "pub use models::*"
+        }
+      ],
+      "change": "实施后注册cloud_execution及七个身份类型的纯数据导出；Host封套/实际权限不进入domain；当前不改"
+    },
+    {
+      "id": "L06",
+      "path": "packages/commands/src/api.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 32,
+          "symbol": "OperationName"
+        },
+        {
+          "line": 557,
+          "symbol": "TaskOutput"
+        },
+        {
+          "line": 605,
+          "symbol": "RunScenarioParams"
+        },
+        {
+          "line": 673,
+          "symbol": "ApiRequest"
+        },
+        {
+          "line": 762,
+          "symbol": "HostCallContext"
+        },
+        {
+          "line": 896,
+          "symbol": "ApiContractBundle"
+        },
+        {
+          "line": 485,
+          "symbol": "FilePurpose"
+        },
+        {
+          "line": 539,
+          "symbol": "EvaluationFormat"
+        },
+        {
+          "line": 566,
+          "symbol": "TaskState"
+        }
+      ],
+      "change": "新11操作/结果及统一TaskState扩展；新操作严格wire视图保留required-nullable/kind约束，再转换原TaskHandle；TaskState单个struct等价展开以添加可选原请求ID，旧任务省略保持；当前不改；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+    },
+    {
+      "id": "L07",
+      "path": "packages/commands/src/project_host.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 310,
+          "symbol": "ProjectIoWork execution calls execute_engine"
+        },
+        {
+          "line": 369,
+          "symbol": "ProjectHost"
+        },
+        {
+          "line": 1514,
+          "symbol": "run_scenario"
+        },
+        {
+          "line": 2177,
+          "symbol": "dispatch"
+        },
+        {
+          "line": 4752,
+          "symbol": "run_additions"
+        },
+        {
+          "line": 409,
+          "symbol": "DesktopCloseState"
+        },
+        {
+          "line": 424,
+          "symbol": "desktop_close_state"
+        },
+        {
+          "line": 439,
+          "symbol": "finish_desktop_close"
+        },
+        {
+          "line": 3862,
+          "symbol": "check_departure"
+        },
+        {
+          "line": 1001,
+          "symbol": "TaskHandle allocation"
+        },
+        {
+          "line": 1019,
+          "symbol": "task insertion"
+        },
+        {
+          "line": 2452,
+          "symbol": "capabilities by actual caller"
+        },
+        {
+          "line": 2918,
+          "symbol": "owned ProjectContext tasks"
+        }
+      ],
+      "change": "Host持有外部执行会话和只读worker；生命周期、关闭/离开检查覆盖准备Task已结束后的生产及持久化义务，不把普通仿真改成远程模式；新任务登记原request_id，H09只读原请求/真实本机目录；H10导出不改变生产；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+    },
+    {
+      "id": "L08",
+      "path": "packages/commands/src/host_authority.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 3,
+          "symbol": "impl ProjectHost"
+        }
+      ],
+      "change": "为新增会话、设备范围及回执入口消费现有Host权限，云端身份不直接当本机caller；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+    },
+    {
+      "id": "L09",
+      "path": "packages/simulation/src/engine.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 116,
+          "symbol": "Engine"
+        },
+        {
+          "line": 446,
+          "symbol": "step"
+        },
+        {
+          "line": 498,
+          "symbol": "boundary"
+        },
+        {
+          "line": 933,
+          "symbol": "dispatch_one"
+        },
+        {
+          "line": 1102,
+          "symbol": "start_phase"
+        },
+        {
+          "line": 1565,
+          "symbol": "finish"
+        },
+        {
+          "line": 2010,
+          "symbol": "snapshot"
+        },
+        {
+          "line": 2158,
+          "symbol": "execute_engine"
+        }
+      ],
+      "change": "明确外部阶段等待与有效回执入口；保持原虚拟事件执行路径；不能直接从HTTP调用私有finish；外部必要对象状态记录由唯一Engine/Host实际提交，不能用末态猜历史"
+    },
+    {
+      "id": "L10",
+      "path": "packages/simulation/src/compile.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 96,
+          "symbol": "Job"
+        },
+        {
+          "line": 418,
+          "symbol": "compile"
+        }
+      ],
+      "change": "解析演示工序的可替代设备集合及端口/资源绑定；Job现有execution与物料位置已绑定，不能只换设备名"
+    },
+    {
+      "id": "L11",
+      "path": "packages/simulation/src/stock.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 35,
+          "symbol": "plan_initial"
+        }
+      ],
+      "change": "复用物料初始化及归属；只有受影响的外部执行事务确需调整时修改，不另建云库存"
+    },
+    {
+      "id": "L12",
+      "path": "packages/simulation/src/lib.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 1,
+          "symbol": "single production Engine module and exports"
+        },
+        {
+          "line": 23,
+          "symbol": "EngineInput"
+        }
+      ],
+      "change": "保留内部EngineInput；冻结其实际文档/解析定义到独立只读执行契约，不把内部Rust交接直接冒充公共API"
+    },
+    {
+      "id": "L13",
+      "path": "apps/planner/src/services/projectHost.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 51,
+          "symbol": "dispatch"
+        },
+        {
+          "line": 266,
+          "symbol": "runScenario"
+        },
+        {
+          "line": 274,
+          "symbol": "getRun"
+        },
+        {
+          "line": 304,
+          "symbol": "readRunInputs / legacy run_snapshot sources"
+        }
+      ],
+      "change": "有类型的新增Host调用及受管只读Task；保留原本地Run入口；执行冻结输入另设计，不能伪装RunResult"
+    },
+    {
+      "id": "L14",
+      "path": "apps/planner/src/features/factory/Workbench.tsx",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 69,
+          "symbol": "Workbench"
+        },
+        {
+          "line": 129,
+          "symbol": "editing"
+        },
+        {
+          "line": 774,
+          "symbol": "hasUnappliedInput"
+        },
+        {
+          "line": 1053,
+          "symbol": "menubar"
+        },
+        {
+          "line": 1092,
+          "symbol": "central workspace switch"
+        },
+        {
+          "line": 160,
+          "symbol": "source draft | run"
+        },
+        {
+          "line": 1009,
+          "symbol": "switchSource"
+        }
+      ],
+      "change": "云面板入口/三个页签、dirty及离开保护；执行三维源需独立输入/观察契约，不能仅改Run标签"
+    },
+    {
+      "id": "L15",
+      "path": "apps/planner/src/services/runObservation.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 11,
+          "symbol": "readRunObservation"
+        }
+      ],
+      "change": "原Run观察保持原义，新增执行来源读取单独消费，不混入第二时钟"
+    },
+    {
+      "id": "L16",
+      "path": "apps/planner/src-tauri/src/project_api.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 33,
+          "symbol": "ProjectApiState"
+        },
+        {
+          "line": 958,
+          "symbol": "project_close_state"
+        },
+        {
+          "line": 966,
+          "symbol": "project_finish_close"
+        },
+        {
+          "line": 976,
+          "symbol": "project_api"
+        },
+        {
+          "line": 87,
+          "symbol": "desktop_close_state bridge"
+        },
+        {
+          "line": 99,
+          "symbol": "finish close bridge"
+        },
+        {
+          "line": 519,
+          "symbol": "dispatch_ui"
+        },
+        {
+          "line": 484,
+          "symbol": "ProjectIoWork managed worker channel"
+        },
+        {
+          "line": 492,
+          "symbol": "work.run outside Host lock"
+        },
+        {
+          "line": 822,
+          "symbol": "directory_dialog_title FilePurpose export cases"
+        }
+      ],
+      "change": "独立Native执行素材读取和受管归档；原会话/关闭保护及实际主窗授权继续适用；注册Native执行后端并持有网关/子进程管理，不在Host锁内网络或等待进程；实际ExportCloudData目录目的与H11派发"
+    },
+    {
+      "id": "L17",
+      "path": "apps/planner/src-tauri/src/agent_pipe.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 17,
+          "symbol": "NamedPipeServer import and managed IPC"
+        }
+      ],
+      "change": "仅核对现有ExternalAgent认证隔离；本切片不改普通Agent管道、不允许借它注入Gateway身份",
+      "implementation_action": "preserve_reference_only"
+    },
+    {
+      "id": "L18",
+      "path": "apps/mcp-bridge/src/catalog.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 43,
+          "symbol": "tool_schema"
+        },
+        {
+          "line": 78,
+          "symbol": "annotations"
+        },
+        {
+          "line": 104,
+          "symbol": "tools"
+        }
+      ],
+      "change": "新操作仍从实际caller可用catalog及生成schema列出；普通Agent排除网关操作，更新准确MCP效果提示，不声明MCP原生tasks；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+    },
+    {
+      "id": "L19",
+      "path": "integrations/agent/workflow.py",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 74,
+          "symbol": "run_factory"
+        },
+        {
+          "line": 27,
+          "symbol": "wait_task"
+        }
+      ],
+      "change": "旧Run建厂/修正/报告流程保持；新有限执行流程独立，不重投未知工作"
+    },
+    {
+      "id": "L20",
+      "path": "packages/reporting/src/evaluation.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 552,
+          "symbol": "build_evaluation"
+        },
+        {
+          "line": 15,
+          "symbol": "exact quantity scale"
+        },
+        {
+          "line": 53,
+          "symbol": "interval union"
+        }
+      ],
+      "change": "从同一Host确认结果读取云执行来源和有限指标，不由命令数伪造接受量"
+    },
+    {
+      "id": "L21",
+      "path": "packages/reporting/src/evaluation_output.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 97,
+          "symbol": "render_evaluation"
+        }
+      ],
+      "change": "四格式同源新增执行身份/来源字段，复用已有排版和输出"
+    },
+    {
+      "id": "L22",
+      "path": "packages/commands/src/project_store.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 714,
+          "symbol": "read_project_archive"
+        },
+        {
+          "line": 1482,
+          "symbol": "write_project_archive"
+        },
+        {
+          "line": 576,
+          "symbol": "parse_document"
+        },
+        {
+          "line": 593,
+          "symbol": "SupportingFile any kind"
+        },
+        {
+          "line": 1628,
+          "symbol": "write_project_archive_with_additions"
+        },
+        {
+          "line": 1529,
+          "symbol": "write_evaluation_directory staging/non-overwrite commit precedent"
+        }
+      ],
+      "change": "执行输入/观察/快照及精确素材按SupportingFile归档；消费原子发布并只读重开，不注册活跃Engine或伪装RunResult；H11新增固定两文件的流式stage/commit接点，旧报告内存API不改为全量缓存"
+    },
+    {
+      "id": "L23",
+      "path": "apps/planner/src-tauri/tauri.conf.json",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 4,
+          "symbol": "version"
+        }
+      ],
+      "change": "v2交付时统一版本与可信随包v2-devices资源映射；当前bundle.active=false，portable需要实际复制及验收，不能把资源表当随包证据；本轮不改"
+    },
+    {
+      "id": "L24",
+      "path": "packages/domain/src/cloud_execution.rs",
+      "state": "created_domain_wire_component_verified",
+      "anchors": [
+        {
+          "symbol": "CloudTimestamp",
+          "line": 34
+        },
+        {
+          "symbol": "ExecutionContractBundle",
+          "line": 371
+        }
+      ],
+      "change": "已实现102纯领域定义、7独立身份及必要生成根；337原设计代表/拒绝样例在Rust与实际生成schema一致，完整TS bundle消费通过。报告/游标/归档仍只持有数据，不依赖commands；未据此宣称Host/Native或实际云生产运行通过。",
+      "related_sources": [
+        "packages/domain/src/cloud_execution_wire.rs",
+        "packages/domain/tests/cloud_execution_contracts.rs",
+        "packages/domain/tests/cloud_wire_parity.rs",
+        "packages/domain/tests/fixtures/cloud_wire_cases.json"
+      ]
+    },
+    {
+      "id": "L25",
+      "path": "packages/commands/src/host_execution.rs",
+      "state": "implemented_and_Host_Native_integrated",
+      "anchors": [],
+      "change": "实际Host会话编排入口；私有云调用及工作器按当前源码分层，真实HTTPS整链待验。",
+      "design_location_snapshot": {
+        "path": "packages/commands/src/host_external_execution.rs",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增会话准入、反馈归属、probe私有注册表/原期限及Host驱动到期资格；先处理到期再新派工，当前不创建；H10共用注册/派发给L60，原请求索引唯一；L60负责实际报告源与工作器"
+      },
+      "planned_path": "packages/commands/src/host_external_execution.rs",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/host-execution-core-receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L26",
+      "path": "packages/simulation/src/external.rs",
+      "state": "implemented_and_Host_integrated",
+      "anchors": [],
+      "change": "Engine外部阶段实现已接入Host；原唯一生产状态所有者保持。",
+      "design_location_snapshot": {
+        "path": "packages/simulation/src/external_execution.rs",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增外部阶段控制的私有实现；内核状态仍由Engine持有；当前不创建"
+      },
+      "planned_path": "packages/simulation/src/external_execution.rs",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/engine/receipt.json",
+        ".work/v2-implementation-20261026/host-execution-core-receipt.json"
+      ]
+    },
+    {
+      "id": "L27",
+      "path": "apps/cloud-service",
+      "state": "actual_hosted_deployment_HTTPS_PG_TLS_migration_verified",
+      "anchors": [],
+      "change": "实际Sealos部署PG16.4/TLS/迁移/HTTPS及镜像digest已验证；剩余两设备/H11/遥测消费者整链取原V2包。",
+      "design_location_snapshot": {
+        "path": "apps/cloud-service",
+        "state": "independent_backend_implementation_in_progress",
+        "anchors": [],
+        "change": "独立云服务Cargo清单已创建，20端点/16表/13事务与真实本地PG/HTTP完整批已派给实现窗口3；验收尚未交回。"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/cloud/receipt.json",
+        ".work/v2-implementation-20261026/sealos-container/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json"
+      ]
+    },
+    {
+      "id": "L28",
+      "path": "integrations/devices",
+      "state": "implemented_runtime_and_lifecycle_scoped_verified",
+      "anchors": [],
+      "change": "两个执行设备/采集模式、journal及随包运行时已实现；实际托管遥测整链待验。",
+      "design_location_snapshot": {
+        "path": "integrations/devices",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增virtual_device.py、journal.py、devices.demo.json（无密钥）；两个执行进程及仅采集模式；新probe收到后采样、outbox按boot/probe唯一；网关落Native，当前不创建"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/devices/receipt.json",
+        ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json"
+      ]
+    },
+    {
+      "id": "L29",
+      "path": "apps/planner/src/features/cloud",
+      "state": "implemented_and_actual_Native_consumer_scoped_verified",
+      "anchors": [],
+      "change": "原工作台三页签和独立执行源已集成并由Native消费，真实云读回待验。",
+      "design_location_snapshot": {
+        "path": "apps/planner/src/features/cloud",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增云端面板和独立ExecutionTimeline/投影；同一工作台dock消费固定R/F/T，当前不创建；执行页消费本机历史目录及固定修订报告按钮/实际文件结果，不新增交付工作区"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L30",
+      "path": "apps/planner/src/services/cloudProduction.ts",
+      "state": "implemented_typed_Host_consumers_verified",
+      "anchors": [],
+      "change": "H08/H09/H10/H11 typed消费者及canonical应答已接通；Renderer不持云凭据。",
+      "design_location_snapshot": {
+        "path": "apps/planner/src/services/cloudProduction.ts",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增H08/H09/H10有类型调用、原请求关联；telemetry按dataset/F和视图generation分页，行型关联原aggregation，保留微秒和未完整状态；实际文件/Task核对，Renderer无云凭据，当前不创建；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L31",
+      "path": "tools/cloud",
+      "state": "implemented_local_acceptance_and_deployment_tools",
+      "anchors": [],
+      "change": "已有真实HTTP/PG验收、规模查询与Sealos构建/渲染工具；脚本完成不代实际部署。",
+      "design_location_snapshot": {
+        "path": "tools/cloud",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增load_events.py、verify_daas.py和package_v2.py；负载生成、原始DB导出独立预期/完整查询计量及portable复制；只列设计，不创建脚本，不带凭据/journal，不参与生产接受量"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/cloud/receipt.json",
+        ".work/v2-implementation-20261026/sealos-container/receipt.json"
+      ]
+    },
+    {
+      "id": "L32",
+      "path": "apps/cloud-service/src",
+      "state": "tests_colocated_with_actual_consumers",
+      "anchors": [],
+      "change": "验收就近位于云服务/src测试模块、packages/*/tests及各既有私有回执；未创建tests/v2中央目录。",
+      "design_location_snapshot": {
+        "path": "tests/v2",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增云API/设备协议/Host-Engine整链及云面板受影响场景；实际模块测试仍就近放apps/cloud-service/tests和packages/*/tests；当前不创建"
+      },
+      "planned_path": "tests/v2",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/cloud/receipt.json",
+        ".work/v2-implementation-20261026/host-wire/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L33",
+      "path": "apps/planner/src/features/timeline/projection.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 149,
+          "symbol": "phase_work_intervals projection"
+        }
+      ],
+      "change": "明确外部未绑定队列、确认占用和设备有效工时来源，不能套原模型工时显示"
+    },
+    {
+      "id": "L34",
+      "path": "packages/reporting/src/evaluation_rows.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 395,
+          "symbol": "phase_work_intervals rows"
+        }
+      ],
+      "change": "新执行结果封套及CSV行的来源/工时口径消费者，不能以命令完成数替代接受量"
+    },
+    {
+      "id": "L35",
+      "path": "packages/reporting/src/comparison.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 90,
+          "symbol": "compare_runs"
+        },
+        {
+          "line": 141,
+          "symbol": "complete predicate"
+        }
+      ],
+      "change": "保留旧完整Run比较校验；新执行比较显式对齐观察区间、目标及输入差异"
+    },
+    {
+      "id": "L36",
+      "path": "packages/commands/src/host_run_history.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 94,
+          "symbol": "actual_values"
+        }
+      ],
+      "change": "核对并保持旧Run计算前沿语义；新执行读取走独立快照/观察前沿，不放宽此函数"
+    },
+    {
+      "id": "L37",
+      "path": "packages/commands/src/bin/export-contracts.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 8,
+          "symbol": "schema<T: JsonSchema>"
+        },
+        {
+          "line": 16,
+          "symbol": "main / ContractTypeBundle and ApiContractBundle exports"
+        }
+      ],
+      "change": "实施后继续唯一Rust exporter；11操作请求/响应及cloud/执行根，精化project scope、Task kind及新任务条件；不以154定义数相同证明wire等价，当前不运行或手改generated；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+    },
+    {
+      "id": "L38",
+      "path": "apps/planner/src/services/windowClose.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 8,
+          "symbol": "WindowCloseState"
+        },
+        {
+          "line": 18,
+          "symbol": "useWindowClose"
+        },
+        {
+          "line": 32,
+          "symbol": "project_close_state read"
+        },
+        {
+          "line": 35,
+          "symbol": "workInProgress check"
+        },
+        {
+          "line": 60,
+          "symbol": "project_finish_close"
+        }
+      ],
+      "change": "设计prepareClose只取消只读观察，再消费Host执行阻塞；不以关闭面板或取消读取停止生产，不让discard绕过未知义务"
+    },
+    {
+      "id": "L39",
+      "path": "apps/planner/src-tauri/src/bin/export-engineering-types.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 3,
+          "symbol": "main"
+        },
+        {
+          "line": 15,
+          "symbol": "DesktopCloseState export"
+        }
+      ],
+      "change": "实施后从实际Native私有素材请求/关闭类型导出TS依赖；导出类型不授予调用/Agent能力；当前不运行生成器"
+    },
+    {
+      "id": "L40",
+      "path": "apps/planner/src/services/factoryPresentation.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 23,
+          "symbol": "FactoryPresentationContext"
+        },
+        {
+          "line": 73,
+          "symbol": "FactoryPresentationSource"
+        },
+        {
+          "line": 85,
+          "symbol": "factoryContextKey"
+        },
+        {
+          "line": 101,
+          "symbol": "factoryItemHolder"
+        },
+        {
+          "line": 121,
+          "symbol": "projectFactoryItemSlots"
+        }
+      ],
+      "change": "拆清Run专有帧与输入；只抽取实际需要的holder/槽位几何，执行源不伪造JobState/RunResult"
+    },
+    {
+      "id": "L41",
+      "path": "apps/planner/src/scene/FactoryScene.tsx",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 29,
+          "symbol": "FactorySceneProps"
+        },
+        {
+          "line": 66,
+          "symbol": "FactoryScene"
+        }
+      ],
+      "change": "新增独立执行来源分支，消费同R/F/T状态及精确冻结素材，原Run行为保留"
+    },
+    {
+      "id": "L42",
+      "path": "apps/planner/src/features/timeline/types.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 26,
+          "symbol": "TimelineSelection"
+        },
+        {
+          "line": 56,
+          "symbol": "Props"
+        },
+        {
+          "line": 83,
+          "symbol": "Primitive"
+        }
+      ],
+      "change": "现有类型保留Run语义；执行选择/投影另具identity/R/F/T，复用必要显示几何"
+    },
+    {
+      "id": "L43",
+      "path": "apps/planner/src/features/timeline/RunTimeline.tsx",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 13,
+          "symbol": "RunTimeline"
+        },
+        {
+          "line": 19,
+          "symbol": "Timeline"
+        },
+        {
+          "line": 40,
+          "symbol": "frontier"
+        },
+        {
+          "line": 54,
+          "symbol": "actual projection"
+        }
+      ],
+      "change": "保留旧RunTimeline；在原dock选择独立ExecutionTimeline，回看不调用生产"
+    },
+    {
+      "id": "L44",
+      "path": "apps/planner/src/services/mediaAssets.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 10,
+          "symbol": "MediaAssetReadRequest"
+        },
+        {
+          "line": 18,
+          "symbol": "readMediaAsset"
+        }
+      ],
+      "change": "旧媒体字节源保持；执行素材请求走独立Native入口与真实授权，不能塞入RunModuleVersion"
+    },
+    {
+      "id": "L45",
+      "path": "packages/commands/src/host_media_assets.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 7,
+          "symbol": "declared_asset"
+        },
+        {
+          "line": 21,
+          "symbol": "read_media_asset"
+        },
+        {
+          "line": 113,
+          "symbol": "RunModuleVersion branch"
+        }
+      ],
+      "change": "新增真实主窗执行资产读取，按冻结AssetRef映射取本机已保存字节，不读当前模块代替历史"
+    },
+    {
+      "id": "L46",
+      "path": "apps/planner/src/scene/factoryMedia.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 44,
+          "symbol": "ownerKey"
+        },
+        {
+          "line": 47,
+          "symbol": "Run ID in cache identity"
+        }
+      ],
+      "change": "新执行媒体/标签缓存键包含执行身份与冻结来源，不复用只含Run的键"
+    },
+    {
+      "id": "L47",
+      "path": "apps/planner/src/services/executionPresentation.ts",
+      "state": "implemented_and_actual_Native_consumer_scoped_verified",
+      "anchors": [],
+      "change": "实际执行观察/素材/来源呈现消费者，固定来源与原Run保持分离。",
+      "design_location_snapshot": {
+        "path": "apps/planner/src/services/executionObservation.ts",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增有类型的H09/H08输入与观察读取、分页汇合、Native素材与来源组装；当前不创建"
+      },
+      "planned_path": "apps/planner/src/services/executionObservation.ts",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/execution-view/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L48",
+      "path": "packages/commands/src/host_evaluation.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 170,
+          "symbol": "EvaluationExportWork::run"
+        },
+        {
+          "line": 513,
+          "symbol": "export_evaluation"
+        },
+        {
+          "line": 560,
+          "symbol": "selected_directory"
+        },
+        {
+          "line": 364,
+          "symbol": "evaluation_inputs actual frozen Run source precedent"
+        }
+      ],
+      "change": "保留旧Run导出；复用真实选择/任务/文件发布经验，新执行生产者不伪造EvaluationReport"
+    },
+    {
+      "id": "L49",
+      "path": "packages/reporting/src/evaluation_pdf.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 8,
+          "symbol": "Pages"
+        },
+        {
+          "line": 178,
+          "symbol": "pdf"
+        }
+      ],
+      "change": "仅抽取新执行报告实际需要的PDF绘制/字体底层，旧报告正文和含义保留"
+    },
+    {
+      "id": "L50",
+      "path": "packages/reporting/src/lib.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 2,
+          "symbol": "module declarations"
+        },
+        {
+          "line": 10,
+          "symbol": "public reporting exports"
+        }
+      ],
+      "change": "实施后注册独立执行报告生产者/输出；不改旧build_evaluation入口意义"
+    },
+    {
+      "id": "L51",
+      "path": "apps/planner/src/features/reporting/DeliveryWorkspace.tsx",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 14,
+          "symbol": "DeliveryWorkspace"
+        },
+        {
+          "line": 46,
+          "symbol": "actual Run selection"
+        }
+      ],
+      "change": "旧Run交付工作区保留；执行报告在云面板消费，不把Session放入run_summaries"
+    },
+    {
+      "id": "L52",
+      "path": "apps/planner/src/features/reporting/ReportPanel.tsx",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 12,
+          "symbol": "ReportPanel"
+        },
+        {
+          "line": 29,
+          "symbol": "actual report export action"
+        },
+        {
+          "line": 34,
+          "symbol": "EvaluationView"
+        }
+      ],
+      "change": "旧报告与结果视图保留；作为实际选目录/Task输出参考，不套执行报告数据；新增独立预测Run/执行源选项及偏差区，旧Run报告入口和语义保持"
+    },
+    {
+      "id": "L53",
+      "path": "apps/planner/src/features/reporting/useDeliveryTask.ts",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 9,
+          "symbol": "useDeliveryTask"
+        },
+        {
+          "line": 20,
+          "symbol": "follow"
+        },
+        {
+          "line": 34,
+          "symbol": "start"
+        }
+      ],
+      "change": "真实Task/结果种类匹配参考；新执行消费者核对原request_id和源stamp，保持旧用法"
+    },
+    {
+      "id": "L54",
+      "path": "apps/mcp-bridge/src/decode.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 37,
+          "symbol": "decode"
+        },
+        {
+          "line": 83,
+          "symbol": "managed original response"
+        },
+        {
+          "line": 99,
+          "symbol": "validate_response"
+        }
+      ],
+      "change": "新操作沿用实际managed原响应/schema/请求/上下文匹配，不截断大结果；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+    },
+    {
+      "id": "L55",
+      "path": "integrations/agent/runtime/contract.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 7,
+          "symbol": "operation_name"
+        },
+        {
+          "line": 15,
+          "symbol": "response_schema_ref"
+        },
+        {
+          "line": 22,
+          "symbol": "validate_response"
+        }
+      ],
+      "change": "实际typed response match扩展11操作；H01/H08/H10/H11先严格wire视图及kind，get_task按真实originating_operation核对原request/输出；managed解包后同样验证，不能Option吞掉缺字段；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+    },
+    {
+      "id": "L56",
+      "path": "integrations/agent/workflow.py",
+      "state": "implemented_actual_MCP_Native_consumer_scoped_verified",
+      "anchors": [],
+      "change": "ExecutionWorkflow已消费实际Host/MCP契约；真实云H11全量尚缺。",
+      "design_location_snapshot": {
+        "path": "integrations/agent/execution_workflow.py",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增有限执行/原请求/导出及DaaS分页消费者；显式观察预算和覆盖范围，Task成功不代表全量；旧run_factory不改，当前不创建；get_context/get_run实际预测选源，H10期望引用与回执prediction link核对；H11 export_cloud_data实际注册/typed消费，shared exporting handle按原operation与cloud_data_export输出核对"
+      },
+      "planned_path": "integrations/agent/execution_workflow.py",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/agent-execution-consumer/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L57",
+      "path": "packages/reporting/src/execution_evaluation.rs",
+      "state": "implemented_producer_Host_and_Native_consumed",
+      "anchors": [],
+      "change": "预测/执行同源报告生产者与Host/Native H10已实际消费。",
+      "design_location_snapshot": {
+        "path": "packages/reporting/src/execution_evaluation.rs",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增执行/预测同源报告生产者；实际Run冻结元组及分口径指标、输入内容和每指标条件；不运行Engine，不新增依赖，当前不创建；模型等待按实际对象关联与区间并集、前沿和未知语义，不按reason重复加总"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/reporting/receipt.json",
+        ".work/v2-implementation-20261026/host-exports/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L58",
+      "path": "packages/reporting/src/execution_output.rs",
+      "state": "implemented_four_formats_actual_Native_files_verified",
+      "anchors": [],
+      "change": "同一报告四格式/17CSV投影及真实Native/MCP文件已验证。",
+      "design_location_snapshot": {
+        "path": "packages/reporting/src/execution_output.rs",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增同一ExecutionReport的PDF/HTML/CSV/JSON，含独立预测区及17表精确投影，不用旧Run图冒充执行，当前不创建"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/host-exports/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L59",
+      "path": "packages/reporting/execution-report.contract.design.json",
+      "state": "existing_contract_reference_with_actual_producer_consumers",
+      "anchors": [],
+      "change": "17表字段契约文件已存在；文件存在本身不作运行通过，实际结果取生产者/Native回执。",
+      "design_location_snapshot": {
+        "path": "packages/reporting/execution-report.contract.design.json",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增运行时CSV投影源；当前17组字段在docs设计JSON，不触发产品include_str或构建；预测表用实际Run键，不混执行session前缀"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/reporting/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L60",
+      "path": "packages/commands/src/host_execution_exports.rs",
+      "state": "implemented_H10_Host_and_actual_Native_verified",
+      "anchors": [],
+      "change": "H10固定数据/目录授权/四格式输出的实际入口；与H11共用文件，不新造平行模块。",
+      "design_location_snapshot": {
+        "path": "packages/commands/src/host_execution_report.rs",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增H10固定数据捕获、受管worker及真实目录原子提交，当前不创建；H10预测/执行实际选源与冻结工作器唯一归此，L25只共用注册/派发，等待指标交L57"
+      },
+      "planned_path": "packages/commands/src/host_execution_report.rs",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/host-exports/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L61",
+      "path": "apps/planner/src-tauri/src/lib.rs",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 46,
+          "symbol": "manage ProjectApiState"
+        },
+        {
+          "line": 93,
+          "symbol": "setup"
+        }
+      ],
+      "change": "启动时注入唯一Native执行后端并注册内部Gateway；无云配置时不虚报v2能力，当前不改"
+    },
+    {
+      "id": "L62",
+      "path": "apps/planner/src-tauri/src/execution_runtime.rs",
+      "state": "implemented_Native_managed_actor_scoped_verified",
+      "anchors": [],
+      "change": "Native内部受管网关actor已实现，未新建独立cloud_gateway.rs或云端库存。",
+      "design_location_snapshot": {
+        "path": "apps/planner/src-tauri/src/cloud_gateway.rs",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增Native受管actor：H05/H06快照出站及C05到H04/H07准入，原probe复用现有C06/C03；旧遥测不续期，HTTP在Host锁外；当前不创建"
+      },
+      "planned_path": "apps/planner/src-tauri/src/cloud_gateway.rs",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/native-execution-actor/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L63",
+      "path": "apps/planner/src-tauri/src/device_process.rs",
+      "state": "implemented_packaged_runtime_lifecycle_verified",
+      "anchors": [],
+      "change": "可信随包解释器/设备子进程及退出管理已实现，遥测排空修复已局部验证。",
+      "design_location_snapshot": {
+        "path": "apps/planner/src-tauri/src/device_process.rs",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增可信随包设备脚本/解释器启动、自有进程句柄和私有stdin控制、boot就绪及正常退出管理；当前不创建"
+      },
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/native-device-runtime/receipt.json",
+        ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json"
+      ]
+    },
+    {
+      "id": "L64",
+      "path": "apps/planner/src-tauri/Cargo.toml",
+      "state": "existing",
+      "anchors": [
+        {
+          "line": 1,
+          "symbol": "package manifest"
+        }
+      ],
+      "change": "v2实施后引入已选HTTP客户端及Tokio time/process特性；具体清单与锁文件一次更新，当前不改"
+    },
+    {
+      "id": "L65",
+      "path": "tools/cloud/sealos",
+      "state": "actual_hosted_deployment_HTTPS_PG_TLS_migration_verified",
+      "anchors": [],
+      "change": "实际Sealos部署PG16.4/TLS/迁移/HTTPS及镜像digest已验证；剩余两设备/H11/遥测消费者整链取原V2包。",
+      "design_location_snapshot": {
+        "path": "deploy/render.yaml",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增参考平台配置；在Git根路径软件工程/deploy/render.yaml，rootDir=软件工程，关闭自动部署，固定资源/PG18/健康及迁移；秘密由受管配置给出，当前不创建"
+      },
+      "planned_path": "deploy/render.yaml",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/sealos-container/receipt.json",
+        ".work/v2-implementation-20261026/sealos-price-query/actual-budget.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json"
+      ]
+    },
+    {
+      "id": "L66",
+      "path": "resources/v2-devices",
+      "state": "packaged_Python_runtime_component_and_Native_consumed",
+      "anchors": [],
+      "change": "实际随包Python资源位置在根resources/v2-devices；Native加载实际资源，非原拟Tauri子路径。",
+      "design_location_snapshot": {
+        "path": "apps/planner/src-tauri/resources/v2-devices",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增官方CPython3.14.9 x64 embeddable、固定._pth、可信脚本及许可证；Native解析实际资源目录，当前不创建"
+      },
+      "planned_path": "apps/planner/src-tauri/resources/v2-devices",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/native-device-runtime/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ]
+    },
+    {
+      "id": "L67",
+      "path": "tools/cloud/sealos/build.py",
+      "state": "bounded_build_context_implemented_and_image_built",
+      "anchors": [],
+      "change": "实际构建工具形成有限Linux上下文，原拟根.dockerignore不是必建文件。",
+      "design_location_snapshot": {
+        "path": ".dockerignore",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增软件工程构建上下文白名单，保留Cargo workspace成员解析所需Rust清单/源码，仅编译cloud-service；排除原运行数据/素材/输出/Native资源和秘密，当前不创建"
+      },
+      "planned_path": ".dockerignore",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/sealos-container/receipt.json",
+        ".work/v2-implementation-20261026/sealos-authenticated-discovery/receipt.json"
+      ]
+    },
+    {
+      "id": "L68",
+      "path": "packages/commands/src/host_execution_exports.rs",
+      "state": "implemented_H11_Host_local_PG_verified_hosted_Native_pending",
+      "anchors": [],
+      "change": "H11逐页流式导出和目录提交实际入口；与H10共用文件，本地Host已验，真实托管Native/Agent全部结果待验。",
+      "design_location_snapshot": {
+        "path": "packages/commands/src/host_cloud_data_export.rs",
+        "state": "proposed_new",
+        "anchors": [],
+        "change": "拟新增H11固定选择C08逐页读取、typed CSV/JSONL写入及目录提交工作；复用私有云读配置/Task/目录授权，不运行Engine，当前不创建"
+      },
+      "planned_path": "packages/commands/src/host_cloud_data_export.rs",
+      "implementation_receipt_refs": [
+        ".work/v2-implementation-20261026/cloud-data-export/receipt.json",
+        ".work/v2-implementation-20261026/host-exports/receipt.json"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "id": "V2-00",
+      "title": "版本边界与开发控制",
+      "depends_on": [],
+      "reqs": [],
+      "locations": [
+        "L01",
+        "L02",
+        "L23"
+      ],
+      "design_status": "control_prepared",
+      "design_deliverable": "本控制MD/JSON；v1验收出口和v2禁止实施边界",
+      "acceptance": "v1正常可用出口与完整存档清楚，v2统筹主责/任务/依赖/写边界及版本边界明确，历史压力不冒充通过。",
+      "implementation_status": "control_current_implementation_in_progress",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "存档交接已接收；原12包、依赖及160项设计预期保持。本轮把实施事实同步到三层控制，统筹仍为v2.0 实现窗口1。",
+      "remaining_work": [
+        "继续按现有依赖接收实际产物；只在新增实现/验收事实后更新状态。",
+        "最终候选与三材料齐备后完成版本控制关闭。"
+      ],
+      "evidence_refs": [],
+      "whole_package_acceptance": null
+    },
+    {
+      "id": "V2-01",
+      "title": "执行会话与公共契约设计",
+      "depends_on": [
+        "V2-00"
+      ],
+      "reqs": [
+        "T8-F05",
+        "T8-F07",
+        "T8-F15",
+        "T8-Q01"
+      ],
+      "locations": [
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L24",
+        "L37",
+        "L12",
+        "L22",
+        "L55"
+      ],
+      "design_status": "draft9_time_frontier_probe_freshness_and_typed_consumer_contracts_full_validation_pending",
+      "design_deliverable": "会话/绑定/指令/回执schema、单位、状态、错误和旧格式处理",
+      "acceptance": "Job、TaskHandle、CommandId不混用；原RunResult消费者明确",
+      "implementation_status": "contracts_generated_and_consumed_scoped_verified",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "102领域定义/7身份、337设计样例及实际schema一致；Host wire另有743例和31份schema核对。11项Host操作及Native/MCP已实际消费，整体云联验待完成。",
+      "remaining_work": [],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/domain-wire-receipt.json",
+        ".work/v2-implementation-20261026/host-wire/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ],
+      "whole_package_acceptance": null,
+      "conditional_recheck_rule": "后续真实契约/消费者有变化时仅核对受影响边界；既有生成与消费者结果复用，不重复全包。"
+    },
+    {
+      "id": "V2-02",
+      "title": "云后端、数据库与DaaS",
+      "depends_on": [
+        "V2-01"
+      ],
+      "reqs": [
+        "T8-F01",
+        "T8-F03",
+        "T8-F04",
+        "T8-F15",
+        "T8-Q01",
+        "T8-Q03"
+      ],
+      "locations": [
+        "L01",
+        "L27",
+        "L31",
+        "L65",
+        "L67"
+      ],
+      "design_status": "16_postgres_tables_including_schema_migration_and_managed_reference_profile_detailed_actual_platform_pending",
+      "design_deliverable": "部署/存储/查询/聚合/权限设计，百万数据自动核对",
+      "acceptance": "真实网络与数据库；读写范围正确；持久化和聚合结果可独立核对",
+      "implementation_status": "actual_hosted_HTTPS_PG_1M60_telemetry1800_H11_verified_cost_handoff_pending",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "真实PG16.4/TLS/迁移/HTTPS已验；托管百万行/100设备/1000批经原始PG逐行预期核对，30raw+30aggregate全过，p95为63/1641ms。持续采集、H11独立消费者和实际费用收尾仍待。",
+      "remaining_work": [
+        "按已批准15代币预算核对最终费用与演示资源交接；百万/60查询、十路正式遥测及UI/MCP全量H11已验。"
+      ],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/cloud/receipt.json",
+        ".work/v2-implementation-20261026/sealos-container/receipt.json",
+        ".work/v2-implementation-20261026/sealos-authenticated-discovery/receipt.json",
+        ".work/v2-implementation-20261026/sealos-price-query/receipt.json",
+        ".work/v2-implementation-20261026/sealos-price-query/actual-budget.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/runtime-preparation.json",
+        ".work/v2-implementation-20261026/hosted-telemetry/receipt.json"
+      ],
+      "whole_package_acceptance": null
+    },
+    {
+      "id": "V2-03",
+      "title": "设备端与Host-云网关",
+      "depends_on": [
+        "V2-01",
+        "V2-02"
+      ],
+      "reqs": [
+        "T8-F02",
+        "T8-F03",
+        "T8-F09",
+        "T8-F15",
+        "T8-Q01",
+        "T8-Q02"
+      ],
+      "locations": [
+        "L16",
+        "L17",
+        "L28",
+        "L61",
+        "L62",
+        "L63",
+        "L64"
+      ],
+      "design_status": "native_gateway_device_boot_and_one_shot_observation_protocol_detailed_runtime_pending",
+      "design_deliverable": "Native受管网关、两独立设备进程、boot隔离、持久取令/回执、取消竞态、独立采集负载及关闭结清；见V2-DEVICE-GATEWAY-07",
+      "acceptance": "真实经过云服务；不公开本机管道；未知执行只查询原命令",
+      "implementation_status": "actual_two_devices_formal10x1800_and100frame_verified_final_candidate_pending",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "两设备生产/退出及正式十路采集已验：10×1800连续秒槽、18000样本，采样/首次发送/ACK/PG精确一致，十进程退出0，实际UTC聚合310行/2页共18000。100帧时延和最终候选绑定仍待。",
+      "remaining_work": [
+        "最终候选仅核对源码改动影响；设备正式1800秒及原100帧目标已验，未改结果复用。"
+      ],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/devices/receipt.json",
+        ".work/v2-implementation-20261026/native-device-runtime/receipt.json",
+        ".work/v2-implementation-20261026/native-execution-actor/receipt.json",
+        ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/hosted-open.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-preparation-requested.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json",
+        ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+        ".work/v2-materials-20261027/formal-telemetry-H11-reception.json"
+      ],
+      "whole_package_acceptance": null,
+      "current_live_finding": {
+        "status": "normal_run_failed_4_of_6_owner_fixing",
+        "source_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json"
+      }
+    },
+    {
+      "id": "V2-04",
+      "title": "Host外部执行会话编排",
+      "depends_on": [
+        "V2-01",
+        "V2-05"
+      ],
+      "reqs": [
+        "T8-F07",
+        "T8-F09",
+        "T8-F10",
+        "T8-F15",
+        "T8-Q01",
+        "T8-Q02"
+      ],
+      "locations": [
+        "L06",
+        "L07",
+        "L08",
+        "L16",
+        "L25",
+        "L36",
+        "L22",
+        "L45",
+        "L60"
+      ],
+      "design_status": "task_request_recovery_local_catalog_and_export_boundaries_detailed_not_implemented",
+      "design_deliverable": "Host会话生命周期、准入/授权、冻结输入和设备反馈提交顺序",
+      "acceptance": "只有Host/Engine提交业务效果；普通run_scenario仍为本地预测",
+      "implementation_status": "actual_normal_disable_A_H10_H11_MCP_archive_verified_final_candidate_pending",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "Native09真实正常组6/6在53.202秒完成，Native10停用A组6/6在97.092秒完成；各自云端同R同步，H10/H11、Agent及存档结果已有证据。保留首轮失败和CAS冲突历史，只核对最终候选新增影响。",
+      "remaining_work": [
+        "复用真实两组生产、H11/Agent与原存档恢复结果；只核对最终候选新增影响。"
+      ],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/host-execution-core-receipt.json",
+        ".work/v2-implementation-20261026/host-native-registry-receipt.json",
+        ".work/v2-implementation-20261026/host-preparation-receipt.json",
+        ".work/v2-implementation-20261026/execution-archive/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/hosted-open.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-preparation-requested.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/receipt.json",
+        ".work/v2-control-status-sync-20261027/normal-reception.json",
+        ".work/v2-control-status-sync-20261027/cloud-readonly-normal-02/receipt.json",
+        ".work/v2-implementation-20261026/hosted-telemetry/receipt.json"
+      ],
+      "whole_package_acceptance": null,
+      "current_live_finding": {
+        "status": "normal_regression_fixed_and_actual_recheck_passed",
+        "negative_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json",
+        "positive_ref": ".work/v2-control-status-sync-20261027/normal-reception.json"
+      }
+    },
+    {
+      "id": "V2-05",
+      "title": "单工序引擎外部完成接点",
+      "depends_on": [
+        "V2-01"
+      ],
+      "reqs": [
+        "T8-F05",
+        "T8-F06",
+        "T8-F10",
+        "T8-Q02",
+        "T8-Q05"
+      ],
+      "locations": [
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L26"
+      ],
+      "design_status": "external_admission_and_state_record_design_detailed_not_implemented",
+      "design_deliverable": "Job绑定、阶段等待、有效回执及资源/物料事务设计",
+      "acceptance": "提前/重复/错设备回执不产生结果；本地旧路径不变；不能直接暴露finish",
+      "implementation_status": "component_negative_boundaries_and_actual_HTTPS_positive_chain_verified",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "Engine外部阶段组件与Host拒绝边界已有有限检查；正常/停用两组实际云回执已进入唯一Engine提交业务结果。本包当前无新增实现动作，最终候选保留原验收条件及实际证据。",
+      "remaining_work": [],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/engine/receipt.json",
+        ".work/v2-implementation-20261026/host-execution-core-receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      ],
+      "whole_package_acceptance": null,
+      "conditional_recheck_rule": "Engine/回执准入发生真实变化时按原验收重验受影响拒绝边界；当前正向真实链和未改反例证据复用。"
+    },
+    {
+      "id": "V2-06",
+      "title": "两设备数据驱动派工与改派",
+      "depends_on": [
+        "V2-03",
+        "V2-04",
+        "V2-05"
+      ],
+      "reqs": [
+        "T8-F08",
+        "T8-F11",
+        "T8-F13"
+      ],
+      "locations": [
+        "L09",
+        "L10",
+        "L25"
+      ],
+      "design_status": "candidate_binding_and_reassignment_detailed_fixture_pending",
+      "design_deliverable": "可替代设备映射、确定性排序、停止接单和未开始工作改派",
+      "acceptance": "端口/单位/资源相容；只有可改派工作移动，执行未知不重复生产",
+      "implementation_status": "actual_normal_and_disable_A_business_verified",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "正常组53.202秒6/6，对照组97.092秒6/6；A在2.658秒前禁用，原任务2.466秒Started后于12.891秒完成，无新增A尝试，B接其余5件；同R云快照与Host一致。界面确认误报源已修、7项组件回归和类型检查通过。",
+      "remaining_work": [],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/demo-geometry/receipt.json",
+        ".work/v2-implementation-20261026/host-execution-core-receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/hosted-open.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-preparation-requested.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json",
+        ".work/v2-control-status-sync-20261027/normal-reception.json",
+        ".work/v2-control-status-sync-20261027/cloud-readonly-normal-02/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+        ".work/v2-control-status-sync-20261027/control-ack-green.json"
+      ],
+      "whole_package_acceptance": null,
+      "current_live_finding": {
+        "status": "normal_run_failed_4_of_6_owner_fixing",
+        "source_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json"
+      },
+      "current_disable_A_finding": {
+        "status": "business_verified_source_UI_ack_fix_passed_component",
+        "business_receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+        "UI_fix": {
+          "source_ref": "apps/planner/src/services/cloudProduction.ts",
+          "change": "JSON object structural equality independent of key order; ordered arrays and exact values preserved. Latest revision read and CAS unchanged.",
+          "red_ref": ".work/v2-control-status-sync-20261027/control-ack-red.json",
+          "component_ref": ".work/v2-control-status-sync-20261027/control-ack-green.json",
+          "component_checks_passed": 7,
+          "planner_typecheck": "passed",
+          "actual_updated_Native_banner_recheck": "pending_next_managed_candidate",
+          "shared_Native_or_build_operated_by_this_window": false
+        }
+      },
+      "completed_reuse_refs": [
+        ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/receipt.json"
+      ]
+    },
+    {
+      "id": "V2-07",
+      "title": "单面板三个页签与来源呈现",
+      "depends_on": [
+        "V2-02",
+        "V2-04",
+        "V2-06"
+      ],
+      "reqs": [
+        "T8-F06",
+        "T8-F12",
+        "T8-F13",
+        "T8-Q04",
+        "T8-Q05"
+      ],
+      "locations": [
+        "L13",
+        "L14",
+        "L15",
+        "L29",
+        "L30",
+        "L33",
+        "L07",
+        "L38",
+        "L39",
+        "L40",
+        "L41",
+        "L42",
+        "L43",
+        "L44",
+        "L45",
+        "L46",
+        "L47"
+      ],
+      "design_status": "execution_source_frozen_inputs_asof_scene_timeline_design_detailed_native_pending",
+      "design_deliverable": "入口、设备/数据/执行页签、空/等待/失败/过期与离开保护绑定",
+      "acceptance": "同一会话与时钟；未提交输入和运行状态纳入现有关闭保护",
+      "implementation_status": "actual_hosted_cloud_3D_timeline_verified_final_candidate_control_confirmation_pending",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "实际Sealos云只读R354/F976：26对象6页、筛选5对象3页均与原Host顺序及字段一致；普通Native两冻结模型、976完整历史和T=0回看通过，原工程/r4/3旧Run不变。原GET身份及排序缺陷已由同源实际复验关闭。",
+      "remaining_work": [
+        "最终候选实录的停用操作一并核对新确认提示；已过的业务与7项确认组件结果复用，不另重做整组生产。"
+      ],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/cloud-ui/root-integration-receipt.json",
+        ".work/v2-implementation-20261026/execution-view/receipt.json",
+        ".work/v2-implementation-20261026/execution-cloud-origin/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/hosted-open.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-preparation-requested.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+        ".work/v2-control-status-sync-20261027/control-ack-green.json",
+        ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+        ".work/v2-materials-20261027/cloud-origin-reception.json",
+        "C:/Users/fujunye/AppData/Local/Temp/sf-v2-hosted-cloud-view-20261027-03/receipt.json",
+        "C:/Users/fujunye/AppData/Local/Temp/sf-sealos-container-order-fix-20261027-01/actual-order-regression.json"
+      ],
+      "whole_package_acceptance": null,
+      "frontend_control_ack_fix": {
+        "source_ref": "apps/planner/src/services/cloudProduction.ts",
+        "change": "JSON object structural equality independent of key order; ordered arrays and exact values preserved. Latest revision read and CAS unchanged.",
+        "red_ref": ".work/v2-control-status-sync-20261027/control-ack-red.json",
+        "component_ref": ".work/v2-control-status-sync-20261027/control-ack-green.json",
+        "component_checks_passed": 7,
+        "planner_typecheck": "passed",
+        "actual_updated_Native_banner_recheck": "pending_next_managed_candidate",
+        "shared_Native_or_build_operated_by_this_window": false
+      }
+    },
+    {
+      "id": "V2-08",
+      "title": "Agent最小云操作消费者",
+      "depends_on": [
+        "V2-04",
+        "V2-06"
+      ],
+      "reqs": [
+        "T8-F14",
+        "T8-Q01",
+        "T8-Q02"
+      ],
+      "locations": [
+        "L06",
+        "L08",
+        "L18",
+        "L19",
+        "L37",
+        "L54",
+        "L55",
+        "L56"
+      ],
+      "design_status": "actual_catalog_role_hints_finite_workflow_and_request_recovery_designed_not_executed",
+      "design_deliverable": "实际能力注册、同Host权限、云状态读取和有限控制",
+      "acceptance": "工具列表不注册空能力；越界拒绝；不重投未知命令",
+      "implementation_status": "actual_MCP_and_hosted_H11_full50_pages_verified",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "原MCP26/Python14、Native MCP15分层证据复用；本轮真实独立MCP/生产IPC完成云H11所选10000行/50页，桥正常退出0，文件每字段/单元格与原始PG一致。",
+      "remaining_work": [],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/agent-execution-consumer/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json",
+        ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+        ".work/v2-materials-20261027/formal-telemetry-H11-reception.json"
+      ],
+      "whole_package_acceptance": null
+    },
+    {
+      "id": "V2-09",
+      "title": "同源报告、数据导出与会话交接",
+      "depends_on": [
+        "V2-04",
+        "V2-02"
+      ],
+      "reqs": [
+        "T8-F15",
+        "T8-F16",
+        "T8-Q05",
+        "T8-F04"
+      ],
+      "locations": [
+        "L04",
+        "L20",
+        "L21",
+        "L22",
+        "L34",
+        "L35",
+        "L47",
+        "L48",
+        "L49",
+        "L50",
+        "L51",
+        "L52",
+        "L53",
+        "L57",
+        "L58",
+        "L59",
+        "L60",
+        "L06",
+        "L16",
+        "L25",
+        "L30",
+        "L37",
+        "L68"
+      ],
+      "design_status": "canonical_report_17_csv_tables_prediction_and_H11_streaming_data_delivery_designed_not_executed; model_waits_and_actual_source_roles_detailed",
+      "design_deliverable": "独立ExecutionSnapshot的同源报告/比较、四格式与凭据排除；H11完整筛选CSV/JSONL流式交付",
+      "acceptance": "接受量来自Engine；缺结果不算改善；旧工程/旧Run保持可读；数据按固定选择完整导出，报告与数据行来源分别验证",
+      "implementation_status": "actual_hosted_H10_and_UI_MCP_H11_multpage_verified",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "正常/停用H10各22文件/17CSV、归档与交接已验；实际Native UI及独立MCP各完成H11所选10000行/50页，CSV/JSONL每字段与PG独立预期一致。固定F/查询范围未换成首屏，正式遥测聚合也已核对。",
+      "remaining_work": [],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/reporting/receipt.json",
+        ".work/v2-implementation-20261026/cloud-data-export/receipt.json",
+        ".work/v2-implementation-20261026/host-exports/receipt.json",
+        ".work/v2-implementation-20261026/execution-archive/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json",
+        ".work/v2-control-status-sync-20261027/cloud-readonly-export/receipt.json",
+        ".work/v2-control-status-sync-20261027/normal-reception.json",
+        ".work/v2-control-status-sync-20261027/cloud-readonly-normal-02/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/positive-export-verification.json",
+        ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+        ".work/v2-materials-20261027/formal-telemetry-H11-reception.json"
+      ],
+      "whole_package_acceptance": null,
+      "scoped_readonly_C08_full_selection": {
+        "receipt_ref": ".work/v2-control-status-sync-20261027/cloud-readonly-export/receipt.json",
+        "pages": 4,
+        "rows": 8,
+        "scope": "实际失败会话固定r846，完整分页和独立CSV/JSONL读回；非产品H11出口。"
+      }
+    },
+    {
+      "id": "V2-10",
+      "title": "自动验证与真实消费者验收",
+      "depends_on": [
+        "V2-02",
+        "V2-03",
+        "V2-04",
+        "V2-05",
+        "V2-06",
+        "V2-07",
+        "V2-08",
+        "V2-09"
+      ],
+      "reqs": [
+        "T8-Q01",
+        "T8-Q02",
+        "T8-Q03",
+        "T8-Q04",
+        "T8-Q05"
+      ],
+      "locations": [
+        "L09",
+        "L14",
+        "L22",
+        "L31",
+        "L32",
+        "L66",
+        "L68"
+      ],
+      "design_status": "160_execution_clock_api_ui_device_probe_deployment_data_prediction_export_cases_designed_not_executed",
+      "design_deliverable": "A01-A08适用范围、单工序六件独立预期、百万负载和真实Native消费者",
+      "acceptance": "程序/Host/云/Native/正式测量分层；没有以旧v1证据填v2通过",
+      "implementation_status": "actual_business_scale_cadence_H11_latency_and_cloud_origin_verified_final_candidate_pending",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "真实托管百万/60查询、两组生产、正式十路1800秒及UI/MCP H11多页均已有实际证据。原100帧保守上界p95约2797ms未证明2秒，保留该组，统筹正进行完整新组实际像素取证。",
+      "remaining_work": [
+        "只核对最终2.0.0候选的变更影响及搬移/新进程实际可用性；复用未改的业务、采集、查询、导出和时延组。"
+      ],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/cloud/receipt.json",
+        ".work/v2-implementation-20261026/native-workbench/receipt.json",
+        ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/hosted-open.json",
+        ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-preparation-requested.json",
+        ".work/v2-control-status-sync-20261027/normal-reception.json",
+        ".work/v2-control-status-sync-20261027/cloud-readonly-normal-02/receipt.json",
+        ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+        ".work/v2-control-status-sync-20261027/control-ack-green.json",
+        ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+        ".work/v2-materials-20261027/formal-telemetry-H11-reception.json",
+        ".work/v2-materials-20261027/cloud-origin-reception.json",
+        "C:/Users/fujunye/AppData/Local/Temp/sf-v2-hosted-cloud-view-20261027-03/receipt.json",
+        "C:/Users/fujunye/AppData/Local/Temp/sf-sealos-container-order-fix-20261027-01/actual-order-regression.json"
+      ],
+      "whole_package_acceptance": null
+    },
+    {
+      "id": "V2-11",
+      "title": "v2候选、版本与三材料对应",
+      "depends_on": [
+        "V2-10"
+      ],
+      "reqs": [
+        "T8-F01",
+        "T8-F16"
+      ],
+      "locations": [
+        "L01",
+        "L02",
+        "L23",
+        "L31",
+        "L66"
+      ],
+      "design_status": "portable_runtime_resource_closure_and_deployed_artifact_identity_detailed_actual_candidate_pending",
+      "design_deliverable": "实际版本标识、可运行闭包、PDF/视频/仓库对应",
+      "acceptance": "实际v2候选通过适用出口后再升版；不覆盖v1最终候选与原证据",
+      "implementation_status": "MAT02_implementation_draft_ready_release_and_video_binding_pending",
+      "implementation_allowed": true,
+      "required_views": [
+        "task_interaction",
+        "structure_data",
+        "state_behavior",
+        "interface_collaboration",
+        "ui_consumer",
+        "deployment_verification"
+      ],
+      "execution_readiness": "consume_actual_dependencies_reuse_verified_outputs_continue_remaining_work",
+      "implementation_note": "已选定2.0.0客户端清单，实际新候选和可恢复包由原统筹构建。作品介绍12页及可编辑源已接入真实云三维/时间轴；原0.1.0实测身份保留，最终2.0.0、源码、影片和链接继续绑定，未发布。",
+      "remaining_work": [
+        "真实托管联验结束后固定v2最终候选、版本及可恢复演示交付包。",
+        "更新任务8对应三项官方材料并核对同一候选；人工签认/公开发布单列。"
+      ],
+      "evidence_refs": [
+        ".work/v2-implementation-20261026/native-workbench/receipt.json",
+        ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json",
+        ".work/v2-implementation-20261026/native-device-runtime/receipt.json",
+        ".work/v2-materials-20261027/receipt.json",
+        ".work/v2-materials-20261027/run-guide-receipt.json",
+        ".work/v2-materials-20261027/source-delivery-fix-receipt.json",
+        ".work/v2-materials-20261027/latency100-reception.json",
+        ".work/v2-materials-20261027/repository-readiness.json",
+        ".work/v2-materials-20261027/cloud-origin-reception.json",
+        "C:/Users/fujunye/AppData/Local/Temp/sf-v2-hosted-cloud-view-20261027-03/receipt.json",
+        "C:/Users/fujunye/AppData/Local/Temp/sf-sealos-container-order-fix-20261027-01/actual-order-regression.json",
+        ".work/v2-materials-20261027/video/receipt.json"
+      ],
+      "whole_package_acceptance": null,
+      "material_manifest_ref": ".work/v2-materials-20261027/materials.json",
+      "execution_reference_refs": [
+        "docs/05_开源与参赛/release-preparation/v2/运行与演示说明.md"
+      ]
+    }
+  ],
+  "implementation_order_after_gates": [
+    "V2-01",
+    "V2-05",
+    "V2-02",
+    "V2-03",
+    "V2-04",
+    "V2-06",
+    "V2-07",
+    "V2-08",
+    "V2-09",
+    "V2-10",
+    "V2-11"
+  ],
+  "implementation_dependency_rule": "实现前置消费实际产物与接口，不以独立包done标志替代；v2实施已获授权，按现有依赖继续剩余集成与真实验收。",
+  "source_anchor_rule": "line为2026-10-25至26只读定位所得导航；v1最终候选冻结后按symbol重定位，禁止按旧行号自动应用",
+  "actual_v2_results": {
+    "updated_at_utc": "2026-10-27T05:02:58.969310+00:00",
+    "state": "all_actual_core_acceptance_groups_verified_final_release_materials_open",
+    "overall_product_acceptance": null,
+    "percentage": null,
+    "percentage_basis": "v2未建立等权或加权评分，不用v1评分或测试数量折算百分比。",
+    "technical_manifest_version": "2.0.0",
+    "latest_actual_Native_acceptance": {
+      "candidate": "Native07",
+      "receipt_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json",
+      "scope": "真实UI保存/编辑/新OS重开/MCP及H10文件；有限C01/publication组件应答，不是实际HTTPS生产"
+    },
+    "latest_Native_build": {
+      "candidate": "Native11",
+      "receipt_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json#/actual_cloud_source_view",
+      "scope": "实际HTTPS云三维、固定R/F/T和完整时间轴已验；2.0.0 release构建进行中。"
+    },
+    "scoped_results": [
+      {
+        "scope": "领域/Host wire",
+        "result": "337领域例；另743 Host wire例/31 schemas，生成TS及实际消费者已核对。",
+        "refs": [
+          ".work/v2-implementation-20261026/domain-wire-receipt.json",
+          ".work/v2-implementation-20261026/host-wire/receipt.json"
+        ]
+      },
+      {
+        "scope": "云/DaaS本地真实PG",
+        "result": "HTTP/PG109检查；百万行独立查询；H11百万行5000页流式及本地Host固定400行两页已核对。",
+        "refs": [
+          ".work/v2-implementation-20261026/cloud/receipt.json",
+          ".work/v2-implementation-20261026/cloud-data-export/receipt.json",
+          ".work/v2-implementation-20261026/host-exports/receipt.json"
+        ]
+      },
+      {
+        "scope": "实际Native存档/MCP/H10",
+        "result": "Native07实际主UI4、编辑保存4、新进程6、MCP15；UI/MCP各22文件、17CSV，原执行r4与新草稿r5及3旧Run保留。",
+        "refs": [
+          ".work/v2-implementation-20261026/execution-archive/receipt.json",
+          ".work/v2-implementation-20261026/native-workbench/receipt.json"
+        ]
+      },
+      {
+        "scope": "关闭/遥测排空修复",
+        "result": "14 Native生命周期及3 Python检查通过，Native08构建通过；不代十遥测1800秒。",
+        "refs": [
+          ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json"
+        ]
+      },
+      {
+        "scope": "真实费用准备",
+        "result": "实际账户15代币/零扣费，48小时基础3.8048110848、含参考附加5.576456974；实际资源规格/TLS/push/HTTPS由统筹继续。",
+        "refs": [
+          ".work/v2-implementation-20261026/sealos-price-query/actual-budget.json",
+          ".work/v2-implementation-20261026/sealos-price-query/registry-preparation.json"
+        ]
+      },
+      {
+        "scope": "真实托管部署",
+        "result": "PG16.4/TLS、可信HTTPS、鉴权/目录、16业务表及迁移10/10；Native原r4工程已打开，六件冻结准备已请求，运行整链未通过。",
+        "refs": [
+          ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+          ".work/v2-implementation-20261026/sealos-live-deploy/runtime-preparation.json",
+          ".work/v2-implementation-20261026/native-workbench/sealos-live-01/hosted-open.json",
+          ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-preparation-requested.json"
+        ]
+      },
+      {
+        "scope": "真实云C08只读全量选择",
+        "result": "原失败会话r846全部8行/4页与原Host快照独立预期一致，CSV/JSONL读回一致；不代H11或正常生产通过。",
+        "refs": [
+          ".work/v2-control-status-sync-20261027/cloud-readonly-export/receipt.json",
+          ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json"
+        ]
+      },
+      {
+        "scope": "真实Native09正常生产",
+        "result": "六件53.202秒完成、六尝试结清、云端同R同步；C08固定本轮R全部12行/6页及两格式回读一致。原截止时点尚未观察，未补填该时点通过。",
+        "refs": [
+          ".work/v2-control-status-sync-20261027/normal-reception.json",
+          ".work/v2-control-status-sync-20261027/cloud-readonly-normal-02/receipt.json"
+        ]
+      },
+      {
+        "scope": "Native09真实六件与文件导出",
+        "result": "原r4/真实HTTPS/两10-15秒子进程6件53202ms完成，R354同步；H10 22文件/17CSV快照完全一致；H11 F128全110行超过首屏50行，CSV与JSONL逐行逐字段匹配实际PG；未代多页/规模或整体验收。",
+        "refs": [
+          ".work/v2-implementation-20261026/sealos-live-deploy/positive-export-verification.json"
+        ]
+      },
+      {
+        "scope": "实际Native云端H10/H11",
+        "result": "同一正常运行R354报告22文件/17CSV；产品H11 UI110行与实际PG逐行/微秒精度一致，后端1页，跨200行及MCP仍待验。",
+        "refs": [
+          ".work/v2-implementation-20261026/sealos-live-deploy/positive-export-verification.json"
+        ]
+      },
+      {
+        "scope": "Native10真实禁A与同源存档",
+        "result": "原r4/同policy与绑定，A Started2466ms后2658ms实际UI禁止新接单；原A于12891ms完成，A1/B5共6件97092ms完成；真实云R354/R595均与原Host一致。禁A H10 22文件/17CSV；保存原3执行及3旧Run，全部自有窗口正常关闭。",
+        "refs": [
+          ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+          ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-report-verification.json"
+        ]
+      },
+      {
+        "scope": "Actual Sealos10x1800 telemetry cadence and UI/MCP50page H11",
+        "result": "10个Native受管子进程各1800槽；每槽采样和首次请求在各自秒槽内，18000条原payload/ACK与实际PG逐条一致，全部exit0/正常关停；310个分钟聚合行/2页完全一致。真实UI及MCP各导出G000的10000行/50页，CSV/JSONL全字段匹配原始PG。原100帧目标另已核对通过；整版出口仍开放。",
+        "refs": [
+          ".work/v2-implementation-20261026/hosted-telemetry/receipt.json"
+        ]
+      }
+    ],
+    "remaining_groups": [
+      {
+        "packages": [
+          "V2-07",
+          "V2-10"
+        ],
+        "work": "最终2.0.0实录/控制流程中一并核对确认提示；云来源固定R/F/T三维和完整时间轴已通过，不重做未改组。"
+      },
+      {
+        "packages": [
+          "V2-00",
+          "V2-02",
+          "V2-03",
+          "V2-04",
+          "V2-10",
+          "V2-11"
+        ],
+        "work": "完成2.0.0实际候选、搬移后新进程及可恢复交付；统一源码/PDF/真实v2影片和链接，核对演示费用交接；人工与公开发布另列。"
+      }
+    ],
+    "acceptance_boundary": "组件、本地PG、真实Native消费与托管HTTPS整链分层；不把程序完成、设计160例或累计测试数当整版通过。",
+    "actual_hosted_deployment": {
+      "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+      "runtime_ref": ".work/v2-implementation-20261026/sealos-live-deploy/runtime-preparation.json",
+      "origin": "https://sf-task8-61j010p3-20261027.sealosbja.site",
+      "verified_at_utc": "2026-10-27T01:40:56.097857+00:00",
+      "checks_passed": 10,
+      "checks_total": 10,
+      "postgres_version": "16.4",
+      "HTTPS_hostname_and_CA_verified": true,
+      "PG_observed_sessions_encrypted": true,
+      "migration_succeeded": true,
+      "whole_product_acceptance": null
+    },
+    "actual_hosted_Native_progress": {
+      "open_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-02/hosted-open.json",
+      "preparation_request_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-preparation-requested.json",
+      "project_revision": 4,
+      "old_Runs_retained": 3,
+      "state": "normal_disable_A_and_H11_joint_verified_cloud_view_final_delivery_open",
+      "normal_six_unit_result": {
+        "at_utc": "2026-10-27T02:11:26.054123+00:00",
+        "status": "actual_hosted_Native09_normal_six_units_received",
+        "source_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-02/normal-terminal.json",
+        "identity": {
+          "execution_epoch_id": "desktop-host-110308-1793066552686063500:execution-epoch:1:5",
+          "host_context_session_id": "desktop-host-110308-1793066552686063500",
+          "project_id": "Task8-two-device-six-units",
+          "session_id": "desktop-host-110308-1793066552686063500:execution:1:5"
+        },
+        "execution_revision": 354,
+        "observation_frontier": 976,
+        "accepted_units": 6,
+        "attempts_settled": 6,
+        "confirmed_at_host_ms": 53202,
+        "nominal_work_ms": [
+          10000,
+          15000
+        ],
+        "cloud_same_revision_synced": true,
+        "original_cutoff_ms": 120000,
+        "cutoff_snapshot_status": "unobserved",
+        "cutoff_scope": "Goal reached before cutoff; not a claim that the full cutoff interval was observed",
+        "independent_C08_full_export_ref": ".work/v2-control-status-sync-20261027/cloud-readonly-normal-02/receipt.json",
+        "H11_product_acceptance": null,
+        "first_failed_run_retained": true,
+        "current_window_source_or_Native_operations": false
+      },
+      "disable_A_result": {
+        "status": "business_behavior_verified_UI_confirmation_fix_component_verified",
+        "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+        "accepted_units": 6,
+        "completed_host_ms": 97092,
+        "A_attempts": 1,
+        "B_attempts": 5,
+        "A_started_host_ms": 2466,
+        "A_completed_host_ms": 12891,
+        "A_disabled_no_later_than_host_ms": 2658,
+        "no_new_A_after_disable": true,
+        "normal_elapsed_host_ms": 53202
+      },
+      "readonly_C08_export_ref": ".work/v2-control-status-sync-20261027/cloud-readonly-export/receipt.json",
+      "source_fix_receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/receipt.json",
+      "source_fixes": [
+        "Refresh real workspace capabilities after successful H01",
+        "Drain original pending cloud work before advancing another frame; retain all original work and snapshots"
+      ],
+      "actor_checks_passed": 17,
+      "updated_Native_recheck": "Native09正常及Native10停用业务真实通过；后续前端确认语义修复仍只有7项组件证据，待下一受管候选。",
+      "negative_run_preserved_and_closed_normally": true,
+      "negative_device_children_and_cloud_slot_settled": true,
+      "first_negative_normal_result": {
+        "status": "failed_goal_at_cutoff",
+        "accepted_units": 4,
+        "target_units": 6,
+        "cutoff_ms": 120000,
+        "identity": {
+          "execution_epoch_id": "desktop-host-76484-1793065341426283800:execution-epoch:1:5",
+          "host_context_session_id": "desktop-host-76484-1793065341426283800",
+          "project_id": "Task8-two-device-six-units",
+          "session_id": "desktop-host-76484-1793065341426283800:execution:1:5"
+        },
+        "execution_revision": 846,
+        "observation_frontier": 2111,
+        "lifecycle": "stopped",
+        "source_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json",
+        "owner_current_action": "原统筹正在定位和修复Native发布队列/探测过期，不修改原10秒/15秒工时与120秒截止。",
+        "root_cause_status": "发布积压/探测过期为正在定位的原因，未据本接收记录宣称根因已最终确认。"
+      },
+      "normal_H10_H11_UI_exports": {
+        "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/positive-export-verification.json",
+        "H10_files": 22,
+        "H10_CSV_tables": 17,
+        "H11_UI_rows": 110,
+        "H11_actual_backend_pages": 1,
+        "UI_first_page_limit": 50,
+        "actual_PG_oracle_match": true,
+        "MCP_and_multi_page_acceptance": null
+      },
+      "H11_complete_joint_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json#/H11"
+    },
+    "latest_actual_Native_HTTPS_execution": {
+      "candidate": "Native10",
+      "normal_baseline_candidate": "Native09",
+      "normal_baseline_ms": 53202,
+      "ban_A_completed_ms": 97092,
+      "accepted_quantity": "6",
+      "A_accepted_attempts": 1,
+      "B_accepted_attempts": 5,
+      "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+      "scope": "Actual ordinary UI/HTTPS/two real software-in-loop children; no overall product acceptance"
+    },
+    "latest_actual_Native_execution": {
+      "candidate": "Native10",
+      "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+      "scope": "停止A后原任务继续、无新A、六件结清；正常基线为Native09，同源快照各自固定。"
+    },
+    "frontend_control_ack_fix": {
+      "source_ref": "apps/planner/src/services/cloudProduction.ts",
+      "change": "JSON object structural equality independent of key order; ordered arrays and exact values preserved. Latest revision read and CAS unchanged.",
+      "red_ref": ".work/v2-control-status-sync-20261027/control-ack-red.json",
+      "component_ref": ".work/v2-control-status-sync-20261027/control-ack-green.json",
+      "component_checks_passed": 7,
+      "planner_typecheck": "passed",
+      "actual_updated_Native_banner_recheck": "pending_next_managed_candidate",
+      "shared_Native_or_build_operated_by_this_window": false
+    },
+    "v2_materials_ref": ".work/v2-materials-20261027/materials.json",
+    "hosted_scale_and_telemetry_progress": {
+      "receipt_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+      "generated_rows": 1000000,
+      "independent_PG_formula_verified": true,
+      "queries_passed": 60,
+      "query_p95_ms": {
+        "raw": 63.0,
+        "aggregate": 1641.0
+      },
+      "real_smoke_10_children_clean": true,
+      "formal1800_acceptance": true,
+      "H11_UI_and_MCP_rows_each": 10000,
+      "H11_backend_pages_each": 50
+    },
+    "actual_hosted_scale": {
+      "receipt_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+      "rows": 1000000,
+      "devices": 100,
+      "batches": 1000,
+      "raw_PG_oracle_bytes": 256333696,
+      "queries": 60,
+      "raw_queries": 30,
+      "aggregate_queries": 30,
+      "p95_ms": {
+        "raw": 63.0,
+        "aggregate": 1641.0
+      },
+      "all_query_rows_match_independent_expected": true,
+      "query_started_after_formal_telemetry_launch": true,
+      "actual_samples": 18000,
+      "actual_native_clean_exits": 10,
+      "actual_minute_aggregate_verified": true
+    },
+    "formal_telemetry_H11": {
+      "at_utc": "2026-10-27T04:14:05.173729+00:00",
+      "source_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+      "formal_native_result_ref": "C:\\Users\\fujunye\\AppData\\Local\\Temp\\sf-v2-sealos-telemetry-1800-20261027-01\\native-result.json",
+      "scope": "formal10x1800 telemetry and UI/MCP H11 content join",
+      "telemetry_rows": 18000,
+      "devices": 10,
+      "slots_each": 1800,
+      "missed_or_extra_slots": 0,
+      "all10_native_exit_codes_zero": true,
+      "sample_and_first_send_every_actual_slot": true,
+      "PG_payload_ACK_exact": true,
+      "UTC_minute_aggregate_rows": 310,
+      "UTC_minute_pages": 2,
+      "UTC_minute_count": 18000,
+      "H11_UI_rows": 10000,
+      "H11_UI_pages": 50,
+      "H11_MCP_rows": 10000,
+      "H11_MCP_pages": 50,
+      "H11_every_field_and_cell_matches_PG": true,
+      "MCP_IPC_mocked": false,
+      "MCP_original_content_pending_resolved_by": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json#/H11",
+      "latency_target_proved": false,
+      "overall_v2_acceptance": null
+    },
+    "actual_100_frame_latency": {
+      "receipt_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+      "valid_samples": 100,
+      "p95_conservative_upper_bound_ms": 1402.7524,
+      "target_ms": 2000,
+      "passed": true,
+      "scope": "Actual request to first correct physical screen; common verified rawQPC;100 exact PG events; software_in_loop",
+      "whole_product_acceptance": null,
+      "independent_reception_ref": ".work/v2-materials-20261027/latency100-reception.json"
+    },
+    "material_repository_readiness_ref": ".work/v2-materials-20261027/repository-readiness.json",
+    "actual_hosted_cloud_source_view": {
+      "status": "actual_Native_hosted_cloud_3D_and_timeline_verified",
+      "identity": {
+        "execution_epoch_id": "desktop-host-110308-1793066552686063500:execution-epoch:1:5",
+        "host_context_session_id": "desktop-host-110308-1793066552686063500",
+        "project_id": "Task8-two-device-six-units",
+        "session_id": "desktop-host-110308-1793066552686063500:execution:1:5"
+      },
+      "R": 354,
+      "F": 976,
+      "T": 53202,
+      "read_origin": "cloud",
+      "history_records": 976,
+      "actual_frozen_GLTF_device_instances": 2,
+      "old_Run_count": 3,
+      "original_context_preserved": true,
+      "proof_ref": "C:/Users/fujunye/AppData/Local/Temp/sf-v2-hosted-cloud-view-20261027-03/receipt.json",
+      "scope": "Exact final/T0 objects and all history;2 GLTF; disabled production controls;GET identity and object/cursor order fixed and actually verified"
+    },
+    "current_cloud_image": "harbor.bja.sealos.run/ns-61j010p3/sf-cloud-service@sha256:92db924995d7611bb823f54ed1ae0e1696c06078fc109e43b34420e5805b08e3",
+    "actual_cloud_origin": {
+      "receipt_ref": ".work/v2-materials-20261027/cloud-origin-reception.json",
+      "source_refs": [
+        "C:/Users/fujunye/AppData/Local/Temp/sf-v2-hosted-cloud-view-20261027-03/receipt.json",
+        "C:/Users/fujunye/AppData/Local/Temp/sf-sealos-container-order-fix-20261027-01/actual-order-regression.json"
+      ],
+      "R": 354,
+      "F": 976,
+      "T": 53202,
+      "objects": 26,
+      "unfiltered_pages": 6,
+      "filtered_rows": 5,
+      "filtered_pages": 3,
+      "history_records": 976,
+      "frozen_models": 2,
+      "final_T_and_T0_matches_Host": true,
+      "cloud_controls_readonly": true,
+      "project_and3_old_Runs_preserved": true,
+      "whole_v2_acceptance": null
+    },
+    "selected_manifest_version": "2.0.0",
+    "technical_manifest_version_scope": "既有已验候选0.1.0；当前选定2.0.0的最终候选另验。"
+  },
+  "design_artifacts": [
+    {
+      "id": "V2-EXEC-DETAIL-01",
+      "date": "2026-10-25",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/执行准入与替代设备设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/执行准入与替代设备设计.json",
+      "scope": "V2-01/04/05/06 candidate binding and external admission",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 12,
+      "open_items": [
+        "当前尚缺动作按原包V2-01、V2-04、V2-05、V2-06的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "concrete v1-final fixture identities",
+          "schema draft is in V2-API-DB-03; full validation, Rust integration and runtime proof remain pending"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-01",
+        "V2-04",
+        "V2-05",
+        "V2-06"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-CLOCK-PROJECTION-02",
+      "date": "2026-10-25",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/外部时钟与结果投影设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/外部时钟与结果投影设计.json",
+      "scope": "external epoch, cutoff, independent execution projection and timing basis",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 16,
+      "open_items": [
+        "当前尚缺动作按原包V2-03、V2-04、V2-07、V2-10的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "schema and database transaction drafts are in V2-API-DB-03; full validation and runtime proof remain pending",
+          "v1-final fixture and actual frame-measurement capability"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-03",
+        "V2-04",
+        "V2-07",
+        "V2-10"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-API-DB-03",
+      "date": "2026-10-25",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/接口与数据库事务设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/数据库事务.design.json",
+      "schema_ref": "docs/06_v2.0设计与开发控制/接口契约.schema.design.json",
+      "scope": "draft11:11 Host operations,20 business endpoints+OP01,16 tables,13 transactions,154 definitions;3 meta schemas/26 examples checked, runtime unrun",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 18,
+      "open_items": [
+        "当前尚缺动作按原包V2-01、V2-02、V2-04、V2-09的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "actual generated-contract validation and actual Rust generation",
+          "concrete PaaS/version/budget and actual DB checks",
+          "actual consumers/archives/Native verification; frozen-input design now in V2-FROZEN-OBSERVATION-05",
+          "v1-final identities and source rebase"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-01",
+        "V2-02",
+        "V2-04",
+        "V2-09"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-UI-CONSUMER-04",
+      "date": "2026-10-25",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/界面字段状态与恢复边界设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/界面字段状态与恢复边界设计.json",
+      "scope": "three-tab field/state/permission consumers, scoped read Task and close/reconnect boundaries; telemetry page identity/partial/empty/failure and UTC precision detailed",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 16,
+      "open_items": [
+        "当前尚缺动作按原包V2-07的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "frozen-input/3D/timeline rules drafted in V2-FROZEN-OBSERVATION-05; actual consumers remain pending",
+          "actual schema generation/validation and v1-final fixture/source rebase",
+          "real Host/cloud/Native verification"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-07"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-FROZEN-OBSERVATION-05",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/冻结输入与执行观察设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/冻结输入与执行观察设计.json",
+      "scope": "frozen inputs/media archive, first-run clock, fixed-prefix observations and separate execution scene/timeline consumers",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 18,
+      "open_items": [
+        "当前尚缺动作按原包V2-04、V2-07、V2-09的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "v1-final fixture/media identities and source rebase",
+          "actual schema generation, archive roundtrip, Cloud/Host/Native verification",
+          "Agent/report rules now in V2-AGENT-REPORT-06; actual consumers and PaaS remain pending"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-04",
+        "V2-07",
+        "V2-09"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-AGENT-REPORT-06",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/Agent与执行报告消费设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/Agent与执行报告消费设计.json",
+      "scope": "actual Agent capability/effect consumers, original request recovery, local catalog/fixed history and canonical four-format execution report with 17 CSV tables; finite DaaS coverage and report frontier namespaces; prediction Run delivery A07 detailed in V2-PREDICTION-REPORT-11; actual model waiting added, source basis explicit",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 20,
+      "open_items": [
+        "当前尚缺动作按原包V2-08、V2-09的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "device/gateway lifecycle now in V2-DEVICE-GATEWAY-07; actual platform/deployment remains pending",
+          "actual generated-contract validation/generated actual types and v1-final identities",
+          "real MCP/Host/Cloud/Native/selected-file export and rendered output checks",
+          "actual T8-A07 source/metrics/consumer verification pending after V2-PREDICTION-REPORT-11 design"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-08",
+        "V2-09"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-DEVICE-GATEWAY-07",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/设备进程网关与部署设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/设备进程网关与部署设计.json",
+      "scope": "Native in-process gateway, independent devices, boot fencing/retirement, durable poll/receipt semantics and separated telemetry load; one-shot observation probes with original Host-clock age bound through existing routes",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 28,
+      "open_items": [
+        "当前尚缺动作按原包V2-03的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "concrete PaaS/PostgreSQL/TLS/budget and packaged Python runtime",
+          "v1-final identities/source rebase and complete schema validation",
+          "actual process crash/cancel/close and cloud/Host/Native/performance verification"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-03"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-DEPLOYMENT-08",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/托管部署配置与交付闭包设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/托管部署配置与交付闭包设计.json",
+      "scope": "Render reference resources/TLS/migration/health/budget, workspace build boundary and explicit portable Python resource closure",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 8,
+      "open_items": [
+        "当前尚缺动作按原包V2-02、V2-03、V2-11的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "actual account/resources/billing/region network",
+          "registry image metadata and lock/Linux build",
+          "actual PG migration/TLS and packaged Python imports/Native consumer",
+          "v1 final source/fixture and complete schema validation"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-02",
+        "V2-03",
+        "V2-11"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-TYPE-CONTRACT-09",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/类型归属与契约样例设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/类型归属与契约样例设计.json",
+      "scope": "154 definitions:9 reused/102 domain/42 Host/1 Native;3 handle kinds/4 async operations;26 standard examples match, real Rust/consumers pending",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 0,
+      "schema_examples": 26,
+      "open_items": [
+        "当前尚缺动作按原包V2-01的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "actual v2 generated contracts/Rust roundtrip and typed consumers after gates",
+          "v1-final source/fixture identities"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-01"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-DAAS-SCALE-10",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/数据查询与规模验收设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/数据查询与规模验收设计.json",
+      "scope": "million deterministic generated events, actual DB-time oracle, immutable batches, complete queries30+30 and10 real1Hz producers30min; actual selected device set echoed on each telemetry page and grouped start null",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 8,
+      "open_items": [
+        "当前尚缺动作按原包V2-02、V2-10的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "v1 final source/fixture and G-START",
+          "actual independent DB export/API/30min cadence and finite-frame100 verification",
+          "actual generated-contract validation and actual timestamp/Rust/Linux/Native consumers",
+          "UI/Agent page coverage consumer rules now in existing consumer design; actual typed/runtime verification pending"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-02",
+        "V2-10"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-PREDICTION-REPORT-11",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/预测与执行比较设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/预测与执行比较设计.json",
+      "scope": "T8-A07 actual terminal prediction Run/execution sources, input and per-metric comparability, draft9 H10/canonical/receipt and17-table four formats; actual model waiting added, source basis explicit",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 8,
+      "open_items": [
+        "当前尚缺动作按原包V2-06、V2-09的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "actual generated-contract validation/Rust generation/typed wire",
+          "v1-final source and actual Run/execution fixture",
+          "actual Host/Agent/Native/17-table four-format outputs"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-06",
+        "V2-09"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-DATA-EXPORT-12",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/筛选数据导出设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/筛选数据导出设计.json",
+      "scope": "T8-F04 complete fixed-selection CSV/JSON Lines streaming viaH11, actual selected directory and non-overwriting publication",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 8,
+      "open_items": [
+        "当前尚缺动作按原包V2-08、V2-09的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "full schema/Rust/type validation",
+          "v1-final references and actual C08/Native directory/Task consumers",
+          "actual million streaming/export correctness and IO/cancel verification"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-08",
+        "V2-09"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    },
+    {
+      "id": "V2-COVERAGE-AUDIT-13",
+      "date": "2026-10-26",
+      "markdown_ref": "docs/06_v2.0设计与开发控制/需求覆盖复核.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/需求覆盖复核.json",
+      "scope": "32 rows:16F+5Q+8A+3 deliverables, bounded demo authority and source/case mapping; no runtime completion claim",
+      "implementation_started": true,
+      "runtime_verified": false,
+      "design_cases": 0,
+      "open_items": [
+        "当前尚缺动作按原包V2-10、V2-11的remaining_work读取；设计期已实现事项不重复执行。"
+      ],
+      "historical_design_snapshot": {
+        "implementation_started": false,
+        "runtime_verified": false,
+        "open_items": [
+          "v1-final source/fixture/frame binding",
+          "actual runtime/deployment/generated consumers remain deferred by user instruction"
+        ]
+      },
+      "runtime_verification_scope": "已有分层实际证据；false表示未宣称该设计全部用例及整版真实托管出口通过。",
+      "current_packages": [
+        "V2-10",
+        "V2-11"
+      ],
+      "implementation_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages"
+    }
+  ],
+  "next_design_action": "设计基线转为实施参考；当前动作取implementation_execution.next_coordinator_action，各原V2包尚缺事项取packages[].remaining_work。",
+  "result_projection_decision": {
+    "type": "independent ExecutionSnapshot",
+    "legacy_RunResult": "unchanged ordinary prediction and historical evidence semantics",
+    "clock": "Host monotonic epoch",
+    "cutoff": "stop new dispatch, retain immutable report prefix, reconcile admitted work",
+    "physical_effective_work": "null unless actual attributable measurement exists",
+    "clock_anchor": "first accepted run only; prepared clock_started=false at0; pause/resume no reset"
+  },
+  "design_case_count": 160,
+  "requirement_alignment_open_items": [
+    {
+      "id": "RA-A07",
+      "requirement_ref": "docs/01_业务需求/任务8_应用形态功能需求与实现缺口.md",
+      "requirement": "T8-A07/F06/F16; local prediction Run versus cloud execution delivery",
+      "design_evidence": "预测与执行比较设计.md/json及draft9 H10.prediction、ExecutionReport.prediction_comparison、ExportExecutionReportResult.prediction",
+      "status": "actual_prediction_and_Native_report_verified_cloud_comparison_pending",
+      "next": "执行V2-06/09真实HTTPS正常/停用来源及指标比较。",
+      "runtime_result": {
+        "scope": "actual saved r4 prediction and Native H10 files",
+        "receipt_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      "design_snapshot": {
+        "status": "design_drafted_unverified",
+        "next": "按v1最终候选核对真实Run/执行ID和实际类型/消费者，完成标准校验；实施前不运行v2",
+        "runtime_result": null
+      }
+    },
+    {
+      "id": "RA-F04-export",
+      "requirement_ref": "docs/01_业务需求/任务8_应用形态功能需求与实现缺口.md;2.2数据服务工作区",
+      "requirement": "export current filtered full result",
+      "design_evidence": "筛选数据导出设计.md/json; H11 + CloudDataExportRecord/Selection",
+      "status": "actual_million_stream_and_local_Host_verified_hosted_H11_pending",
+      "next": "执行V2-08/09真实托管Native/Agent H11固定筛选全部结果导出。",
+      "runtime_result": {
+        "scope": "1M/5000-page producer and local PG Host F400; actual Native directory grants",
+        "receipt_refs": [
+          ".work/v2-implementation-20261026/cloud-data-export/receipt.json",
+          ".work/v2-implementation-20261026/host-exports/receipt.json",
+          ".work/v2-implementation-20261026/native-workbench/receipt.json"
+        ]
+      },
+      "design_snapshot": {
+        "status": "design_drafted_unverified",
+        "next": "按v1最终源码/真实配置和准入完成types/streaming/all-page/Native验证",
+        "runtime_result": null
+      }
+    }
+  ],
+  "document_validation": {
+    "receipt_ref": ".work/v2-design-schema-validation/receipt.json",
+    "scope": "3 meta schemas/26 expected structure examples/date-time assertion; document layer only",
+    "result": "pass",
+    "product_dependencies_changed": false,
+    "product_implementation_started": false,
+    "historical_validation_scope": "2026-10-26设计文档校验记录；product_implementation_started=false仅描述当时校验，不表示当前产品未实施。"
+  },
+  "platform_selection": {
+    "provider": "Sealos",
+    "database": "managed PostgreSQL",
+    "confirmed_date": "2026-10-26",
+    "basis": "user accepted domestic alternative and reported account ready; existing Beijing-A account read-only connection and namespace permissions verified",
+    "actual_resources_created": true,
+    "implementation_allowed": true,
+    "namespace": "ns-61j010p3",
+    "readiness_ref": "docs/06_v2.0设计与开发控制/托管部署配置与交付闭包设计.json#/sealos_readiness",
+    "budget_ref": ".work/v2-implementation-20261026/sealos-price-query/actual-budget.json",
+    "current_readiness": "真实托管已部署；PG16.4、加密连接、镜像digest、迁移及可信HTTPS10项通过。Native已打开原r4工程并请求六件冻结准备；两设备整链/H11/遥测/最终交付未通过。",
+    "resource_observation_scope": "实际部署及资源状态取2026-10-27T01:40:56Z原回执；本轮只读取，不创建/操作在线资源。",
+    "deployment_receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json"
+  },
+  "implementation_coordinator": {
+    "thread_id": "01a1731e-3f61-7c52-a25e-48d6e006a446",
+    "title": "v2.0 实现窗口1",
+    "handoff_ref": "docs/06_v2.0设计与开发控制/v1.0存档与实施交接.json",
+    "state": "handoff_accepted_implementation_active",
+    "notification_sent_at": "2026-10-26T23:13:43.831219+08:00",
+    "last_observed_turn_state": "active",
+    "status_observed_at_utc": "2026-10-27T01:45:48.535491+00:00"
+  },
+  "v1_archive_ref": "D:\\Agent\\ICNSD-KEL\\大作业\\02_竞赛作品\\超级工厂\\版本存档\\v1.0_20261026_完整存档\\ARCHIVE.json",
+  "historical_v1_observation": {
+    "source_date": "2026-10-26",
+    "current_package": "P0-01",
+    "latest_plan_at": "2026-10-25T20:59:38.920332+00:00",
+    "reported_remaining_gap_mappings": 21,
+    "reported_formal_whole_packages_done": 0,
+    "do_not_recalculate_from_design": true,
+    "readonly_process_check": {
+      "C44_pid_79108": "present_as_superfactory",
+      "C46_pid_88736": "present_as_superfactory",
+      "windows_operated": false,
+      "scope": "historical 2026-10-25 observation, not current process-liveness proof"
+    },
+    "owner_thread_snapshot": "historical source-writer idle observation; does not prove source lease returned; current desktop/source owner mapping taken separately from latest plan",
+    "program_regression": {
+      "tests": 15,
+      "passed": 15,
+      "failed": 0,
+      "receipt_ref": ".work/v1-acceptance-20261025/v2-design-window/program-close-refresh/receipt.json",
+      "layer": "program only",
+      "native_gap_closed": false
+    },
+    "current_action": "P0-01：设备详情两负载各2例UI/原始帧运输入口已验证，原600/完整1800正式新增通过0，正确首帧绑定仍缺。四文件私有修复和原归约器提案仍待此前确认；NFR07实查无Sandbox入口，Hyper-V查询权限被拒，未执行全进程离线。保持21条/90.5%。",
+    "previous_plan_at": "2026-10-25T20:35:54.588461+00:00",
+    "current_stage": "P001_detail_two_load_driver_pilot_passed_formal_frame_binding_and_source_handoff_pending",
+    "ordinary_native_lifecycle": {
+      "receipt_ref": "output/playwright/20261026-P001-close-diagnosis/receipt.json",
+      "status": "pass_original_P001_scoped_ordinary_Native_lifecycle_on_C50",
+      "formal_NFR_group_pass": false,
+      "whole_package_pass": false,
+      "product_source_changed": false,
+      "new_product_build": false,
+      "preserved_original_faults": "C46/C49 retained; their unique historical root cause is not asserted"
+    },
+    "current_ownership_from_plan": {
+      "desktop_owner_thread": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+      "product_source_writer_thread": "01a16e4f-4fca-7b72-90b2-679d40acdeb8",
+      "scope": "20:59Z计划仍保留原所有者；四文件私有修复/归约提案待此前确认，正确首帧缺失，未据此确认源码移交或进程存活",
+      "live_process_checked_by_this_design_turn": false
+    },
+    "historical_runtime_failure_ref": ".work/parallel-closeout-20261024/native/C46-native-event-bridge-failure.json",
+    "product_source_lease_returned_in_plan": false,
+    "isolated_save_patch": {
+      "source": "current v1 plan report, not independently rerun by design turn",
+      "program_checks": 14,
+      "balanced_prepare_seconds_before": 15.014,
+      "balanced_prepare_seconds_after": 1.851,
+      "dense_prepare_seconds_after": 2.115,
+      "formal_native_40_sample_group_pass": false,
+      "source_handoff_confirmed": false
+    },
+    "nfr03_reported_observation": {
+      "source": "current plan only, not independently rerun",
+      "actual_samples_reported": 100,
+      "first": 60,
+      "repeat": 40,
+      "original_reducer": "not_evaluable,2 Reporter identity fields missing",
+      "private_fix_checks_reported": 9,
+      "private_recompute_p95_ms_reported": 18.987,
+      "formal_pass_added": false,
+      "repair_permission_pending": true
+    },
+    "latest_reported_noncolor_native": {
+      "source": "20:13Z plan report only, not independently rerun",
+      "scoped_states": 8,
+      "candidate": "C50",
+      "reported_normal_close": true,
+      "formal_group_added": false,
+      "source_handoff_confirmed": false
+    },
+    "latest_reported_detail_driver": {
+      "source": "20:59Z plan report only; no Native interaction by this design turn",
+      "pilot_cases": 4,
+      "formal_new_passes": 0,
+      "correct_first_frame_binding": "missing",
+      "source_build_handoff": "pending",
+      "private_fix_files_reported": 4,
+      "whole_process_offline_run": false
+    }
+  },
+  "implementation_execution": {
+    "date": "2026-10-26",
+    "coordinator_thread_id": "01a1731e-3f61-7c52-a25e-48d6e006a446",
+    "baseline": "v1 C57 normal-use accepted and fully archived",
+    "current_package": "V2-11",
+    "active_platform": "Sealos Beijing A",
+    "public_wire_baseline": "sf.execution/2.0-draft11; design schema shape frozen, Rust consumers implemented by slice",
+    "root_owned": [
+      "root Cargo/npm manifests and lockfiles",
+      "packages/domain",
+      "packages/commands",
+      "contract generation",
+      "shared Host and Native wiring",
+      "integration and release"
+    ],
+    "parallel_rule": "complete independent source slices only; existing idle windows; service_tier default verified before dispatch; no shared build/Native operation",
+    "receipt_root": ".work/v2-implementation-20261026",
+    "actual_v2_product_acceptance": null,
+    "paid_cloud_resources_created": true,
+    "parallel_batches": [
+      {
+        "package": "V2-03",
+        "slice": "managed execution and telemetry-only Python processes",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_device_component_Native_integrated_actual_HTTPS_pending",
+        "task_ref": ".work/v2-implementation-20261026/devices-task.md",
+        "write_scope": [
+          "integrations/devices/**",
+          ".work/v2-implementation-20261026/devices/**"
+        ],
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/devices/receipt.json",
+        "component_tests_passed": 24,
+        "root_received_checks": "actual unittest log and two persisted completed-command journals read; demo profile corrected to task8 10/15 seconds",
+        "historical_receipt_status": "received_device_component_native_cloud_integration_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-05",
+        "slice": "same Engine/Stock external phase admission and completion",
+        "thread_id": "01a11f4e-f8a4-7a62-9d23-24834761b07e",
+        "thread_title": "实现窗口2",
+        "status": "received_engine_component_Host_Native_integrated_actual_HTTPS_pending",
+        "task_ref": ".work/v2-implementation-20261026/engine-task.md",
+        "write_scope": [
+          "packages/simulation/src/**",
+          "packages/simulation/tests/v2_external_*.rs",
+          ".work/v2-implementation-20261026/engine/**"
+        ],
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/engine/receipt.json",
+        "kernel_new_tests_passed": 16,
+        "local_regressions_passed": 33,
+        "historical_receipt_status": "received_engine_component_host_integration_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-02",
+        "slice": "complete Axum/PostgreSQL/DaaS producer and actual local integration",
+        "thread_id": "01a13589-e1b0-73d2-aaae-c69be89c5b0f",
+        "thread_title": "实现窗口3",
+        "status": "received_local_PG_HTTP_component_Host_integrated_actual_hosted_pending",
+        "task_ref": ".work/v2-implementation-20261026/cloud-task.md",
+        "write_scope": [
+          "apps/cloud-service/** except Cargo.toml; isolated new Cargo.lock allowed",
+          "tools/cloud/**",
+          ".work/v2-implementation-20261026/cloud/**"
+        ],
+        "local_reserved_ports": [
+          23270,
+          23271
+        ],
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/cloud/receipt.json",
+        "root_received_checks": "read actual109-check log, million-row/60-query receipt and raw/aggregate p95; decoded-path fix separately verified; actual Host three read branches use retained real PG",
+        "historical_receipt_status": "received_cloud_component_real_host_read_integrated_execution_gateway_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/host-exports/receipt.json"
+      },
+      {
+        "package": "V2-03/V2-11",
+        "slice": "Native owned device Child, actual embedded Python and portable packager",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_packaged_runtime_Native_integrated_lifecycle_verified",
+        "task_ref": ".work/v2-implementation-20261026/native-device-runtime-task.md",
+        "write_scope": [
+          "apps/planner/src-tauri/src/device_process.rs",
+          "resources/v2-devices/**",
+          "tools/release-preparation/package_v2.py",
+          ".work/v2-implementation-20261026/native-device-runtime/**"
+        ],
+        "previous_integrations_devices_scope_returned": true,
+        "receipt_ref": ".work/v2-implementation-20261026/native-device-runtime/receipt.json",
+        "verified_component_logs": {
+          "rust": 12,
+          "portable": 7,
+          "actual_python": "3.14.9"
+        },
+        "observed_turn_status": "completed",
+        "historical_receipt_status": "received_native_device_runtime_component_shared_native_integration_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json"
+      },
+      {
+        "package": "V2-09/T8-A07",
+        "slice": "execution metrics, actual prediction comparison and four report formats",
+        "thread_id": "01a11f4e-f8a4-7a62-9d23-24834761b07e",
+        "thread_title": "实现窗口2",
+        "status": "received_reporting_Host_actual_Native_H10_verified",
+        "task_ref": ".work/v2-implementation-20261026/reporting-task.md",
+        "write_scope": [
+          "packages/reporting/src/execution_evaluation.rs",
+          "packages/reporting/src/execution_output.rs",
+          "packages/reporting/execution-report.contract.design.json",
+          ".work/v2-implementation-20261026/reporting/**"
+        ],
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/reporting/receipt.json",
+        "component_tests_passed": 16,
+        "historical_receipt_status": "received_reporting_component_product_library_exported_h10_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-04/V2-09",
+        "slice": "same-Engine execution snapshot and continuous observation/history producer",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_projection_integrated_actual_Native_archive_verified",
+        "observed_turn_status": "completed",
+        "task_ref": ".work/v2-implementation-20261026/execution-projection-task.md",
+        "write_scope": [
+          "packages/commands/src/execution_projection.rs",
+          ".work/v2-implementation-20261026/execution-projection/**"
+        ],
+        "receipt_ref": ".work/v2-implementation-20261026/execution-projection/receipt.json",
+        "root_component_tests_passed": 24,
+        "historical_receipt_status": "received_and_integrated_with_actual_session_controller",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-09/H11",
+        "slice": "fixed-selection complete CSV/JSONL streaming producer and actual million-row export",
+        "thread_id": "01a13589-e1b0-73d2-aaae-c69be89c5b0f",
+        "thread_title": "实现窗口3",
+        "status": "received_streaming_H11_Host_local_PG_verified_actual_hosted_Native_pending",
+        "observed_turn_status": "completed",
+        "task_ref": ".work/v2-implementation-20261026/cloud-data-export-task.md",
+        "write_scope": [
+          "packages/reporting/src/cloud_data_export.rs",
+          ".work/v2-implementation-20261026/cloud-data-export/**"
+        ],
+        "receipt_ref": ".work/v2-implementation-20261026/cloud-data-export/receipt.json",
+        "component_checks_passed": 37,
+        "real_rows_exported": 1000000,
+        "real_pages": 5000,
+        "root_received": "Actual final finite log, live readback receipt and process/byte facts inspected; product library compiled; unchanged million output not rerun",
+        "historical_receipt_status": "received_component_product_library_exported_h11_directory_submission_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/host-exports/receipt.json"
+      },
+      {
+        "package": "V2-01/V2-04",
+        "slice": "remaining thirty strict Host wire types and actual Rust/schema/TypeScript producer",
+        "thread_id": "01a11f4e-f8a4-7a62-9d23-24834761b07e",
+        "thread_title": "实现窗口2",
+        "status": "received_generated_wire_all_11_Host_operations_consumed",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/host-wire/receipt.json",
+        "producer_cases_passed": 743,
+        "write_scope": [
+          "packages/commands/src/execution_host_wire.rs",
+          ".work/v2-implementation-20261026/host-wire/**"
+        ],
+        "historical_receipt_status": "received_public_types_generated_h02_h03_h09_consumed_remaining_operations_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-04/V2-10",
+        "slice": "actual two-device six-unit reusable ProjectArchive with retained prediction Run",
+        "thread_id": "01a13589-e1b0-73d2-aaae-c69be89c5b0f",
+        "thread_title": "实现窗口3",
+        "status": "received_demo_r2_historical_superseded_by_actual_geometry_r4",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/demo-package/receipt.json",
+        "write_scope": [
+          "resources/v2-demo/**",
+          "tools/v2-demo/**",
+          ".work/v2-implementation-20261026/demo-package/**"
+        ],
+        "historical_receipt_status": "received_actual_host_saved_reopened_native_cloud_integration_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/demo-geometry/receipt.json"
+      },
+      {
+        "package": "V2-07",
+        "slice": "three-tab cloud production panel and actual generated Host consumer",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_UI_canonical_responses_and_actual_Native_verified",
+        "task_ref": ".work/v2-implementation-20261026/cloud-ui-task.md",
+        "write_scope": [
+          "apps/planner/src/features/cloud/CloudProductionPanel.tsx",
+          "apps/planner/src/features/cloud/cloudProduction.css",
+          "apps/planner/src/services/cloudProduction.ts",
+          ".work/v2-implementation-20261026/cloud-ui/**"
+        ],
+        "shared_root_integration_excluded": true,
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/cloud-ui/receipt.json",
+        "root_receipt_ref": ".work/v2-implementation-20261026/cloud-ui/root-integration-receipt.json",
+        "historical_receipt_status": "received_component_18_checks_Root_21_checks_Workbench_mounted_actual_Native_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-07/V2-09",
+        "slice": "readonly execution frozen view scene and timeline",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_execution_view_actual_Native_archive_verified",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/execution-view/receipt.json",
+        "component_checks_passed": 13,
+        "historical_receipt_status": "received_13_component_checks_real_media_port_and_Workbench_mounted_Native_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-04/V2-03",
+        "slice": "Native execution actor managed queue and original Child lifecycle",
+        "thread_id": "01a11f4e-f8a4-7a62-9d23-24834761b07e",
+        "thread_title": "实现窗口2",
+        "status": "received_actor_Native_integrated_actual_HTTPS_pending",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/native-execution-actor/receipt.json",
+        "component_checks_passed": 16,
+        "historical_receipt_status": "received_16_component_checks_Native_setup_registered_real_HTTPS_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json"
+      },
+      {
+        "package": "V2-02/V2-11",
+        "slice": "Linux container image and Sealos deployment templates",
+        "thread_id": "01a13589-e1b0-73d2-aaae-c69be89c5b0f",
+        "thread_title": "实现窗口3",
+        "status": "received_Linux_image_local_PG_TLS_actual_hosted_pending",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/sealos-container/receipt.json",
+        "component_checks_passed": 19,
+        "historical_receipt_status": "received_actual_Linux_image_19_real_PG_TLS_checks_no_cloud_deployment",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/sealos-authenticated-discovery/receipt.json"
+      },
+      {
+        "package": "V2-04/V2-10",
+        "slice": "actual demo display layouts and new immutable prediction inputs",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_geometry_r4_actual_Native_saved_reopened",
+        "task_ref": ".work/v2-implementation-20261026/demo-geometry-task.md",
+        "write_scope": [
+          "resources/v2-demo/**",
+          "tools/v2-demo/**",
+          ".work/v2-implementation-20261026/demo-geometry/**"
+        ],
+        "service_tier": "default",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/demo-geometry/receipt.json",
+        "historical_receipt_status": "received_real_saved_reopened_r4_and_all_six_item_geometry_components_Native_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-02",
+        "slice": "Sealos Beijing A readonly current platform deployment facts",
+        "thread_id": "01a13589-e1b0-73d2-aaae-c69be89c5b0f",
+        "thread_title": "实现窗口3",
+        "status": "received_readonly_platform_facts_budget_superseded_by_actual_account_prices",
+        "task_ref": ".work/v2-implementation-20261026/sealos-platform-facts-task.md",
+        "write_scope": [
+          ".work/v2-implementation-20261026/sealos-platform-facts/**"
+        ],
+        "service_tier": "default",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/sealos-platform-facts/receipt.json",
+        "historical_receipt_status": "received_actual_readonly_connection_namespace_empty_workspace_platform_suffix_verified_paid_deployment_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/sealos-price-query/actual-budget.json"
+      },
+      {
+        "package": "V2-09/H10/H11",
+        "slice": "actual Host report and fixed-selection streaming exports",
+        "thread_id": "01a13589-e1b0-73d2-aaae-c69be89c5b0f",
+        "thread_title": "实现窗口3",
+        "status": "received_Host_H10_H11_local_PG_actual_Native_H10_verified",
+        "task_ref": ".work/v2-implementation-20261026/host-exports-task.md",
+        "write_scope": [
+          "exact Commands and generated files listed in host-exports-task.md",
+          ".work/v2-implementation-20261026/host-exports/**"
+        ],
+        "service_tier": "default",
+        "observed_turn_id": "01a179f9-746c-7d53-a7b9-698fe3771013",
+        "observed_drift": "turn began H10/H11 and after contextCompaction returned to old v042 model review; no accepted H10/H11 receipt",
+        "write_scope_not_reassigned_while_active": false,
+        "observed_turn_status": "completed",
+        "previous_unsuccessful_thread_id": "01a11f4e-f8a4-7a62-9d23-24834761b07e",
+        "scope_owner": "returned_to_Root",
+        "receipt_ref": ".work/v2-implementation-20261026/host-exports/receipt.json",
+        "actual_Host_tests_passed": 34,
+        "historical_receipt_status": "received_actual_Host_34_tests_PG_F400_two_pages_four_report_formats_Native_integration_in_progress",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-09",
+        "slice": "actual Agent MCP execution workflow consumer",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_MCP_Python_and_actual_Native_MCP_verified",
+        "task_ref": ".work/v2-implementation-20261026/agent-execution-consumer-task.md",
+        "write_scope": [
+          "apps/mcp-bridge/src/**",
+          "apps/mcp-bridge/tests/v2_execution_consumer.rs",
+          "integrations/agent/workflow.py",
+          "integrations/agent/README.md",
+          "integrations/agent/skills/superfactory-workflow/**",
+          "integrations/agent/runtime/contract.rs",
+          ".work/v2-implementation-20261026/agent-execution-consumer/**"
+        ],
+        "service_tier": "default",
+        "shared_Commands_and_Native_excluded": true,
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/agent-execution-consumer/receipt.json",
+        "scope_owner": "returned_to_Root",
+        "historical_receipt_status": "received_MCP26_Python14_Rust_wire53_actual_r4_Host_read_permission_boundaries_Native_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-04/V2-09",
+        "slice": "execution source genuine ProjectArchive persistence and readonly restore",
+        "thread_id": "01a13589-e1b0-73d2-aaae-c69be89c5b0f",
+        "thread_title": "实现窗口3",
+        "status": "Root_finished_partial_worker_archive_actual_Native_verified",
+        "task_ref": ".work/v2-implementation-20261026/execution-archive-task.md",
+        "write_scope": [
+          "packages/commands/src/** only assigned persistence consumers",
+          "packages/commands/generated/** actual generation",
+          "packages/domain/src/models.rs and lib.rs only minimum persistence fields",
+          ".work/v2-implementation-20261026/execution-archive/**"
+        ],
+        "service_tier": "default",
+        "idle_verified_before_dispatch": true,
+        "scope_owner": "returned_to_Root",
+        "observed_turn_status": "completed",
+        "observed_turn_id": "01a17a50-d300-7351-9fb3-0e275a5ade61",
+        "observed_context_compaction_id": "01a17a5d-60f2-7e81-91aa-be7d2ad7077b",
+        "observed_drift": "After contextCompaction resumed old independent-goals-20261017/window3-packaging, with no new user item; archive assigned scope remains unreturned and no accepted receipt.",
+        "write_scope_not_reassigned_while_active": true,
+        "actual_partial_files": [
+          "packages/commands/src/execution_archive.rs",
+          "packages/commands/src/lib.rs",
+          "packages/domain/src/models.rs"
+        ],
+        "acceptance": null,
+        "historical_receipt_status": "not_received_partial_three_source_files_Root_finishing",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/execution-archive/receipt.json",
+        "completion_owner": "v2.0 实现窗口1 / Root",
+        "root_completion_receipt_ref": ".work/v2-implementation-20261026/execution-archive/receipt.json",
+        "worker_delivery_status": "原独立窗口部分交付/漂移记录保留；本次完成事实来自统筹后续实现，不改写为原窗口完整交付。"
+      },
+      {
+        "package": "V2-07",
+        "slice": "explicit host/cloud origin observation consumer",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_explicit_origin_canonical_and_actual_Native_verified_HTTPS_pending",
+        "task_ref": ".work/v2-implementation-20261026/execution-cloud-origin-task.md",
+        "write_scope": [
+          "exact five UI/service files listed in execution-cloud-origin-task.md",
+          ".work/v2-implementation-20261026/execution-cloud-origin/**"
+        ],
+        "service_tier": "default",
+        "idle_verified_before_dispatch": true,
+        "scope_owner": "returned_to_Root",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/execution-cloud-origin/receipt.json",
+        "component_checks_passed": 10,
+        "root_received": "Actual route/selection/media scope inspected; 10-check log and original-record fixture evidence read, screenshot viewed; unchanged component tests reused",
+        "historical_receipt_status": "received_10_component_checks_explicit_origin_and_readonly_facts_actual_Native_HTTPS_pending",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json"
+      },
+      {
+        "package": "V2-02/V2-11",
+        "slice": "Sealos approved15 token actual unit/price/spec decision, readonly complete batch",
+        "thread_id": "01a1353e-da58-7671-837b-ee746a8bd9b4",
+        "thread_title": "实现窗口1",
+        "status": "received_readonly_budget_history_actual_account_prices_now_verified_by_Root",
+        "task_ref": ".work/v2-implementation-20261026/sealos-budget15-task.md",
+        "write_scope": [
+          ".work/v2-implementation-20261026/sealos-budget15/**"
+        ],
+        "service_tier": "default",
+        "paid_creation_by_peer": false,
+        "scope_owner": "returned_to_Root",
+        "observed_turn_status": "completed",
+        "receipt_ref": ".work/v2-implementation-20261026/sealos-budget15/receipt.json",
+        "historical_receipt_status": "received_readonly_currency_symbol_confirmed_actual_wallet_and_region_price_gaps",
+        "integration_evidence_ref": ".work/v2-implementation-20261026/sealos-price-query/actual-budget.json"
+      }
+    ],
+    "foundation_receipt_ref": ".work/v2-implementation-20261026/domain-foundation-receipt.json",
+    "foundation_checks": {
+      "new_rust_and_typescript_tests": 7,
+      "legacy_contract_regressions": 11,
+      "generated_schema_meta_checked": true,
+      "schema_examples_match_expected": 5
+    },
+    "domain_wire_receipt_ref": ".work/v2-implementation-20261026/domain-wire-receipt.json",
+    "updated_at_utc": "2026-10-27T05:02:58.969310+00:00",
+    "next_coordinator_action": "接收普通2.0.0 release，组装明确候选和可信运行时，搬移新进程核对，完成最终PDF、源码及实际v2影片；不重跑已过未变正式组。",
+    "disk_event": {
+      "disk_full_observed": true,
+      "cache_move_performed": false,
+      "cache_delete_performed": false,
+      "move_confirmation_no_longer_needed": true,
+      "recovery": "D free space recovered externally; byte-preserving NTFS compression of coordinator target further restored about13GiB; source/archive untouched",
+      "after_compression_free_bytes": 17965780992,
+      "latest_observation": {
+        "at": "2026-10-26T20:55:29.090404+00:00",
+        "D_free_bytes": 5632905216,
+        "C_free_bytes": 36883816448,
+        "target_remains_on_C": true,
+        "no_cleanup_or_move": true
+      }
+    },
+    "current_slice": "真实云来源R354/F976三维/完整历史及分页排序已由同源Native/HTTP复验通过；原统筹进入2.0.0构建、搬移新进程、费用和三材料收尾。确认提示在最终实录控制中一并核对，未把原候选结果改名为2.0.0通过。",
+    "host_read_receipt_ref": ".work/v2-implementation-20261026/host-cloud-read-receipt.json",
+    "host_execution_core_receipt_ref": ".work/v2-implementation-20261026/host-execution-core-receipt.json",
+    "host_execution_registry_receipt_ref": ".work/v2-implementation-20261026/host-native-registry-receipt.json",
+    "build_target_after_disk_full": "C:/Users/fujunye/AppData/Local/Temp/sf-v2-root-01a1731e",
+    "host_preparation_receipt_ref": ".work/v2-implementation-20261026/host-preparation-receipt.json",
+    "native_execution_integration_receipt_ref": ".work/v2-implementation-20261026/native-execution-integration/receipt.json",
+    "cloud_ui_root_integration_receipt_ref": ".work/v2-implementation-20261026/cloud-ui/root-integration-receipt.json",
+    "sealos_platform_facts_receipt_ref": ".work/v2-implementation-20261026/sealos-platform-facts/receipt.json",
+    "demo_current": {
+      "directory": "resources/v2-demo/geometry-v4",
+      "project_revision": 4,
+      "scenario_revision": 4,
+      "candidate_bindings": "resources/v2-demo/geometry-v4/candidate-bindings.json",
+      "profile_bindings": "resources/v2-demo/geometry-v4/profile-bindings.json",
+      "old_r2_and_three_runs_preserved": true,
+      "receipt_ref": ".work/v2-implementation-20261026/demo-geometry/receipt.json",
+      "actual_H01_Native_HTTPS_acceptance": true,
+      "actual_H01_receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/positive-export-verification.json"
+    },
+    "native_workbench_receipt_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json",
+    "cloud_budget_preference_question_pending": false,
+    "execution_archive_receipt_ref": ".work/v2-implementation-20261026/execution-archive/receipt.json",
+    "cloud_budget": {
+      "approved_amount": 15,
+      "approved_unit": "代币",
+      "source": "用户直接回复云预算问题：先批准15代币",
+      "unit_equivalence_verified": true,
+      "actual_region_price_verified": true,
+      "paid_resources_created": true,
+      "approval_applies_to": "Sealos 本次演示云资源，严格不超过核实单位后的15上限，不是本线程LLM token预算",
+      "confirmed_currency_symbol": "shellCoin",
+      "wallet_balance": 15,
+      "quote_boundary": "Use actual authenticated per-mCPU/Mi prices and native1e6 display scale; this is not CNY/USD/LLM conversion. Planned traffic/retention are allocations, not hard platform billing limits; actual spend must remain within15.",
+      "wallet_deduction": 0,
+      "actual_quote_ref": ".work/v2-implementation-20261026/sealos-price-query/actual-budget.json",
+      "base_48h": "3.8048110848",
+      "reference_with_planned_extras": "5.57645697400",
+      "last_actual_account_observed_at": "2026-10-27T01:40:56.097857+00:00"
+    },
+    "cloud_price_details_question_pending": false,
+    "sealos_budget15_receipt_ref": ".work/v2-implementation-20261026/sealos-budget15/receipt.json",
+    "actual_Native_archive_receipt_ref": ".work/v2-implementation-20261026/native-workbench/receipt.json",
+    "sealos_manifest_admission_receipt_ref": ".work/v2-implementation-20261026/sealos-authenticated-discovery/receipt.json",
+    "sealos_actual_budget_receipt_ref": ".work/v2-implementation-20261026/sealos-price-query/receipt.json",
+    "telemetry_quiesce_receipt_ref": ".work/v2-implementation-20261026/telemetry-quiesce/receipt.json",
+    "status_projection_updated_at_utc": "2026-10-27T03:22:20.051728+00:00",
+    "current_status_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/actual_v2_results",
+    "disk_event_scope_note": "原disk_event仅指统筹公共缓存；另有设备私有harness缓存已迁往E盘并保留junction，见独立迁移回执，不把两者混写。",
+    "device_private_cache_migration_ref": ".work/v2-implementation-20261026/native-device-runtime/cache-migration-20261027.json",
+    "actual_hosted_deployment": {
+      "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/hosted-checks.json",
+      "runtime_ref": ".work/v2-implementation-20261026/sealos-live-deploy/runtime-preparation.json",
+      "origin": "https://sf-task8-61j010p3-20261027.sealosbja.site",
+      "verified_at_utc": "2026-10-27T01:40:56.097857+00:00",
+      "checks_passed": 10,
+      "checks_total": 10,
+      "postgres_version": "16.4",
+      "HTTPS_hostname_and_CA_verified": true,
+      "PG_observed_sessions_encrypted": true,
+      "migration_succeeded": true,
+      "whole_product_acceptance": null
+    },
+    "actual_hosted_Native_progress": {
+      "open_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-02/hosted-open.json",
+      "preparation_request_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-preparation-requested.json",
+      "project_revision": 4,
+      "old_Runs_retained": 3,
+      "state": "normal_disable_A_and_H11_joint_verified_cloud_view_final_delivery_open",
+      "normal_six_unit_result": {
+        "at_utc": "2026-10-27T02:11:26.054123+00:00",
+        "status": "actual_hosted_Native09_normal_six_units_received",
+        "source_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-02/normal-terminal.json",
+        "identity": {
+          "execution_epoch_id": "desktop-host-110308-1793066552686063500:execution-epoch:1:5",
+          "host_context_session_id": "desktop-host-110308-1793066552686063500",
+          "project_id": "Task8-two-device-six-units",
+          "session_id": "desktop-host-110308-1793066552686063500:execution:1:5"
+        },
+        "execution_revision": 354,
+        "observation_frontier": 976,
+        "accepted_units": 6,
+        "attempts_settled": 6,
+        "confirmed_at_host_ms": 53202,
+        "nominal_work_ms": [
+          10000,
+          15000
+        ],
+        "cloud_same_revision_synced": true,
+        "original_cutoff_ms": 120000,
+        "cutoff_snapshot_status": "unobserved",
+        "cutoff_scope": "Goal reached before cutoff; not a claim that the full cutoff interval was observed",
+        "independent_C08_full_export_ref": ".work/v2-control-status-sync-20261027/cloud-readonly-normal-02/receipt.json",
+        "H11_product_acceptance": null,
+        "first_failed_run_retained": true,
+        "current_window_source_or_Native_operations": false
+      },
+      "disable_A_result": {
+        "status": "business_behavior_verified_UI_confirmation_fix_component_verified",
+        "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/ban-A-verification.json",
+        "accepted_units": 6,
+        "completed_host_ms": 97092,
+        "A_attempts": 1,
+        "B_attempts": 5,
+        "A_started_host_ms": 2466,
+        "A_completed_host_ms": 12891,
+        "A_disabled_no_later_than_host_ms": 2658,
+        "no_new_A_after_disable": true,
+        "normal_elapsed_host_ms": 53202
+      },
+      "readonly_C08_export_ref": ".work/v2-control-status-sync-20261027/cloud-readonly-export/receipt.json",
+      "source_fix_receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/receipt.json",
+      "source_fixes": [
+        "Refresh real workspace capabilities after successful H01",
+        "Drain original pending cloud work before advancing another frame; retain all original work and snapshots"
+      ],
+      "actor_checks_passed": 17,
+      "updated_Native_recheck": "Native09正常及Native10停用业务真实通过；后续前端确认语义修复仍只有7项组件证据，待下一受管候选。",
+      "negative_run_preserved_and_closed_normally": true,
+      "negative_device_children_and_cloud_slot_settled": true,
+      "first_negative_normal_result": {
+        "status": "failed_goal_at_cutoff",
+        "accepted_units": 4,
+        "target_units": 6,
+        "cutoff_ms": 120000,
+        "identity": {
+          "execution_epoch_id": "desktop-host-76484-1793065341426283800:execution-epoch:1:5",
+          "host_context_session_id": "desktop-host-76484-1793065341426283800",
+          "project_id": "Task8-two-device-six-units",
+          "session_id": "desktop-host-76484-1793065341426283800:execution:1:5"
+        },
+        "execution_revision": 846,
+        "observation_frontier": 2111,
+        "lifecycle": "stopped",
+        "source_ref": ".work/v2-implementation-20261026/native-workbench/sealos-live-01/normal-terminal.json",
+        "owner_current_action": "原统筹正在定位和修复Native发布队列/探测过期，不修改原10秒/15秒工时与120秒截止。",
+        "root_cause_status": "发布积压/探测过期为正在定位的原因，未据本接收记录宣称根因已最终确认。"
+      },
+      "normal_H10_H11_UI_exports": {
+        "receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/positive-export-verification.json",
+        "H10_files": 22,
+        "H10_CSV_tables": 17,
+        "H11_UI_rows": 110,
+        "H11_actual_backend_pages": 1,
+        "UI_first_page_limit": 50,
+        "actual_PG_oracle_match": true,
+        "MCP_and_multi_page_acceptance": null
+      },
+      "H11_complete_joint_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json#/H11"
+    },
+    "sealos_live_deployment_receipt_ref": ".work/v2-implementation-20261026/sealos-live-deploy/receipt.json",
+    "frontend_control_ack_fix": {
+      "source_ref": "apps/planner/src/services/cloudProduction.ts",
+      "change": "JSON object structural equality independent of key order; ordered arrays and exact values preserved. Latest revision read and CAS unchanged.",
+      "red_ref": ".work/v2-control-status-sync-20261027/control-ack-red.json",
+      "component_ref": ".work/v2-control-status-sync-20261027/control-ack-green.json",
+      "component_checks_passed": 7,
+      "planner_typecheck": "passed",
+      "actual_updated_Native_banner_recheck": "pending_next_managed_candidate",
+      "shared_Native_or_build_operated_by_this_window": false
+    },
+    "v2_materials_ref": ".work/v2-materials-20261027/materials.json",
+    "coordinator_observation": {
+      "thread_id": "01a1731e-3f61-7c52-a25e-48d6e006a446",
+      "cursor": "9f4034ff-21c1-4a6d-af53-76e287f92ab9:56",
+      "state": "active",
+      "observed_at_utc": "2026-10-27T04:33:25.245575+00:00",
+      "current_action": "云来源GET身份修复7项检查通过；原统筹重建Native并准备直接连接Sealos重验。",
+      "source": "wait_threads compact live snapshot; source/build/desktop ownership unchanged"
+    },
+    "actual_hosted_scale": {
+      "receipt_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+      "rows": 1000000,
+      "devices": 100,
+      "batches": 1000,
+      "raw_PG_oracle_bytes": 256333696,
+      "queries": 60,
+      "raw_queries": 30,
+      "aggregate_queries": 30,
+      "p95_ms": {
+        "raw": 63.0,
+        "aggregate": 1641.0
+      },
+      "all_query_rows_match_independent_expected": true,
+      "query_started_after_formal_telemetry_launch": true
+    },
+    "hosted_telemetry_receipt_ref": ".work/v2-implementation-20261026/hosted-telemetry/receipt.json",
+    "formal_telemetry_H11_reception_ref": ".work/v2-materials-20261027/formal-telemetry-H11-reception.json"
+  },
+  "status_updated_at_utc": "2026-10-27T05:03:35.098691+00:00",
+  "control_layers": {
+    "plan": {
+      "human_ref": "docs/06_v2.0设计与开发控制/开发控制设计.md",
+      "structured_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json",
+      "scope": "范围、依赖、预算、当前阶段与统筹下一动作"
+    },
+    "packages": {
+      "structured_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/packages",
+      "ids": [
+        "V2-00",
+        "V2-01",
+        "V2-02",
+        "V2-03",
+        "V2-04",
+        "V2-05",
+        "V2-06",
+        "V2-07",
+        "V2-08",
+        "V2-09",
+        "V2-10",
+        "V2-11"
+      ],
+      "scope": "原V2包实现状态、尚缺动作、实际证据；不另建平行任务队列"
+    },
+    "execution_references": {
+      "index_ref": "docs/04_开发与验收/执行参考索引.md",
+      "locations_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/locations",
+      "design_artifacts_ref": "docs/06_v2.0设计与开发控制/开发控制计划.json#/design_artifacts",
+      "scope": "原契约/规范、实际代码接点和执行回执；历史设计禁止实施不再作为当前准入"
+    }
+  },
+  "requirement_input_status_note": "任务8需求文档2026-10-27已同步v1验收/存档完成与v2已实施；原T8需求/阈值不变，历史源码缺口不重新作为当前禁止实施或重复执行依据。"
+}

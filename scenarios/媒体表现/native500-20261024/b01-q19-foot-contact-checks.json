@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 6,
+  "checks": [
+    {
+      "id": "strapper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.strapper.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "strapper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.strapper",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "shrink-wrapper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.shrink-wrapper.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "shrink-wrapper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.shrink-wrapper",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "case-packer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.case-packer.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "case-packer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.case-packer",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    }
+  ]
+}

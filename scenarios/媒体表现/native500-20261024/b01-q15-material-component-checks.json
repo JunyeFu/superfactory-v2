@@ -1,0 +1,331 @@
+{
+  "passed": true,
+  "scope": "actual finite tray and glue/dose GLB component; full machine, holders/waits and Native pending",
+  "actual_product_decoder": true,
+  "samples": 39,
+  "paper_meshes": 2057,
+  "glue_meshes": 5,
+  "developed_area_m2": 0.21352267580272374,
+  "glue_volume_m3": 3.0000000000000306e-7,
+  "max_paper_volume_relative_error": 0.0000016764527823067358,
+  "max_glue_volume_relative_error": 4.306357520204307e-8,
+  "max_actual_prism_seam_m": 4.724164154956839e-8,
+  "max_actual_core_path_error_m": 2.4950460031491834e-8,
+  "max_actual_bond_contact_error_m": 1.9195234290947383e-10,
+  "checks": [
+    {
+      "u": 0,
+      "actual_paper_volume_m3": 0.0001708181464140342,
+      "relative_paper_volume_error": 3.378947455052484e-8,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 1.3420503819361329e-8
+    },
+    {
+      "u": 0.123,
+      "actual_paper_volume_m3": 0.0001708181464140342,
+      "relative_paper_volume_error": 3.378947455052484e-8,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 1.3420503819361329e-8
+    },
+    {
+      "u": 0.15,
+      "actual_paper_volume_m3": 0.0001708181464140342,
+      "relative_paper_volume_error": 3.378947455052484e-8,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 1.3420503819361329e-8
+    },
+    {
+      "u": 0.2,
+      "actual_paper_volume_m3": 0.00017081811621885885,
+      "relative_paper_volume_error": 1.4297849189387544e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.041276670709658e-8
+    },
+    {
+      "u": 0.25,
+      "actual_paper_volume_m3": 0.00017081808593825845,
+      "relative_paper_volume_error": 3.2024655187512433e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956838e-8
+    },
+    {
+      "u": 0.3,
+      "actual_paper_volume_m3": 0.0001708180556514764,
+      "relative_paper_volume_error": 4.975508004015614e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.333,
+      "actual_paper_volume_m3": 0.00017081803636458362,
+      "relative_paper_volume_error": 6.104597262488258e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.349,
+      "actual_paper_volume_m3": 0.000170818026668364,
+      "relative_paper_volume_error": 6.672231330310358e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.35,
+      "actual_paper_volume_m3": 0.00017081802236734462,
+      "relative_paper_volume_error": 6.924020711514211e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.351,
+      "actual_paper_volume_m3": 0.00017081802232111391,
+      "relative_paper_volume_error": 6.926727139866706e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.4,
+      "actual_paper_volume_m3": 0.00017081801195027805,
+      "relative_paper_volume_error": 7.533854452239458e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.7241641531101955e-8
+    },
+    {
+      "u": 0.45,
+      "actual_paper_volume_m3": 0.0001708180014198886,
+      "relative_paper_volume_error": 8.15032231687135e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.487,
+      "actual_paper_volume_m3": 0.00017081799358673104,
+      "relative_paper_volume_error": 8.608889395372645e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.499,
+      "actual_paper_volume_m3": 0.00017081799106309073,
+      "relative_paper_volume_error": 8.75662782082106e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.5,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.501,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.52,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.54,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.56,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.58,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.999999882458174e-7,
+      "relative_glue_volume_error": 3.918061894133856e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.599,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.999999915977513e-7,
+      "relative_glue_volume_error": 2.8007505801687316e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.6,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.999999888922335e-7,
+      "relative_glue_volume_error": 3.7025898590095665e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.601,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.999999870809305e-7,
+      "relative_glue_volume_error": 4.306357520204307e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.64,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.999999901861884e-7,
+      "relative_glue_volume_error": 3.2712715590169784e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.65,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.66,
+      "actual_paper_volume_m3": 0.0001708179906709826,
+      "relative_paper_volume_error": 8.779582532246796e-7,
+      "actual_total_glue_volume_m3": 2.999999901861882e-7,
+      "relative_glue_volume_error": 3.2712716119565376e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.672,
+      "actual_paper_volume_m3": 0.00017081798222680366,
+      "relative_paper_volume_error": 9.273919897006664e-7,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.7,
+      "actual_paper_volume_m3": 0.00017081796125021165,
+      "relative_paper_volume_error": 0.0000010501927176527982,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.75,
+      "actual_paper_volume_m3": 0.0001708179235124476,
+      "relative_paper_volume_error": 0.0000012711163497480973,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.791,
+      "actual_paper_volume_m3": 0.0001708178936919461,
+      "relative_paper_volume_error": 0.00000144569090822611,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.799,
+      "actual_paper_volume_m3": 0.00017081788765195243,
+      "relative_paper_volume_error": 0.0000014810501133473645,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.8,
+      "actual_paper_volume_m3": 0.00017081788679111656,
+      "relative_paper_volume_error": 0.0000014860896007675288,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.801,
+      "actual_paper_volume_m3": 0.0001708178857240072,
+      "relative_paper_volume_error": 0.000001492336650225267,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.84,
+      "actual_paper_volume_m3": 0.00017081785427363184,
+      "relative_paper_volume_error": 0.0000016764527823067358,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.85,
+      "actual_paper_volume_m3": 0.00017081785427363184,
+      "relative_paper_volume_error": 0.0000016764527823067358,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.9,
+      "actual_paper_volume_m3": 0.00017081785427363184,
+      "relative_paper_volume_error": 0.0000016764527823067358,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 1,
+      "actual_paper_volume_m3": 0.00017081785427363184,
+      "relative_paper_volume_error": 0.0000016764527823067358,
+      "actual_total_glue_volume_m3": 2.9999999018618833e-7,
+      "relative_glue_volume_error": 3.2712715766634984e-8,
+      "max_actual_scored_seam_m": 4.724164154956839e-8
+    },
+    {
+      "u": 0.4,
+      "actual_paper_volume_m3": 0.00017081801195027805,
+      "relative_paper_volume_error": 7.533854452239458e-7,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 4.7241641531101955e-8
+    },
+    {
+      "u": 0,
+      "actual_paper_volume_m3": 0.0001708181464140342,
+      "relative_paper_volume_error": 3.378947455052484e-8,
+      "actual_total_glue_volume_m3": 2.99999987598789e-7,
+      "relative_glue_volume_error": 4.133738011258875e-8,
+      "max_actual_scored_seam_m": 1.3420503819361329e-8
+    }
+  ],
+  "device_admitted": false,
+  "Native": false
+}

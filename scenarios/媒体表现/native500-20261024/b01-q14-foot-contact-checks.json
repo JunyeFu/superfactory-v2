@@ -1,0 +1,173 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "crash-lock-gluer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.crash-lock-gluer.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "OutputTableLeg-0.23399999999999999_-0.252",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999998927116392,
+          "leg_top": 0.8100000107288361,
+          "table_bottom": 0.8099999998137355,
+          "bottom_gap_m": -1.0505318663589502e-8,
+          "top_gap_m": -1.091510060113876e-8
+        },
+        {
+          "name": "OutputTableLeg-0.23399999999999999_0.252",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999998927116392,
+          "leg_top": 0.8100000107288361,
+          "table_bottom": 0.8099999998137355,
+          "bottom_gap_m": -1.0505318663589502e-8,
+          "top_gap_m": -1.091510060113876e-8
+        },
+        {
+          "name": "OutputTableLeg0.23399999999999999_-0.252",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999998927116392,
+          "leg_top": 0.8100000107288361,
+          "table_bottom": 0.8099999998137355,
+          "bottom_gap_m": -1.0505318663589502e-8,
+          "top_gap_m": -1.091510060113876e-8
+        },
+        {
+          "name": "OutputTableLeg0.23399999999999999_0.252",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999998927116392,
+          "leg_top": 0.8100000107288361,
+          "table_bottom": 0.8099999998137355,
+          "bottom_gap_m": -1.0505318663589502e-8,
+          "top_gap_m": -1.091510060113876e-8
+        },
+        {
+          "name": "AuxSupplyTableLeg-0.216_-0.17279999999999998",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "AuxSupplyTableLeg-0.216_0.17279999999999998",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "AuxSupplyTableLeg0.216_-0.17279999999999998",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "AuxSupplyTableLeg0.216_0.17279999999999998",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "crash-lock-gluer/simple-foot-contact.png"
+    },
+    {
+      "id": "crash-lock-gluer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.crash-lock-gluer",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "OutputTableLeg-0.23399999999999999_-0.252",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999998927116392,
+          "leg_top": 0.8100000107288361,
+          "table_bottom": 0.8099999998137355,
+          "bottom_gap_m": -1.0505318663589502e-8,
+          "top_gap_m": -1.091510060113876e-8
+        },
+        {
+          "name": "OutputTableLeg-0.23399999999999999_0.252",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999998927116392,
+          "leg_top": 0.8100000107288361,
+          "table_bottom": 0.8099999998137355,
+          "bottom_gap_m": -1.0505318663589502e-8,
+          "top_gap_m": -1.091510060113876e-8
+        },
+        {
+          "name": "OutputTableLeg0.23399999999999999_-0.252",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999998927116392,
+          "leg_top": 0.8100000107288361,
+          "table_bottom": 0.8099999998137355,
+          "bottom_gap_m": -1.0505318663589502e-8,
+          "top_gap_m": -1.091510060113876e-8
+        },
+        {
+          "name": "OutputTableLeg0.23399999999999999_0.252",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999998927116392,
+          "leg_top": 0.8100000107288361,
+          "table_bottom": 0.8099999998137355,
+          "bottom_gap_m": -1.0505318663589502e-8,
+          "top_gap_m": -1.091510060113876e-8
+        },
+        {
+          "name": "AuxSupplyTableLeg-0.216_-0.17279999999999998",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "AuxSupplyTableLeg-0.216_0.17279999999999998",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "AuxSupplyTableLeg0.216_-0.17279999999999998",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "AuxSupplyTableLeg0.216_0.17279999999999998",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "crash-lock-gluer/detailed-foot-contact.png"
+    }
+  ]
+}

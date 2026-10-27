@@ -1,0 +1,92 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "blank-stripper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.blank-stripper.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 561012,
+      "nodes": 227,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        164,
+        175,
+        186,
+        197,
+        102,
+        116,
+        172,
+        183,
+        194,
+        205
+      ],
+      "captures": [
+        "blank-stripper/simple-iso.png",
+        "blank-stripper/simple-front.png",
+        "blank-stripper/simple-back.png",
+        "blank-stripper/simple-left.png",
+        "blank-stripper/simple-right.png",
+        "blank-stripper/simple-top.png",
+        "blank-stripper/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "blank-stripper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.blank-stripper",
+        "version": "1.1.0"
+      },
+      "bytes": 4284720,
+      "nodes": 250,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        187,
+        198,
+        209,
+        220,
+        125,
+        139,
+        195,
+        206,
+        217,
+        228
+      ],
+      "captures": [
+        "blank-stripper/detailed-iso.png",
+        "blank-stripper/detailed-front.png",
+        "blank-stripper/detailed-back.png",
+        "blank-stripper/detailed-left.png",
+        "blank-stripper/detailed-right.png",
+        "blank-stripper/detailed-top.png",
+        "blank-stripper/detailed-bottom.png",
+        "blank-stripper/action-0.png",
+        "blank-stripper/action-50.png",
+        "blank-stripper/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

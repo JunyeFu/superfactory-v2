@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "tray-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.tray-former.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "foot": "Main-1.35_-0.8Foot",
+          "support": "Main-1.35_-0.8Stud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Main-1.35_0.8Foot",
+          "support": "Main-1.35_0.8Stud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Main1.35_-0.8Foot",
+          "support": "Main1.35_-0.8Stud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Main1.35_0.8Foot",
+          "support": "Main1.35_0.8Stud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Wall_long_-1BaseFoot",
+          "support": "Wall_long_-1BaseStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Wall_long_1BaseFoot",
+          "support": "Wall_long_1BaseStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Wall_end_-1BaseFoot",
+          "support": "Wall_end_-1BaseStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Wall_end_1BaseFoot",
+          "support": "Wall_end_1BaseStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "ConsoleFoot",
+          "support": "ConsoleColumn",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": -1.0505318663589502e-8
+        },
+        {
+          "foot": "UtilityFoot",
+          "support": "UtilityStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        }
+      ]
+    },
+    {
+      "id": "tray-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.tray-former",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "foot": "Main-1.35_-0.8Foot",
+          "support": "Main-1.35_-0.8Stud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Main-1.35_0.8Foot",
+          "support": "Main-1.35_0.8Stud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Main1.35_-0.8Foot",
+          "support": "Main1.35_-0.8Stud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Main1.35_0.8Foot",
+          "support": "Main1.35_0.8Stud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Wall_long_-1BaseFoot",
+          "support": "Wall_long_-1BaseStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Wall_long_1BaseFoot",
+          "support": "Wall_long_1BaseStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Wall_end_-1BaseFoot",
+          "support": "Wall_end_-1BaseStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "Wall_end_1BaseFoot",
+          "support": "Wall_end_1BaseStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        },
+        {
+          "foot": "ConsoleFoot",
+          "support": "ConsoleColumn",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": -1.0505318663589502e-8
+        },
+        {
+          "foot": "UtilityFoot",
+          "support": "UtilityStud",
+          "bottom_gap_m": 2.2351741811588166e-10,
+          "top_gap_m": 6.705522526129215e-10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 4,
+  "checks": [
+    {
+      "id": "paper-unwinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-unwinder",
+        "version": "1.1.0"
+      },
+      "samples": [
+        {
+          "progress": 0.001,
+          "left_gap_m": -2.5037759365797996e-8,
+          "right_gap_m": 2.264595627687882e-8,
+          "layer_gap_m": 4.732465086476623e-9
+        },
+        {
+          "progress": 0.016666666666666666,
+          "left_gap_m": 3.45668232926144e-8,
+          "right_gap_m": -3.6958626270511274e-8,
+          "layer_gap_m": 4.732465086476623e-9
+        },
+        {
+          "progress": 0.1175,
+          "left_gap_m": -2.502575802143525e-8,
+          "right_gap_m": 2.265791498867742e-8,
+          "layer_gap_m": 6.5831302631380595e-9
+        },
+        {
+          "progress": 0.25,
+          "left_gap_m": 3.459084529922052e-8,
+          "right_gap_m": -3.693472838683931e-8,
+          "layer_gap_m": -2.1368526947895816e-8
+        },
+        {
+          "progress": 0.501,
+          "left_gap_m": -2.4986416768957298e-8,
+          "right_gap_m": 2.2697299317808728e-8,
+          "layer_gap_m": -6.49474851677212e-9
+        },
+        {
+          "progress": 0.48333333333333334,
+          "left_gap_m": 3.46138107065741e-8,
+          "right_gap_m": -3.690977390391481e-8,
+          "layer_gap_m": -1.7860757539622796e-8
+        },
+        {
+          "progress": 0.75,
+          "left_gap_m": 3.464218811810582e-8,
+          "right_gap_m": -3.688338556795401e-8,
+          "layer_gap_m": -2.7934182744715486e-9
+        },
+        {
+          "progress": 0.999,
+          "left_gap_m": -2.4936785303353304e-8,
+          "right_gap_m": 2.2746930561368117e-8,
+          "layer_gap_m": 2.1395297311599393e-8
+        },
+        {
+          "progress": 0.25,
+          "left_gap_m": 3.459084529922052e-8,
+          "right_gap_m": -3.693472838683931e-8,
+          "layer_gap_m": -2.1368526947895816e-8
+        },
+        {
+          "progress": 0.001,
+          "left_gap_m": -2.5037759365797996e-8,
+          "right_gap_m": 2.264595627687882e-8,
+          "layer_gap_m": 4.732465086476623e-9
+        }
+      ],
+      "captures": 3,
+      "passed": true
+    },
+    {
+      "id": "paper-unwinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-unwinder.simple",
+        "version": "1.1.0"
+      },
+      "samples": [
+        {
+          "progress": 0.001,
+          "left_gap_m": -2.5037759365797996e-8,
+          "right_gap_m": 2.264595627687882e-8,
+          "layer_gap_m": 4.732465086476623e-9
+        },
+        {
+          "progress": 0.016666666666666666,
+          "left_gap_m": 3.45668232926144e-8,
+          "right_gap_m": -3.6958626270511274e-8,
+          "layer_gap_m": 4.732465086476623e-9
+        },
+        {
+          "progress": 0.1175,
+          "left_gap_m": -2.502575802143525e-8,
+          "right_gap_m": 2.265791498867742e-8,
+          "layer_gap_m": 6.5831302631380595e-9
+        },
+        {
+          "progress": 0.25,
+          "left_gap_m": 3.459084529922052e-8,
+          "right_gap_m": -3.693472838683931e-8,
+          "layer_gap_m": -2.1368526947895816e-8
+        },
+        {
+          "progress": 0.501,
+          "left_gap_m": -2.4986416768957298e-8,
+          "right_gap_m": 2.2697299317808728e-8,
+          "layer_gap_m": -6.49474851677212e-9
+        },
+        {
+          "progress": 0.48333333333333334,
+          "left_gap_m": 3.46138107065741e-8,
+          "right_gap_m": -3.690977390391481e-8,
+          "layer_gap_m": -1.7860757539622796e-8
+        },
+        {
+          "progress": 0.75,
+          "left_gap_m": 3.464218811810582e-8,
+          "right_gap_m": -3.688338556795401e-8,
+          "layer_gap_m": -2.7934182744715486e-9
+        },
+        {
+          "progress": 0.999,
+          "left_gap_m": -2.4936785303353304e-8,
+          "right_gap_m": 2.2746930561368117e-8,
+          "layer_gap_m": 2.1395297311599393e-8
+        },
+        {
+          "progress": 0.25,
+          "left_gap_m": 3.459084529922052e-8,
+          "right_gap_m": -3.693472838683931e-8,
+          "layer_gap_m": -2.1368526947895816e-8
+        },
+        {
+          "progress": 0.001,
+          "left_gap_m": -2.5037759365797996e-8,
+          "right_gap_m": 2.264595627687882e-8,
+          "layer_gap_m": 4.732465086476623e-9
+        }
+      ],
+      "captures": 3,
+      "passed": true
+    },
+    {
+      "id": "paper-rewinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-rewinder",
+        "version": "1.1.0"
+      },
+      "samples": [
+        {
+          "progress": 0.001,
+          "left_gap_m": 1.8853053562750688e-9,
+          "right_gap_m": -4.075160098260255e-9,
+          "layer_gap_m": -9.564444791720916e-10
+        },
+        {
+          "progress": 0.016666666666666666,
+          "left_gap_m": -1.0037319919664611e-8,
+          "right_gap_m": 7.844042471116808e-9,
+          "layer_gap_m": 3.3405224142413203e-9
+        },
+        {
+          "progress": 0.1175,
+          "left_gap_m": 4.853562440843007e-9,
+          "right_gap_m": -7.067377127967234e-9,
+          "layer_gap_m": 4.5251935532064635e-10
+        },
+        {
+          "progress": 0.25,
+          "left_gap_m": -1.0061295463437148e-8,
+          "right_gap_m": 7.820098013588961e-9,
+          "layer_gap_m": 1.863194598605844e-9
+        },
+        {
+          "progress": 0.501,
+          "left_gap_m": 1.8339448848436746e-9,
+          "right_gap_m": -4.1264852645994665e-9,
+          "layer_gap_m": 4.918822016364288e-10
+        },
+        {
+          "progress": 0.48333333333333334,
+          "left_gap_m": -1.0085006774129823e-8,
+          "right_gap_m": 7.795889322981253e-9,
+          "layer_gap_m": 4.901707928439691e-10
+        },
+        {
+          "progress": 0.75,
+          "left_gap_m": -1.011263828232245e-8,
+          "right_gap_m": 7.768755194703658e-9,
+          "layer_gap_m": 1.3324608083564726e-9
+        },
+        {
+          "progress": 0.999,
+          "left_gap_m": 1.7843136967954365e-9,
+          "right_gap_m": -4.1761166746923095e-9,
+          "layer_gap_m": 1.8548238500670777e-9
+        },
+        {
+          "progress": 0.25,
+          "left_gap_m": -1.0061295463437148e-8,
+          "right_gap_m": 7.820098013588961e-9,
+          "layer_gap_m": 1.863194598605844e-9
+        },
+        {
+          "progress": 0.001,
+          "left_gap_m": 1.8853053562750688e-9,
+          "right_gap_m": -4.075160098260255e-9,
+          "layer_gap_m": -9.564444791720916e-10
+        }
+      ],
+      "captures": 3,
+      "passed": true
+    },
+    {
+      "id": "paper-rewinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-rewinder.simple",
+        "version": "1.1.0"
+      },
+      "samples": [
+        {
+          "progress": 0.001,
+          "left_gap_m": 1.8853053562750688e-9,
+          "right_gap_m": -4.075160098260255e-9,
+          "layer_gap_m": -9.564444791720916e-10
+        },
+        {
+          "progress": 0.016666666666666666,
+          "left_gap_m": -1.0037319919664611e-8,
+          "right_gap_m": 7.844042471116808e-9,
+          "layer_gap_m": 3.3405224142413203e-9
+        },
+        {
+          "progress": 0.1175,
+          "left_gap_m": 4.853562440843007e-9,
+          "right_gap_m": -7.067377127967234e-9,
+          "layer_gap_m": 4.5251935532064635e-10
+        },
+        {
+          "progress": 0.25,
+          "left_gap_m": -1.0061295463437148e-8,
+          "right_gap_m": 7.820098013588961e-9,
+          "layer_gap_m": 1.863194598605844e-9
+        },
+        {
+          "progress": 0.501,
+          "left_gap_m": 1.8339448848436746e-9,
+          "right_gap_m": -4.1264852645994665e-9,
+          "layer_gap_m": 4.918822016364288e-10
+        },
+        {
+          "progress": 0.48333333333333334,
+          "left_gap_m": -1.0085006774129823e-8,
+          "right_gap_m": 7.795889322981253e-9,
+          "layer_gap_m": 4.901707928439691e-10
+        },
+        {
+          "progress": 0.75,
+          "left_gap_m": -1.011263828232245e-8,
+          "right_gap_m": 7.768755194703658e-9,
+          "layer_gap_m": 1.3324608083564726e-9
+        },
+        {
+          "progress": 0.999,
+          "left_gap_m": 1.7843136967954365e-9,
+          "right_gap_m": -4.1761166746923095e-9,
+          "layer_gap_m": 1.8548238500670777e-9
+        },
+        {
+          "progress": 0.25,
+          "left_gap_m": -1.0061295463437148e-8,
+          "right_gap_m": 7.820098013588961e-9,
+          "layer_gap_m": 1.863194598605844e-9
+        },
+        {
+          "progress": 0.001,
+          "left_gap_m": 1.8853053562750688e-9,
+          "right_gap_m": -4.075160098260255e-9,
+          "layer_gap_m": -9.564444791720916e-10
+        }
+      ],
+      "captures": 3,
+      "passed": true
+    }
+  ]
+}

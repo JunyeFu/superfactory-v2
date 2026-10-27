@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "flexo-slotter",
+      "lod": "simple",
+      "samples": [
+        {
+          "u": 0,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.17,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.25,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.4,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.5,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.6,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.75,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.9,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.95,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.98,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 1,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.25,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0,
+          "actual_glb_support_and_staging": true
+        }
+      ],
+      "actual_nip_rolling_direction": "co_moving_verified"
+    },
+    {
+      "id": "flexo-slotter",
+      "lod": "detailed",
+      "samples": [
+        {
+          "u": 0,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.17,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.25,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.4,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.5,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.6,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.75,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.9,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.95,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.98,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 1,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0.25,
+          "actual_glb_support_and_staging": true
+        },
+        {
+          "u": 0,
+          "actual_glb_support_and_staging": true
+        }
+      ],
+      "actual_nip_rolling_direction": "co_moving_verified"
+    }
+  ],
+  "Native": "separate acceptance"
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B02",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "flexo-slotter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.flexo-slotter.simple",
+        "version": "1.1.1"
+      },
+      "bytes": 898700,
+      "nodes": 270,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        90,
+        106,
+        116,
+        132,
+        143,
+        165,
+        184,
+        193,
+        210
+      ],
+      "captures": [
+        "flexo-slotter/simple-iso.png",
+        "flexo-slotter/simple-front.png",
+        "flexo-slotter/simple-back.png",
+        "flexo-slotter/simple-left.png",
+        "flexo-slotter/simple-right.png",
+        "flexo-slotter/simple-top.png",
+        "flexo-slotter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flexo-slotter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.flexo-slotter",
+        "version": "1.1.1"
+      },
+      "bytes": 5316316,
+      "nodes": 293,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        113,
+        129,
+        139,
+        155,
+        166,
+        188,
+        207,
+        216,
+        233
+      ],
+      "captures": [
+        "flexo-slotter/detailed-iso.png",
+        "flexo-slotter/detailed-front.png",
+        "flexo-slotter/detailed-back.png",
+        "flexo-slotter/detailed-left.png",
+        "flexo-slotter/detailed-right.png",
+        "flexo-slotter/detailed-top.png",
+        "flexo-slotter/detailed-bottom.png",
+        "flexo-slotter/action-0.png",
+        "flexo-slotter/action-50.png",
+        "flexo-slotter/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

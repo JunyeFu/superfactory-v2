@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "checks": [],
+  "error": "Error: raised carrier on crosshead: 1.0475000427290797 vs 1.0700000571087003"
+}

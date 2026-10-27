@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 6,
+  "checks": [
+    {
+      "id": "paper-cup-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-cup-former.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "paper-cup-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-cup-former",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "paper-bowl-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-bowl-former.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "paper-bowl-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-bowl-former",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "paper-plate-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-plate-former.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    },
+    {
+      "id": "paper-plate-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-plate-former",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        },
+        {
+          "bottom_gap_m": -1.0430812810713341e-10,
+          "top_gap_m": -6.407499288096918e-10
+        }
+      ]
+    }
+  ]
+}

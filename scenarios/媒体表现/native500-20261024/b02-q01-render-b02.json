@@ -1,0 +1,336 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B02",
+  "device_count": 5,
+  "lod_models": 10,
+  "checks": [
+    {
+      "id": "guillotine-paper-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.guillotine-paper-cutter.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 241936,
+      "nodes": 116,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        79
+      ],
+      "captures": [
+        "guillotine-paper-cutter/simple-iso.png",
+        "guillotine-paper-cutter/simple-front.png",
+        "guillotine-paper-cutter/simple-back.png",
+        "guillotine-paper-cutter/simple-left.png",
+        "guillotine-paper-cutter/simple-right.png",
+        "guillotine-paper-cutter/simple-top.png",
+        "guillotine-paper-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "guillotine-paper-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.guillotine-paper-cutter",
+        "version": "1.1.0"
+      },
+      "bytes": 1053668,
+      "nodes": 163,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        126
+      ],
+      "captures": [
+        "guillotine-paper-cutter/detailed-iso.png",
+        "guillotine-paper-cutter/detailed-front.png",
+        "guillotine-paper-cutter/detailed-back.png",
+        "guillotine-paper-cutter/detailed-left.png",
+        "guillotine-paper-cutter/detailed-right.png",
+        "guillotine-paper-cutter/detailed-top.png",
+        "guillotine-paper-cutter/detailed-bottom.png",
+        "guillotine-paper-cutter/action-0.png",
+        "guillotine-paper-cutter/action-50.png",
+        "guillotine-paper-cutter/action-100.png"
+      ]
+    },
+    {
+      "id": "three-knife-trimmer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.three-knife-trimmer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 238564,
+      "nodes": 118,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        79
+      ],
+      "captures": [
+        "three-knife-trimmer/simple-iso.png",
+        "three-knife-trimmer/simple-front.png",
+        "three-knife-trimmer/simple-back.png",
+        "three-knife-trimmer/simple-left.png",
+        "three-knife-trimmer/simple-right.png",
+        "three-knife-trimmer/simple-top.png",
+        "three-knife-trimmer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "three-knife-trimmer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.three-knife-trimmer",
+        "version": "1.1.0"
+      },
+      "bytes": 1078104,
+      "nodes": 165,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        126
+      ],
+      "captures": [
+        "three-knife-trimmer/detailed-iso.png",
+        "three-knife-trimmer/detailed-front.png",
+        "three-knife-trimmer/detailed-back.png",
+        "three-knife-trimmer/detailed-left.png",
+        "three-knife-trimmer/detailed-right.png",
+        "three-knife-trimmer/detailed-top.png",
+        "three-knife-trimmer/detailed-bottom.png",
+        "three-knife-trimmer/action-0.png",
+        "three-knife-trimmer/action-50.png",
+        "three-knife-trimmer/action-100.png"
+      ]
+    },
+    {
+      "id": "pile-turner",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pile-turner.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 244280,
+      "nodes": 112,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        54,
+        69
+      ],
+      "captures": [
+        "pile-turner/simple-iso.png",
+        "pile-turner/simple-front.png",
+        "pile-turner/simple-back.png",
+        "pile-turner/simple-left.png",
+        "pile-turner/simple-right.png",
+        "pile-turner/simple-top.png",
+        "pile-turner/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pile-turner",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pile-turner",
+        "version": "1.1.0"
+      },
+      "bytes": 1050260,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80,
+        77,
+        92
+      ],
+      "captures": [
+        "pile-turner/detailed-iso.png",
+        "pile-turner/detailed-front.png",
+        "pile-turner/detailed-back.png",
+        "pile-turner/detailed-left.png",
+        "pile-turner/detailed-right.png",
+        "pile-turner/detailed-top.png",
+        "pile-turner/detailed-bottom.png",
+        "pile-turner/action-0.png",
+        "pile-turner/action-50.png",
+        "pile-turner/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-jogger",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-jogger.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 191516,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        66
+      ],
+      "captures": [
+        "paper-jogger/simple-iso.png",
+        "paper-jogger/simple-front.png",
+        "paper-jogger/simple-back.png",
+        "paper-jogger/simple-left.png",
+        "paper-jogger/simple-right.png",
+        "paper-jogger/simple-top.png",
+        "paper-jogger/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-jogger",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-jogger",
+        "version": "1.1.0"
+      },
+      "bytes": 839608,
+      "nodes": 117,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        89
+      ],
+      "captures": [
+        "paper-jogger/detailed-iso.png",
+        "paper-jogger/detailed-front.png",
+        "paper-jogger/detailed-back.png",
+        "paper-jogger/detailed-left.png",
+        "paper-jogger/detailed-right.png",
+        "paper-jogger/detailed-top.png",
+        "paper-jogger/detailed-bottom.png",
+        "paper-jogger/action-0.png",
+        "paper-jogger/action-50.png",
+        "paper-jogger/action-100.png"
+      ]
+    },
+    {
+      "id": "air-table-loader",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.air-table-loader.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 195796,
+      "nodes": 97,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        60
+      ],
+      "captures": [
+        "air-table-loader/simple-iso.png",
+        "air-table-loader/simple-front.png",
+        "air-table-loader/simple-back.png",
+        "air-table-loader/simple-left.png",
+        "air-table-loader/simple-right.png",
+        "air-table-loader/simple-top.png",
+        "air-table-loader/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "air-table-loader",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.air-table-loader",
+        "version": "1.1.0"
+      },
+      "bytes": 952140,
+      "nodes": 175,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        129,
+        132
+      ],
+      "captures": [
+        "air-table-loader/detailed-iso.png",
+        "air-table-loader/detailed-front.png",
+        "air-table-loader/detailed-back.png",
+        "air-table-loader/detailed-left.png",
+        "air-table-loader/detailed-right.png",
+        "air-table-loader/detailed-top.png",
+        "air-table-loader/detailed-bottom.png",
+        "air-table-loader/action-0.png",
+        "air-table-loader/action-50.png",
+        "air-table-loader/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

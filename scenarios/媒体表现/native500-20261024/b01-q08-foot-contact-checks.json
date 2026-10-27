@@ -1,0 +1,389 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "digital-flatbed-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.digital-flatbed-cutter.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "InputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "InputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "InputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "OutputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "RearWasteSupportLeg-0.2304_-0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "RearWasteSupportLeg-0.2304_0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "RearWasteSupportLeg0.2304_-0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "RearWasteSupportLeg0.2304_0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "FrontWasteSupportLeg-0.2304_-0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "FrontWasteSupportLeg-0.2304_0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "FrontWasteSupportLeg0.2304_-0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "FrontWasteSupportLeg0.2304_0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "ScrapBinTableLeg-0.18_-0.144",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.0199999964237213,
+          "leg_top": 0.8250000035762787,
+          "table_bottom": 0.8249999998137355,
+          "bottom_gap_m": -3.3527612838812892e-9,
+          "top_gap_m": -3.7625431659193964e-9
+        },
+        {
+          "name": "ScrapBinTableLeg-0.18_0.144",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.0199999964237213,
+          "leg_top": 0.8250000035762787,
+          "table_bottom": 0.8249999998137355,
+          "bottom_gap_m": -3.3527612838812892e-9,
+          "top_gap_m": -3.7625431659193964e-9
+        },
+        {
+          "name": "ScrapBinTableLeg0.18_-0.144",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.0199999964237213,
+          "leg_top": 0.8250000035762787,
+          "table_bottom": 0.8249999998137355,
+          "bottom_gap_m": -3.3527612838812892e-9,
+          "top_gap_m": -3.7625431659193964e-9
+        },
+        {
+          "name": "ScrapBinTableLeg0.18_0.144",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.0199999964237213,
+          "leg_top": 0.8250000035762787,
+          "table_bottom": 0.8249999998137355,
+          "bottom_gap_m": -3.3527612838812892e-9,
+          "top_gap_m": -3.7625431659193964e-9
+        }
+      ],
+      "capture": "digital-flatbed-cutter/simple-foot-contact.png"
+    },
+    {
+      "id": "digital-flatbed-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.digital-flatbed-cutter",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "InputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "InputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "InputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "OutputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000016689300626,
+          "leg_top": 1.0549999833106996,
+          "table_bottom": 1.0549999998137356,
+          "bottom_gap_m": 1.691281804189204e-8,
+          "top_gap_m": 1.6503036048831632e-8
+        },
+        {
+          "name": "RearWasteSupportLeg-0.2304_-0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "RearWasteSupportLeg-0.2304_0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "RearWasteSupportLeg0.2304_-0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "RearWasteSupportLeg0.2304_0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "FrontWasteSupportLeg-0.2304_-0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "FrontWasteSupportLeg-0.2304_0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "FrontWasteSupportLeg0.2304_-0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "FrontWasteSupportLeg0.2304_0.1368",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.9450000059604644,
+          "table_bottom": 0.9449999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "name": "ScrapBinTableLeg-0.18_-0.144",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.0199999964237213,
+          "leg_top": 0.8250000035762787,
+          "table_bottom": 0.8249999998137355,
+          "bottom_gap_m": -3.3527612838812892e-9,
+          "top_gap_m": -3.7625431659193964e-9
+        },
+        {
+          "name": "ScrapBinTableLeg-0.18_0.144",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.0199999964237213,
+          "leg_top": 0.8250000035762787,
+          "table_bottom": 0.8249999998137355,
+          "bottom_gap_m": -3.3527612838812892e-9,
+          "top_gap_m": -3.7625431659193964e-9
+        },
+        {
+          "name": "ScrapBinTableLeg0.18_-0.144",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.0199999964237213,
+          "leg_top": 0.8250000035762787,
+          "table_bottom": 0.8249999998137355,
+          "bottom_gap_m": -3.3527612838812892e-9,
+          "top_gap_m": -3.7625431659193964e-9
+        },
+        {
+          "name": "ScrapBinTableLeg0.18_0.144",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.0199999964237213,
+          "leg_top": 0.8250000035762787,
+          "table_bottom": 0.8249999998137355,
+          "bottom_gap_m": -3.3527612838812892e-9,
+          "top_gap_m": -3.7625431659193964e-9
+        }
+      ],
+      "capture": "digital-flatbed-cutter/detailed-foot-contact.png"
+    }
+  ]
+}

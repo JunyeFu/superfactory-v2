@@ -1,0 +1,372 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B02",
+  "device_count": 5,
+  "lod_models": 10,
+  "checks": [
+    {
+      "id": "suction-separator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.suction-separator.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 369920,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        89,
+        98,
+        113,
+        119,
+        134,
+        141
+      ],
+      "captures": [
+        "suction-separator/simple-iso.png",
+        "suction-separator/simple-front.png",
+        "suction-separator/simple-back.png",
+        "suction-separator/simple-left.png",
+        "suction-separator/simple-right.png",
+        "suction-separator/simple-top.png",
+        "suction-separator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "suction-separator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.suction-separator",
+        "version": "1.1.0"
+      },
+      "bytes": 2654880,
+      "nodes": 192,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        116,
+        129,
+        152,
+        158,
+        173,
+        180
+      ],
+      "captures": [
+        "suction-separator/detailed-iso.png",
+        "suction-separator/detailed-front.png",
+        "suction-separator/detailed-back.png",
+        "suction-separator/detailed-left.png",
+        "suction-separator/detailed-right.png",
+        "suction-separator/detailed-top.png",
+        "suction-separator/detailed-bottom.png",
+        "suction-separator/action-0.png",
+        "suction-separator/action-50.png",
+        "suction-separator/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-unwinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-unwinder.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 471572,
+      "nodes": 160,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        66,
+        85,
+        94,
+        119,
+        128,
+        135
+      ],
+      "captures": [
+        "paper-unwinder/simple-iso.png",
+        "paper-unwinder/simple-front.png",
+        "paper-unwinder/simple-back.png",
+        "paper-unwinder/simple-left.png",
+        "paper-unwinder/simple-right.png",
+        "paper-unwinder/simple-top.png",
+        "paper-unwinder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-unwinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-unwinder",
+        "version": "1.1.0"
+      },
+      "bytes": 7931516,
+      "nodes": 372,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        93,
+        116,
+        129,
+        307,
+        316,
+        347
+      ],
+      "captures": [
+        "paper-unwinder/detailed-iso.png",
+        "paper-unwinder/detailed-front.png",
+        "paper-unwinder/detailed-back.png",
+        "paper-unwinder/detailed-left.png",
+        "paper-unwinder/detailed-right.png",
+        "paper-unwinder/detailed-top.png",
+        "paper-unwinder/detailed-bottom.png",
+        "paper-unwinder/action-0.png",
+        "paper-unwinder/action-50.png",
+        "paper-unwinder/action-100.png"
+      ]
+    },
+    {
+      "id": "paper-rewinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-rewinder.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 471240,
+      "nodes": 160,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        66,
+        85,
+        94,
+        119,
+        128,
+        135
+      ],
+      "captures": [
+        "paper-rewinder/simple-iso.png",
+        "paper-rewinder/simple-front.png",
+        "paper-rewinder/simple-back.png",
+        "paper-rewinder/simple-left.png",
+        "paper-rewinder/simple-right.png",
+        "paper-rewinder/simple-top.png",
+        "paper-rewinder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-rewinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-rewinder",
+        "version": "1.1.0"
+      },
+      "bytes": 7931260,
+      "nodes": 372,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        93,
+        116,
+        129,
+        307,
+        316,
+        347
+      ],
+      "captures": [
+        "paper-rewinder/detailed-iso.png",
+        "paper-rewinder/detailed-front.png",
+        "paper-rewinder/detailed-back.png",
+        "paper-rewinder/detailed-left.png",
+        "paper-rewinder/detailed-right.png",
+        "paper-rewinder/detailed-top.png",
+        "paper-rewinder/detailed-bottom.png",
+        "paper-rewinder/action-0.png",
+        "paper-rewinder/action-50.png",
+        "paper-rewinder/action-100.png"
+      ]
+    },
+    {
+      "id": "slitter-rewinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.slitter-rewinder.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 458292,
+      "nodes": 165,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        66,
+        85,
+        106,
+        115,
+        124,
+        134
+      ],
+      "captures": [
+        "slitter-rewinder/simple-iso.png",
+        "slitter-rewinder/simple-front.png",
+        "slitter-rewinder/simple-back.png",
+        "slitter-rewinder/simple-left.png",
+        "slitter-rewinder/simple-right.png",
+        "slitter-rewinder/simple-top.png",
+        "slitter-rewinder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "slitter-rewinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.slitter-rewinder",
+        "version": "1.1.0"
+      },
+      "bytes": 2974508,
+      "nodes": 212,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        93,
+        116,
+        141,
+        154,
+        167,
+        181
+      ],
+      "captures": [
+        "slitter-rewinder/detailed-iso.png",
+        "slitter-rewinder/detailed-front.png",
+        "slitter-rewinder/detailed-back.png",
+        "slitter-rewinder/detailed-left.png",
+        "slitter-rewinder/detailed-right.png",
+        "slitter-rewinder/detailed-top.png",
+        "slitter-rewinder/detailed-bottom.png",
+        "slitter-rewinder/action-0.png",
+        "slitter-rewinder/action-50.png",
+        "slitter-rewinder/action-100.png"
+      ]
+    },
+    {
+      "id": "rotary-sheet-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-sheet-cutter.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 407216,
+      "nodes": 161,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        66,
+        85,
+        94,
+        103,
+        121
+      ],
+      "captures": [
+        "rotary-sheet-cutter/simple-iso.png",
+        "rotary-sheet-cutter/simple-front.png",
+        "rotary-sheet-cutter/simple-back.png",
+        "rotary-sheet-cutter/simple-left.png",
+        "rotary-sheet-cutter/simple-right.png",
+        "rotary-sheet-cutter/simple-top.png",
+        "rotary-sheet-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotary-sheet-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-sheet-cutter",
+        "version": "1.1.0"
+      },
+      "bytes": 3070796,
+      "nodes": 212,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        93,
+        116,
+        129,
+        142,
+        164
+      ],
+      "captures": [
+        "rotary-sheet-cutter/detailed-iso.png",
+        "rotary-sheet-cutter/detailed-front.png",
+        "rotary-sheet-cutter/detailed-back.png",
+        "rotary-sheet-cutter/detailed-left.png",
+        "rotary-sheet-cutter/detailed-right.png",
+        "rotary-sheet-cutter/detailed-top.png",
+        "rotary-sheet-cutter/detailed-bottom.png",
+        "rotary-sheet-cutter/action-0.png",
+        "rotary-sheet-cutter/action-50.png",
+        "rotary-sheet-cutter/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

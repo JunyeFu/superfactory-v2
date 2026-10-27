@@ -1,0 +1,406 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B02",
+  "device_count": 6,
+  "lod_models": 12,
+  "checks": [
+    {
+      "id": "bag-handle-attacher",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bag-handle-attacher.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 221904,
+      "nodes": 186,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        112,
+        168,
+        173,
+        178
+      ],
+      "captures": [
+        "bag-handle-attacher/simple-iso.png",
+        "bag-handle-attacher/simple-front.png",
+        "bag-handle-attacher/simple-back.png",
+        "bag-handle-attacher/simple-left.png",
+        "bag-handle-attacher/simple-right.png",
+        "bag-handle-attacher/simple-top.png",
+        "bag-handle-attacher/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bag-handle-attacher",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bag-handle-attacher",
+        "version": "1.1.0"
+      },
+      "bytes": 1249880,
+      "nodes": 354,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        225,
+        328,
+        333,
+        342
+      ],
+      "captures": [
+        "bag-handle-attacher/detailed-iso.png",
+        "bag-handle-attacher/detailed-front.png",
+        "bag-handle-attacher/detailed-back.png",
+        "bag-handle-attacher/detailed-left.png",
+        "bag-handle-attacher/detailed-right.png",
+        "bag-handle-attacher/detailed-top.png",
+        "bag-handle-attacher/detailed-bottom.png",
+        "bag-handle-attacher/action-50.png"
+      ]
+    },
+    {
+      "id": "rope-handle-twister",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rope-handle-twister.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 203188,
+      "nodes": 154,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        98,
+        141,
+        148
+      ],
+      "captures": [
+        "rope-handle-twister/simple-iso.png",
+        "rope-handle-twister/simple-front.png",
+        "rope-handle-twister/simple-back.png",
+        "rope-handle-twister/simple-left.png",
+        "rope-handle-twister/simple-right.png",
+        "rope-handle-twister/simple-top.png",
+        "rope-handle-twister/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rope-handle-twister",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rope-handle-twister",
+        "version": "1.1.0"
+      },
+      "bytes": 1104928,
+      "nodes": 274,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        187,
+        253,
+        264
+      ],
+      "captures": [
+        "rope-handle-twister/detailed-iso.png",
+        "rope-handle-twister/detailed-front.png",
+        "rope-handle-twister/detailed-back.png",
+        "rope-handle-twister/detailed-left.png",
+        "rope-handle-twister/detailed-right.png",
+        "rope-handle-twister/detailed-top.png",
+        "rope-handle-twister/detailed-bottom.png",
+        "rope-handle-twister/action-50.png"
+      ]
+    },
+    {
+      "id": "partition-slotter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.partition-slotter.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 220148,
+      "nodes": 176,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        98,
+        146
+      ],
+      "captures": [
+        "partition-slotter/simple-iso.png",
+        "partition-slotter/simple-front.png",
+        "partition-slotter/simple-back.png",
+        "partition-slotter/simple-left.png",
+        "partition-slotter/simple-right.png",
+        "partition-slotter/simple-top.png",
+        "partition-slotter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "partition-slotter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.partition-slotter",
+        "version": "1.1.0"
+      },
+      "bytes": 1246276,
+      "nodes": 316,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        187,
+        270
+      ],
+      "captures": [
+        "partition-slotter/detailed-iso.png",
+        "partition-slotter/detailed-front.png",
+        "partition-slotter/detailed-back.png",
+        "partition-slotter/detailed-left.png",
+        "partition-slotter/detailed-right.png",
+        "partition-slotter/detailed-top.png",
+        "partition-slotter/detailed-bottom.png",
+        "partition-slotter/action-50.png"
+      ]
+    },
+    {
+      "id": "divider-assembler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.divider-assembler.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 207124,
+      "nodes": 163,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        98,
+        153
+      ],
+      "captures": [
+        "divider-assembler/simple-iso.png",
+        "divider-assembler/simple-front.png",
+        "divider-assembler/simple-back.png",
+        "divider-assembler/simple-left.png",
+        "divider-assembler/simple-right.png",
+        "divider-assembler/simple-top.png",
+        "divider-assembler/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "divider-assembler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.divider-assembler",
+        "version": "1.1.0"
+      },
+      "bytes": 1172908,
+      "nodes": 299,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        187,
+        289
+      ],
+      "captures": [
+        "divider-assembler/detailed-iso.png",
+        "divider-assembler/detailed-front.png",
+        "divider-assembler/detailed-back.png",
+        "divider-assembler/detailed-left.png",
+        "divider-assembler/detailed-right.png",
+        "divider-assembler/detailed-top.png",
+        "divider-assembler/detailed-bottom.png",
+        "divider-assembler/action-50.png"
+      ]
+    },
+    {
+      "id": "paper-waste-baler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-waste-baler.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 213772,
+      "nodes": 173,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        112,
+        161,
+        169
+      ],
+      "captures": [
+        "paper-waste-baler/simple-iso.png",
+        "paper-waste-baler/simple-front.png",
+        "paper-waste-baler/simple-back.png",
+        "paper-waste-baler/simple-left.png",
+        "paper-waste-baler/simple-right.png",
+        "paper-waste-baler/simple-top.png",
+        "paper-waste-baler/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paper-waste-baler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-waste-baler",
+        "version": "1.1.0"
+      },
+      "bytes": 1262472,
+      "nodes": 321,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        225,
+        309,
+        317
+      ],
+      "captures": [
+        "paper-waste-baler/detailed-iso.png",
+        "paper-waste-baler/detailed-front.png",
+        "paper-waste-baler/detailed-back.png",
+        "paper-waste-baler/detailed-left.png",
+        "paper-waste-baler/detailed-right.png",
+        "paper-waste-baler/detailed-top.png",
+        "paper-waste-baler/detailed-bottom.png",
+        "paper-waste-baler/action-50.png"
+      ]
+    },
+    {
+      "id": "board-pile-palletizer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.board-pile-palletizer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 198832,
+      "nodes": 157,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        98,
+        141,
+        144,
+        148,
+        151
+      ],
+      "captures": [
+        "board-pile-palletizer/simple-iso.png",
+        "board-pile-palletizer/simple-front.png",
+        "board-pile-palletizer/simple-back.png",
+        "board-pile-palletizer/simple-left.png",
+        "board-pile-palletizer/simple-right.png",
+        "board-pile-palletizer/simple-top.png",
+        "board-pile-palletizer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "board-pile-palletizer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.board-pile-palletizer",
+        "version": "1.1.0"
+      },
+      "bytes": 1075700,
+      "nodes": 298,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        187,
+        282,
+        285,
+        289,
+        292
+      ],
+      "captures": [
+        "board-pile-palletizer/detailed-iso.png",
+        "board-pile-palletizer/detailed-front.png",
+        "board-pile-palletizer/detailed-back.png",
+        "board-pile-palletizer/detailed-left.png",
+        "board-pile-palletizer/detailed-right.png",
+        "board-pile-palletizer/detailed-top.png",
+        "board-pile-palletizer/detailed-bottom.png",
+        "board-pile-palletizer/action-50.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer",
+  "incremental_update": {
+    "selected_receipt": "scenarios/媒体表现/native500-20261024/b02-q11-render-b02-selected-partition-slotter.json",
+    "changed_device": "partition-slotter",
+    "change": "public waste pan floor feet added; main feet and other equipment unchanged"
+  }
+}

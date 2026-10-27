@@ -1,0 +1,37 @@
+{
+  "candidate_id": "SF-v2.0.0-20261027-R1",
+  "version": "2.0.0",
+  "scope": "Current authorized task8 software-in-loop local technical delivery: actual Host/HTTPS/PG/device/UI/MCP/scale/cadence/screen latency plus ordinary release and restored artifacts. Original broad whole-package/human/submission fields are not inferred.",
+  "cloud_component_version": "0.1.0",
+  "cloud_image": "harbor.bja.sealos.run/ns-61j010p3/sf-cloud-service@sha256:92db924995d7611bb823f54ed1ae0e1696c06078fc109e43b34420e5805b08e3",
+  "normal": {
+    "R": 349,
+    "host_ms": 51747,
+    "accepted": 6,
+    "A": 3,
+    "B": 3
+  },
+  "disable_A": {
+    "R": 535,
+    "host_ms": 90515,
+    "accepted": 6,
+    "A": 1,
+    "B": 5
+  },
+  "restored_execution_count": 5,
+  "original_Run_count": 3,
+  "source_archive_extracted_bytes_verified": true,
+  "source_snapshot_files": 41878,
+  "query_p95_ms": {
+    "raw": 63,
+    "aggregate": 1641
+  },
+  "formal_telemetry_rows": 18000,
+  "screen100_p95_ms": 1402.7524,
+  "human_signoff": null,
+  "official_submission": false,
+  "publication_overlay": [
+    "MIT/NOTICE",
+    "public README and release verification; runtime sources unchanged"
+  ]
+}

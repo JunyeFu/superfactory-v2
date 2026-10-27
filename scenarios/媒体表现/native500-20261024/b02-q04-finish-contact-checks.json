@@ -1,0 +1,798 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 10,
+  "checks": [
+    {
+      "id": "hot-foil-stamper",
+      "lod": "simple",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": null
+    },
+    {
+      "id": "hot-foil-stamper",
+      "lod": "detailed",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": "hot-foil-stamper/detailed-finished-closeup.png"
+    },
+    {
+      "id": "blind-embosser",
+      "lod": "simple",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": null
+    },
+    {
+      "id": "blind-embosser",
+      "lod": "detailed",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": "blind-embosser/detailed-finished-closeup.png"
+    },
+    {
+      "id": "spot-uv-printer",
+      "lod": "simple",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": null
+    },
+    {
+      "id": "spot-uv-printer",
+      "lod": "detailed",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": "spot-uv-printer/detailed-finished-closeup.png"
+    },
+    {
+      "id": "screen-print-press",
+      "lod": "simple",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": null
+    },
+    {
+      "id": "screen-print-press",
+      "lod": "detailed",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": "screen-print-press/detailed-finished-closeup.png"
+    },
+    {
+      "id": "pad-print-press",
+      "lod": "simple",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": null
+    },
+    {
+      "id": "pad-print-press",
+      "lod": "detailed",
+      "samples": [
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.12,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.2,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.25,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.28,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.35,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.4,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.65,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.7,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.74,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.75,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.78,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.82,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.9,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 1,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0.5,
+          "actual_GLB_material_and_contact": true
+        },
+        {
+          "u": 0,
+          "actual_GLB_material_and_contact": true
+        }
+      ],
+      "finished_closeup": "pad-print-press/detailed-finished-closeup.png"
+    }
+  ],
+  "Native": "separate acceptance"
+}

@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "not_Native_acceptance": true,
+  "checks": [
+    {
+      "id": "bag-handle-attacher",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.41974999924306766
+    },
+    {
+      "id": "rope-handle-twister",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.3595342426002026
+    },
+    {
+      "id": "partition-slotter",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "waste_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.3599999932944775
+    },
+    {
+      "id": "divider-assembler",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.3599999932944775
+    },
+    {
+      "id": "paper-waste-baler",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.36999999865889555
+    },
+    {
+      "id": "board-pile-palletizer",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.3374999983608723
+    }
+  ]
+}

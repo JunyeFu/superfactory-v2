@@ -1,0 +1,909 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 10,
+  "checks": [
+    {
+      "id": "suction-separator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.suction-separator.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputDatumTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "InputDatumTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "InputDatumTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "InputDatumTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalInputTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalInputTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalInputTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalInputTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        }
+      ],
+      "capture": "suction-separator/simple-foot-contact.png"
+    },
+    {
+      "id": "suction-separator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.suction-separator",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputDatumTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "InputDatumTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "InputDatumTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "InputDatumTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalInputTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalInputTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalInputTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalInputTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999809265135,
+          "leg_top": 0.8785000019073486,
+          "table_bottom": 0.8784999998137355,
+          "bottom_gap_m": -1.6838312341671546e-9,
+          "top_gap_m": -2.0936130606941106e-9
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        }
+      ],
+      "capture": "suction-separator/detailed-foot-contact.png"
+    },
+    {
+      "id": "paper-unwinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-unwinder.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        }
+      ],
+      "capture": "paper-unwinder/simple-foot-contact.png"
+    },
+    {
+      "id": "paper-unwinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-unwinder",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        }
+      ],
+      "capture": "paper-unwinder/detailed-foot-contact.png"
+    },
+    {
+      "id": "paper-rewinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-rewinder.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputWebStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "InputWebStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "InputWebStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "InputWebStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "OutputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        }
+      ],
+      "capture": "paper-rewinder/simple-foot-contact.png"
+    },
+    {
+      "id": "paper-rewinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-rewinder",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputWebStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "InputWebStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "InputWebStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "InputWebStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "OutputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        }
+      ],
+      "capture": "paper-rewinder/detailed-foot-contact.png"
+    },
+    {
+      "id": "slitter-rewinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.slitter-rewinder.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        }
+      ],
+      "capture": "slitter-rewinder/simple-foot-contact.png"
+    },
+    {
+      "id": "slitter-rewinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.slitter-rewinder",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "OutputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        }
+      ],
+      "capture": "slitter-rewinder/detailed-foot-contact.png"
+    },
+    {
+      "id": "rotary-sheet-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-sheet-cutter.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        }
+      ],
+      "capture": "rotary-sheet-cutter/simple-foot-contact.png"
+    },
+    {
+      "id": "rotary-sheet-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-sheet-cutter",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputRollStand/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "InputRollStand/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000013340063738,
+          "leg_top": 1.1559121932869632,
+          "table_bottom": 1.1559122064407623,
+          "bottom_gap_m": 1.3563581154063531e-8,
+          "top_gap_m": 1.3153799161003121e-8
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/-0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/-0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        },
+        {
+          "name": "ExternalOutputTable/0.3/0.28",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999999690055848,
+          "leg_top": 0.8760000030994415,
+          "table_bottom": 0.8759999998137356,
+          "bottom_gap_m": -2.8759241030296145e-9,
+          "top_gap_m": -3.2857059295565705e-9
+        }
+      ],
+      "capture": "rotary-sheet-cutter/detailed-foot-contact.png"
+    }
+  ]
+}

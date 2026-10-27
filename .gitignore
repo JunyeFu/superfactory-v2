@@ -1,0 +1,6 @@
+/target/
+/node_modules/
+**/node_modules/
+/apps/planner/dist/
+/apps/planner/src-tauri/gen/
+/.work/

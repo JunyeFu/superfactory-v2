@@ -1,0 +1,2 @@
+# Exact frozen bytes; ordinary Git, no metered LFS filters.
+* -text -filter

@@ -1,0 +1,811 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 4,
+  "checks": [
+    {
+      "id": "sheet-feeder",
+      "lod": "simple",
+      "samples": [
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        }
+      ]
+    },
+    {
+      "id": "sheet-feeder",
+      "lod": "detailed",
+      "samples": [
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        }
+      ]
+    },
+    {
+      "id": "pile-lift",
+      "lod": "simple",
+      "samples": [
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        }
+      ]
+    },
+    {
+      "id": "pile-lift",
+      "lod": "detailed",
+      "samples": [
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.12,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.3,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.45,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.55,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.6,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.65,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.75,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.9,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 1,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_sheet_or_pile_contact": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_sheet_or_pile_contact": true
+        }
+      ]
+    }
+  ]
+}

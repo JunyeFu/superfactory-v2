@@ -1,0 +1,86 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "film-laminator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.film-laminator.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 695060,
+      "nodes": 207,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        105,
+        115,
+        131,
+        140,
+        159,
+        175
+      ],
+      "captures": [
+        "film-laminator/simple-iso.png",
+        "film-laminator/simple-front.png",
+        "film-laminator/simple-back.png",
+        "film-laminator/simple-left.png",
+        "film-laminator/simple-right.png",
+        "film-laminator/simple-top.png",
+        "film-laminator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "film-laminator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.film-laminator",
+        "version": "1.1.0"
+      },
+      "bytes": 3858160,
+      "nodes": 230,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        112,
+        128,
+        138,
+        154,
+        163,
+        182,
+        198
+      ],
+      "captures": [
+        "film-laminator/detailed-iso.png",
+        "film-laminator/detailed-front.png",
+        "film-laminator/detailed-back.png",
+        "film-laminator/detailed-left.png",
+        "film-laminator/detailed-right.png",
+        "film-laminator/detailed-top.png",
+        "film-laminator/detailed-bottom.png",
+        "film-laminator/action-0.png",
+        "film-laminator/action-50.png",
+        "film-laminator/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "offset-printer",
+      "lod": "simple",
+      "samples": [
+        {
+          "u": 0,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.1,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.25,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.275,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.3,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.325,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.4,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.5,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.6,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.675,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.7,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.725,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.8,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 1,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.5,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        }
+      ],
+      "actual_nip_rolling_direction": "co_moving_verified"
+    },
+    {
+      "id": "offset-printer",
+      "lod": "detailed",
+      "samples": [
+        {
+          "u": 0,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.1,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.25,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.275,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.3,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.325,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.4,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.5,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.6,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.675,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.7,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.725,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.8,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 1,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0.5,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        },
+        {
+          "u": 0,
+          "actual_sheet_and_ink_volumes": true,
+          "independent_ink_count": 1
+        }
+      ],
+      "actual_nip_rolling_direction": "co_moving_verified"
+    }
+  ]
+}

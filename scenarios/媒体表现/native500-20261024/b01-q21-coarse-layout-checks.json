@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "not_Native_acceptance": true,
+  "checks": [
+    {
+      "id": "belt-conveyor",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.479999990016222
+    },
+    {
+      "id": "roller-conveyor",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.479999990016222
+    },
+    {
+      "id": "curved-conveyor",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.0594499992430675
+    },
+    {
+      "id": "right-angle-transfer",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.0594499992430675
+    },
+    {
+      "id": "lift-conveyor",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 1.030000001937151
+    }
+  ]
+}

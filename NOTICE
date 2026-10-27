@@ -1,0 +1,11 @@
+Super Factory / 超级工厂 2.0.0
+Copyright (c) 2026 傅钧烨
+
+The root MIT license covers the original project code owned by the author.
+Third-party code, bundled CPython, fonts, templates, models, textures and
+other media retain their own licenses and attribution. See licenses/,
+resources/v2-devices/licenses/, module manifests, asset-rights declarations
+and their existing notices. The root license does not replace those terms.
+
+This release preserves the original third-party and media declarations.
+The author authorized public release and MIT licensing of original code.

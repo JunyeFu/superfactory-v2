@@ -1,0 +1,96 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "flexo-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.flexo-printer.simple",
+        "version": "1.1.1"
+      },
+      "bytes": 989792,
+      "nodes": 288,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        100,
+        116,
+        126,
+        142,
+        152,
+        168,
+        177,
+        186,
+        203,
+        234,
+        243,
+        260
+      ],
+      "captures": [
+        "flexo-printer/simple-iso.png",
+        "flexo-printer/simple-front.png",
+        "flexo-printer/simple-back.png",
+        "flexo-printer/simple-left.png",
+        "flexo-printer/simple-right.png",
+        "flexo-printer/simple-top.png",
+        "flexo-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flexo-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.flexo-printer",
+        "version": "1.1.1"
+      },
+      "bytes": 6027044,
+      "nodes": 311,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        115,
+        123,
+        139,
+        149,
+        165,
+        175,
+        191,
+        200,
+        209,
+        226,
+        257,
+        266,
+        283
+      ],
+      "captures": [
+        "flexo-printer/detailed-iso.png",
+        "flexo-printer/detailed-front.png",
+        "flexo-printer/detailed-back.png",
+        "flexo-printer/detailed-left.png",
+        "flexo-printer/detailed-right.png",
+        "flexo-printer/detailed-top.png",
+        "flexo-printer/detailed-bottom.png",
+        "flexo-printer/action-0.png",
+        "flexo-printer/action-50.png",
+        "flexo-printer/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

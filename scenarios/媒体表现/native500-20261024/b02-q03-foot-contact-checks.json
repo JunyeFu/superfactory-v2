@@ -1,0 +1,909 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 10,
+  "checks": [
+    {
+      "id": "flexo-slotter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.flexo-slotter.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg-0.108_-0.08639999999999999",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg-0.108_0.08639999999999999",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg0.108_-0.08639999999999999",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg0.108_0.08639999999999999",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "flexo-slotter/simple-foot-contact.png"
+    },
+    {
+      "id": "flexo-slotter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.flexo-slotter",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg-0.108_-0.08639999999999999",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg-0.108_0.08639999999999999",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg0.108_-0.08639999999999999",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InkSupplyTableLeg0.108_0.08639999999999999",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "flexo-slotter/detailed-foot-contact.png"
+    },
+    {
+      "id": "corrugated-slotter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.corrugated-slotter.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "corrugated-slotter/simple-foot-contact.png"
+    },
+    {
+      "id": "corrugated-slotter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.corrugated-slotter",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "corrugated-slotter/detailed-foot-contact.png"
+    },
+    {
+      "id": "board-edge-trimmer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.board-edge-trimmer.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "board-edge-trimmer/simple-foot-contact.png"
+    },
+    {
+      "id": "board-edge-trimmer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.board-edge-trimmer",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "board-edge-trimmer/detailed-foot-contact.png"
+    },
+    {
+      "id": "paper-perforator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-perforator.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "paper-perforator/simple-foot-contact.png"
+    },
+    {
+      "id": "paper-perforator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-perforator",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "InputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        },
+        {
+          "name": "OutputTableLeg0.288_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999990463256845,
+          "leg_top": 0.8750000095367432,
+          "table_bottom": 0.8749999998137356,
+          "bottom_gap_m": -9.313225739215891e-9,
+          "top_gap_m": -9.723007621253998e-9
+        }
+      ],
+      "capture": "paper-perforator/detailed-foot-contact.png"
+    },
+    {
+      "id": "platen-creaser",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.platen-creaser.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.252_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "InputTableLeg-0.252_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "InputTableLeg0.252_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "InputTableLeg0.252_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "OutputTableLeg-0.252_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "OutputTableLeg-0.252_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "OutputTableLeg0.252_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "OutputTableLeg0.252_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        }
+      ],
+      "capture": "platen-creaser/simple-foot-contact.png"
+    },
+    {
+      "id": "platen-creaser",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.platen-creaser",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.252_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "InputTableLeg-0.252_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "InputTableLeg0.252_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "InputTableLeg0.252_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "OutputTableLeg-0.252_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "OutputTableLeg-0.252_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "OutputTableLeg0.252_-0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        },
+        {
+          "name": "OutputTableLeg0.252_0.2808",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.02000001192092893,
+          "leg_top": 0.794999988079071,
+          "table_bottom": 0.7949999998137355,
+          "bottom_gap_m": 1.2144446344397597e-8,
+          "top_gap_m": 1.173466446235949e-8
+        }
+      ],
+      "capture": "platen-creaser/detailed-foot-contact.png"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "passed": true,
+  "scope": "actual input/dose/output/blocker Item GLBs through product decoder/binder; Host ownership, waits, recovery and Native save/reopen pending",
+  "actual_product_decoder": true,
+  "samples": 53,
+  "paper_meshes": 2057,
+  "auxiliary_meshes": 5,
+  "max_paper_volume_relative_error": 0.0000016764527823067358,
+  "max_glue_volume_relative_error": 7.663163507379688e-8,
+  "max_core_path_error_m": 2.4950460036108557e-8,
+  "max_dose_transfer_error_m": 1.9087960432264268e-7,
+  "max_coated_film_path_error_m": 8.28466277542476e-8,
+  "developed_area_m2": 0.21352267580272374,
+  "dose_volume_m3": 3.0000000000000306e-7,
+  "output_staging_actual_gap_m": 0.01769998714327814,
+  "manual_loading": "paper first0..55percent, then actual dose55..100percent",
+  "checks": [
+    {
+      "phase": "load",
+      "u": 0,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.04,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.075,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.0825,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.25,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.4675,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.55,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.6,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.65,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.72,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.8,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.9,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 0.95,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "load",
+      "u": 1,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.12,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.15,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.25,
+      "paper_volume_m3": 0.00017081808593825845,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.35,
+      "paper_volume_m3": 0.00017081802236734462,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.4,
+      "paper_volume_m3": 0.00017081801195027805,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.45,
+      "paper_volume_m3": 0.0001708180014198886,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.5,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.515,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.535,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.56,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.57,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.9999998680462687e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.599,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.999999889160256e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.6,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.999999888924887e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.61,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.9999998508084155e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.63,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.9999997701051253e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.64,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.999999901861884e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.655,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.999999901861883e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.66,
+      "paper_volume_m3": 0.0001708179906709826,
+      "total_adhesive_volume_m3": 2.999999901861882e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.7,
+      "paper_volume_m3": 0.00017081796125021165,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.75,
+      "paper_volume_m3": 0.0001708179235124476,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.799,
+      "paper_volume_m3": 0.00017081788765195243,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.8,
+      "paper_volume_m3": 0.00017081788679111656,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.84,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.86,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.9,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.96,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 1,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0.4,
+      "paper_volume_m3": 0.00017081801195027805,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "auto",
+      "u": 0,
+      "paper_volume_m3": 0.0001708181464140342,
+      "total_adhesive_volume_m3": 2.99999987598789e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 0,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 0.075,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.999999901861884e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 0.15,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.999999901861883e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 0.33,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.999999901861882e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 0.5,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 0.73,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 0.85,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 0.925,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    },
+    {
+      "phase": "unload",
+      "u": 1,
+      "paper_volume_m3": 0.00017081785427363184,
+      "total_adhesive_volume_m3": 2.9999999018618833e-7,
+      "output_paper_and_glue_volume_m3": 0.00017111854610266398
+    }
+  ],
+  "device_admitted": false,
+  "Native": false
+}

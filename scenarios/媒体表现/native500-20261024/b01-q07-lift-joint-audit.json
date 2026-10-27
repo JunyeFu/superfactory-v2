@@ -1,0 +1,76 @@
+{
+  "passed": false,
+  "actual_product_decoder": true,
+  "checks": [
+    {
+      "id": "platen-die-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.platen-die-cutter.simple",
+        "version": "1.1.0"
+      },
+      "corners": [
+        {
+          "i": 0,
+          "barrel_top_m": 1.0100000002980232,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": true
+        },
+        {
+          "i": 1,
+          "barrel_top_m": 1.0100000002980232,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": true
+        },
+        {
+          "i": 2,
+          "barrel_top_m": 1.0100000002980232,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": true
+        },
+        {
+          "i": 3,
+          "barrel_top_m": 1.0100000002980232,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": true
+        }
+      ],
+      "passed": false
+    },
+    {
+      "id": "platen-die-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.platen-die-cutter",
+        "version": "1.1.0"
+      },
+      "corners": [
+        {
+          "i": 0,
+          "barrel_top_m": 1.0100000002980232,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": true
+        },
+        {
+          "i": 1,
+          "barrel_top_m": 1.0100000002980232,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": true
+        },
+        {
+          "i": 2,
+          "barrel_top_m": 1.0100000002980232,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": true
+        },
+        {
+          "i": 3,
+          "barrel_top_m": 1.0100000002980232,
+          "crosshead_top_m": 1.0099999951198697,
+          "coplanar_exposed_caps": true
+        }
+      ],
+      "passed": false
+    }
+  ]
+}

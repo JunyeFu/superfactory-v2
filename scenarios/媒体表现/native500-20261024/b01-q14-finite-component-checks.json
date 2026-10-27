@@ -1,0 +1,237 @@
+{
+  "passed": true,
+  "scope": "actual finite paper GLB component; full equipment and Native acceptance still pending",
+  "actual_product_decoder": true,
+  "manufacturing_samples": 24,
+  "mesh_nodes": 2059,
+  "developed_area_m2": 0.12325440846337782,
+  "max_actual_prism_seam_gap_m": 7.898141893108412e-8,
+  "max_actual_core_path_error_m": 1.8742543893215902e-7,
+  "max_total_paper_volume_relative_error": 0.000014492041028642009,
+  "samples": [
+    {
+      "u": 0,
+      "actual_bounds": {
+        "min": [
+          -0.06282743206247687,
+          -0.0002500000118743628,
+          -0.22659733891487122
+        ],
+        "max": [
+          0.23999999463558197,
+          0.0002500000118743628,
+          0.20753983035683632
+        ],
+        "size": [
+          0.30282742669805884,
+          0.0005000000237487257,
+          0.43413716927170753
+        ]
+      },
+      "actual_paper_volume_m3": 0.00006162720562832806,
+      "relative_volume_error": 2.266270504069669e-8,
+      "maximum_actual_scored_seam_gap_m": 9.236621318184707e-9
+    },
+    {
+      "u": 0.03,
+      "actual_paper_volume_m3": 0.00006162720562832806,
+      "relative_volume_error": 2.266270504069669e-8,
+      "maximum_actual_scored_seam_gap_m": 9.236621318184707e-9
+    },
+    {
+      "u": 0.06,
+      "actual_paper_volume_m3": 0.00006162720565266963,
+      "relative_volume_error": 2.3057685996846476e-8,
+      "maximum_actual_scored_seam_gap_m": 9.238300705904248e-9
+    },
+    {
+      "u": 0.1,
+      "actual_paper_volume_m3": 0.00006162715766708342,
+      "relative_volume_error": 7.555852332450695e-7,
+      "maximum_actual_scored_seam_gap_m": 1.4779321298422281e-8
+    },
+    {
+      "u": 0.137,
+      "actual_paper_volume_m3": 0.00006162711245677451,
+      "relative_volume_error": 0.0000014891948375751556,
+      "maximum_actual_scored_seam_gap_m": 2.8946140441475344e-8
+    },
+    {
+      "u": 0.199,
+      "actual_paper_volume_m3": 0.00006162703749137739,
+      "relative_volume_error": 0.0000027056283599380268,
+      "maximum_actual_scored_seam_gap_m": 2.8147153089286196e-8
+    },
+    {
+      "u": 0.2,
+      "actual_paper_volume_m3": 0.00006162703531034086,
+      "relative_volume_error": 0.000002741019167630045,
+      "maximum_actual_scored_seam_gap_m": 1.2587794730869827e-8
+    },
+    {
+      "u": 0.22,
+      "actual_paper_volume_m3": 0.00006162703531125882,
+      "relative_volume_error": 0.000002741004272148645,
+      "maximum_actual_scored_seam_gap_m": 1.2587794730870614e-8
+    },
+    {
+      "u": 0.251,
+      "actual_paper_volume_m3": 0.000061627024488873,
+      "relative_volume_error": 0.0000029166147992778215,
+      "maximum_actual_scored_seam_gap_m": 2.02472072401384e-8
+    },
+    {
+      "u": 0.331,
+      "actual_paper_volume_m3": 0.00006162699581922882,
+      "relative_volume_error": 0.0000033818256512761145,
+      "maximum_actual_scored_seam_gap_m": 1.935392248455703e-8
+    },
+    {
+      "u": 0.34,
+      "actual_paper_volume_m3": 0.00006162699248318497,
+      "relative_volume_error": 0.0000034359583007302954,
+      "maximum_actual_scored_seam_gap_m": 1.3804972470143761e-8
+    },
+    {
+      "u": 0.39,
+      "actual_paper_volume_m3": 0.0000616269924281143,
+      "relative_volume_error": 0.0000034368519106422283,
+      "maximum_actual_scored_seam_gap_m": 1.3804972470143761e-8
+    },
+    {
+      "u": 0.4,
+      "actual_paper_volume_m3": 0.0000616269924281143,
+      "relative_volume_error": 0.0000034368519106422283,
+      "maximum_actual_scored_seam_gap_m": 1.3804972470143761e-8
+    },
+    {
+      "u": 0.471,
+      "actual_paper_volume_m3": 0.00006162686818864006,
+      "relative_volume_error": 0.000005452836178959515,
+      "maximum_actual_scored_seam_gap_m": 5.434857702462948e-8
+    },
+    {
+      "u": 0.579,
+      "actual_paper_volume_m3": 0.00006162667812986108,
+      "relative_volume_error": 0.000008536843986005982,
+      "maximum_actual_scored_seam_gap_m": 2.7182650009234823e-8
+    },
+    {
+      "u": 0.58,
+      "actual_paper_volume_m3": 0.00006162667452149977,
+      "relative_volume_error": 0.000008595395422218586,
+      "maximum_actual_scored_seam_gap_m": 2.71826500092296e-8
+    },
+    {
+      "u": 0.64,
+      "actual_paper_volume_m3": 0.00006162667458235591,
+      "relative_volume_error": 0.00000859440793387269,
+      "maximum_actual_scored_seam_gap_m": 2.7182650009234823e-8
+    },
+    {
+      "u": 0.713,
+      "actual_paper_volume_m3": 0.00006162650983118879,
+      "relative_volume_error": 0.000011267759243189158,
+      "maximum_actual_scored_seam_gap_m": 7.898141893108412e-8
+    },
+    {
+      "u": 0.799,
+      "actual_paper_volume_m3": 0.00006162631554696868,
+      "relative_volume_error": 0.000014420331593922609,
+      "maximum_actual_scored_seam_gap_m": 5.1203906834712915e-8
+    },
+    {
+      "u": 0.8,
+      "actual_paper_volume_m3": 0.00006162631118088466,
+      "relative_volume_error": 0.000014491178293416447,
+      "maximum_actual_scored_seam_gap_m": 2.7182650009234823e-8
+    },
+    {
+      "u": 0.91,
+      "actual_paper_volume_m3": 0.000061626311182122,
+      "relative_volume_error": 0.000014491158215502078,
+      "maximum_actual_scored_seam_gap_m": 2.7182650009234823e-8
+    },
+    {
+      "u": 1,
+      "actual_bounds": {
+        "min": [
+          -0.0011499999957532642,
+          -0.0002500000118743628,
+          -0.10235000982841029
+        ],
+        "max": [
+          0.24000000294388285,
+          0.005050000239862141,
+          0.10265000745614543
+        ],
+        "size": [
+          0.24115000293963612,
+          0.005300000251736504,
+          0.20500001728455572
+        ]
+      },
+      "actual_paper_volume_m3": 0.0000616263111277167,
+      "relative_volume_error": 0.000014492041028642009,
+      "maximum_actual_scored_seam_gap_m": 2.7182650009234823e-8
+    },
+    {
+      "u": 0.137,
+      "actual_paper_volume_m3": 0.00006162711245677451,
+      "relative_volume_error": 0.0000014891948375751556,
+      "maximum_actual_scored_seam_gap_m": 2.8946140441475344e-8
+    },
+    {
+      "u": 0,
+      "actual_bounds": {
+        "min": [
+          -0.06282743206247687,
+          -0.0002500000118743628,
+          -0.22659733891487122
+        ],
+        "max": [
+          0.23999999463558197,
+          0.0002500000118743628,
+          0.20753983035683632
+        ],
+        "size": [
+          0.30282742669805884,
+          0.0005000000237487257,
+          0.43413716927170753
+        ]
+      },
+      "actual_paper_volume_m3": 0.00006162720562832806,
+      "relative_volume_error": 2.266270504069669e-8,
+      "maximum_actual_scored_seam_gap_m": 9.236621318184707e-9
+    }
+  ],
+  "bonds": [
+    {
+      "index": 0,
+      "actual_glue_gap_m": 0.00009999991208314873
+    },
+    {
+      "index": 0,
+      "actual_glue_gap_m": 0.00009999991208314504
+    },
+    {
+      "index": 0,
+      "actual_glue_gap_m": 0.00009999991208314981
+    },
+    {
+      "index": 2,
+      "actual_glue_gap_m": 0.00009999991208314851
+    },
+    {
+      "index": 2,
+      "actual_glue_gap_m": 0.00009999991208314504
+    },
+    {
+      "index": 2,
+      "actual_glue_gap_m": 0.00009999991208315025
+    }
+  ],
+  "side_glue_gap_m": 0.00010000037774443365,
+  "Native": false,
+  "device_admitted": false
+}

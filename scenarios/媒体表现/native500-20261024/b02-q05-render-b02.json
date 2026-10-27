@@ -1,0 +1,283 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B02",
+  "device_count": 4,
+  "lod_models": 8,
+  "checks": [
+    {
+      "id": "digital-label-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.digital-label-printer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 232772,
+      "nodes": 180,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        112,
+        141,
+        150,
+        171
+      ],
+      "captures": [
+        "digital-label-printer/simple-iso.png",
+        "digital-label-printer/simple-front.png",
+        "digital-label-printer/simple-back.png",
+        "digital-label-printer/simple-left.png",
+        "digital-label-printer/simple-right.png",
+        "digital-label-printer/simple-top.png",
+        "digital-label-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "digital-label-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.digital-label-printer",
+        "version": "1.1.0"
+      },
+      "bytes": 1243096,
+      "nodes": 341,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        225,
+        274,
+        288,
+        330
+      ],
+      "captures": [
+        "digital-label-printer/detailed-iso.png",
+        "digital-label-printer/detailed-front.png",
+        "digital-label-printer/detailed-back.png",
+        "digital-label-printer/detailed-left.png",
+        "digital-label-printer/detailed-right.png",
+        "digital-label-printer/detailed-top.png",
+        "digital-label-printer/detailed-bottom.png",
+        "digital-label-printer/action-0.png",
+        "digital-label-printer/action-50.png",
+        "digital-label-printer/action-100.png"
+      ]
+    },
+    {
+      "id": "label-die-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-die-cutter.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 259708,
+      "nodes": 194,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        98,
+        126,
+        135,
+        156,
+        187
+      ],
+      "captures": [
+        "label-die-cutter/simple-iso.png",
+        "label-die-cutter/simple-front.png",
+        "label-die-cutter/simple-back.png",
+        "label-die-cutter/simple-left.png",
+        "label-die-cutter/simple-right.png",
+        "label-die-cutter/simple-top.png",
+        "label-die-cutter/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "label-die-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-die-cutter",
+        "version": "1.1.0"
+      },
+      "bytes": 1221736,
+      "nodes": 336,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        187,
+        235,
+        249,
+        291,
+        324
+      ],
+      "captures": [
+        "label-die-cutter/detailed-iso.png",
+        "label-die-cutter/detailed-front.png",
+        "label-die-cutter/detailed-back.png",
+        "label-die-cutter/detailed-left.png",
+        "label-die-cutter/detailed-right.png",
+        "label-die-cutter/detailed-top.png",
+        "label-die-cutter/detailed-bottom.png",
+        "label-die-cutter/action-0.png",
+        "label-die-cutter/action-50.png",
+        "label-die-cutter/action-100.png"
+      ]
+    },
+    {
+      "id": "label-peeler",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-peeler.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 215416,
+      "nodes": 183,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        98,
+        126,
+        135
+      ],
+      "captures": [
+        "label-peeler/simple-iso.png",
+        "label-peeler/simple-front.png",
+        "label-peeler/simple-back.png",
+        "label-peeler/simple-left.png",
+        "label-peeler/simple-right.png",
+        "label-peeler/simple-top.png",
+        "label-peeler/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "label-peeler",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-peeler",
+        "version": "1.1.0"
+      },
+      "bytes": 1189160,
+      "nodes": 342,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        187,
+        235,
+        249
+      ],
+      "captures": [
+        "label-peeler/detailed-iso.png",
+        "label-peeler/detailed-front.png",
+        "label-peeler/detailed-back.png",
+        "label-peeler/detailed-left.png",
+        "label-peeler/detailed-right.png",
+        "label-peeler/detailed-top.png",
+        "label-peeler/detailed-bottom.png",
+        "label-peeler/action-0.png",
+        "label-peeler/action-50.png",
+        "label-peeler/action-100.png"
+      ]
+    },
+    {
+      "id": "label-web-inspector",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.label-web-inspector.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 233452,
+      "nodes": 188,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        98,
+        126,
+        135
+      ],
+      "captures": [
+        "label-web-inspector/simple-iso.png",
+        "label-web-inspector/simple-front.png",
+        "label-web-inspector/simple-back.png",
+        "label-web-inspector/simple-left.png",
+        "label-web-inspector/simple-right.png",
+        "label-web-inspector/simple-top.png",
+        "label-web-inspector/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "label-web-inspector",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.label-web-inspector",
+        "version": "1.1.0"
+      },
+      "bytes": 1268660,
+      "nodes": 345,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        187,
+        235,
+        249
+      ],
+      "captures": [
+        "label-web-inspector/detailed-iso.png",
+        "label-web-inspector/detailed-front.png",
+        "label-web-inspector/detailed-back.png",
+        "label-web-inspector/detailed-left.png",
+        "label-web-inspector/detailed-right.png",
+        "label-web-inspector/detailed-top.png",
+        "label-web-inspector/detailed-bottom.png",
+        "label-web-inspector/action-0.png",
+        "label-web-inspector/action-50.png",
+        "label-web-inspector/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

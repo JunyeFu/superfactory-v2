@@ -1,0 +1,169 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 2,
+  "lod_models": 4,
+  "checks": [
+    {
+      "id": "sheet-feeder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-feeder.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 990580,
+      "nodes": 173,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        56,
+        109,
+        114,
+        119,
+        124,
+        129,
+        134,
+        139,
+        144,
+        149,
+        154,
+        169
+      ],
+      "captures": [
+        "sheet-feeder/simple-iso.png",
+        "sheet-feeder/simple-front.png",
+        "sheet-feeder/simple-back.png",
+        "sheet-feeder/simple-left.png",
+        "sheet-feeder/simple-right.png",
+        "sheet-feeder/simple-top.png",
+        "sheet-feeder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sheet-feeder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-feeder",
+        "version": "1.1.0"
+      },
+      "bytes": 4361488,
+      "nodes": 223,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        67,
+        61,
+        114,
+        123,
+        132,
+        141,
+        150,
+        159,
+        168,
+        177,
+        186,
+        195,
+        219
+      ],
+      "captures": [
+        "sheet-feeder/detailed-iso.png",
+        "sheet-feeder/detailed-front.png",
+        "sheet-feeder/detailed-back.png",
+        "sheet-feeder/detailed-left.png",
+        "sheet-feeder/detailed-right.png",
+        "sheet-feeder/detailed-top.png",
+        "sheet-feeder/detailed-bottom.png",
+        "sheet-feeder/action-0.png",
+        "sheet-feeder/action-50.png",
+        "sheet-feeder/action-100.png"
+      ]
+    },
+    {
+      "id": "pile-lift",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.pile-lift.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 446984,
+      "nodes": 96,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        55,
+        71,
+        77,
+        82,
+        88
+      ],
+      "captures": [
+        "pile-lift/simple-iso.png",
+        "pile-lift/simple-front.png",
+        "pile-lift/simple-back.png",
+        "pile-lift/simple-left.png",
+        "pile-lift/simple-right.png",
+        "pile-lift/simple-top.png",
+        "pile-lift/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pile-lift",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.pile-lift",
+        "version": "1.1.0"
+      },
+      "bytes": 3297020,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99,
+        60,
+        76,
+        83,
+        88,
+        95
+      ],
+      "captures": [
+        "pile-lift/detailed-iso.png",
+        "pile-lift/detailed-front.png",
+        "pile-lift/detailed-back.png",
+        "pile-lift/detailed-left.png",
+        "pile-lift/detailed-right.png",
+        "pile-lift/detailed-top.png",
+        "pile-lift/detailed-bottom.png",
+        "pile-lift/action-0.png",
+        "pile-lift/action-50.png",
+        "pile-lift/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "scope": "observed 30mm vacuum lift gap repaired; actual exported rod enters drive housing",
+  "checks": [
+    {
+      "lod": "simple",
+      "progress": 0,
+      "rod_end_inside_cylinder": true,
+      "gap_m": -0.03999998837709429,
+      "passed": true
+    },
+    {
+      "lod": "simple",
+      "progress": 0.5,
+      "rod_end_inside_cylinder": true,
+      "gap_m": -0.04000001072883608,
+      "passed": true
+    },
+    {
+      "lod": "simple",
+      "progress": 1,
+      "rod_end_inside_cylinder": true,
+      "gap_m": -0.03999998837709429,
+      "passed": true
+    },
+    {
+      "lod": "detailed",
+      "progress": 0,
+      "rod_end_inside_cylinder": true,
+      "gap_m": -0.03999998837709429,
+      "passed": true
+    },
+    {
+      "lod": "detailed",
+      "progress": 0.5,
+      "rod_end_inside_cylinder": true,
+      "gap_m": -0.04000001072883608,
+      "passed": true
+    },
+    {
+      "lod": "detailed",
+      "progress": 1,
+      "rod_end_inside_cylinder": true,
+      "gap_m": -0.03999998837709429,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "scope": "six counted originals, rotating pallet with six cases and manual assisted packing/closing; not Native",
+  "checks": [
+    {
+      "id": "carton-counter-stacker",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "loaded-before-fold",
+          "phase": "auto",
+          "u": 0.74
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.92
+        },
+        {
+          "stage": "output_wait",
+          "phase": "unload",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 0.29000000998377806
+    },
+    {
+      "id": "pallet-stretch-wrapper",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "loaded-before-fold",
+          "phase": "auto",
+          "u": 0.74
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.92
+        },
+        {
+          "stage": "output_wait",
+          "phase": "load",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 0.9999999754130839
+    },
+    {
+      "id": "manual-packing",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "loaded-before-fold",
+          "phase": "auto",
+          "u": 0.74
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.92
+        },
+        {
+          "stage": "output_wait",
+          "phase": "unload",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 0.3499999978326924
+    }
+  ]
+}

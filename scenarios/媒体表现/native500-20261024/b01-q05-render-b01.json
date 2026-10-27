@@ -1,0 +1,84 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "rotary-scorer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.rotary-scorer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 574556,
+      "nodes": 180,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        105,
+        115,
+        131,
+        140,
+        161
+      ],
+      "captures": [
+        "rotary-scorer/simple-iso.png",
+        "rotary-scorer/simple-front.png",
+        "rotary-scorer/simple-back.png",
+        "rotary-scorer/simple-left.png",
+        "rotary-scorer/simple-right.png",
+        "rotary-scorer/simple-top.png",
+        "rotary-scorer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotary-scorer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.rotary-scorer",
+        "version": "1.1.0"
+      },
+      "bytes": 3480868,
+      "nodes": 207,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        112,
+        128,
+        138,
+        154,
+        163,
+        188
+      ],
+      "captures": [
+        "rotary-scorer/detailed-iso.png",
+        "rotary-scorer/detailed-front.png",
+        "rotary-scorer/detailed-back.png",
+        "rotary-scorer/detailed-left.png",
+        "rotary-scorer/detailed-right.png",
+        "rotary-scorer/detailed-top.png",
+        "rotary-scorer/detailed-bottom.png",
+        "rotary-scorer/action-0.png",
+        "rotary-scorer/action-50.png",
+        "rotary-scorer/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

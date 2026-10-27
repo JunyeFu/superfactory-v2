@@ -1,0 +1,517 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 10,
+  "checks": [
+    {
+      "id": "guillotine-paper-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.guillotine-paper-cutter.simple",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        }
+      ],
+      "capture": "guillotine-paper-cutter/simple-foot-contact.png"
+    },
+    {
+      "id": "guillotine-paper-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.guillotine-paper-cutter",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        }
+      ],
+      "capture": "guillotine-paper-cutter/detailed-foot-contact.png"
+    },
+    {
+      "id": "three-knife-trimmer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.three-knife-trimmer.simple",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        }
+      ],
+      "capture": "three-knife-trimmer/simple-foot-contact.png"
+    },
+    {
+      "id": "three-knife-trimmer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.three-knife-trimmer",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999994039535507,
+          "leg_top": 0.8200000059604644,
+          "table_bottom": 0.8199999998137355,
+          "bottom_gap_m": -5.73694707711736e-9,
+          "top_gap_m": -6.146728903644316e-9
+        }
+      ],
+      "capture": "three-knife-trimmer/detailed-foot-contact.png"
+    },
+    {
+      "id": "pile-turner",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pile-turner.simple",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999997138977061,
+          "leg_top": 1.0225000286102297,
+          "table_bottom": 1.0224999998137356,
+          "bottom_gap_m": -2.8386711974082157e-8,
+          "top_gap_m": -2.879649407816487e-8
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999997138977061,
+          "leg_top": 1.0225000286102297,
+          "table_bottom": 1.0224999998137356,
+          "bottom_gap_m": -2.8386711974082157e-8,
+          "top_gap_m": -2.879649407816487e-8
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999997138977061,
+          "leg_top": 1.0225000286102297,
+          "table_bottom": 1.0224999998137356,
+          "bottom_gap_m": -2.8386711974082157e-8,
+          "top_gap_m": -2.879649407816487e-8
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999997138977061,
+          "leg_top": 1.0225000286102297,
+          "table_bottom": 1.0224999998137356,
+          "bottom_gap_m": -2.8386711974082157e-8,
+          "top_gap_m": -2.879649407816487e-8
+        }
+      ],
+      "capture": "pile-turner/simple-foot-contact.png"
+    },
+    {
+      "id": "pile-turner",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pile-turner",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999997138977061,
+          "leg_top": 1.0225000286102297,
+          "table_bottom": 1.0224999998137356,
+          "bottom_gap_m": -2.8386711974082157e-8,
+          "top_gap_m": -2.879649407816487e-8
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999997138977061,
+          "leg_top": 1.0225000286102297,
+          "table_bottom": 1.0224999998137356,
+          "bottom_gap_m": -2.8386711974082157e-8,
+          "top_gap_m": -2.879649407816487e-8
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999997138977061,
+          "leg_top": 1.0225000286102297,
+          "table_bottom": 1.0224999998137356,
+          "bottom_gap_m": -2.8386711974082157e-8,
+          "top_gap_m": -2.879649407816487e-8
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.01999997138977061,
+          "leg_top": 1.0225000286102297,
+          "table_bottom": 1.0224999998137356,
+          "bottom_gap_m": -2.8386711974082157e-8,
+          "top_gap_m": -2.879649407816487e-8
+        }
+      ],
+      "capture": "pile-turner/detailed-foot-contact.png"
+    },
+    {
+      "id": "paper-jogger",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paper-jogger.simple",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000009536743135,
+          "leg_top": 0.8524999904632569,
+          "table_bottom": 0.8524999998137355,
+          "bottom_gap_m": 9.760260551161526e-9,
+          "top_gap_m": 9.350478613612268e-9
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000009536743135,
+          "leg_top": 0.8524999904632569,
+          "table_bottom": 0.8524999998137355,
+          "bottom_gap_m": 9.760260551161526e-9,
+          "top_gap_m": 9.350478613612268e-9
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000009536743135,
+          "leg_top": 0.8524999904632569,
+          "table_bottom": 0.8524999998137355,
+          "bottom_gap_m": 9.760260551161526e-9,
+          "top_gap_m": 9.350478613612268e-9
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000009536743135,
+          "leg_top": 0.8524999904632569,
+          "table_bottom": 0.8524999998137355,
+          "bottom_gap_m": 9.760260551161526e-9,
+          "top_gap_m": 9.350478613612268e-9
+        }
+      ],
+      "capture": "paper-jogger/simple-foot-contact.png"
+    },
+    {
+      "id": "paper-jogger",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paper-jogger",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000009536743135,
+          "leg_top": 0.8524999904632569,
+          "table_bottom": 0.8524999998137355,
+          "bottom_gap_m": 9.760260551161526e-9,
+          "top_gap_m": 9.350478613612268e-9
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000009536743135,
+          "leg_top": 0.8524999904632569,
+          "table_bottom": 0.8524999998137355,
+          "bottom_gap_m": 9.760260551161526e-9,
+          "top_gap_m": 9.350478613612268e-9
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000009536743135,
+          "leg_top": 0.8524999904632569,
+          "table_bottom": 0.8524999998137355,
+          "bottom_gap_m": 9.760260551161526e-9,
+          "top_gap_m": 9.350478613612268e-9
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000009536743135,
+          "leg_top": 0.8524999904632569,
+          "table_bottom": 0.8524999998137355,
+          "bottom_gap_m": 9.760260551161526e-9,
+          "top_gap_m": 9.350478613612268e-9
+        }
+      ],
+      "capture": "paper-jogger/detailed-foot-contact.png"
+    },
+    {
+      "id": "air-table-loader",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.air-table-loader.simple",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999992847442638,
+          "leg_top": 0.8175000071525573,
+          "table_bottom": 0.8174999998137356,
+          "bottom_gap_m": -6.92903994597982e-9,
+          "top_gap_m": -7.338821772506776e-9
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999992847442638,
+          "leg_top": 0.8175000071525573,
+          "table_bottom": 0.8174999998137356,
+          "bottom_gap_m": -6.92903994597982e-9,
+          "top_gap_m": -7.338821772506776e-9
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999992847442638,
+          "leg_top": 0.8175000071525573,
+          "table_bottom": 0.8174999998137356,
+          "bottom_gap_m": -6.92903994597982e-9,
+          "top_gap_m": -7.338821772506776e-9
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999992847442638,
+          "leg_top": 0.8175000071525573,
+          "table_bottom": 0.8174999998137356,
+          "bottom_gap_m": -6.92903994597982e-9,
+          "top_gap_m": -7.338821772506776e-9
+        }
+      ],
+      "capture": "air-table-loader/simple-foot-contact.png"
+    },
+    {
+      "id": "air-table-loader",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.air-table-loader",
+        "version": "1.1.1"
+      },
+      "contacts": [
+        {
+          "sign": -1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999992847442638,
+          "leg_top": 0.8175000071525573,
+          "table_bottom": 0.8174999998137356,
+          "bottom_gap_m": -6.92903994597982e-9,
+          "top_gap_m": -7.338821772506776e-9
+        },
+        {
+          "sign": -1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999992847442638,
+          "leg_top": 0.8175000071525573,
+          "table_bottom": 0.8174999998137356,
+          "bottom_gap_m": -6.92903994597982e-9,
+          "top_gap_m": -7.338821772506776e-9
+        },
+        {
+          "sign": 1,
+          "z": -0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999992847442638,
+          "leg_top": 0.8175000071525573,
+          "table_bottom": 0.8174999998137356,
+          "bottom_gap_m": -6.92903994597982e-9,
+          "top_gap_m": -7.338821772506776e-9
+        },
+        {
+          "sign": 1,
+          "z": 0.28,
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.019999992847442638,
+          "leg_top": 0.8175000071525573,
+          "table_bottom": 0.8174999998137356,
+          "bottom_gap_m": -6.92903994597982e-9,
+          "top_gap_m": -7.338821772506776e-9
+        }
+      ],
+      "capture": "air-table-loader/detailed-foot-contact.png"
+    }
+  ]
+}

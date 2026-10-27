@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "scope": "four fixed-length six-label examples; not Native",
+  "checks": [
+    {
+      "id": "digital-label-printer",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.92
+        },
+        {
+          "stage": "output_wait",
+          "phase": "unload",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 0.20999998733401304
+    },
+    {
+      "id": "label-die-cutter",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.92
+        },
+        {
+          "stage": "output_wait",
+          "phase": "unload",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 0.20999998733401304
+    },
+    {
+      "id": "label-peeler",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.92
+        },
+        {
+          "stage": "output_wait",
+          "phase": "unload",
+          "u": 1
+        },
+        {
+          "stage": "backing-wait",
+          "phase": "unload",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 0.4150000001490116,
+      "backing_buffer_separated": true
+    },
+    {
+      "id": "label-web-inspector",
+      "passed": true,
+      "samples": [
+        {
+          "stage": "input",
+          "phase": "load",
+          "u": 0
+        },
+        {
+          "stage": "loading",
+          "phase": "load",
+          "u": 0.5
+        },
+        {
+          "stage": "processing",
+          "phase": "auto",
+          "u": 0.5
+        },
+        {
+          "stage": "late-processing",
+          "phase": "auto",
+          "u": 0.92
+        },
+        {
+          "stage": "output_wait",
+          "phase": "unload",
+          "u": 1
+        },
+        {
+          "stage": "delivered",
+          "phase": "unload",
+          "u": 1
+        }
+      ],
+      "critical_layout_checks": {
+        "input": "pass",
+        "processing": "pass",
+        "output_wait": "pass",
+        "delivered": "pass"
+      },
+      "output_buffer_gap_m": 0.20999998733401304
+    }
+  ]
+}

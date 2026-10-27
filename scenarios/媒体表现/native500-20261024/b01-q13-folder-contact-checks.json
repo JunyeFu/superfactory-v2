@@ -1,0 +1,463 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "folder-gluer",
+      "lod": "simple",
+      "actual_product_decoder": true,
+      "phases": [
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "load",
+          "u": 0.25,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "load",
+          "u": 0.75,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "load",
+          "u": 1,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.04,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.09,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.1,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.175,
+          "actual_material_volume_m3": 0.00008453600672207613,
+          "actual_glue_volume_m3": 5.599999930128347e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.25,
+          "actual_material_volume_m3": 0.00008453600674054651,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.3,
+          "actual_material_volume_m3": 0.00008453600674054651,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.39,
+          "actual_material_volume_m3": 0.00008453600829293404,
+          "actual_glue_volume_m3": 5.600000470872831e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.48,
+          "actual_material_volume_m3": 0.0000845360067400123,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.53,
+          "actual_material_volume_m3": 0.0000845360067400123,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.58,
+          "actual_material_volume_m3": 0.0000845360067400123,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.62,
+          "actual_material_volume_m3": 0.0000845360067400123,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.7,
+          "actual_material_volume_m3": 0.00008453600774607657,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.78,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.83,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.88,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.9,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.94,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 1,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.39,
+          "actual_material_volume_m3": 0.00008453600829293404,
+          "actual_glue_volume_m3": 5.600000470872831e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.25,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.75,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 1,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        }
+      ],
+      "actual_two_source_volume_conserved": true,
+      "actual_glue_contact": true,
+      "actual_fold_finger_contact": true,
+      "whole_unit_transport_clearance": true
+    },
+    {
+      "id": "folder-gluer",
+      "lod": "detailed",
+      "actual_product_decoder": true,
+      "phases": [
+        {
+          "phase": "load",
+          "u": 0,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "load",
+          "u": 0.25,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "load",
+          "u": 0.75,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "load",
+          "u": 1,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.04,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.09,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.1,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.175,
+          "actual_material_volume_m3": 0.00008453600672207613,
+          "actual_glue_volume_m3": 5.599999930128347e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.25,
+          "actual_material_volume_m3": 0.00008453600674054651,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.3,
+          "actual_material_volume_m3": 0.00008453600674054651,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.39,
+          "actual_material_volume_m3": 0.00008453600829293404,
+          "actual_glue_volume_m3": 5.600000470872831e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.48,
+          "actual_material_volume_m3": 0.0000845360067400123,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.53,
+          "actual_material_volume_m3": 0.0000845360067400123,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.58,
+          "actual_material_volume_m3": 0.0000845360067400123,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.62,
+          "actual_material_volume_m3": 0.0000845360067400123,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.7,
+          "actual_material_volume_m3": 0.00008453600774607657,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.78,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.83,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.88,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.9,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.94,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 1,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.39,
+          "actual_material_volume_m3": 0.00008453600829293404,
+          "actual_glue_volume_m3": 5.600000470872831e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "actual_material_volume_m3": 0.00008453600672530185,
+          "actual_glue_volume_m3": 5.599999962385531e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.25,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.75,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        },
+        {
+          "phase": "unload",
+          "u": 1,
+          "actual_material_volume_m3": 0.00008453600674035857,
+          "actual_glue_volume_m3": 5.600000114832071e-7,
+          "fold_finger_contact_and_unit_transport_clearance": true
+        }
+      ],
+      "actual_two_source_volume_conserved": true,
+      "actual_glue_contact": true,
+      "actual_fold_finger_contact": true,
+      "whole_unit_transport_clearance": true
+    }
+  ]
+}

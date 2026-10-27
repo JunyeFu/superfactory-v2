@@ -1,0 +1,520 @@
+{
+  "passed": true,
+  "scope": "actual Item GLBs using product decoder; complete equipment avoidance, Host and Native pending",
+  "actual_product_decoder": true,
+  "samples": 63,
+  "rows": [
+    {
+      "phase": "load",
+      "u": 0,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.03,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.06,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.12,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.2,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.28,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.35,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.42,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.44,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.465,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.49,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.52,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.6,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.68,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.72,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.84,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.88,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.96,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 1,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0.465,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "load",
+      "u": 0,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0.03,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0.06,
+      "paper_volume_m3": 0.00006162720565266963,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0.12,
+      "paper_volume_m3": 0.00006162713353879645,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0.2,
+      "paper_volume_m3": 0.00006162703531034086,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0.28,
+      "paper_volume_m3": 0.00006162703530769397,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0.35,
+      "paper_volume_m3": 0.00006162701389753872,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0.42,
+      "paper_volume_m3": 0.0000616269924281143,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "auto",
+      "u": 0.44,
+      "paper_volume_m3": 0.0000616269924281143,
+      "glue_volume_m3": 4.2600000843467275e-7,
+      "remaining_dose_m3": 4.2599998812144566e-7,
+      "applied_glue_m3": 2.0313227086032562e-14
+    },
+    {
+      "phase": "auto",
+      "u": 0.465,
+      "paper_volume_m3": 0.0000616269924281143,
+      "glue_volume_m3": 4.259999951747869e-7,
+      "remaining_dose_m3": 2.130000092956486e-7,
+      "applied_glue_m3": 2.129999858791383e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.49,
+      "paper_volume_m3": 0.0000616269924281143,
+      "glue_volume_m3": 4.2599998191488596e-7,
+      "remaining_dose_m3": 8.125260445521839e-14,
+      "applied_glue_m3": 4.259999006622815e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.52,
+      "paper_volume_m3": 0.00006162699250967923,
+      "glue_volume_m3": 4.2599998499547555e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599998499547555e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.6,
+      "paper_volume_m3": 0.00006162683351814926,
+      "glue_volume_m3": 4.259999849954756e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.259999849954756e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.68,
+      "paper_volume_m3": 0.0000616266745220106,
+      "glue_volume_m3": 4.2599998499547565e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599998499547565e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.72,
+      "paper_volume_m3": 0.00006162667452149977,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.84,
+      "paper_volume_m3": 0.00006162652074059905,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.88,
+      "paper_volume_m3": 0.00006162641690657263,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.96,
+      "paper_volume_m3": 0.000061626311182122,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "auto",
+      "u": 1,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0.465,
+      "paper_volume_m3": 0.0000616269924281143,
+      "glue_volume_m3": 4.259999951747869e-7,
+      "remaining_dose_m3": 2.130000092956486e-7,
+      "applied_glue_m3": 2.129999858791383e-7
+    },
+    {
+      "phase": "auto",
+      "u": 0,
+      "paper_volume_m3": 0.00006162720562832806,
+      "glue_volume_m3": 4.26000008434666e-7,
+      "remaining_dose_m3": 4.26000008434666e-7,
+      "applied_glue_m3": 0
+    },
+    {
+      "phase": "unload",
+      "u": 0,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.03,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.06,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.12,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.2,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.28,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.35,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.42,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.44,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.465,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.49,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.52,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.6,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.68,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.72,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.84,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.88,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.96,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 1,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0.465,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    },
+    {
+      "phase": "unload",
+      "u": 0,
+      "paper_volume_m3": 0.0000616263111277167,
+      "glue_volume_m3": 4.2599997883433873e-7,
+      "remaining_dose_m3": 0,
+      "applied_glue_m3": 4.2599997883433873e-7
+    }
+  ],
+  "max_core_path_error_m": 1.6525508173617527e-7,
+  "max_glue_path_error_m": 7.969059822965907e-7,
+  "max_glue_volume_relative_error": 4.968465105782456e-8,
+  "max_paper_volume_relative_error": 0.000014492041028642009,
+  "output_volume_relative_error": 0.000014495464793940545,
+  "declared_dose_m3": 4.260000000000001e-7,
+  "Native": false,
+  "admitted": false
+}

@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "not_Native_acceptance": true,
+  "checks": [
+    {
+      "id": "paper-tube-winder",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.20999998733401304
+    },
+    {
+      "id": "paper-tube-cutoff",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "waste_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.36099999532103544
+    },
+    {
+      "id": "paper-core-grinder",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "waste_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.36199999734759336
+    }
+  ],
+  "transfer_checks": [
+    {
+      "id": "paper-tube-winder",
+      "actual_product_decoder": true,
+      "staged_ply_loading": true,
+      "cut_piece_separation": false,
+      "grinding_disc_clearance": false,
+      "passed": true
+    },
+    {
+      "id": "paper-tube-cutoff",
+      "actual_product_decoder": true,
+      "staged_ply_loading": false,
+      "cut_piece_separation": true,
+      "grinding_disc_clearance": false,
+      "passed": true
+    },
+    {
+      "id": "paper-core-grinder",
+      "actual_product_decoder": true,
+      "staged_ply_loading": false,
+      "cut_piece_separation": false,
+      "grinding_disc_clearance": true,
+      "passed": true
+    }
+  ]
+}

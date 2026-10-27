@@ -1,0 +1,669 @@
+{
+  "passed": true,
+  "scope": "actual equipment GLB and finite paper component, cylinder ports and moving adhesive/air endpoints; final Host/Native pending",
+  "models": 2,
+  "checks": [
+    {
+      "id": "crash-lock-gluer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.crash-lock-gluer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 16311728,
+      "nodes": 1289,
+      "actual_product_decoder": true,
+      "rows": [
+        {
+          "phase": "load",
+          "u": 0,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "load",
+          "u": 1,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.02,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.05,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.06,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.075,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.12,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.17,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.2,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.209,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.21,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.22,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.24,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.26,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.27,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.28,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.31,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.35,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.39,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.42,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.439,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.44,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.465,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.49,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.51,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.52,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.6,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.68,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.695,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.71,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.72,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.84,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.88,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.92,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.94,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.96,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 1,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.12,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "unload",
+          "u": 1,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        }
+      ],
+      "paper_reference": "finite-prototype-02",
+      "actual_bottom_hook_contact": true,
+      "actual_thin_spatula_contact": true,
+      "actual_retaining_and_planned_glue_gap": true,
+      "actual_six_cylinder_air_ports": true,
+      "actual_lower_lift_air_continuity": true,
+      "actual_glue_axis_motor_power_port": true,
+      "actual_four_folder_following_feeds": true,
+      "actual_six_XYZ_feed_chains": true,
+      "Native": "not_run"
+    },
+    {
+      "id": "crash-lock-gluer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.crash-lock-gluer",
+        "version": "1.1.0"
+      },
+      "bytes": 32552532,
+      "nodes": 1299,
+      "actual_product_decoder": true,
+      "rows": [
+        {
+          "phase": "load",
+          "u": 0,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "load",
+          "u": 0.5,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "load",
+          "u": 1,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.02,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.05,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.06,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.075,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.12,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.17,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.2,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.209,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.21,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.22,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.24,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.26,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.27,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.28,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.31,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.35,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.39,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.42,
+          "bottomContacts": 0,
+          "diagonalContacts": 2,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.439,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.44,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.465,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.49,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.51,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.52,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.6,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.68,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.695,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.71,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.72,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.84,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.88,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.92,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.94,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.96,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 1,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0.12,
+          "bottomContacts": 4,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "auto",
+          "u": 0,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "unload",
+          "u": 0,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "unload",
+          "u": 0.5,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        },
+        {
+          "phase": "unload",
+          "u": 1,
+          "bottomContacts": 0,
+          "diagonalContacts": 0,
+          "actual_y_stage_endpoints": true
+        }
+      ],
+      "paper_reference": "finite-prototype-02",
+      "actual_bottom_hook_contact": true,
+      "actual_thin_spatula_contact": true,
+      "actual_retaining_and_planned_glue_gap": true,
+      "actual_six_cylinder_air_ports": true,
+      "actual_lower_lift_air_continuity": true,
+      "actual_glue_axis_motor_power_port": true,
+      "actual_four_folder_following_feeds": true,
+      "actual_six_XYZ_feed_chains": true,
+      "Native": "not_run"
+    }
+  ]
+}

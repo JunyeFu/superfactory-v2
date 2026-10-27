@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "not_Native_acceptance": true,
+  "checks": [
+    {
+      "id": "book-cover-caser",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.39750000223517423
+    },
+    {
+      "id": "spine-gluer",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.4048999992564577
+    },
+    {
+      "id": "saddle-stitcher",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.40500000253319746
+    },
+    {
+      "id": "wire-o-binder",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.40500000253319746
+    },
+    {
+      "id": "paper-drilling-machine",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "waste_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.40500000253319746
+    },
+    {
+      "id": "corner-rounding-machine",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "waste_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.40500000253319746
+    }
+  ]
+}

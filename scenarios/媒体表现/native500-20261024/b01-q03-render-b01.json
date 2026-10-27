@@ -1,0 +1,98 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "offset-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.offset-printer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 865932,
+      "nodes": 274,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        100,
+        116,
+        126,
+        142,
+        151,
+        160,
+        176,
+        192,
+        201,
+        210,
+        226,
+        235,
+        244
+      ],
+      "captures": [
+        "offset-printer/simple-iso.png",
+        "offset-printer/simple-front.png",
+        "offset-printer/simple-back.png",
+        "offset-printer/simple-left.png",
+        "offset-printer/simple-right.png",
+        "offset-printer/simple-top.png",
+        "offset-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "offset-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.offset-printer",
+        "version": "1.1.0"
+      },
+      "bytes": 5581520,
+      "nodes": 299,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        115,
+        123,
+        139,
+        149,
+        165,
+        174,
+        183,
+        199,
+        217,
+        226,
+        235,
+        251,
+        260,
+        269
+      ],
+      "captures": [
+        "offset-printer/detailed-iso.png",
+        "offset-printer/detailed-front.png",
+        "offset-printer/detailed-back.png",
+        "offset-printer/detailed-left.png",
+        "offset-printer/detailed-right.png",
+        "offset-printer/detailed-top.png",
+        "offset-printer/detailed-bottom.png",
+        "offset-printer/action-0.png",
+        "offset-printer/action-50.png",
+        "offset-printer/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

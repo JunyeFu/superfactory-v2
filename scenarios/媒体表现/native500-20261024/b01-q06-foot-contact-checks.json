@@ -1,0 +1,173 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "models": 2,
+  "checks": [
+    {
+      "id": "sheet-slitter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-slitter.simple",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        }
+      ],
+      "capture": "sheet-slitter/simple-foot-contact.png"
+    },
+    {
+      "id": "sheet-slitter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.sheet-slitter",
+        "version": "1.1.0"
+      },
+      "contacts": [
+        {
+          "name": "InputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "InputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg-0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg-0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg0.288_-0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        },
+        {
+          "name": "OutputTableLeg0.288_0.24480000000000002",
+          "foot_top": 0.019999999776482584,
+          "leg_bottom": 0.020000000000000018,
+          "leg_top": 0.895,
+          "table_bottom": 0.8949999998137356,
+          "bottom_gap_m": 2.2351743372839294e-10,
+          "top_gap_m": -1.8626444830971423e-10
+        }
+      ],
+      "capture": "sheet-slitter/detailed-foot-contact.png"
+    }
+  ]
+}

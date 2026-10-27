@@ -1,0 +1,236 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 3,
+  "lod_models": 6,
+  "checks": [
+    {
+      "id": "vision-carton-inspector",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.vision-carton-inspector.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 275432,
+      "nodes": 211,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        98,
+        133,
+        144,
+        168,
+        172,
+        181,
+        185
+      ],
+      "captures": [
+        "vision-carton-inspector/simple-iso.png",
+        "vision-carton-inspector/simple-front.png",
+        "vision-carton-inspector/simple-back.png",
+        "vision-carton-inspector/simple-left.png",
+        "vision-carton-inspector/simple-right.png",
+        "vision-carton-inspector/simple-top.png",
+        "vision-carton-inspector/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vision-carton-inspector",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.vision-carton-inspector",
+        "version": "1.1.0"
+      },
+      "bytes": 1416360,
+      "nodes": 372,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        187,
+        262,
+        273,
+        305,
+        309,
+        326,
+        330
+      ],
+      "captures": [
+        "vision-carton-inspector/detailed-iso.png",
+        "vision-carton-inspector/detailed-front.png",
+        "vision-carton-inspector/detailed-back.png",
+        "vision-carton-inspector/detailed-left.png",
+        "vision-carton-inspector/detailed-right.png",
+        "vision-carton-inspector/detailed-top.png",
+        "vision-carton-inspector/detailed-bottom.png",
+        "vision-carton-inspector/action-0.png",
+        "vision-carton-inspector/action-50.png",
+        "vision-carton-inspector/action-100.png"
+      ]
+    },
+    {
+      "id": "tape-case-sealer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.tape-case-sealer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 326272,
+      "nodes": 205,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        112,
+        189,
+        196,
+        197,
+        198,
+        154,
+        163,
+        172,
+        181
+      ],
+      "captures": [
+        "tape-case-sealer/simple-iso.png",
+        "tape-case-sealer/simple-front.png",
+        "tape-case-sealer/simple-back.png",
+        "tape-case-sealer/simple-left.png",
+        "tape-case-sealer/simple-right.png",
+        "tape-case-sealer/simple-top.png",
+        "tape-case-sealer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tape-case-sealer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.tape-case-sealer",
+        "version": "1.1.0"
+      },
+      "bytes": 1441668,
+      "nodes": 360,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        225,
+        344,
+        351,
+        352,
+        353,
+        309,
+        318,
+        327,
+        336
+      ],
+      "captures": [
+        "tape-case-sealer/detailed-iso.png",
+        "tape-case-sealer/detailed-front.png",
+        "tape-case-sealer/detailed-back.png",
+        "tape-case-sealer/detailed-left.png",
+        "tape-case-sealer/detailed-right.png",
+        "tape-case-sealer/detailed-top.png",
+        "tape-case-sealer/detailed-bottom.png",
+        "tape-case-sealer/action-0.png",
+        "tape-case-sealer/action-50.png",
+        "tape-case-sealer/action-100.png"
+      ]
+    },
+    {
+      "id": "label-applicator",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.label-applicator.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 226580,
+      "nodes": 168,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        112,
+        152,
+        156,
+        159,
+        160,
+        161
+      ],
+      "captures": [
+        "label-applicator/simple-iso.png",
+        "label-applicator/simple-front.png",
+        "label-applicator/simple-back.png",
+        "label-applicator/simple-left.png",
+        "label-applicator/simple-right.png",
+        "label-applicator/simple-top.png",
+        "label-applicator/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "label-applicator",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.label-applicator",
+        "version": "1.1.0"
+      },
+      "bytes": 1193036,
+      "nodes": 321,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        225,
+        305,
+        309,
+        312,
+        313,
+        314
+      ],
+      "captures": [
+        "label-applicator/detailed-iso.png",
+        "label-applicator/detailed-front.png",
+        "label-applicator/detailed-back.png",
+        "label-applicator/detailed-left.png",
+        "label-applicator/detailed-right.png",
+        "label-applicator/detailed-top.png",
+        "label-applicator/detailed-bottom.png",
+        "label-applicator/action-0.png",
+        "label-applicator/action-50.png",
+        "label-applicator/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

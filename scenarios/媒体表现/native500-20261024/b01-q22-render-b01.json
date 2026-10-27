@@ -1,0 +1,291 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 4,
+  "lod_models": 8,
+  "checks": [
+    {
+      "id": "six-axis-robot",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.robot.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 146192,
+      "nodes": 76,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        33,
+        38,
+        46,
+        58,
+        30,
+        48
+      ],
+      "captures": [
+        "six-axis-robot/simple-iso.png",
+        "six-axis-robot/simple-front.png",
+        "six-axis-robot/simple-back.png",
+        "six-axis-robot/simple-left.png",
+        "six-axis-robot/simple-right.png",
+        "six-axis-robot/simple-top.png",
+        "six-axis-robot/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "six-axis-robot",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.robot",
+        "version": "1.1.0"
+      },
+      "bytes": 627848,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        62,
+        70,
+        82,
+        54,
+        72
+      ],
+      "captures": [
+        "six-axis-robot/detailed-iso.png",
+        "six-axis-robot/detailed-front.png",
+        "six-axis-robot/detailed-back.png",
+        "six-axis-robot/detailed-left.png",
+        "six-axis-robot/detailed-right.png",
+        "six-axis-robot/detailed-top.png",
+        "six-axis-robot/detailed-bottom.png",
+        "six-axis-robot/action-50.png"
+      ]
+    },
+    {
+      "id": "scara-robot",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.scara-robot.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 158968,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        40,
+        52,
+        31,
+        34,
+        42
+      ],
+      "captures": [
+        "scara-robot/simple-iso.png",
+        "scara-robot/simple-front.png",
+        "scara-robot/simple-back.png",
+        "scara-robot/simple-left.png",
+        "scara-robot/simple-right.png",
+        "scara-robot/simple-top.png",
+        "scara-robot/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "scara-robot",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.scara-robot",
+        "version": "1.1.0"
+      },
+      "bytes": 632804,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64,
+        76,
+        55,
+        58,
+        66
+      ],
+      "captures": [
+        "scara-robot/detailed-iso.png",
+        "scara-robot/detailed-front.png",
+        "scara-robot/detailed-back.png",
+        "scara-robot/detailed-left.png",
+        "scara-robot/detailed-right.png",
+        "scara-robot/detailed-top.png",
+        "scara-robot/detailed-bottom.png",
+        "scara-robot/action-50.png"
+      ]
+    },
+    {
+      "id": "gantry-pick-place",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.gantry-pick-place.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 135936,
+      "nodes": 75,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        44,
+        45,
+        46,
+        56,
+        36,
+        40
+      ],
+      "captures": [
+        "gantry-pick-place/simple-iso.png",
+        "gantry-pick-place/simple-front.png",
+        "gantry-pick-place/simple-back.png",
+        "gantry-pick-place/simple-left.png",
+        "gantry-pick-place/simple-right.png",
+        "gantry-pick-place/simple-top.png",
+        "gantry-pick-place/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "gantry-pick-place",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.gantry-pick-place",
+        "version": "1.1.0"
+      },
+      "bytes": 587292,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        79,
+        80,
+        90,
+        68,
+        74
+      ],
+      "captures": [
+        "gantry-pick-place/detailed-iso.png",
+        "gantry-pick-place/detailed-front.png",
+        "gantry-pick-place/detailed-back.png",
+        "gantry-pick-place/detailed-left.png",
+        "gantry-pick-place/detailed-right.png",
+        "gantry-pick-place/detailed-top.png",
+        "gantry-pick-place/detailed-bottom.png",
+        "gantry-pick-place/action-50.png"
+      ]
+    },
+    {
+      "id": "vacuum-palletizer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.vacuum-palletizer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 142068,
+      "nodes": 79,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        46,
+        47,
+        48,
+        60,
+        38,
+        42
+      ],
+      "captures": [
+        "vacuum-palletizer/simple-iso.png",
+        "vacuum-palletizer/simple-front.png",
+        "vacuum-palletizer/simple-back.png",
+        "vacuum-palletizer/simple-left.png",
+        "vacuum-palletizer/simple-right.png",
+        "vacuum-palletizer/simple-top.png",
+        "vacuum-palletizer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vacuum-palletizer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.vacuum-palletizer",
+        "version": "1.1.0"
+      },
+      "bytes": 579956,
+      "nodes": 107,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        72,
+        73,
+        74,
+        86,
+        62,
+        68
+      ],
+      "captures": [
+        "vacuum-palletizer/detailed-iso.png",
+        "vacuum-palletizer/detailed-front.png",
+        "vacuum-palletizer/detailed-back.png",
+        "vacuum-palletizer/detailed-left.png",
+        "vacuum-palletizer/detailed-right.png",
+        "vacuum-palletizer/detailed-top.png",
+        "vacuum-palletizer/detailed-bottom.png",
+        "vacuum-palletizer/action-50.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

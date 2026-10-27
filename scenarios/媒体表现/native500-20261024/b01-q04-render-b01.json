@@ -1,0 +1,224 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 3,
+  "lod_models": 6,
+  "checks": [
+    {
+      "id": "inkjet-marker",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.inkjet-marker.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 446456,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        105
+      ],
+      "captures": [
+        "inkjet-marker/simple-iso.png",
+        "inkjet-marker/simple-front.png",
+        "inkjet-marker/simple-back.png",
+        "inkjet-marker/simple-left.png",
+        "inkjet-marker/simple-right.png",
+        "inkjet-marker/simple-top.png",
+        "inkjet-marker/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "inkjet-marker",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.inkjet-marker",
+        "version": "1.1.0"
+      },
+      "bytes": 2609932,
+      "nodes": 169,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        112,
+        128
+      ],
+      "captures": [
+        "inkjet-marker/detailed-iso.png",
+        "inkjet-marker/detailed-front.png",
+        "inkjet-marker/detailed-back.png",
+        "inkjet-marker/detailed-left.png",
+        "inkjet-marker/detailed-right.png",
+        "inkjet-marker/detailed-top.png",
+        "inkjet-marker/detailed-bottom.png",
+        "inkjet-marker/action-0.png",
+        "inkjet-marker/action-50.png",
+        "inkjet-marker/action-100.png"
+      ]
+    },
+    {
+      "id": "varnish-coater",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.varnish-coater.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 639228,
+      "nodes": 203,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        105,
+        115,
+        131,
+        159,
+        175,
+        184
+      ],
+      "captures": [
+        "varnish-coater/simple-iso.png",
+        "varnish-coater/simple-front.png",
+        "varnish-coater/simple-back.png",
+        "varnish-coater/simple-left.png",
+        "varnish-coater/simple-right.png",
+        "varnish-coater/simple-top.png",
+        "varnish-coater/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "varnish-coater",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.varnish-coater",
+        "version": "1.1.0"
+      },
+      "bytes": 3998568,
+      "nodes": 226,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        112,
+        128,
+        138,
+        154,
+        182,
+        198,
+        207
+      ],
+      "captures": [
+        "varnish-coater/detailed-iso.png",
+        "varnish-coater/detailed-front.png",
+        "varnish-coater/detailed-back.png",
+        "varnish-coater/detailed-left.png",
+        "varnish-coater/detailed-right.png",
+        "varnish-coater/detailed-top.png",
+        "varnish-coater/detailed-bottom.png",
+        "varnish-coater/action-0.png",
+        "varnish-coater/action-50.png",
+        "varnish-coater/action-100.png"
+      ]
+    },
+    {
+      "id": "uv-curer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.uv-curer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 369252,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        105,
+        132,
+        137
+      ],
+      "captures": [
+        "uv-curer/simple-iso.png",
+        "uv-curer/simple-front.png",
+        "uv-curer/simple-back.png",
+        "uv-curer/simple-left.png",
+        "uv-curer/simple-right.png",
+        "uv-curer/simple-top.png",
+        "uv-curer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "uv-curer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.uv-curer",
+        "version": "1.1.0"
+      },
+      "bytes": 2626328,
+      "nodes": 164,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        112,
+        128,
+        155,
+        160
+      ],
+      "captures": [
+        "uv-curer/detailed-iso.png",
+        "uv-curer/detailed-front.png",
+        "uv-curer/detailed-back.png",
+        "uv-curer/detailed-left.png",
+        "uv-curer/detailed-right.png",
+        "uv-curer/detailed-top.png",
+        "uv-curer/detailed-bottom.png",
+        "uv-curer/action-0.png",
+        "uv-curer/action-50.png",
+        "uv-curer/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

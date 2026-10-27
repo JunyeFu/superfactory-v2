@@ -1,0 +1,74 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B02",
+  "device_count": 1,
+  "lod_models": 2,
+  "checks": [
+    {
+      "id": "corner-board-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.corner-board-former.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 321376,
+      "nodes": 212,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        112,
+        140,
+        168
+      ],
+      "captures": [
+        "corner-board-former/simple-iso.png",
+        "corner-board-former/simple-front.png",
+        "corner-board-former/simple-back.png",
+        "corner-board-former/simple-left.png",
+        "corner-board-former/simple-right.png",
+        "corner-board-former/simple-top.png",
+        "corner-board-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "corner-board-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.corner-board-former",
+        "version": "1.1.0"
+      },
+      "bytes": 1559164,
+      "nodes": 391,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        225,
+        273,
+        322
+      ],
+      "captures": [
+        "corner-board-former/detailed-iso.png",
+        "corner-board-former/detailed-front.png",
+        "corner-board-former/detailed-back.png",
+        "corner-board-former/detailed-left.png",
+        "corner-board-former/detailed-right.png",
+        "corner-board-former/detailed-top.png",
+        "corner-board-former/detailed-bottom.png",
+        "corner-board-former/action-50.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

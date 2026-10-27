@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "not_Native_acceptance": true,
+  "checks": [
+    {
+      "id": "honeycomb-laminator",
+      "stages": [
+        "input",
+        "loading",
+        "open-core",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.20999998733401304
+    },
+    {
+      "id": "corner-board-former",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "waste_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.20999998733401304
+    }
+  ],
+  "transfer_checks": [
+    {
+      "id": "honeycomb-laminator",
+      "case": "face_transfer_clear_of_glue_rails_and_press",
+      "passed": true,
+      "actual_product_decoder": true
+    },
+    {
+      "id": "corner-board-former",
+      "case": "hinge_stubs_outside_paper_length",
+      "passed": true,
+      "actual_product_decoder": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "actual_product_decoder": true,
+  "checks": [
+    {
+      "id": "blank-stripper",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.blank-stripper.simple",
+        "version": "1.1.0"
+      },
+      "actual_stroke_m": 0.2269999945163763,
+      "actual_cylinder_body_m": 0.23999999463558197,
+      "passed": true
+    },
+    {
+      "id": "blank-stripper",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.blank-stripper",
+        "version": "1.1.0"
+      },
+      "actual_stroke_m": 0.2269999945163763,
+      "actual_cylinder_body_m": 0.23999999463558197,
+      "passed": true
+    }
+  ]
+}

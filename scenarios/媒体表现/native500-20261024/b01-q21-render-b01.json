@@ -1,0 +1,406 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B01",
+  "device_count": 5,
+  "lod_models": 10,
+  "checks": [
+    {
+      "id": "belt-conveyor",
+      "lod": "simple",
+      "module_ref": {
+        "id": "p302.line-grade.conveyor.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 83620,
+      "nodes": 46,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        36,
+        41
+      ],
+      "captures": [
+        "belt-conveyor/simple-iso.png",
+        "belt-conveyor/simple-front.png",
+        "belt-conveyor/simple-back.png",
+        "belt-conveyor/simple-left.png",
+        "belt-conveyor/simple-right.png",
+        "belt-conveyor/simple-top.png",
+        "belt-conveyor/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "belt-conveyor",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "p302.line-grade.conveyor",
+        "version": "1.1.0"
+      },
+      "bytes": 502808,
+      "nodes": 67,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        62
+      ],
+      "captures": [
+        "belt-conveyor/detailed-iso.png",
+        "belt-conveyor/detailed-front.png",
+        "belt-conveyor/detailed-back.png",
+        "belt-conveyor/detailed-left.png",
+        "belt-conveyor/detailed-right.png",
+        "belt-conveyor/detailed-top.png",
+        "belt-conveyor/detailed-bottom.png",
+        "belt-conveyor/action-50.png"
+      ]
+    },
+    {
+      "id": "roller-conveyor",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.roller-conveyor.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 175240,
+      "nodes": 171,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95,
+        100,
+        105,
+        110,
+        115,
+        120,
+        125,
+        130,
+        135,
+        161,
+        166
+      ],
+      "captures": [
+        "roller-conveyor/simple-iso.png",
+        "roller-conveyor/simple-front.png",
+        "roller-conveyor/simple-back.png",
+        "roller-conveyor/simple-left.png",
+        "roller-conveyor/simple-right.png",
+        "roller-conveyor/simple-top.png",
+        "roller-conveyor/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "roller-conveyor",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.roller-conveyor",
+        "version": "1.1.0"
+      },
+      "bytes": 624996,
+      "nodes": 192,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        23,
+        28,
+        33,
+        38,
+        43,
+        48,
+        53,
+        58,
+        63,
+        68,
+        73,
+        78,
+        83,
+        88,
+        93,
+        98,
+        103,
+        108,
+        113,
+        118,
+        123,
+        128,
+        133,
+        138,
+        143,
+        182,
+        187
+      ],
+      "captures": [
+        "roller-conveyor/detailed-iso.png",
+        "roller-conveyor/detailed-front.png",
+        "roller-conveyor/detailed-back.png",
+        "roller-conveyor/detailed-left.png",
+        "roller-conveyor/detailed-right.png",
+        "roller-conveyor/detailed-top.png",
+        "roller-conveyor/detailed-bottom.png",
+        "roller-conveyor/action-50.png"
+      ]
+    },
+    {
+      "id": "curved-conveyor",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.curved-conveyor.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 163764,
+      "nodes": 65,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        60
+      ],
+      "captures": [
+        "curved-conveyor/simple-iso.png",
+        "curved-conveyor/simple-front.png",
+        "curved-conveyor/simple-back.png",
+        "curved-conveyor/simple-left.png",
+        "curved-conveyor/simple-right.png",
+        "curved-conveyor/simple-top.png",
+        "curved-conveyor/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "curved-conveyor",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.curved-conveyor",
+        "version": "1.1.0"
+      },
+      "bytes": 659164,
+      "nodes": 92,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        82,
+        87
+      ],
+      "captures": [
+        "curved-conveyor/detailed-iso.png",
+        "curved-conveyor/detailed-front.png",
+        "curved-conveyor/detailed-back.png",
+        "curved-conveyor/detailed-left.png",
+        "curved-conveyor/detailed-right.png",
+        "curved-conveyor/detailed-top.png",
+        "curved-conveyor/detailed-bottom.png",
+        "curved-conveyor/action-50.png"
+      ]
+    },
+    {
+      "id": "right-angle-transfer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.right-angle-transfer.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 171568,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        18,
+        23,
+        28,
+        33,
+        38,
+        43,
+        48,
+        53,
+        58,
+        63,
+        68,
+        73,
+        78,
+        131,
+        136,
+        85
+      ],
+      "captures": [
+        "right-angle-transfer/simple-iso.png",
+        "right-angle-transfer/simple-front.png",
+        "right-angle-transfer/simple-back.png",
+        "right-angle-transfer/simple-left.png",
+        "right-angle-transfer/simple-right.png",
+        "right-angle-transfer/simple-top.png",
+        "right-angle-transfer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "right-angle-transfer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.right-angle-transfer",
+        "version": "1.1.0"
+      },
+      "bytes": 743736,
+      "nodes": 172,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        28,
+        33,
+        38,
+        43,
+        48,
+        53,
+        58,
+        63,
+        68,
+        73,
+        78,
+        83,
+        88,
+        162,
+        167,
+        95
+      ],
+      "captures": [
+        "right-angle-transfer/detailed-iso.png",
+        "right-angle-transfer/detailed-front.png",
+        "right-angle-transfer/detailed-back.png",
+        "right-angle-transfer/detailed-left.png",
+        "right-angle-transfer/detailed-right.png",
+        "right-angle-transfer/detailed-top.png",
+        "right-angle-transfer/detailed-bottom.png",
+        "right-angle-transfer/action-50.png"
+      ]
+    },
+    {
+      "id": "lift-conveyor",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.lift-conveyor.simple",
+        "version": "1.1.0"
+      },
+      "bytes": 139076,
+      "nodes": 66,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        56,
+        61,
+        17,
+        34
+      ],
+      "captures": [
+        "lift-conveyor/simple-iso.png",
+        "lift-conveyor/simple-front.png",
+        "lift-conveyor/simple-back.png",
+        "lift-conveyor/simple-left.png",
+        "lift-conveyor/simple-right.png",
+        "lift-conveyor/simple-top.png",
+        "lift-conveyor/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "lift-conveyor",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.lift-conveyor",
+        "version": "1.1.0"
+      },
+      "bytes": 681672,
+      "nodes": 87,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        82,
+        25,
+        42
+      ],
+      "captures": [
+        "lift-conveyor/detailed-iso.png",
+        "lift-conveyor/detailed-front.png",
+        "lift-conveyor/detailed-back.png",
+        "lift-conveyor/detailed-left.png",
+        "lift-conveyor/detailed-right.png",
+        "lift-conveyor/detailed-top.png",
+        "lift-conveyor/detailed-bottom.png",
+        "lift-conveyor/action-50.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

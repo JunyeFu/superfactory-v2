@@ -1,0 +1,92 @@
+{
+  "captured": true,
+  "models": 2,
+  "views": [
+    {
+      "lod": "simple",
+      "view": "front",
+      "image": "b01-q15-tray-former/simple-front.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "simple",
+      "view": "back",
+      "image": "b01-q15-tray-former/simple-back.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "simple",
+      "view": "left",
+      "image": "b01-q15-tray-former/simple-left.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "simple",
+      "view": "right",
+      "image": "b01-q15-tray-former/simple-right.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "simple",
+      "view": "three-quarter",
+      "image": "b01-q15-tray-former/simple-iso.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "simple",
+      "view": "top",
+      "image": "b01-q15-tray-former/simple-top.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "simple",
+      "view": "bottom",
+      "image": "b01-q15-tray-former/simple-bottom.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "detailed",
+      "view": "front",
+      "image": "b01-q15-tray-former/detailed-front.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "detailed",
+      "view": "back",
+      "image": "b01-q15-tray-former/detailed-back.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "detailed",
+      "view": "left",
+      "image": "b01-q15-tray-former/detailed-left.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "detailed",
+      "view": "right",
+      "image": "b01-q15-tray-former/detailed-right.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "detailed",
+      "view": "three-quarter",
+      "image": "b01-q15-tray-former/detailed-iso.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "detailed",
+      "view": "top",
+      "image": "b01-q15-tray-former/detailed-top.png",
+      "actual_product_decoder": true
+    },
+    {
+      "lod": "detailed",
+      "view": "bottom",
+      "image": "b01-q15-tray-former/detailed-bottom.png",
+      "actual_product_decoder": true
+    }
+  ],
+  "scope": "dual LOD actual GLB seven-direction visual evidence; visual judgment recorded separately",
+  "device_admitted": false
+}

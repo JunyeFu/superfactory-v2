@@ -1,0 +1,28 @@
+{
+  "passed": false,
+  "actual_product_decoder": true,
+  "checks": [
+    {
+      "id": "platen-die-cutter",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native50.media.platen-die-cutter.simple",
+        "version": "1.1.1"
+      },
+      "actual_stroke_m": 0.24600005149841309,
+      "actual_cylinder_body_m": 0.23999999463558197,
+      "passed": false
+    },
+    {
+      "id": "platen-die-cutter",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native50.media.platen-die-cutter",
+        "version": "1.1.1"
+      },
+      "actual_stroke_m": 0.24600005149841309,
+      "actual_cylinder_body_m": 0.23999999463558197,
+      "passed": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "evidence_origin": "component_actual_GLB",
+  "not_Native_acceptance": true,
+  "checks": [
+    {
+      "id": "paper-bag-tuber",
+      "stages": [
+        "input",
+        "unwinding",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "unwind_roll_clear_of_actuator": true,
+      "output_gap_m": 0.3599999932944775
+    },
+    {
+      "id": "paper-bag-bottomer",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.3774999970942736
+    },
+    {
+      "id": "envelope-folder",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.39999999985098844
+    },
+    {
+      "id": "mailing-bag-sealer",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.34999999188818043
+    },
+    {
+      "id": "sleeve-former",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.43000000104308134
+    },
+    {
+      "id": "box-lid-former",
+      "stages": [
+        "input",
+        "loading",
+        "processing",
+        "late-processing",
+        "output_wait",
+        "delivered"
+      ],
+      "passed": true,
+      "output_gap_m": 0.40909999684452003
+    }
+  ]
+}
