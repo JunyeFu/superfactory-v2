@@ -1,0 +1,409 @@
+{
+  "document_kind": "synthetic_statistics_and_load_reasoning_not_performance_samples",
+  "cases": [
+    {
+      "id": "STAT-01",
+      "kind": "nearest_rank_p95",
+      "compressed_samples_ms": [
+        {
+          "value": 200,
+          "count": 95
+        },
+        {
+          "value": 600,
+          "count": 5
+        }
+      ],
+      "expected_n": 100,
+      "expected_p95_ms": 200,
+      "limit_ms": 200,
+      "expected_verdict": "pass_for_synthetic_math_only"
+    },
+    {
+      "id": "STAT-02",
+      "kind": "nearest_rank_p95",
+      "compressed_samples_ms": [
+        {
+          "value": 200,
+          "count": 94
+        },
+        {
+          "value": 600,
+          "count": 6
+        }
+      ],
+      "expected_n": 100,
+      "expected_p95_ms": 600,
+      "limit_ms": 200,
+      "expected_verdict": "fail_for_synthetic_math_only"
+    },
+    {
+      "id": "STAT-03",
+      "kind": "fps_median",
+      "frame_intervals_ms": [
+        20,
+        25,
+        40,
+        50
+      ],
+      "expected_median_instantaneous_fps": 32.5,
+      "limit_fps": 30,
+      "expected_verdict": "pass_for_synthetic_math_only",
+      "max_frame_interval_ms": 50,
+      "does_not_prove_all_frames_30fps": true
+    },
+    {
+      "id": "STAT-04",
+      "kind": "insufficient_samples",
+      "n": 99,
+      "required_n": 100,
+      "expected_verdict": "not_evaluable"
+    },
+    {
+      "id": "STAT-05",
+      "kind": "all_individual_save_times",
+      "samples_ms": [
+        100,
+        200,
+        300,
+        400,
+        3100
+      ],
+      "limit_ms": 3000,
+      "expected_verdict": "fail_for_synthetic_math_only",
+      "reason": "存取按每次≤3秒，不用快样本平均掩盖3100ms"
+    },
+    {
+      "id": "LOAD-01",
+      "kind": "deterministic_serial_lines",
+      "line_count": 6,
+      "stations_per_line": 10,
+      "items_per_line": 500,
+      "processing_sim_s": 2,
+      "expected_first_accept_s": 20,
+      "expected_last_accept_s": 1018,
+      "accepted_at_600_s": 1746,
+      "accepted_at_1200_s": 3000,
+      "expected_verdict": "passed_finite_design_math_only"
+    },
+    {
+      "id": "STAT-06",
+      "kind": "attempt_outcome_precedence",
+      "latencies_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "attempts": 100,
+      "failed_attempts": 1,
+      "missing_evidence_attempts": 0,
+      "expected_p95_ms": 100,
+      "expected_verdict": "fail_for_synthetic_math_only"
+    },
+    {
+      "id": "STAT-07",
+      "kind": "attempt_outcome_precedence",
+      "latencies_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "attempts": 100,
+      "failed_attempts": 0,
+      "missing_evidence_attempts": 1,
+      "expected_p95_ms": null,
+      "expected_verdict": "not_evaluable"
+    },
+    {
+      "id": "STAT-08",
+      "kind": "professional_experience_classification",
+      "samples": [
+        {
+          "complete": true,
+          "matches_expected": true,
+          "professional_outcome": "Fail",
+          "elapsed_ms": 30000,
+          "expected_experience": "target_met"
+        },
+        {
+          "complete": true,
+          "matches_expected": true,
+          "professional_outcome": "Pass",
+          "elapsed_ms": 30001,
+          "expected_experience": "target_not_met"
+        },
+        {
+          "complete": false,
+          "matches_expected": false,
+          "professional_outcome": "Undetermined",
+          "elapsed_ms": 2000,
+          "expected_experience": "not_completed"
+        }
+      ],
+      "target_ms": 30000,
+      "expected_verdict": "passed_finite_design_math_only"
+    },
+    {
+      "id": "STAT-09",
+      "kind": "environment_failure_precedence",
+      "samples": [
+        {
+          "known_product_failure": true,
+          "environment_valid": false,
+          "expected_status": "fail"
+        },
+        {
+          "known_product_failure": false,
+          "environment_valid": false,
+          "expected_status": "not_evaluable"
+        },
+        {
+          "known_product_failure": false,
+          "environment_valid": true,
+          "expected_status": "pass"
+        }
+      ],
+      "expected_verdict": "passed_finite_design_math_only",
+      "scope": "仅判环境与已确认失败优先级；pass例已假定所有其他组条件满足。"
+    },
+    {
+      "id": "STAT-10",
+      "kind": "required_check_aggregation",
+      "samples": [
+        {
+          "child_statuses": [
+            "not_executed",
+            "not_executed"
+          ],
+          "expected_status": "not_executed"
+        },
+        {
+          "child_statuses": [
+            "pass",
+            "not_executed"
+          ],
+          "expected_status": "not_evaluable",
+          "scenario": "本机有效性能已通过、第二台兼容未执行；不妨碍本机开始但整体不能pass"
+        },
+        {
+          "child_statuses": [
+            "fail",
+            "not_evaluable",
+            "not_executed"
+          ],
+          "expected_status": "fail"
+        },
+        {
+          "child_statuses": [
+            "pass",
+            "not_evaluable"
+          ],
+          "expected_status": "not_evaluable"
+        },
+        {
+          "child_statuses": [
+            "pass",
+            "pass"
+          ],
+          "expected_status": "pass"
+        }
+      ],
+      "expected_verdict": "passed_finite_design_math_only"
+    }
+  ],
+  "actual_product_samples": [],
+  "actual_runtime": null
+}
