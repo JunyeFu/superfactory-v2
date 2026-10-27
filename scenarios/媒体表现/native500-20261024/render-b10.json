@@ -1,0 +1,3343 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B10",
+  "device_count": 50,
+  "lod_models": 100,
+  "checks": [
+    {
+      "id": "fiber-opener-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.fiber-opener-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 169032,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        92,
+        113
+      ],
+      "captures": [
+        "fiber-opener-cell/simple-iso.png",
+        "fiber-opener-cell/simple-front.png",
+        "fiber-opener-cell/simple-back.png",
+        "fiber-opener-cell/simple-left.png",
+        "fiber-opener-cell/simple-right.png",
+        "fiber-opener-cell/simple-top.png",
+        "fiber-opener-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "fiber-opener-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.fiber-opener-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1017964,
+      "nodes": 215,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        120,
+        164
+      ],
+      "captures": [
+        "fiber-opener-cell/detailed-iso.png",
+        "fiber-opener-cell/detailed-front.png",
+        "fiber-opener-cell/detailed-back.png",
+        "fiber-opener-cell/detailed-left.png",
+        "fiber-opener-cell/detailed-right.png",
+        "fiber-opener-cell/detailed-top.png",
+        "fiber-opener-cell/detailed-bottom.png",
+        "fiber-opener-cell/action-0.png",
+        "fiber-opener-cell/action-50.png",
+        "fiber-opener-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "fiber-card-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.fiber-card-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 157944,
+      "nodes": 133,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        84,
+        105
+      ],
+      "captures": [
+        "fiber-card-cell/simple-iso.png",
+        "fiber-card-cell/simple-front.png",
+        "fiber-card-cell/simple-back.png",
+        "fiber-card-cell/simple-left.png",
+        "fiber-card-cell/simple-right.png",
+        "fiber-card-cell/simple-top.png",
+        "fiber-card-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "fiber-card-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.fiber-card-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 985388,
+      "nodes": 243,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        148,
+        192
+      ],
+      "captures": [
+        "fiber-card-cell/detailed-iso.png",
+        "fiber-card-cell/detailed-front.png",
+        "fiber-card-cell/detailed-back.png",
+        "fiber-card-cell/detailed-left.png",
+        "fiber-card-cell/detailed-right.png",
+        "fiber-card-cell/detailed-top.png",
+        "fiber-card-cell/detailed-bottom.png",
+        "fiber-card-cell/action-0.png",
+        "fiber-card-cell/action-50.png",
+        "fiber-card-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "draw-frame-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.draw-frame-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156900,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        69,
+        84,
+        105
+      ],
+      "captures": [
+        "draw-frame-cell/simple-iso.png",
+        "draw-frame-cell/simple-front.png",
+        "draw-frame-cell/simple-back.png",
+        "draw-frame-cell/simple-left.png",
+        "draw-frame-cell/simple-right.png",
+        "draw-frame-cell/simple-top.png",
+        "draw-frame-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "draw-frame-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.draw-frame-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 970632,
+      "nodes": 222,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        115,
+        153,
+        197
+      ],
+      "captures": [
+        "draw-frame-cell/detailed-iso.png",
+        "draw-frame-cell/detailed-front.png",
+        "draw-frame-cell/detailed-back.png",
+        "draw-frame-cell/detailed-left.png",
+        "draw-frame-cell/detailed-right.png",
+        "draw-frame-cell/detailed-top.png",
+        "draw-frame-cell/detailed-bottom.png",
+        "draw-frame-cell/action-0.png",
+        "draw-frame-cell/action-50.png",
+        "draw-frame-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "roving-frame-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.roving-frame-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 158156,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        69,
+        84,
+        101,
+        107,
+        113,
+        119,
+        125
+      ],
+      "captures": [
+        "roving-frame-cell/simple-iso.png",
+        "roving-frame-cell/simple-front.png",
+        "roving-frame-cell/simple-back.png",
+        "roving-frame-cell/simple-left.png",
+        "roving-frame-cell/simple-right.png",
+        "roving-frame-cell/simple-top.png",
+        "roving-frame-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "roving-frame-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.roving-frame-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 940460,
+      "nodes": 246,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        115,
+        153,
+        193,
+        202,
+        211,
+        220,
+        229
+      ],
+      "captures": [
+        "roving-frame-cell/detailed-iso.png",
+        "roving-frame-cell/detailed-front.png",
+        "roving-frame-cell/detailed-back.png",
+        "roving-frame-cell/detailed-left.png",
+        "roving-frame-cell/detailed-right.png",
+        "roving-frame-cell/detailed-top.png",
+        "roving-frame-cell/detailed-bottom.png",
+        "roving-frame-cell/action-0.png",
+        "roving-frame-cell/action-50.png",
+        "roving-frame-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "ring-spinning-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.ring-spinning-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 161168,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        69,
+        84,
+        101,
+        107,
+        113,
+        119,
+        125
+      ],
+      "captures": [
+        "ring-spinning-cell/simple-iso.png",
+        "ring-spinning-cell/simple-front.png",
+        "ring-spinning-cell/simple-back.png",
+        "ring-spinning-cell/simple-left.png",
+        "ring-spinning-cell/simple-right.png",
+        "ring-spinning-cell/simple-top.png",
+        "ring-spinning-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "ring-spinning-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.ring-spinning-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 943468,
+      "nodes": 246,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        115,
+        153,
+        193,
+        202,
+        211,
+        220,
+        229
+      ],
+      "captures": [
+        "ring-spinning-cell/detailed-iso.png",
+        "ring-spinning-cell/detailed-front.png",
+        "ring-spinning-cell/detailed-back.png",
+        "ring-spinning-cell/detailed-left.png",
+        "ring-spinning-cell/detailed-right.png",
+        "ring-spinning-cell/detailed-top.png",
+        "ring-spinning-cell/detailed-bottom.png",
+        "ring-spinning-cell/action-0.png",
+        "ring-spinning-cell/action-50.png",
+        "ring-spinning-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "rotor-spinning-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rotor-spinning-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 163116,
+      "nodes": 136,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        75,
+        98,
+        104,
+        110,
+        116,
+        122
+      ],
+      "captures": [
+        "rotor-spinning-cell/simple-iso.png",
+        "rotor-spinning-cell/simple-front.png",
+        "rotor-spinning-cell/simple-back.png",
+        "rotor-spinning-cell/simple-left.png",
+        "rotor-spinning-cell/simple-right.png",
+        "rotor-spinning-cell/simple-top.png",
+        "rotor-spinning-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotor-spinning-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rotor-spinning-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 971444,
+      "nodes": 220,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        121,
+        167,
+        176,
+        185,
+        194,
+        203
+      ],
+      "captures": [
+        "rotor-spinning-cell/detailed-iso.png",
+        "rotor-spinning-cell/detailed-front.png",
+        "rotor-spinning-cell/detailed-back.png",
+        "rotor-spinning-cell/detailed-left.png",
+        "rotor-spinning-cell/detailed-right.png",
+        "rotor-spinning-cell/detailed-top.png",
+        "rotor-spinning-cell/detailed-bottom.png",
+        "rotor-spinning-cell/action-0.png",
+        "rotor-spinning-cell/action-50.png",
+        "rotor-spinning-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "yarn-winder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.yarn-winder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 151336,
+      "nodes": 88,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        68
+      ],
+      "captures": [
+        "yarn-winder-cell/simple-iso.png",
+        "yarn-winder-cell/simple-front.png",
+        "yarn-winder-cell/simple-back.png",
+        "yarn-winder-cell/simple-left.png",
+        "yarn-winder-cell/simple-right.png",
+        "yarn-winder-cell/simple-top.png",
+        "yarn-winder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "yarn-winder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.yarn-winder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 987824,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        97
+      ],
+      "captures": [
+        "yarn-winder-cell/detailed-iso.png",
+        "yarn-winder-cell/detailed-front.png",
+        "yarn-winder-cell/detailed-back.png",
+        "yarn-winder-cell/detailed-left.png",
+        "yarn-winder-cell/detailed-right.png",
+        "yarn-winder-cell/detailed-top.png",
+        "yarn-winder-cell/detailed-bottom.png",
+        "yarn-winder-cell/action-0.png",
+        "yarn-winder-cell/action-50.png",
+        "yarn-winder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "yarn-twister-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.yarn-twister-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 157500,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        56,
+        62,
+        72
+      ],
+      "captures": [
+        "yarn-twister-cell/simple-iso.png",
+        "yarn-twister-cell/simple-front.png",
+        "yarn-twister-cell/simple-back.png",
+        "yarn-twister-cell/simple-left.png",
+        "yarn-twister-cell/simple-right.png",
+        "yarn-twister-cell/simple-top.png",
+        "yarn-twister-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "yarn-twister-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.yarn-twister-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 905940,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        79,
+        85,
+        95
+      ],
+      "captures": [
+        "yarn-twister-cell/detailed-iso.png",
+        "yarn-twister-cell/detailed-front.png",
+        "yarn-twister-cell/detailed-back.png",
+        "yarn-twister-cell/detailed-left.png",
+        "yarn-twister-cell/detailed-right.png",
+        "yarn-twister-cell/detailed-top.png",
+        "yarn-twister-cell/detailed-bottom.png",
+        "yarn-twister-cell/action-0.png",
+        "yarn-twister-cell/action-50.png",
+        "yarn-twister-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "warping-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.warping-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 147196,
+      "nodes": 97,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        77
+      ],
+      "captures": [
+        "warping-cell/simple-iso.png",
+        "warping-cell/simple-front.png",
+        "warping-cell/simple-back.png",
+        "warping-cell/simple-left.png",
+        "warping-cell/simple-right.png",
+        "warping-cell/simple-top.png",
+        "warping-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "warping-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.warping-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 953200,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        100
+      ],
+      "captures": [
+        "warping-cell/detailed-iso.png",
+        "warping-cell/detailed-front.png",
+        "warping-cell/detailed-back.png",
+        "warping-cell/detailed-left.png",
+        "warping-cell/detailed-right.png",
+        "warping-cell/detailed-top.png",
+        "warping-cell/detailed-bottom.png",
+        "warping-cell/action-0.png",
+        "warping-cell/action-50.png",
+        "warping-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "sizing-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.sizing-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 177088,
+      "nodes": 123,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        67,
+        82,
+        103
+      ],
+      "captures": [
+        "sizing-cell/simple-iso.png",
+        "sizing-cell/simple-front.png",
+        "sizing-cell/simple-back.png",
+        "sizing-cell/simple-left.png",
+        "sizing-cell/simple-right.png",
+        "sizing-cell/simple-top.png",
+        "sizing-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sizing-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.sizing-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1126952,
+      "nodes": 197,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        86,
+        90,
+        128,
+        172
+      ],
+      "captures": [
+        "sizing-cell/detailed-iso.png",
+        "sizing-cell/detailed-front.png",
+        "sizing-cell/detailed-back.png",
+        "sizing-cell/detailed-left.png",
+        "sizing-cell/detailed-right.png",
+        "sizing-cell/detailed-top.png",
+        "sizing-cell/detailed-bottom.png",
+        "sizing-cell/action-0.png",
+        "sizing-cell/action-50.png",
+        "sizing-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "rapier-loom-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rapier-loom-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156688,
+      "nodes": 128,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        56,
+        72,
+        118
+      ],
+      "captures": [
+        "rapier-loom-cell/simple-iso.png",
+        "rapier-loom-cell/simple-front.png",
+        "rapier-loom-cell/simple-back.png",
+        "rapier-loom-cell/simple-left.png",
+        "rapier-loom-cell/simple-right.png",
+        "rapier-loom-cell/simple-top.png",
+        "rapier-loom-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rapier-loom-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rapier-loom-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1042788,
+      "nodes": 189,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        79,
+        118,
+        179
+      ],
+      "captures": [
+        "rapier-loom-cell/detailed-iso.png",
+        "rapier-loom-cell/detailed-front.png",
+        "rapier-loom-cell/detailed-back.png",
+        "rapier-loom-cell/detailed-left.png",
+        "rapier-loom-cell/detailed-right.png",
+        "rapier-loom-cell/detailed-top.png",
+        "rapier-loom-cell/detailed-bottom.png",
+        "rapier-loom-cell/action-0.png",
+        "rapier-loom-cell/action-50.png",
+        "rapier-loom-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "airjet-loom-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.airjet-loom-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 152088,
+      "nodes": 110,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        56,
+        72,
+        96
+      ],
+      "captures": [
+        "airjet-loom-cell/simple-iso.png",
+        "airjet-loom-cell/simple-front.png",
+        "airjet-loom-cell/simple-back.png",
+        "airjet-loom-cell/simple-left.png",
+        "airjet-loom-cell/simple-right.png",
+        "airjet-loom-cell/simple-top.png",
+        "airjet-loom-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "airjet-loom-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.airjet-loom-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1032248,
+      "nodes": 177,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        79,
+        118,
+        163
+      ],
+      "captures": [
+        "airjet-loom-cell/detailed-iso.png",
+        "airjet-loom-cell/detailed-front.png",
+        "airjet-loom-cell/detailed-back.png",
+        "airjet-loom-cell/detailed-left.png",
+        "airjet-loom-cell/detailed-right.png",
+        "airjet-loom-cell/detailed-top.png",
+        "airjet-loom-cell/detailed-bottom.png",
+        "airjet-loom-cell/action-0.png",
+        "airjet-loom-cell/action-50.png",
+        "airjet-loom-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "circular-knitter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.circular-knitter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 112648,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "circular-knitter-cell/simple-iso.png",
+        "circular-knitter-cell/simple-front.png",
+        "circular-knitter-cell/simple-back.png",
+        "circular-knitter-cell/simple-left.png",
+        "circular-knitter-cell/simple-right.png",
+        "circular-knitter-cell/simple-top.png",
+        "circular-knitter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "circular-knitter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.circular-knitter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 659560,
+      "nodes": 126,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "circular-knitter-cell/detailed-iso.png",
+        "circular-knitter-cell/detailed-front.png",
+        "circular-knitter-cell/detailed-back.png",
+        "circular-knitter-cell/detailed-left.png",
+        "circular-knitter-cell/detailed-right.png",
+        "circular-knitter-cell/detailed-top.png",
+        "circular-knitter-cell/detailed-bottom.png",
+        "circular-knitter-cell/action-0.png",
+        "circular-knitter-cell/action-50.png",
+        "circular-knitter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "flat-knitter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.flat-knitter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 115008,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        112
+      ],
+      "captures": [
+        "flat-knitter-cell/simple-iso.png",
+        "flat-knitter-cell/simple-front.png",
+        "flat-knitter-cell/simple-back.png",
+        "flat-knitter-cell/simple-left.png",
+        "flat-knitter-cell/simple-right.png",
+        "flat-knitter-cell/simple-top.png",
+        "flat-knitter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flat-knitter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.flat-knitter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 713220,
+      "nodes": 144,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        135
+      ],
+      "captures": [
+        "flat-knitter-cell/detailed-iso.png",
+        "flat-knitter-cell/detailed-front.png",
+        "flat-knitter-cell/detailed-back.png",
+        "flat-knitter-cell/detailed-left.png",
+        "flat-knitter-cell/detailed-right.png",
+        "flat-knitter-cell/detailed-top.png",
+        "flat-knitter-cell/detailed-bottom.png",
+        "flat-knitter-cell/action-0.png",
+        "flat-knitter-cell/action-50.png",
+        "flat-knitter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "warp-knitter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.warp-knitter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 150652,
+      "nodes": 109,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        100
+      ],
+      "captures": [
+        "warp-knitter-cell/simple-iso.png",
+        "warp-knitter-cell/simple-front.png",
+        "warp-knitter-cell/simple-back.png",
+        "warp-knitter-cell/simple-left.png",
+        "warp-knitter-cell/simple-right.png",
+        "warp-knitter-cell/simple-top.png",
+        "warp-knitter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "warp-knitter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.warp-knitter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 933172,
+      "nodes": 137,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        128
+      ],
+      "captures": [
+        "warp-knitter-cell/detailed-iso.png",
+        "warp-knitter-cell/detailed-front.png",
+        "warp-knitter-cell/detailed-back.png",
+        "warp-knitter-cell/detailed-left.png",
+        "warp-knitter-cell/detailed-right.png",
+        "warp-knitter-cell/detailed-top.png",
+        "warp-knitter-cell/detailed-bottom.png",
+        "warp-knitter-cell/action-0.png",
+        "warp-knitter-cell/action-50.png",
+        "warp-knitter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "fabric-inspector-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-inspector-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154904,
+      "nodes": 107,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        87
+      ],
+      "captures": [
+        "fabric-inspector-cell/simple-iso.png",
+        "fabric-inspector-cell/simple-front.png",
+        "fabric-inspector-cell/simple-back.png",
+        "fabric-inspector-cell/simple-left.png",
+        "fabric-inspector-cell/simple-right.png",
+        "fabric-inspector-cell/simple-top.png",
+        "fabric-inspector-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "fabric-inspector-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-inspector-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 991892,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        121
+      ],
+      "captures": [
+        "fabric-inspector-cell/detailed-iso.png",
+        "fabric-inspector-cell/detailed-front.png",
+        "fabric-inspector-cell/detailed-back.png",
+        "fabric-inspector-cell/detailed-left.png",
+        "fabric-inspector-cell/detailed-right.png",
+        "fabric-inspector-cell/detailed-top.png",
+        "fabric-inspector-cell/detailed-bottom.png",
+        "fabric-inspector-cell/action-0.png",
+        "fabric-inspector-cell/action-50.png",
+        "fabric-inspector-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "fabric-spreader-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-spreader-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 149076,
+      "nodes": 109,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        100
+      ],
+      "captures": [
+        "fabric-spreader-cell/simple-iso.png",
+        "fabric-spreader-cell/simple-front.png",
+        "fabric-spreader-cell/simple-back.png",
+        "fabric-spreader-cell/simple-left.png",
+        "fabric-spreader-cell/simple-right.png",
+        "fabric-spreader-cell/simple-top.png",
+        "fabric-spreader-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "fabric-spreader-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-spreader-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 931596,
+      "nodes": 137,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        128
+      ],
+      "captures": [
+        "fabric-spreader-cell/detailed-iso.png",
+        "fabric-spreader-cell/detailed-front.png",
+        "fabric-spreader-cell/detailed-back.png",
+        "fabric-spreader-cell/detailed-left.png",
+        "fabric-spreader-cell/detailed-right.png",
+        "fabric-spreader-cell/detailed-top.png",
+        "fabric-spreader-cell/detailed-bottom.png",
+        "fabric-spreader-cell/action-0.png",
+        "fabric-spreader-cell/action-50.png",
+        "fabric-spreader-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "fabric-cutter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-cutter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 140648,
+      "nodes": 82,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        68
+      ],
+      "captures": [
+        "fabric-cutter-cell/simple-iso.png",
+        "fabric-cutter-cell/simple-front.png",
+        "fabric-cutter-cell/simple-back.png",
+        "fabric-cutter-cell/simple-left.png",
+        "fabric-cutter-cell/simple-right.png",
+        "fabric-cutter-cell/simple-top.png",
+        "fabric-cutter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "fabric-cutter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-cutter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 945812,
+      "nodes": 123,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        109
+      ],
+      "captures": [
+        "fabric-cutter-cell/detailed-iso.png",
+        "fabric-cutter-cell/detailed-front.png",
+        "fabric-cutter-cell/detailed-back.png",
+        "fabric-cutter-cell/detailed-left.png",
+        "fabric-cutter-cell/detailed-right.png",
+        "fabric-cutter-cell/detailed-top.png",
+        "fabric-cutter-cell/detailed-bottom.png",
+        "fabric-cutter-cell/action-0.png",
+        "fabric-cutter-cell/action-50.png",
+        "fabric-cutter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "industrial-sewer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.industrial-sewer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159864,
+      "nodes": 93,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        81
+      ],
+      "captures": [
+        "industrial-sewer-cell/simple-iso.png",
+        "industrial-sewer-cell/simple-front.png",
+        "industrial-sewer-cell/simple-back.png",
+        "industrial-sewer-cell/simple-left.png",
+        "industrial-sewer-cell/simple-right.png",
+        "industrial-sewer-cell/simple-top.png",
+        "industrial-sewer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "industrial-sewer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.industrial-sewer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1146980,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        127
+      ],
+      "captures": [
+        "industrial-sewer-cell/detailed-iso.png",
+        "industrial-sewer-cell/detailed-front.png",
+        "industrial-sewer-cell/detailed-back.png",
+        "industrial-sewer-cell/detailed-left.png",
+        "industrial-sewer-cell/detailed-right.png",
+        "industrial-sewer-cell/detailed-top.png",
+        "industrial-sewer-cell/detailed-bottom.png",
+        "industrial-sewer-cell/action-0.png",
+        "industrial-sewer-cell/action-50.png",
+        "industrial-sewer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "overlock-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.overlock-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134772,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "overlock-cell/simple-iso.png",
+        "overlock-cell/simple-front.png",
+        "overlock-cell/simple-back.png",
+        "overlock-cell/simple-left.png",
+        "overlock-cell/simple-right.png",
+        "overlock-cell/simple-top.png",
+        "overlock-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "overlock-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.overlock-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 912124,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "overlock-cell/detailed-iso.png",
+        "overlock-cell/detailed-front.png",
+        "overlock-cell/detailed-back.png",
+        "overlock-cell/detailed-left.png",
+        "overlock-cell/detailed-right.png",
+        "overlock-cell/detailed-top.png",
+        "overlock-cell/detailed-bottom.png",
+        "overlock-cell/action-0.png",
+        "overlock-cell/action-50.png",
+        "overlock-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "buttonhole-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.buttonhole-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134356,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "buttonhole-cell/simple-iso.png",
+        "buttonhole-cell/simple-front.png",
+        "buttonhole-cell/simple-back.png",
+        "buttonhole-cell/simple-left.png",
+        "buttonhole-cell/simple-right.png",
+        "buttonhole-cell/simple-top.png",
+        "buttonhole-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "buttonhole-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.buttonhole-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 911712,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "buttonhole-cell/detailed-iso.png",
+        "buttonhole-cell/detailed-front.png",
+        "buttonhole-cell/detailed-back.png",
+        "buttonhole-cell/detailed-left.png",
+        "buttonhole-cell/detailed-right.png",
+        "buttonhole-cell/detailed-top.png",
+        "buttonhole-cell/detailed-bottom.png",
+        "buttonhole-cell/action-0.png",
+        "buttonhole-cell/action-50.png",
+        "buttonhole-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "button-attach-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.button-attach-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 192904,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        63,
+        90
+      ],
+      "captures": [
+        "button-attach-cell/simple-iso.png",
+        "button-attach-cell/simple-front.png",
+        "button-attach-cell/simple-back.png",
+        "button-attach-cell/simple-left.png",
+        "button-attach-cell/simple-right.png",
+        "button-attach-cell/simple-top.png",
+        "button-attach-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "button-attach-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.button-attach-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1249076,
+      "nodes": 148,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        98,
+        136
+      ],
+      "captures": [
+        "button-attach-cell/detailed-iso.png",
+        "button-attach-cell/detailed-front.png",
+        "button-attach-cell/detailed-back.png",
+        "button-attach-cell/detailed-left.png",
+        "button-attach-cell/detailed-right.png",
+        "button-attach-cell/detailed-top.png",
+        "button-attach-cell/detailed-bottom.png",
+        "button-attach-cell/action-0.png",
+        "button-attach-cell/action-50.png",
+        "button-attach-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "embroidery-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.embroidery-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 136160,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "embroidery-cell/simple-iso.png",
+        "embroidery-cell/simple-front.png",
+        "embroidery-cell/simple-back.png",
+        "embroidery-cell/simple-left.png",
+        "embroidery-cell/simple-right.png",
+        "embroidery-cell/simple-top.png",
+        "embroidery-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "embroidery-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.embroidery-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 913516,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "embroidery-cell/detailed-iso.png",
+        "embroidery-cell/detailed-front.png",
+        "embroidery-cell/detailed-back.png",
+        "embroidery-cell/detailed-left.png",
+        "embroidery-cell/detailed-right.png",
+        "embroidery-cell/detailed-top.png",
+        "embroidery-cell/detailed-bottom.png",
+        "embroidery-cell/action-0.png",
+        "embroidery-cell/action-50.png",
+        "embroidery-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "heat-transfer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.heat-transfer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137768,
+      "nodes": 84,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        72
+      ],
+      "captures": [
+        "heat-transfer-cell/simple-iso.png",
+        "heat-transfer-cell/simple-front.png",
+        "heat-transfer-cell/simple-back.png",
+        "heat-transfer-cell/simple-left.png",
+        "heat-transfer-cell/simple-right.png",
+        "heat-transfer-cell/simple-top.png",
+        "heat-transfer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "heat-transfer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.heat-transfer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 917688,
+      "nodes": 131,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        119
+      ],
+      "captures": [
+        "heat-transfer-cell/detailed-iso.png",
+        "heat-transfer-cell/detailed-front.png",
+        "heat-transfer-cell/detailed-back.png",
+        "heat-transfer-cell/detailed-left.png",
+        "heat-transfer-cell/detailed-right.png",
+        "heat-transfer-cell/detailed-top.png",
+        "heat-transfer-cell/detailed-bottom.png",
+        "heat-transfer-cell/action-0.png",
+        "heat-transfer-cell/action-50.png",
+        "heat-transfer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "steam-press-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.steam-press-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139652,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "steam-press-cell/simple-iso.png",
+        "steam-press-cell/simple-front.png",
+        "steam-press-cell/simple-back.png",
+        "steam-press-cell/simple-left.png",
+        "steam-press-cell/simple-right.png",
+        "steam-press-cell/simple-top.png",
+        "steam-press-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "steam-press-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.steam-press-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 917004,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "steam-press-cell/detailed-iso.png",
+        "steam-press-cell/detailed-front.png",
+        "steam-press-cell/detailed-back.png",
+        "steam-press-cell/detailed-left.png",
+        "steam-press-cell/detailed-right.png",
+        "steam-press-cell/detailed-top.png",
+        "steam-press-cell/detailed-bottom.png",
+        "steam-press-cell/action-0.png",
+        "steam-press-cell/action-50.png",
+        "steam-press-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "jet-dye-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.jet-dye-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 179396,
+      "nodes": 107,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        67,
+        86
+      ],
+      "captures": [
+        "jet-dye-cell/simple-iso.png",
+        "jet-dye-cell/simple-front.png",
+        "jet-dye-cell/simple-back.png",
+        "jet-dye-cell/simple-left.png",
+        "jet-dye-cell/simple-right.png",
+        "jet-dye-cell/simple-top.png",
+        "jet-dye-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "jet-dye-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.jet-dye-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1036512,
+      "nodes": 171,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        145
+      ],
+      "captures": [
+        "jet-dye-cell/detailed-iso.png",
+        "jet-dye-cell/detailed-front.png",
+        "jet-dye-cell/detailed-back.png",
+        "jet-dye-cell/detailed-left.png",
+        "jet-dye-cell/detailed-right.png",
+        "jet-dye-cell/detailed-top.png",
+        "jet-dye-cell/detailed-bottom.png",
+        "jet-dye-cell/action-0.png",
+        "jet-dye-cell/action-50.png",
+        "jet-dye-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "stenter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.stenter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 147360,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        64,
+        100
+      ],
+      "captures": [
+        "stenter-cell/simple-iso.png",
+        "stenter-cell/simple-front.png",
+        "stenter-cell/simple-back.png",
+        "stenter-cell/simple-left.png",
+        "stenter-cell/simple-right.png",
+        "stenter-cell/simple-top.png",
+        "stenter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "stenter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.stenter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1047384,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        120,
+        87,
+        128
+      ],
+      "captures": [
+        "stenter-cell/detailed-iso.png",
+        "stenter-cell/detailed-front.png",
+        "stenter-cell/detailed-back.png",
+        "stenter-cell/detailed-left.png",
+        "stenter-cell/detailed-right.png",
+        "stenter-cell/detailed-top.png",
+        "stenter-cell/detailed-bottom.png",
+        "stenter-cell/action-0.png",
+        "stenter-cell/action-50.png",
+        "stenter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "fabric-calender-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-calender-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 146924,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "fabric-calender-cell/simple-iso.png",
+        "fabric-calender-cell/simple-front.png",
+        "fabric-calender-cell/simple-back.png",
+        "fabric-calender-cell/simple-left.png",
+        "fabric-calender-cell/simple-right.png",
+        "fabric-calender-cell/simple-top.png",
+        "fabric-calender-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "fabric-calender-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-calender-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 940572,
+      "nodes": 150,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "fabric-calender-cell/detailed-iso.png",
+        "fabric-calender-cell/detailed-front.png",
+        "fabric-calender-cell/detailed-back.png",
+        "fabric-calender-cell/detailed-left.png",
+        "fabric-calender-cell/detailed-right.png",
+        "fabric-calender-cell/detailed-top.png",
+        "fabric-calender-cell/detailed-bottom.png",
+        "fabric-calender-cell/action-0.png",
+        "fabric-calender-cell/action-50.png",
+        "fabric-calender-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "fabric-compactor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-compactor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 160972,
+      "nodes": 118,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        69,
+        86
+      ],
+      "captures": [
+        "fabric-compactor-cell/simple-iso.png",
+        "fabric-compactor-cell/simple-front.png",
+        "fabric-compactor-cell/simple-back.png",
+        "fabric-compactor-cell/simple-left.png",
+        "fabric-compactor-cell/simple-right.png",
+        "fabric-compactor-cell/simple-top.png",
+        "fabric-compactor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "fabric-compactor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.fabric-compactor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 988420,
+      "nodes": 228,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        115,
+        155
+      ],
+      "captures": [
+        "fabric-compactor-cell/detailed-iso.png",
+        "fabric-compactor-cell/detailed-front.png",
+        "fabric-compactor-cell/detailed-back.png",
+        "fabric-compactor-cell/detailed-left.png",
+        "fabric-compactor-cell/detailed-right.png",
+        "fabric-compactor-cell/detailed-top.png",
+        "fabric-compactor-cell/detailed-bottom.png",
+        "fabric-compactor-cell/action-0.png",
+        "fabric-compactor-cell/action-50.png",
+        "fabric-compactor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "ultrasonic-fabric-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.ultrasonic-fabric-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 190564,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        80,
+        127
+      ],
+      "captures": [
+        "ultrasonic-fabric-cell/simple-iso.png",
+        "ultrasonic-fabric-cell/simple-front.png",
+        "ultrasonic-fabric-cell/simple-back.png",
+        "ultrasonic-fabric-cell/simple-left.png",
+        "ultrasonic-fabric-cell/simple-right.png",
+        "ultrasonic-fabric-cell/simple-top.png",
+        "ultrasonic-fabric-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "ultrasonic-fabric-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.ultrasonic-fabric-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1262272,
+      "nodes": 219,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        126,
+        207
+      ],
+      "captures": [
+        "ultrasonic-fabric-cell/detailed-iso.png",
+        "ultrasonic-fabric-cell/detailed-front.png",
+        "ultrasonic-fabric-cell/detailed-back.png",
+        "ultrasonic-fabric-cell/detailed-left.png",
+        "ultrasonic-fabric-cell/detailed-right.png",
+        "ultrasonic-fabric-cell/detailed-top.png",
+        "ultrasonic-fabric-cell/detailed-bottom.png",
+        "ultrasonic-fabric-cell/action-0.png",
+        "ultrasonic-fabric-cell/action-50.png",
+        "ultrasonic-fabric-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-crosscut-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-crosscut-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153180,
+      "nodes": 87,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67,
+        68
+      ],
+      "captures": [
+        "wood-crosscut-cell/simple-iso.png",
+        "wood-crosscut-cell/simple-front.png",
+        "wood-crosscut-cell/simple-back.png",
+        "wood-crosscut-cell/simple-left.png",
+        "wood-crosscut-cell/simple-right.png",
+        "wood-crosscut-cell/simple-top.png",
+        "wood-crosscut-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-crosscut-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-crosscut-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1034896,
+      "nodes": 161,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108,
+        109
+      ],
+      "captures": [
+        "wood-crosscut-cell/detailed-iso.png",
+        "wood-crosscut-cell/detailed-front.png",
+        "wood-crosscut-cell/detailed-back.png",
+        "wood-crosscut-cell/detailed-left.png",
+        "wood-crosscut-cell/detailed-right.png",
+        "wood-crosscut-cell/detailed-top.png",
+        "wood-crosscut-cell/detailed-bottom.png",
+        "wood-crosscut-cell/action-0.png",
+        "wood-crosscut-cell/action-50.png",
+        "wood-crosscut-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-rip-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-rip-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153704,
+      "nodes": 129,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80,
+        101
+      ],
+      "captures": [
+        "wood-rip-cell/simple-iso.png",
+        "wood-rip-cell/simple-front.png",
+        "wood-rip-cell/simple-back.png",
+        "wood-rip-cell/simple-left.png",
+        "wood-rip-cell/simple-right.png",
+        "wood-rip-cell/simple-top.png",
+        "wood-rip-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-rip-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-rip-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1001684,
+      "nodes": 227,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132,
+        176
+      ],
+      "captures": [
+        "wood-rip-cell/detailed-iso.png",
+        "wood-rip-cell/detailed-front.png",
+        "wood-rip-cell/detailed-back.png",
+        "wood-rip-cell/detailed-left.png",
+        "wood-rip-cell/detailed-right.png",
+        "wood-rip-cell/detailed-top.png",
+        "wood-rip-cell/detailed-bottom.png",
+        "wood-rip-cell/action-0.png",
+        "wood-rip-cell/action-50.png",
+        "wood-rip-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-planer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-planer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 150532,
+      "nodes": 129,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80,
+        101
+      ],
+      "captures": [
+        "wood-planer-cell/simple-iso.png",
+        "wood-planer-cell/simple-front.png",
+        "wood-planer-cell/simple-back.png",
+        "wood-planer-cell/simple-left.png",
+        "wood-planer-cell/simple-right.png",
+        "wood-planer-cell/simple-top.png",
+        "wood-planer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-planer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-planer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 998512,
+      "nodes": 227,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132,
+        176
+      ],
+      "captures": [
+        "wood-planer-cell/detailed-iso.png",
+        "wood-planer-cell/detailed-front.png",
+        "wood-planer-cell/detailed-back.png",
+        "wood-planer-cell/detailed-left.png",
+        "wood-planer-cell/detailed-right.png",
+        "wood-planer-cell/detailed-top.png",
+        "wood-planer-cell/detailed-bottom.png",
+        "wood-planer-cell/action-0.png",
+        "wood-planer-cell/action-50.png",
+        "wood-planer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-jointer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-jointer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137300,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        75
+      ],
+      "captures": [
+        "wood-jointer-cell/simple-iso.png",
+        "wood-jointer-cell/simple-front.png",
+        "wood-jointer-cell/simple-back.png",
+        "wood-jointer-cell/simple-left.png",
+        "wood-jointer-cell/simple-right.png",
+        "wood-jointer-cell/simple-top.png",
+        "wood-jointer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-jointer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-jointer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 895196,
+      "nodes": 172,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        121
+      ],
+      "captures": [
+        "wood-jointer-cell/detailed-iso.png",
+        "wood-jointer-cell/detailed-front.png",
+        "wood-jointer-cell/detailed-back.png",
+        "wood-jointer-cell/detailed-left.png",
+        "wood-jointer-cell/detailed-right.png",
+        "wood-jointer-cell/detailed-top.png",
+        "wood-jointer-cell/detailed-bottom.png",
+        "wood-jointer-cell/action-0.png",
+        "wood-jointer-cell/action-50.png",
+        "wood-jointer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-four-side-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-four-side-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154324,
+      "nodes": 150,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80,
+        101,
+        122
+      ],
+      "captures": [
+        "wood-four-side-cell/simple-iso.png",
+        "wood-four-side-cell/simple-front.png",
+        "wood-four-side-cell/simple-back.png",
+        "wood-four-side-cell/simple-left.png",
+        "wood-four-side-cell/simple-right.png",
+        "wood-four-side-cell/simple-top.png",
+        "wood-four-side-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-four-side-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-four-side-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1004088,
+      "nodes": 271,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132,
+        176,
+        220
+      ],
+      "captures": [
+        "wood-four-side-cell/detailed-iso.png",
+        "wood-four-side-cell/detailed-front.png",
+        "wood-four-side-cell/detailed-back.png",
+        "wood-four-side-cell/detailed-left.png",
+        "wood-four-side-cell/detailed-right.png",
+        "wood-four-side-cell/detailed-top.png",
+        "wood-four-side-cell/detailed-bottom.png",
+        "wood-four-side-cell/action-0.png",
+        "wood-four-side-cell/action-50.png",
+        "wood-four-side-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-mortiser-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-mortiser-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 167444,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        77,
+        81
+      ],
+      "captures": [
+        "wood-mortiser-cell/simple-iso.png",
+        "wood-mortiser-cell/simple-front.png",
+        "wood-mortiser-cell/simple-back.png",
+        "wood-mortiser-cell/simple-left.png",
+        "wood-mortiser-cell/simple-right.png",
+        "wood-mortiser-cell/simple-top.png",
+        "wood-mortiser-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-mortiser-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-mortiser-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1111952,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        123,
+        127
+      ],
+      "captures": [
+        "wood-mortiser-cell/detailed-iso.png",
+        "wood-mortiser-cell/detailed-front.png",
+        "wood-mortiser-cell/detailed-back.png",
+        "wood-mortiser-cell/detailed-left.png",
+        "wood-mortiser-cell/detailed-right.png",
+        "wood-mortiser-cell/detailed-top.png",
+        "wood-mortiser-cell/detailed-bottom.png",
+        "wood-mortiser-cell/action-0.png",
+        "wood-mortiser-cell/action-50.png",
+        "wood-mortiser-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-tenoner-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-tenoner-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 166820,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        77,
+        81
+      ],
+      "captures": [
+        "wood-tenoner-cell/simple-iso.png",
+        "wood-tenoner-cell/simple-front.png",
+        "wood-tenoner-cell/simple-back.png",
+        "wood-tenoner-cell/simple-left.png",
+        "wood-tenoner-cell/simple-right.png",
+        "wood-tenoner-cell/simple-top.png",
+        "wood-tenoner-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-tenoner-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-tenoner-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1111328,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        123,
+        127
+      ],
+      "captures": [
+        "wood-tenoner-cell/detailed-iso.png",
+        "wood-tenoner-cell/detailed-front.png",
+        "wood-tenoner-cell/detailed-back.png",
+        "wood-tenoner-cell/detailed-left.png",
+        "wood-tenoner-cell/detailed-right.png",
+        "wood-tenoner-cell/detailed-top.png",
+        "wood-tenoner-cell/detailed-bottom.png",
+        "wood-tenoner-cell/action-0.png",
+        "wood-tenoner-cell/action-50.png",
+        "wood-tenoner-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-dowel-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-dowel-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 149148,
+      "nodes": 85,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        65
+      ],
+      "captures": [
+        "wood-dowel-cell/simple-iso.png",
+        "wood-dowel-cell/simple-front.png",
+        "wood-dowel-cell/simple-back.png",
+        "wood-dowel-cell/simple-left.png",
+        "wood-dowel-cell/simple-right.png",
+        "wood-dowel-cell/simple-top.png",
+        "wood-dowel-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-dowel-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-dowel-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1011672,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        100
+      ],
+      "captures": [
+        "wood-dowel-cell/detailed-iso.png",
+        "wood-dowel-cell/detailed-front.png",
+        "wood-dowel-cell/detailed-back.png",
+        "wood-dowel-cell/detailed-left.png",
+        "wood-dowel-cell/detailed-right.png",
+        "wood-dowel-cell/detailed-top.png",
+        "wood-dowel-cell/detailed-bottom.png",
+        "wood-dowel-cell/action-0.png",
+        "wood-dowel-cell/action-50.png",
+        "wood-dowel-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-edge-band-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-edge-band-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 217160,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        73,
+        82,
+        124,
+        128
+      ],
+      "captures": [
+        "wood-edge-band-cell/simple-iso.png",
+        "wood-edge-band-cell/simple-front.png",
+        "wood-edge-band-cell/simple-back.png",
+        "wood-edge-band-cell/simple-left.png",
+        "wood-edge-band-cell/simple-right.png",
+        "wood-edge-band-cell/simple-top.png",
+        "wood-edge-band-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-edge-band-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-edge-band-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1365868,
+      "nodes": 227,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        103,
+        107,
+        116,
+        210,
+        214
+      ],
+      "captures": [
+        "wood-edge-band-cell/detailed-iso.png",
+        "wood-edge-band-cell/detailed-front.png",
+        "wood-edge-band-cell/detailed-back.png",
+        "wood-edge-band-cell/detailed-left.png",
+        "wood-edge-band-cell/detailed-right.png",
+        "wood-edge-band-cell/detailed-top.png",
+        "wood-edge-band-cell/detailed-bottom.png",
+        "wood-edge-band-cell/action-0.png",
+        "wood-edge-band-cell/action-50.png",
+        "wood-edge-band-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-router-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-router-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 169188,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        78,
+        82
+      ],
+      "captures": [
+        "wood-router-cell/simple-iso.png",
+        "wood-router-cell/simple-front.png",
+        "wood-router-cell/simple-back.png",
+        "wood-router-cell/simple-left.png",
+        "wood-router-cell/simple-right.png",
+        "wood-router-cell/simple-top.png",
+        "wood-router-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-router-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-router-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1141504,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        124,
+        128
+      ],
+      "captures": [
+        "wood-router-cell/detailed-iso.png",
+        "wood-router-cell/detailed-front.png",
+        "wood-router-cell/detailed-back.png",
+        "wood-router-cell/detailed-left.png",
+        "wood-router-cell/detailed-right.png",
+        "wood-router-cell/detailed-top.png",
+        "wood-router-cell/detailed-bottom.png",
+        "wood-router-cell/action-0.png",
+        "wood-router-cell/action-50.png",
+        "wood-router-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wide-belt-sander-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wide-belt-sander-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 163240,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        84,
+        87
+      ],
+      "captures": [
+        "wide-belt-sander-cell/simple-iso.png",
+        "wide-belt-sander-cell/simple-front.png",
+        "wide-belt-sander-cell/simple-back.png",
+        "wide-belt-sander-cell/simple-left.png",
+        "wide-belt-sander-cell/simple-right.png",
+        "wide-belt-sander-cell/simple-top.png",
+        "wide-belt-sander-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wide-belt-sander-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wide-belt-sander-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1065124,
+      "nodes": 182,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        136,
+        139
+      ],
+      "captures": [
+        "wide-belt-sander-cell/detailed-iso.png",
+        "wide-belt-sander-cell/detailed-front.png",
+        "wide-belt-sander-cell/detailed-back.png",
+        "wide-belt-sander-cell/detailed-left.png",
+        "wide-belt-sander-cell/detailed-right.png",
+        "wide-belt-sander-cell/detailed-top.png",
+        "wide-belt-sander-cell/detailed-bottom.png",
+        "wide-belt-sander-cell/action-0.png",
+        "wide-belt-sander-cell/action-50.png",
+        "wide-belt-sander-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-veneer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-veneer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159592,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        62,
+        66,
+        87
+      ],
+      "captures": [
+        "wood-veneer-cell/simple-iso.png",
+        "wood-veneer-cell/simple-front.png",
+        "wood-veneer-cell/simple-back.png",
+        "wood-veneer-cell/simple-left.png",
+        "wood-veneer-cell/simple-right.png",
+        "wood-veneer-cell/simple-top.png",
+        "wood-veneer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-veneer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-veneer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1037396,
+      "nodes": 184,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        85,
+        89,
+        133
+      ],
+      "captures": [
+        "wood-veneer-cell/detailed-iso.png",
+        "wood-veneer-cell/detailed-front.png",
+        "wood-veneer-cell/detailed-back.png",
+        "wood-veneer-cell/detailed-left.png",
+        "wood-veneer-cell/detailed-right.png",
+        "wood-veneer-cell/detailed-top.png",
+        "wood-veneer-cell/detailed-bottom.png",
+        "wood-veneer-cell/action-0.png",
+        "wood-veneer-cell/action-50.png",
+        "wood-veneer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "veneer-splicer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.veneer-splicer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 208668,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        95,
+        99,
+        108
+      ],
+      "captures": [
+        "veneer-splicer-cell/simple-iso.png",
+        "veneer-splicer-cell/simple-front.png",
+        "veneer-splicer-cell/simple-back.png",
+        "veneer-splicer-cell/simple-left.png",
+        "veneer-splicer-cell/simple-right.png",
+        "veneer-splicer-cell/simple-top.png",
+        "veneer-splicer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "veneer-splicer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.veneer-splicer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1429328,
+      "nodes": 243,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        158,
+        162,
+        171
+      ],
+      "captures": [
+        "veneer-splicer-cell/detailed-iso.png",
+        "veneer-splicer-cell/detailed-front.png",
+        "veneer-splicer-cell/detailed-back.png",
+        "veneer-splicer-cell/detailed-left.png",
+        "veneer-splicer-cell/detailed-right.png",
+        "veneer-splicer-cell/detailed-top.png",
+        "veneer-splicer-cell/detailed-bottom.png",
+        "veneer-splicer-cell/action-0.png",
+        "veneer-splicer-cell/action-50.png",
+        "veneer-splicer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-hotpress-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-hotpress-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 115368,
+      "nodes": 69,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        59
+      ],
+      "captures": [
+        "wood-hotpress-cell/simple-iso.png",
+        "wood-hotpress-cell/simple-front.png",
+        "wood-hotpress-cell/simple-back.png",
+        "wood-hotpress-cell/simple-left.png",
+        "wood-hotpress-cell/simple-right.png",
+        "wood-hotpress-cell/simple-top.png",
+        "wood-hotpress-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-hotpress-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-hotpress-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 726412,
+      "nodes": 92,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        82
+      ],
+      "captures": [
+        "wood-hotpress-cell/detailed-iso.png",
+        "wood-hotpress-cell/detailed-front.png",
+        "wood-hotpress-cell/detailed-back.png",
+        "wood-hotpress-cell/detailed-left.png",
+        "wood-hotpress-cell/detailed-right.png",
+        "wood-hotpress-cell/detailed-top.png",
+        "wood-hotpress-cell/detailed-bottom.png",
+        "wood-hotpress-cell/action-0.png",
+        "wood-hotpress-cell/action-50.png",
+        "wood-hotpress-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wood-briquette-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wood-briquette-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 171360,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        102
+      ],
+      "captures": [
+        "wood-briquette-cell/simple-iso.png",
+        "wood-briquette-cell/simple-front.png",
+        "wood-briquette-cell/simple-back.png",
+        "wood-briquette-cell/simple-left.png",
+        "wood-briquette-cell/simple-right.png",
+        "wood-briquette-cell/simple-top.png",
+        "wood-briquette-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wood-briquette-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wood-briquette-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1056092,
+      "nodes": 154,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        142
+      ],
+      "captures": [
+        "wood-briquette-cell/detailed-iso.png",
+        "wood-briquette-cell/detailed-front.png",
+        "wood-briquette-cell/detailed-back.png",
+        "wood-briquette-cell/detailed-left.png",
+        "wood-briquette-cell/detailed-right.png",
+        "wood-briquette-cell/detailed-top.png",
+        "wood-briquette-cell/detailed-bottom.png",
+        "wood-briquette-cell/action-0.png",
+        "wood-briquette-cell/action-50.png",
+        "wood-briquette-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "recycling-shredder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.recycling-shredder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 180352,
+      "nodes": 203,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        93,
+        140
+      ],
+      "captures": [
+        "recycling-shredder-cell/simple-iso.png",
+        "recycling-shredder-cell/simple-front.png",
+        "recycling-shredder-cell/simple-back.png",
+        "recycling-shredder-cell/simple-left.png",
+        "recycling-shredder-cell/simple-right.png",
+        "recycling-shredder-cell/simple-top.png",
+        "recycling-shredder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "recycling-shredder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.recycling-shredder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1004556,
+      "nodes": 236,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        121,
+        168
+      ],
+      "captures": [
+        "recycling-shredder-cell/detailed-iso.png",
+        "recycling-shredder-cell/detailed-front.png",
+        "recycling-shredder-cell/detailed-back.png",
+        "recycling-shredder-cell/detailed-left.png",
+        "recycling-shredder-cell/detailed-right.png",
+        "recycling-shredder-cell/detailed-top.png",
+        "recycling-shredder-cell/detailed-bottom.png",
+        "recycling-shredder-cell/action-0.png",
+        "recycling-shredder-cell/action-50.png",
+        "recycling-shredder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "recycling-screen-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.recycling-screen-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 144680,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62
+      ],
+      "captures": [
+        "recycling-screen-cell/simple-iso.png",
+        "recycling-screen-cell/simple-front.png",
+        "recycling-screen-cell/simple-back.png",
+        "recycling-screen-cell/simple-left.png",
+        "recycling-screen-cell/simple-right.png",
+        "recycling-screen-cell/simple-top.png",
+        "recycling-screen-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "recycling-screen-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.recycling-screen-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 896412,
+      "nodes": 126,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        97
+      ],
+      "captures": [
+        "recycling-screen-cell/detailed-iso.png",
+        "recycling-screen-cell/detailed-front.png",
+        "recycling-screen-cell/detailed-back.png",
+        "recycling-screen-cell/detailed-left.png",
+        "recycling-screen-cell/detailed-right.png",
+        "recycling-screen-cell/detailed-top.png",
+        "recycling-screen-cell/detailed-bottom.png",
+        "recycling-screen-cell/action-0.png",
+        "recycling-screen-cell/action-50.png",
+        "recycling-screen-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "eddy-sorter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.eddy-sorter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159724,
+      "nodes": 112,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        88
+      ],
+      "captures": [
+        "eddy-sorter-cell/simple-iso.png",
+        "eddy-sorter-cell/simple-front.png",
+        "eddy-sorter-cell/simple-back.png",
+        "eddy-sorter-cell/simple-left.png",
+        "eddy-sorter-cell/simple-right.png",
+        "eddy-sorter-cell/simple-top.png",
+        "eddy-sorter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "eddy-sorter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.eddy-sorter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1029372,
+      "nodes": 181,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        152
+      ],
+      "captures": [
+        "eddy-sorter-cell/detailed-iso.png",
+        "eddy-sorter-cell/detailed-front.png",
+        "eddy-sorter-cell/detailed-back.png",
+        "eddy-sorter-cell/detailed-left.png",
+        "eddy-sorter-cell/detailed-right.png",
+        "eddy-sorter-cell/detailed-top.png",
+        "eddy-sorter-cell/detailed-bottom.png",
+        "eddy-sorter-cell/action-0.png",
+        "eddy-sorter-cell/action-50.png",
+        "eddy-sorter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "plastic-float-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.plastic-float-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 188896,
+      "nodes": 103,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        82
+      ],
+      "captures": [
+        "plastic-float-cell/simple-iso.png",
+        "plastic-float-cell/simple-front.png",
+        "plastic-float-cell/simple-back.png",
+        "plastic-float-cell/simple-left.png",
+        "plastic-float-cell/simple-right.png",
+        "plastic-float-cell/simple-top.png",
+        "plastic-float-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "plastic-float-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.plastic-float-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1130072,
+      "nodes": 167,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        86,
+        141
+      ],
+      "captures": [
+        "plastic-float-cell/detailed-iso.png",
+        "plastic-float-cell/detailed-front.png",
+        "plastic-float-cell/detailed-back.png",
+        "plastic-float-cell/detailed-left.png",
+        "plastic-float-cell/detailed-right.png",
+        "plastic-float-cell/detailed-top.png",
+        "plastic-float-cell/detailed-bottom.png",
+        "plastic-float-cell/action-0.png",
+        "plastic-float-cell/action-50.png",
+        "plastic-float-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "recycling-baler-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.recycling-baler-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 178332,
+      "nodes": 117,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        102
+      ],
+      "captures": [
+        "recycling-baler-cell/simple-iso.png",
+        "recycling-baler-cell/simple-front.png",
+        "recycling-baler-cell/simple-back.png",
+        "recycling-baler-cell/simple-left.png",
+        "recycling-baler-cell/simple-right.png",
+        "recycling-baler-cell/simple-top.png",
+        "recycling-baler-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "recycling-baler-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.recycling-baler-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1118744,
+      "nodes": 157,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        142
+      ],
+      "captures": [
+        "recycling-baler-cell/detailed-iso.png",
+        "recycling-baler-cell/detailed-front.png",
+        "recycling-baler-cell/detailed-back.png",
+        "recycling-baler-cell/detailed-left.png",
+        "recycling-baler-cell/detailed-right.png",
+        "recycling-baler-cell/detailed-top.png",
+        "recycling-baler-cell/detailed-bottom.png",
+        "recycling-baler-cell/action-0.png",
+        "recycling-baler-cell/action-50.png",
+        "recycling-baler-cell/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

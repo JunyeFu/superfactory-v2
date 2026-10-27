@@ -1,0 +1,3275 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B04",
+  "device_count": 50,
+  "lod_models": 100,
+  "checks": [
+    {
+      "id": "sheet-guillotine-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.sheet-guillotine-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156372,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        90
+      ],
+      "captures": [
+        "sheet-guillotine-cell/simple-iso.png",
+        "sheet-guillotine-cell/simple-front.png",
+        "sheet-guillotine-cell/simple-back.png",
+        "sheet-guillotine-cell/simple-left.png",
+        "sheet-guillotine-cell/simple-right.png",
+        "sheet-guillotine-cell/simple-top.png",
+        "sheet-guillotine-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sheet-guillotine-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.sheet-guillotine-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1067956,
+      "nodes": 166,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        154
+      ],
+      "captures": [
+        "sheet-guillotine-cell/detailed-iso.png",
+        "sheet-guillotine-cell/detailed-front.png",
+        "sheet-guillotine-cell/detailed-back.png",
+        "sheet-guillotine-cell/detailed-left.png",
+        "sheet-guillotine-cell/detailed-right.png",
+        "sheet-guillotine-cell/detailed-top.png",
+        "sheet-guillotine-cell/detailed-bottom.png",
+        "sheet-guillotine-cell/action-0.png",
+        "sheet-guillotine-cell/action-50.png",
+        "sheet-guillotine-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "turret-punch-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.turret-punch-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153356,
+      "nodes": 101,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        83
+      ],
+      "captures": [
+        "turret-punch-cell/simple-iso.png",
+        "turret-punch-cell/simple-front.png",
+        "turret-punch-cell/simple-back.png",
+        "turret-punch-cell/simple-left.png",
+        "turret-punch-cell/simple-right.png",
+        "turret-punch-cell/simple-top.png",
+        "turret-punch-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "turret-punch-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.turret-punch-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 932556,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        123
+      ],
+      "captures": [
+        "turret-punch-cell/detailed-iso.png",
+        "turret-punch-cell/detailed-front.png",
+        "turret-punch-cell/detailed-back.png",
+        "turret-punch-cell/detailed-left.png",
+        "turret-punch-cell/detailed-right.png",
+        "turret-punch-cell/detailed-top.png",
+        "turret-punch-cell/detailed-bottom.png",
+        "turret-punch-cell/action-0.png",
+        "turret-punch-cell/action-50.png",
+        "turret-punch-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "press-brake-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.press-brake-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 125060,
+      "nodes": 76,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "press-brake-cell/simple-iso.png",
+        "press-brake-cell/simple-front.png",
+        "press-brake-cell/simple-back.png",
+        "press-brake-cell/simple-left.png",
+        "press-brake-cell/simple-right.png",
+        "press-brake-cell/simple-top.png",
+        "press-brake-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "press-brake-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.press-brake-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 816240,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99
+      ],
+      "captures": [
+        "press-brake-cell/detailed-iso.png",
+        "press-brake-cell/detailed-front.png",
+        "press-brake-cell/detailed-back.png",
+        "press-brake-cell/detailed-left.png",
+        "press-brake-cell/detailed-right.png",
+        "press-brake-cell/detailed-top.png",
+        "press-brake-cell/detailed-bottom.png",
+        "press-brake-cell/action-0.png",
+        "press-brake-cell/action-50.png",
+        "press-brake-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "panel-bender-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.panel-bender-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 122084,
+      "nodes": 78,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        63,
+        67
+      ],
+      "captures": [
+        "panel-bender-cell/simple-iso.png",
+        "panel-bender-cell/simple-front.png",
+        "panel-bender-cell/simple-back.png",
+        "panel-bender-cell/simple-left.png",
+        "panel-bender-cell/simple-right.png",
+        "panel-bender-cell/simple-top.png",
+        "panel-bender-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "panel-bender-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.panel-bender-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 834340,
+      "nodes": 137,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        98,
+        114
+      ],
+      "captures": [
+        "panel-bender-cell/detailed-iso.png",
+        "panel-bender-cell/detailed-front.png",
+        "panel-bender-cell/detailed-back.png",
+        "panel-bender-cell/detailed-left.png",
+        "panel-bender-cell/detailed-right.png",
+        "panel-bender-cell/detailed-top.png",
+        "panel-bender-cell/detailed-bottom.png",
+        "panel-bender-cell/action-0.png",
+        "panel-bender-cell/action-50.png",
+        "panel-bender-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "plate-rolling-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.plate-rolling-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 144296,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "plate-rolling-cell/simple-iso.png",
+        "plate-rolling-cell/simple-front.png",
+        "plate-rolling-cell/simple-back.png",
+        "plate-rolling-cell/simple-left.png",
+        "plate-rolling-cell/simple-right.png",
+        "plate-rolling-cell/simple-top.png",
+        "plate-rolling-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "plate-rolling-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.plate-rolling-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 910136,
+      "nodes": 150,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "plate-rolling-cell/detailed-iso.png",
+        "plate-rolling-cell/detailed-front.png",
+        "plate-rolling-cell/detailed-back.png",
+        "plate-rolling-cell/detailed-left.png",
+        "plate-rolling-cell/detailed-right.png",
+        "plate-rolling-cell/detailed-top.png",
+        "plate-rolling-cell/detailed-bottom.png",
+        "plate-rolling-cell/action-0.png",
+        "plate-rolling-cell/action-50.png",
+        "plate-rolling-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "profile-roll-bender",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.profile-roll-bender.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 132444,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "profile-roll-bender/simple-iso.png",
+        "profile-roll-bender/simple-front.png",
+        "profile-roll-bender/simple-back.png",
+        "profile-roll-bender/simple-left.png",
+        "profile-roll-bender/simple-right.png",
+        "profile-roll-bender/simple-top.png",
+        "profile-roll-bender/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "profile-roll-bender",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.profile-roll-bender",
+        "version": "1.0.0"
+      },
+      "bytes": 786428,
+      "nodes": 100,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "profile-roll-bender/detailed-iso.png",
+        "profile-roll-bender/detailed-front.png",
+        "profile-roll-bender/detailed-back.png",
+        "profile-roll-bender/detailed-left.png",
+        "profile-roll-bender/detailed-right.png",
+        "profile-roll-bender/detailed-top.png",
+        "profile-roll-bender/detailed-bottom.png",
+        "profile-roll-bender/action-0.png",
+        "profile-roll-bender/action-50.png",
+        "profile-roll-bender/action-100.png"
+      ]
+    },
+    {
+      "id": "tube-bender-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tube-bender-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 144356,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        62
+      ],
+      "captures": [
+        "tube-bender-cell/simple-iso.png",
+        "tube-bender-cell/simple-front.png",
+        "tube-bender-cell/simple-back.png",
+        "tube-bender-cell/simple-left.png",
+        "tube-bender-cell/simple-right.png",
+        "tube-bender-cell/simple-top.png",
+        "tube-bender-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tube-bender-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tube-bender-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 859260,
+      "nodes": 120,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        97
+      ],
+      "captures": [
+        "tube-bender-cell/detailed-iso.png",
+        "tube-bender-cell/detailed-front.png",
+        "tube-bender-cell/detailed-back.png",
+        "tube-bender-cell/detailed-left.png",
+        "tube-bender-cell/detailed-right.png",
+        "tube-bender-cell/detailed-top.png",
+        "tube-bender-cell/detailed-bottom.png",
+        "tube-bender-cell/action-0.png",
+        "tube-bender-cell/action-50.png",
+        "tube-bender-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "tube-end-former",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tube-end-former.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 149180,
+      "nodes": 85,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        65
+      ],
+      "captures": [
+        "tube-end-former/simple-iso.png",
+        "tube-end-former/simple-front.png",
+        "tube-end-former/simple-back.png",
+        "tube-end-former/simple-left.png",
+        "tube-end-former/simple-right.png",
+        "tube-end-former/simple-top.png",
+        "tube-end-former/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tube-end-former",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tube-end-former",
+        "version": "1.0.0"
+      },
+      "bytes": 983896,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        100
+      ],
+      "captures": [
+        "tube-end-former/detailed-iso.png",
+        "tube-end-former/detailed-front.png",
+        "tube-end-former/detailed-back.png",
+        "tube-end-former/detailed-left.png",
+        "tube-end-former/detailed-right.png",
+        "tube-end-former/detailed-top.png",
+        "tube-end-former/detailed-bottom.png",
+        "tube-end-former/action-0.png",
+        "tube-end-former/action-50.png",
+        "tube-end-former/action-100.png"
+      ]
+    },
+    {
+      "id": "tube-flaring-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tube-flaring-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 147712,
+      "nodes": 85,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        65
+      ],
+      "captures": [
+        "tube-flaring-cell/simple-iso.png",
+        "tube-flaring-cell/simple-front.png",
+        "tube-flaring-cell/simple-back.png",
+        "tube-flaring-cell/simple-left.png",
+        "tube-flaring-cell/simple-right.png",
+        "tube-flaring-cell/simple-top.png",
+        "tube-flaring-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tube-flaring-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tube-flaring-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 982432,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        100
+      ],
+      "captures": [
+        "tube-flaring-cell/detailed-iso.png",
+        "tube-flaring-cell/detailed-front.png",
+        "tube-flaring-cell/detailed-back.png",
+        "tube-flaring-cell/detailed-left.png",
+        "tube-flaring-cell/detailed-right.png",
+        "tube-flaring-cell/detailed-top.png",
+        "tube-flaring-cell/detailed-bottom.png",
+        "tube-flaring-cell/action-0.png",
+        "tube-flaring-cell/action-50.png",
+        "tube-flaring-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "tube-swaging-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tube-swaging-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153048,
+      "nodes": 85,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        65
+      ],
+      "captures": [
+        "tube-swaging-cell/simple-iso.png",
+        "tube-swaging-cell/simple-front.png",
+        "tube-swaging-cell/simple-back.png",
+        "tube-swaging-cell/simple-left.png",
+        "tube-swaging-cell/simple-right.png",
+        "tube-swaging-cell/simple-top.png",
+        "tube-swaging-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tube-swaging-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tube-swaging-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1015572,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        100
+      ],
+      "captures": [
+        "tube-swaging-cell/detailed-iso.png",
+        "tube-swaging-cell/detailed-front.png",
+        "tube-swaging-cell/detailed-back.png",
+        "tube-swaging-cell/detailed-left.png",
+        "tube-swaging-cell/detailed-right.png",
+        "tube-swaging-cell/detailed-top.png",
+        "tube-swaging-cell/detailed-bottom.png",
+        "tube-swaging-cell/action-0.png",
+        "tube-swaging-cell/action-50.png",
+        "tube-swaging-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "sheet-leveler-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.sheet-leveler-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139744,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        69,
+        84
+      ],
+      "captures": [
+        "sheet-leveler-cell/simple-iso.png",
+        "sheet-leveler-cell/simple-front.png",
+        "sheet-leveler-cell/simple-back.png",
+        "sheet-leveler-cell/simple-left.png",
+        "sheet-leveler-cell/simple-right.png",
+        "sheet-leveler-cell/simple-top.png",
+        "sheet-leveler-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "sheet-leveler-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.sheet-leveler-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 871620,
+      "nodes": 198,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        115,
+        153
+      ],
+      "captures": [
+        "sheet-leveler-cell/detailed-iso.png",
+        "sheet-leveler-cell/detailed-front.png",
+        "sheet-leveler-cell/detailed-back.png",
+        "sheet-leveler-cell/detailed-left.png",
+        "sheet-leveler-cell/detailed-right.png",
+        "sheet-leveler-cell/detailed-top.png",
+        "sheet-leveler-cell/detailed-bottom.png",
+        "sheet-leveler-cell/action-0.png",
+        "sheet-leveler-cell/action-50.png",
+        "sheet-leveler-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "bar-straightener-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bar-straightener-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 140488,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        69,
+        84
+      ],
+      "captures": [
+        "bar-straightener-cell/simple-iso.png",
+        "bar-straightener-cell/simple-front.png",
+        "bar-straightener-cell/simple-back.png",
+        "bar-straightener-cell/simple-left.png",
+        "bar-straightener-cell/simple-right.png",
+        "bar-straightener-cell/simple-top.png",
+        "bar-straightener-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bar-straightener-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bar-straightener-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 872368,
+      "nodes": 198,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        115,
+        153
+      ],
+      "captures": [
+        "bar-straightener-cell/detailed-iso.png",
+        "bar-straightener-cell/detailed-front.png",
+        "bar-straightener-cell/detailed-back.png",
+        "bar-straightener-cell/detailed-left.png",
+        "bar-straightener-cell/detailed-right.png",
+        "bar-straightener-cell/detailed-top.png",
+        "bar-straightener-cell/detailed-bottom.png",
+        "bar-straightener-cell/action-0.png",
+        "bar-straightener-cell/action-50.png",
+        "bar-straightener-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wire-straight-cut-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wire-straight-cut-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 188320,
+      "nodes": 132,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        69,
+        84,
+        120
+      ],
+      "captures": [
+        "wire-straight-cut-cell/simple-iso.png",
+        "wire-straight-cut-cell/simple-front.png",
+        "wire-straight-cut-cell/simple-back.png",
+        "wire-straight-cut-cell/simple-left.png",
+        "wire-straight-cut-cell/simple-right.png",
+        "wire-straight-cut-cell/simple-top.png",
+        "wire-straight-cut-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wire-straight-cut-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wire-straight-cut-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1252596,
+      "nodes": 235,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        115,
+        153,
+        223
+      ],
+      "captures": [
+        "wire-straight-cut-cell/detailed-iso.png",
+        "wire-straight-cut-cell/detailed-front.png",
+        "wire-straight-cut-cell/detailed-back.png",
+        "wire-straight-cut-cell/detailed-left.png",
+        "wire-straight-cut-cell/detailed-right.png",
+        "wire-straight-cut-cell/detailed-top.png",
+        "wire-straight-cut-cell/detailed-bottom.png",
+        "wire-straight-cut-cell/action-0.png",
+        "wire-straight-cut-cell/action-50.png",
+        "wire-straight-cut-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wire-bending-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wire-bending-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 151244,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80
+      ],
+      "captures": [
+        "wire-bending-cell/simple-iso.png",
+        "wire-bending-cell/simple-front.png",
+        "wire-bending-cell/simple-back.png",
+        "wire-bending-cell/simple-left.png",
+        "wire-bending-cell/simple-right.png",
+        "wire-bending-cell/simple-top.png",
+        "wire-bending-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wire-bending-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wire-bending-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 923144,
+      "nodes": 155,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132
+      ],
+      "captures": [
+        "wire-bending-cell/detailed-iso.png",
+        "wire-bending-cell/detailed-front.png",
+        "wire-bending-cell/detailed-back.png",
+        "wire-bending-cell/detailed-left.png",
+        "wire-bending-cell/detailed-right.png",
+        "wire-bending-cell/detailed-top.png",
+        "wire-bending-cell/detailed-bottom.png",
+        "wire-bending-cell/action-0.png",
+        "wire-bending-cell/action-50.png",
+        "wire-bending-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "spring-coiler-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spring-coiler-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153956,
+      "nodes": 104,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        84
+      ],
+      "captures": [
+        "spring-coiler-cell/simple-iso.png",
+        "spring-coiler-cell/simple-front.png",
+        "spring-coiler-cell/simple-back.png",
+        "spring-coiler-cell/simple-left.png",
+        "spring-coiler-cell/simple-right.png",
+        "spring-coiler-cell/simple-top.png",
+        "spring-coiler-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spring-coiler-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spring-coiler-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 994404,
+      "nodes": 161,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        136
+      ],
+      "captures": [
+        "spring-coiler-cell/detailed-iso.png",
+        "spring-coiler-cell/detailed-front.png",
+        "spring-coiler-cell/detailed-back.png",
+        "spring-coiler-cell/detailed-left.png",
+        "spring-coiler-cell/detailed-right.png",
+        "spring-coiler-cell/detailed-top.png",
+        "spring-coiler-cell/detailed-bottom.png",
+        "spring-coiler-cell/action-0.png",
+        "spring-coiler-cell/action-50.png",
+        "spring-coiler-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "spring-end-grinder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spring-end-grinder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 155732,
+      "nodes": 97,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        68,
+        79
+      ],
+      "captures": [
+        "spring-end-grinder/simple-iso.png",
+        "spring-end-grinder/simple-front.png",
+        "spring-end-grinder/simple-back.png",
+        "spring-end-grinder/simple-left.png",
+        "spring-end-grinder/simple-right.png",
+        "spring-end-grinder/simple-top.png",
+        "spring-end-grinder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spring-end-grinder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spring-end-grinder",
+        "version": "1.0.0"
+      },
+      "bytes": 906476,
+      "nodes": 130,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        91,
+        107
+      ],
+      "captures": [
+        "spring-end-grinder/detailed-iso.png",
+        "spring-end-grinder/detailed-front.png",
+        "spring-end-grinder/detailed-back.png",
+        "spring-end-grinder/detailed-left.png",
+        "spring-end-grinder/detailed-right.png",
+        "spring-end-grinder/detailed-top.png",
+        "spring-end-grinder/detailed-bottom.png",
+        "spring-end-grinder/action-0.png",
+        "spring-end-grinder/action-50.png",
+        "spring-end-grinder/action-100.png"
+      ]
+    },
+    {
+      "id": "cold-heading-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.cold-heading-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 156716,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        90
+      ],
+      "captures": [
+        "cold-heading-cell/simple-iso.png",
+        "cold-heading-cell/simple-front.png",
+        "cold-heading-cell/simple-back.png",
+        "cold-heading-cell/simple-left.png",
+        "cold-heading-cell/simple-right.png",
+        "cold-heading-cell/simple-top.png",
+        "cold-heading-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "cold-heading-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.cold-heading-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1068300,
+      "nodes": 166,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        154
+      ],
+      "captures": [
+        "cold-heading-cell/detailed-iso.png",
+        "cold-heading-cell/detailed-front.png",
+        "cold-heading-cell/detailed-back.png",
+        "cold-heading-cell/detailed-left.png",
+        "cold-heading-cell/detailed-right.png",
+        "cold-heading-cell/detailed-top.png",
+        "cold-heading-cell/detailed-bottom.png",
+        "cold-heading-cell/action-0.png",
+        "cold-heading-cell/action-50.png",
+        "cold-heading-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "bolt-thread-roller",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bolt-thread-roller.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 150792,
+      "nodes": 116,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        84
+      ],
+      "captures": [
+        "bolt-thread-roller/simple-iso.png",
+        "bolt-thread-roller/simple-front.png",
+        "bolt-thread-roller/simple-back.png",
+        "bolt-thread-roller/simple-left.png",
+        "bolt-thread-roller/simple-right.png",
+        "bolt-thread-roller/simple-top.png",
+        "bolt-thread-roller/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bolt-thread-roller",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bolt-thread-roller",
+        "version": "1.0.0"
+      },
+      "bytes": 1033520,
+      "nodes": 168,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        136
+      ],
+      "captures": [
+        "bolt-thread-roller/detailed-iso.png",
+        "bolt-thread-roller/detailed-front.png",
+        "bolt-thread-roller/detailed-back.png",
+        "bolt-thread-roller/detailed-left.png",
+        "bolt-thread-roller/detailed-right.png",
+        "bolt-thread-roller/detailed-top.png",
+        "bolt-thread-roller/detailed-bottom.png",
+        "bolt-thread-roller/action-0.png",
+        "bolt-thread-roller/action-50.png",
+        "bolt-thread-roller/action-100.png"
+      ]
+    },
+    {
+      "id": "rivet-heading-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rivet-heading-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159016,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        90
+      ],
+      "captures": [
+        "rivet-heading-cell/simple-iso.png",
+        "rivet-heading-cell/simple-front.png",
+        "rivet-heading-cell/simple-back.png",
+        "rivet-heading-cell/simple-left.png",
+        "rivet-heading-cell/simple-right.png",
+        "rivet-heading-cell/simple-top.png",
+        "rivet-heading-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rivet-heading-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rivet-heading-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1070600,
+      "nodes": 166,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        154
+      ],
+      "captures": [
+        "rivet-heading-cell/detailed-iso.png",
+        "rivet-heading-cell/detailed-front.png",
+        "rivet-heading-cell/detailed-back.png",
+        "rivet-heading-cell/detailed-left.png",
+        "rivet-heading-cell/detailed-right.png",
+        "rivet-heading-cell/detailed-top.png",
+        "rivet-heading-cell/detailed-bottom.png",
+        "rivet-heading-cell/action-0.png",
+        "rivet-heading-cell/action-50.png",
+        "rivet-heading-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "hydraulic-deep-draw",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.hydraulic-deep-draw.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 126680,
+      "nodes": 76,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "hydraulic-deep-draw/simple-iso.png",
+        "hydraulic-deep-draw/simple-front.png",
+        "hydraulic-deep-draw/simple-back.png",
+        "hydraulic-deep-draw/simple-left.png",
+        "hydraulic-deep-draw/simple-right.png",
+        "hydraulic-deep-draw/simple-top.png",
+        "hydraulic-deep-draw/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "hydraulic-deep-draw",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.hydraulic-deep-draw",
+        "version": "1.0.0"
+      },
+      "bytes": 817860,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99
+      ],
+      "captures": [
+        "hydraulic-deep-draw/detailed-iso.png",
+        "hydraulic-deep-draw/detailed-front.png",
+        "hydraulic-deep-draw/detailed-back.png",
+        "hydraulic-deep-draw/detailed-left.png",
+        "hydraulic-deep-draw/detailed-right.png",
+        "hydraulic-deep-draw/detailed-top.png",
+        "hydraulic-deep-draw/detailed-bottom.png",
+        "hydraulic-deep-draw/action-0.png",
+        "hydraulic-deep-draw/action-50.png",
+        "hydraulic-deep-draw/action-100.png"
+      ]
+    },
+    {
+      "id": "metal-spinning-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.metal-spinning-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 163708,
+      "nodes": 91,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        62,
+        69
+      ],
+      "captures": [
+        "metal-spinning-cell/simple-iso.png",
+        "metal-spinning-cell/simple-front.png",
+        "metal-spinning-cell/simple-back.png",
+        "metal-spinning-cell/simple-left.png",
+        "metal-spinning-cell/simple-right.png",
+        "metal-spinning-cell/simple-top.png",
+        "metal-spinning-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "metal-spinning-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.metal-spinning-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1089548,
+      "nodes": 119,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        85,
+        92
+      ],
+      "captures": [
+        "metal-spinning-cell/detailed-iso.png",
+        "metal-spinning-cell/detailed-front.png",
+        "metal-spinning-cell/detailed-back.png",
+        "metal-spinning-cell/detailed-left.png",
+        "metal-spinning-cell/detailed-right.png",
+        "metal-spinning-cell/detailed-top.png",
+        "metal-spinning-cell/detailed-bottom.png",
+        "metal-spinning-cell/action-0.png",
+        "metal-spinning-cell/action-50.png",
+        "metal-spinning-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "emboss-roll-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.emboss-roll-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 146432,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        80
+      ],
+      "captures": [
+        "emboss-roll-cell/simple-iso.png",
+        "emboss-roll-cell/simple-front.png",
+        "emboss-roll-cell/simple-back.png",
+        "emboss-roll-cell/simple-left.png",
+        "emboss-roll-cell/simple-right.png",
+        "emboss-roll-cell/simple-top.png",
+        "emboss-roll-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "emboss-roll-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.emboss-roll-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 885756,
+      "nodes": 182,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        126
+      ],
+      "captures": [
+        "emboss-roll-cell/detailed-iso.png",
+        "emboss-roll-cell/detailed-front.png",
+        "emboss-roll-cell/detailed-back.png",
+        "emboss-roll-cell/detailed-left.png",
+        "emboss-roll-cell/detailed-right.png",
+        "emboss-roll-cell/detailed-top.png",
+        "emboss-roll-cell/detailed-bottom.png",
+        "emboss-roll-cell/action-0.png",
+        "emboss-roll-cell/action-50.png",
+        "emboss-roll-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "seam-locking-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.seam-locking-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 146144,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        80
+      ],
+      "captures": [
+        "seam-locking-cell/simple-iso.png",
+        "seam-locking-cell/simple-front.png",
+        "seam-locking-cell/simple-back.png",
+        "seam-locking-cell/simple-left.png",
+        "seam-locking-cell/simple-right.png",
+        "seam-locking-cell/simple-top.png",
+        "seam-locking-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "seam-locking-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.seam-locking-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 885468,
+      "nodes": 182,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        126
+      ],
+      "captures": [
+        "seam-locking-cell/detailed-iso.png",
+        "seam-locking-cell/detailed-front.png",
+        "seam-locking-cell/detailed-back.png",
+        "seam-locking-cell/detailed-left.png",
+        "seam-locking-cell/detailed-right.png",
+        "seam-locking-cell/detailed-top.png",
+        "seam-locking-cell/detailed-bottom.png",
+        "seam-locking-cell/action-0.png",
+        "seam-locking-cell/action-50.png",
+        "seam-locking-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "rotary-flanging-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-flanging-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 165700,
+      "nodes": 91,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        62,
+        69
+      ],
+      "captures": [
+        "rotary-flanging-cell/simple-iso.png",
+        "rotary-flanging-cell/simple-front.png",
+        "rotary-flanging-cell/simple-back.png",
+        "rotary-flanging-cell/simple-left.png",
+        "rotary-flanging-cell/simple-right.png",
+        "rotary-flanging-cell/simple-top.png",
+        "rotary-flanging-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotary-flanging-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rotary-flanging-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1091540,
+      "nodes": 119,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78,
+        85,
+        92
+      ],
+      "captures": [
+        "rotary-flanging-cell/detailed-iso.png",
+        "rotary-flanging-cell/detailed-front.png",
+        "rotary-flanging-cell/detailed-back.png",
+        "rotary-flanging-cell/detailed-left.png",
+        "rotary-flanging-cell/detailed-right.png",
+        "rotary-flanging-cell/detailed-top.png",
+        "rotary-flanging-cell/detailed-bottom.png",
+        "rotary-flanging-cell/action-0.png",
+        "rotary-flanging-cell/action-50.png",
+        "rotary-flanging-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "notching-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.notching-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134756,
+      "nodes": 84,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        72
+      ],
+      "captures": [
+        "notching-cell/simple-iso.png",
+        "notching-cell/simple-front.png",
+        "notching-cell/simple-back.png",
+        "notching-cell/simple-left.png",
+        "notching-cell/simple-right.png",
+        "notching-cell/simple-top.png",
+        "notching-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "notching-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.notching-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 914676,
+      "nodes": 131,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        119
+      ],
+      "captures": [
+        "notching-cell/detailed-iso.png",
+        "notching-cell/detailed-front.png",
+        "notching-cell/detailed-back.png",
+        "notching-cell/detailed-left.png",
+        "notching-cell/detailed-right.png",
+        "notching-cell/detailed-top.png",
+        "notching-cell/detailed-bottom.png",
+        "notching-cell/action-0.png",
+        "notching-cell/action-50.png",
+        "notching-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "ironworker-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.ironworker-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 130792,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64,
+        87
+      ],
+      "captures": [
+        "ironworker-cell/simple-iso.png",
+        "ironworker-cell/simple-front.png",
+        "ironworker-cell/simple-back.png",
+        "ironworker-cell/simple-left.png",
+        "ironworker-cell/simple-right.png",
+        "ironworker-cell/simple-top.png",
+        "ironworker-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "ironworker-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.ironworker-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 827308,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99,
+        134
+      ],
+      "captures": [
+        "ironworker-cell/detailed-iso.png",
+        "ironworker-cell/detailed-front.png",
+        "ironworker-cell/detailed-back.png",
+        "ironworker-cell/detailed-left.png",
+        "ironworker-cell/detailed-right.png",
+        "ironworker-cell/detailed-top.png",
+        "ironworker-cell/detailed-bottom.png",
+        "ironworker-cell/action-0.png",
+        "ironworker-cell/action-50.png",
+        "ironworker-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "coil-feeder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.coil-feeder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 160644,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        73,
+        88,
+        103
+      ],
+      "captures": [
+        "coil-feeder-cell/simple-iso.png",
+        "coil-feeder-cell/simple-front.png",
+        "coil-feeder-cell/simple-back.png",
+        "coil-feeder-cell/simple-left.png",
+        "coil-feeder-cell/simple-right.png",
+        "coil-feeder-cell/simple-top.png",
+        "coil-feeder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "coil-feeder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.coil-feeder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 974376,
+      "nodes": 222,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        101,
+        139,
+        177
+      ],
+      "captures": [
+        "coil-feeder-cell/detailed-iso.png",
+        "coil-feeder-cell/detailed-front.png",
+        "coil-feeder-cell/detailed-back.png",
+        "coil-feeder-cell/detailed-left.png",
+        "coil-feeder-cell/detailed-right.png",
+        "coil-feeder-cell/detailed-top.png",
+        "coil-feeder-cell/detailed-bottom.png",
+        "coil-feeder-cell/action-0.png",
+        "coil-feeder-cell/action-50.png",
+        "coil-feeder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "progressive-stamping-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.progressive-stamping-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 160500,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        90
+      ],
+      "captures": [
+        "progressive-stamping-cell/simple-iso.png",
+        "progressive-stamping-cell/simple-front.png",
+        "progressive-stamping-cell/simple-back.png",
+        "progressive-stamping-cell/simple-left.png",
+        "progressive-stamping-cell/simple-right.png",
+        "progressive-stamping-cell/simple-top.png",
+        "progressive-stamping-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "progressive-stamping-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.progressive-stamping-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1072084,
+      "nodes": 166,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        154
+      ],
+      "captures": [
+        "progressive-stamping-cell/detailed-iso.png",
+        "progressive-stamping-cell/detailed-front.png",
+        "progressive-stamping-cell/detailed-back.png",
+        "progressive-stamping-cell/detailed-left.png",
+        "progressive-stamping-cell/detailed-right.png",
+        "progressive-stamping-cell/detailed-top.png",
+        "progressive-stamping-cell/detailed-bottom.png",
+        "progressive-stamping-cell/action-0.png",
+        "progressive-stamping-cell/action-50.png",
+        "progressive-stamping-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "hot-forging-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.hot-forging-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 127056,
+      "nodes": 76,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "hot-forging-cell/simple-iso.png",
+        "hot-forging-cell/simple-front.png",
+        "hot-forging-cell/simple-back.png",
+        "hot-forging-cell/simple-left.png",
+        "hot-forging-cell/simple-right.png",
+        "hot-forging-cell/simple-top.png",
+        "hot-forging-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "hot-forging-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.hot-forging-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 818236,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99
+      ],
+      "captures": [
+        "hot-forging-cell/detailed-iso.png",
+        "hot-forging-cell/detailed-front.png",
+        "hot-forging-cell/detailed-back.png",
+        "hot-forging-cell/detailed-left.png",
+        "hot-forging-cell/detailed-right.png",
+        "hot-forging-cell/detailed-top.png",
+        "hot-forging-cell/detailed-bottom.png",
+        "hot-forging-cell/action-0.png",
+        "hot-forging-cell/action-50.png",
+        "hot-forging-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "rolling-forge-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rolling-forge-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 143744,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        80
+      ],
+      "captures": [
+        "rolling-forge-cell/simple-iso.png",
+        "rolling-forge-cell/simple-front.png",
+        "rolling-forge-cell/simple-back.png",
+        "rolling-forge-cell/simple-left.png",
+        "rolling-forge-cell/simple-right.png",
+        "rolling-forge-cell/simple-top.png",
+        "rolling-forge-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rolling-forge-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rolling-forge-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 883068,
+      "nodes": 182,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        126
+      ],
+      "captures": [
+        "rolling-forge-cell/detailed-iso.png",
+        "rolling-forge-cell/detailed-front.png",
+        "rolling-forge-cell/detailed-back.png",
+        "rolling-forge-cell/detailed-left.png",
+        "rolling-forge-cell/detailed-right.png",
+        "rolling-forge-cell/detailed-top.png",
+        "rolling-forge-cell/detailed-bottom.png",
+        "rolling-forge-cell/action-0.png",
+        "rolling-forge-cell/action-50.png",
+        "rolling-forge-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "spot-weld-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spot-weld-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139604,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "spot-weld-cell/simple-iso.png",
+        "spot-weld-cell/simple-front.png",
+        "spot-weld-cell/simple-back.png",
+        "spot-weld-cell/simple-left.png",
+        "spot-weld-cell/simple-right.png",
+        "spot-weld-cell/simple-top.png",
+        "spot-weld-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spot-weld-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spot-weld-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 870008,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "spot-weld-cell/detailed-iso.png",
+        "spot-weld-cell/detailed-front.png",
+        "spot-weld-cell/detailed-back.png",
+        "spot-weld-cell/detailed-left.png",
+        "spot-weld-cell/detailed-right.png",
+        "spot-weld-cell/detailed-top.png",
+        "spot-weld-cell/detailed-bottom.png",
+        "spot-weld-cell/action-0.png",
+        "spot-weld-cell/action-50.png",
+        "spot-weld-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "seam-weld-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.seam-weld-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 149668,
+      "nodes": 117,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80,
+        95
+      ],
+      "captures": [
+        "seam-weld-cell/simple-iso.png",
+        "seam-weld-cell/simple-front.png",
+        "seam-weld-cell/simple-back.png",
+        "seam-weld-cell/simple-left.png",
+        "seam-weld-cell/simple-right.png",
+        "seam-weld-cell/simple-top.png",
+        "seam-weld-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "seam-weld-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.seam-weld-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 969844,
+      "nodes": 215,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132,
+        170
+      ],
+      "captures": [
+        "seam-weld-cell/detailed-iso.png",
+        "seam-weld-cell/detailed-front.png",
+        "seam-weld-cell/detailed-back.png",
+        "seam-weld-cell/detailed-left.png",
+        "seam-weld-cell/detailed-right.png",
+        "seam-weld-cell/detailed-top.png",
+        "seam-weld-cell/detailed-bottom.png",
+        "seam-weld-cell/action-0.png",
+        "seam-weld-cell/action-50.png",
+        "seam-weld-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "projection-weld-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.projection-weld-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 138256,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "projection-weld-cell/simple-iso.png",
+        "projection-weld-cell/simple-front.png",
+        "projection-weld-cell/simple-back.png",
+        "projection-weld-cell/simple-left.png",
+        "projection-weld-cell/simple-right.png",
+        "projection-weld-cell/simple-top.png",
+        "projection-weld-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "projection-weld-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.projection-weld-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 868660,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "projection-weld-cell/detailed-iso.png",
+        "projection-weld-cell/detailed-front.png",
+        "projection-weld-cell/detailed-back.png",
+        "projection-weld-cell/detailed-left.png",
+        "projection-weld-cell/detailed-right.png",
+        "projection-weld-cell/detailed-top.png",
+        "projection-weld-cell/detailed-bottom.png",
+        "projection-weld-cell/action-0.png",
+        "projection-weld-cell/action-50.png",
+        "projection-weld-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "mig-weld-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.mig-weld-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 144564,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "mig-weld-cell/simple-iso.png",
+        "mig-weld-cell/simple-front.png",
+        "mig-weld-cell/simple-back.png",
+        "mig-weld-cell/simple-left.png",
+        "mig-weld-cell/simple-right.png",
+        "mig-weld-cell/simple-top.png",
+        "mig-weld-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "mig-weld-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.mig-weld-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 874968,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "mig-weld-cell/detailed-iso.png",
+        "mig-weld-cell/detailed-front.png",
+        "mig-weld-cell/detailed-back.png",
+        "mig-weld-cell/detailed-left.png",
+        "mig-weld-cell/detailed-right.png",
+        "mig-weld-cell/detailed-top.png",
+        "mig-weld-cell/detailed-bottom.png",
+        "mig-weld-cell/action-0.png",
+        "mig-weld-cell/action-50.png",
+        "mig-weld-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "tig-weld-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tig-weld-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139716,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "tig-weld-cell/simple-iso.png",
+        "tig-weld-cell/simple-front.png",
+        "tig-weld-cell/simple-back.png",
+        "tig-weld-cell/simple-left.png",
+        "tig-weld-cell/simple-right.png",
+        "tig-weld-cell/simple-top.png",
+        "tig-weld-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tig-weld-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tig-weld-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 865788,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "tig-weld-cell/detailed-iso.png",
+        "tig-weld-cell/detailed-front.png",
+        "tig-weld-cell/detailed-back.png",
+        "tig-weld-cell/detailed-left.png",
+        "tig-weld-cell/detailed-right.png",
+        "tig-weld-cell/detailed-top.png",
+        "tig-weld-cell/detailed-bottom.png",
+        "tig-weld-cell/action-0.png",
+        "tig-weld-cell/action-50.png",
+        "tig-weld-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "laser-weld-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.laser-weld-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139348,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "laser-weld-cell/simple-iso.png",
+        "laser-weld-cell/simple-front.png",
+        "laser-weld-cell/simple-back.png",
+        "laser-weld-cell/simple-left.png",
+        "laser-weld-cell/simple-right.png",
+        "laser-weld-cell/simple-top.png",
+        "laser-weld-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "laser-weld-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.laser-weld-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 865420,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "laser-weld-cell/detailed-iso.png",
+        "laser-weld-cell/detailed-front.png",
+        "laser-weld-cell/detailed-back.png",
+        "laser-weld-cell/detailed-left.png",
+        "laser-weld-cell/detailed-right.png",
+        "laser-weld-cell/detailed-top.png",
+        "laser-weld-cell/detailed-bottom.png",
+        "laser-weld-cell/action-0.png",
+        "laser-weld-cell/action-50.png",
+        "laser-weld-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "stud-weld-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.stud-weld-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137956,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "stud-weld-cell/simple-iso.png",
+        "stud-weld-cell/simple-front.png",
+        "stud-weld-cell/simple-back.png",
+        "stud-weld-cell/simple-left.png",
+        "stud-weld-cell/simple-right.png",
+        "stud-weld-cell/simple-top.png",
+        "stud-weld-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "stud-weld-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.stud-weld-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 864028,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "stud-weld-cell/detailed-iso.png",
+        "stud-weld-cell/detailed-front.png",
+        "stud-weld-cell/detailed-back.png",
+        "stud-weld-cell/detailed-left.png",
+        "stud-weld-cell/detailed-right.png",
+        "stud-weld-cell/detailed-top.png",
+        "stud-weld-cell/detailed-bottom.png",
+        "stud-weld-cell/action-0.png",
+        "stud-weld-cell/action-50.png",
+        "stud-weld-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "friction-weld-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.friction-weld-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 133516,
+      "nodes": 79,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        63,
+        70
+      ],
+      "captures": [
+        "friction-weld-cell/simple-iso.png",
+        "friction-weld-cell/simple-front.png",
+        "friction-weld-cell/simple-back.png",
+        "friction-weld-cell/simple-left.png",
+        "friction-weld-cell/simple-right.png",
+        "friction-weld-cell/simple-top.png",
+        "friction-weld-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "friction-weld-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.friction-weld-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 852536,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        98,
+        105
+      ],
+      "captures": [
+        "friction-weld-cell/detailed-iso.png",
+        "friction-weld-cell/detailed-front.png",
+        "friction-weld-cell/detailed-back.png",
+        "friction-weld-cell/detailed-left.png",
+        "friction-weld-cell/detailed-right.png",
+        "friction-weld-cell/detailed-top.png",
+        "friction-weld-cell/detailed-bottom.png",
+        "friction-weld-cell/action-0.png",
+        "friction-weld-cell/action-50.png",
+        "friction-weld-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "ultrasonic-metal-weld",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.ultrasonic-metal-weld.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 164016,
+      "nodes": 93,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        81
+      ],
+      "captures": [
+        "ultrasonic-metal-weld/simple-iso.png",
+        "ultrasonic-metal-weld/simple-front.png",
+        "ultrasonic-metal-weld/simple-back.png",
+        "ultrasonic-metal-weld/simple-left.png",
+        "ultrasonic-metal-weld/simple-right.png",
+        "ultrasonic-metal-weld/simple-top.png",
+        "ultrasonic-metal-weld/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "ultrasonic-metal-weld",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.ultrasonic-metal-weld",
+        "version": "1.0.0"
+      },
+      "bytes": 1151132,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        127
+      ],
+      "captures": [
+        "ultrasonic-metal-weld/detailed-iso.png",
+        "ultrasonic-metal-weld/detailed-front.png",
+        "ultrasonic-metal-weld/detailed-back.png",
+        "ultrasonic-metal-weld/detailed-left.png",
+        "ultrasonic-metal-weld/detailed-right.png",
+        "ultrasonic-metal-weld/detailed-top.png",
+        "ultrasonic-metal-weld/detailed-bottom.png",
+        "ultrasonic-metal-weld/action-0.png",
+        "ultrasonic-metal-weld/action-50.png",
+        "ultrasonic-metal-weld/action-100.png"
+      ]
+    },
+    {
+      "id": "weld-positioner-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.weld-positioner-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134032,
+      "nodes": 78,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "weld-positioner-cell/simple-iso.png",
+        "weld-positioner-cell/simple-front.png",
+        "weld-positioner-cell/simple-back.png",
+        "weld-positioner-cell/simple-left.png",
+        "weld-positioner-cell/simple-right.png",
+        "weld-positioner-cell/simple-top.png",
+        "weld-positioner-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "weld-positioner-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.weld-positioner-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 900580,
+      "nodes": 124,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "weld-positioner-cell/detailed-iso.png",
+        "weld-positioner-cell/detailed-front.png",
+        "weld-positioner-cell/detailed-back.png",
+        "weld-positioner-cell/detailed-left.png",
+        "weld-positioner-cell/detailed-right.png",
+        "weld-positioner-cell/detailed-top.png",
+        "weld-positioner-cell/detailed-bottom.png",
+        "weld-positioner-cell/action-0.png",
+        "weld-positioner-cell/action-50.png",
+        "weld-positioner-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "induction-braze-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.induction-braze-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 142504,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "induction-braze-cell/simple-iso.png",
+        "induction-braze-cell/simple-front.png",
+        "induction-braze-cell/simple-back.png",
+        "induction-braze-cell/simple-left.png",
+        "induction-braze-cell/simple-right.png",
+        "induction-braze-cell/simple-top.png",
+        "induction-braze-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "induction-braze-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.induction-braze-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 873468,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "induction-braze-cell/detailed-iso.png",
+        "induction-braze-cell/detailed-front.png",
+        "induction-braze-cell/detailed-back.png",
+        "induction-braze-cell/detailed-left.png",
+        "induction-braze-cell/detailed-right.png",
+        "induction-braze-cell/detailed-top.png",
+        "induction-braze-cell/detailed-bottom.png",
+        "induction-braze-cell/action-0.png",
+        "induction-braze-cell/action-50.png",
+        "induction-braze-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "induction-hardener-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.induction-hardener-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 149988,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        67,
+        81
+      ],
+      "captures": [
+        "induction-hardener-cell/simple-iso.png",
+        "induction-hardener-cell/simple-front.png",
+        "induction-hardener-cell/simple-back.png",
+        "induction-hardener-cell/simple-left.png",
+        "induction-hardener-cell/simple-right.png",
+        "induction-hardener-cell/simple-top.png",
+        "induction-hardener-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "induction-hardener-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.induction-hardener-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 870824,
+      "nodes": 142,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        108,
+        128
+      ],
+      "captures": [
+        "induction-hardener-cell/detailed-iso.png",
+        "induction-hardener-cell/detailed-front.png",
+        "induction-hardener-cell/detailed-back.png",
+        "induction-hardener-cell/detailed-left.png",
+        "induction-hardener-cell/detailed-right.png",
+        "induction-hardener-cell/detailed-top.png",
+        "induction-hardener-cell/detailed-bottom.png",
+        "induction-hardener-cell/action-0.png",
+        "induction-hardener-cell/action-50.png",
+        "induction-hardener-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "annealing-furnace-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.annealing-furnace-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 123264,
+      "nodes": 79,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        66
+      ],
+      "captures": [
+        "annealing-furnace-cell/simple-iso.png",
+        "annealing-furnace-cell/simple-front.png",
+        "annealing-furnace-cell/simple-back.png",
+        "annealing-furnace-cell/simple-left.png",
+        "annealing-furnace-cell/simple-right.png",
+        "annealing-furnace-cell/simple-top.png",
+        "annealing-furnace-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "annealing-furnace-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.annealing-furnace-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 860516,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89
+      ],
+      "captures": [
+        "annealing-furnace-cell/detailed-iso.png",
+        "annealing-furnace-cell/detailed-front.png",
+        "annealing-furnace-cell/detailed-back.png",
+        "annealing-furnace-cell/detailed-left.png",
+        "annealing-furnace-cell/detailed-right.png",
+        "annealing-furnace-cell/detailed-top.png",
+        "annealing-furnace-cell/detailed-bottom.png",
+        "annealing-furnace-cell/action-0.png",
+        "annealing-furnace-cell/action-50.png",
+        "annealing-furnace-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "powder-coating-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.powder-coating-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 127676,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        59
+      ],
+      "captures": [
+        "powder-coating-cell/simple-iso.png",
+        "powder-coating-cell/simple-front.png",
+        "powder-coating-cell/simple-back.png",
+        "powder-coating-cell/simple-left.png",
+        "powder-coating-cell/simple-right.png",
+        "powder-coating-cell/simple-top.png",
+        "powder-coating-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "powder-coating-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.powder-coating-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 891152,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        88
+      ],
+      "captures": [
+        "powder-coating-cell/detailed-iso.png",
+        "powder-coating-cell/detailed-front.png",
+        "powder-coating-cell/detailed-back.png",
+        "powder-coating-cell/detailed-left.png",
+        "powder-coating-cell/detailed-right.png",
+        "powder-coating-cell/detailed-top.png",
+        "powder-coating-cell/detailed-bottom.png",
+        "powder-coating-cell/action-0.png",
+        "powder-coating-cell/action-50.png",
+        "powder-coating-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "paint-curing-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.paint-curing-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153788,
+      "nodes": 105,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        61,
+        92
+      ],
+      "captures": [
+        "paint-curing-cell/simple-iso.png",
+        "paint-curing-cell/simple-front.png",
+        "paint-curing-cell/simple-back.png",
+        "paint-curing-cell/simple-left.png",
+        "paint-curing-cell/simple-right.png",
+        "paint-curing-cell/simple-top.png",
+        "paint-curing-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "paint-curing-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.paint-curing-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1111432,
+      "nodes": 157,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        136,
+        108,
+        144
+      ],
+      "captures": [
+        "paint-curing-cell/detailed-iso.png",
+        "paint-curing-cell/detailed-front.png",
+        "paint-curing-cell/detailed-back.png",
+        "paint-curing-cell/detailed-left.png",
+        "paint-curing-cell/detailed-right.png",
+        "paint-curing-cell/detailed-top.png",
+        "paint-curing-cell/detailed-bottom.png",
+        "paint-curing-cell/action-0.png",
+        "paint-curing-cell/action-50.png",
+        "paint-curing-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "phosphate-bath-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.phosphate-bath-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 150944,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        72
+      ],
+      "captures": [
+        "phosphate-bath-cell/simple-iso.png",
+        "phosphate-bath-cell/simple-front.png",
+        "phosphate-bath-cell/simple-back.png",
+        "phosphate-bath-cell/simple-left.png",
+        "phosphate-bath-cell/simple-right.png",
+        "phosphate-bath-cell/simple-top.png",
+        "phosphate-bath-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "phosphate-bath-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.phosphate-bath-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 926072,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        86,
+        101
+      ],
+      "captures": [
+        "phosphate-bath-cell/detailed-iso.png",
+        "phosphate-bath-cell/detailed-front.png",
+        "phosphate-bath-cell/detailed-back.png",
+        "phosphate-bath-cell/detailed-left.png",
+        "phosphate-bath-cell/detailed-right.png",
+        "phosphate-bath-cell/detailed-top.png",
+        "phosphate-bath-cell/detailed-bottom.png",
+        "phosphate-bath-cell/action-0.png",
+        "phosphate-bath-cell/action-50.png",
+        "phosphate-bath-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "anodizing-bath-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.anodizing-bath-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 152584,
+      "nodes": 100,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        74
+      ],
+      "captures": [
+        "anodizing-bath-cell/simple-iso.png",
+        "anodizing-bath-cell/simple-front.png",
+        "anodizing-bath-cell/simple-back.png",
+        "anodizing-bath-cell/simple-left.png",
+        "anodizing-bath-cell/simple-right.png",
+        "anodizing-bath-cell/simple-top.png",
+        "anodizing-bath-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "anodizing-bath-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.anodizing-bath-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 955524,
+      "nodes": 129,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        86,
+        103
+      ],
+      "captures": [
+        "anodizing-bath-cell/detailed-iso.png",
+        "anodizing-bath-cell/detailed-front.png",
+        "anodizing-bath-cell/detailed-back.png",
+        "anodizing-bath-cell/detailed-left.png",
+        "anodizing-bath-cell/detailed-right.png",
+        "anodizing-bath-cell/detailed-top.png",
+        "anodizing-bath-cell/detailed-bottom.png",
+        "anodizing-bath-cell/action-0.png",
+        "anodizing-bath-cell/action-50.png",
+        "anodizing-bath-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "plating-bath-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.plating-bath-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 149172,
+      "nodes": 100,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        63,
+        74
+      ],
+      "captures": [
+        "plating-bath-cell/simple-iso.png",
+        "plating-bath-cell/simple-front.png",
+        "plating-bath-cell/simple-back.png",
+        "plating-bath-cell/simple-left.png",
+        "plating-bath-cell/simple-right.png",
+        "plating-bath-cell/simple-top.png",
+        "plating-bath-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "plating-bath-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.plating-bath-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 952112,
+      "nodes": 129,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        86,
+        103
+      ],
+      "captures": [
+        "plating-bath-cell/detailed-iso.png",
+        "plating-bath-cell/detailed-front.png",
+        "plating-bath-cell/detailed-back.png",
+        "plating-bath-cell/detailed-left.png",
+        "plating-bath-cell/detailed-right.png",
+        "plating-bath-cell/detailed-top.png",
+        "plating-bath-cell/detailed-bottom.png",
+        "plating-bath-cell/action-0.png",
+        "plating-bath-cell/action-50.png",
+        "plating-bath-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "metal-drying-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.metal-drying-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 138800,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        66,
+        79
+      ],
+      "captures": [
+        "metal-drying-cell/simple-iso.png",
+        "metal-drying-cell/simple-front.png",
+        "metal-drying-cell/simple-back.png",
+        "metal-drying-cell/simple-left.png",
+        "metal-drying-cell/simple-right.png",
+        "metal-drying-cell/simple-top.png",
+        "metal-drying-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "metal-drying-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.metal-drying-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 967104,
+      "nodes": 123,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        108
+      ],
+      "captures": [
+        "metal-drying-cell/detailed-iso.png",
+        "metal-drying-cell/detailed-front.png",
+        "metal-drying-cell/detailed-back.png",
+        "metal-drying-cell/detailed-left.png",
+        "metal-drying-cell/detailed-right.png",
+        "metal-drying-cell/detailed-top.png",
+        "metal-drying-cell/detailed-bottom.png",
+        "metal-drying-cell/action-0.png",
+        "metal-drying-cell/action-50.png",
+        "metal-drying-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "magnetic-separator-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.magnetic-separator-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 160388,
+      "nodes": 112,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        88
+      ],
+      "captures": [
+        "magnetic-separator-cell/simple-iso.png",
+        "magnetic-separator-cell/simple-front.png",
+        "magnetic-separator-cell/simple-back.png",
+        "magnetic-separator-cell/simple-left.png",
+        "magnetic-separator-cell/simple-right.png",
+        "magnetic-separator-cell/simple-top.png",
+        "magnetic-separator-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "magnetic-separator-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.magnetic-separator-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1030036,
+      "nodes": 181,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        152
+      ],
+      "captures": [
+        "magnetic-separator-cell/detailed-iso.png",
+        "magnetic-separator-cell/detailed-front.png",
+        "magnetic-separator-cell/detailed-back.png",
+        "magnetic-separator-cell/detailed-left.png",
+        "magnetic-separator-cell/detailed-right.png",
+        "magnetic-separator-cell/detailed-top.png",
+        "magnetic-separator-cell/detailed-bottom.png",
+        "magnetic-separator-cell/action-0.png",
+        "magnetic-separator-cell/action-50.png",
+        "magnetic-separator-cell/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

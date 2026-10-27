@@ -1,0 +1,3293 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B05",
+  "device_count": 50,
+  "lod_models": 100,
+  "checks": [
+    {
+      "id": "pcb-loader-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-loader-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 129804,
+      "nodes": 83,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        67
+      ],
+      "captures": [
+        "pcb-loader-cell/simple-iso.png",
+        "pcb-loader-cell/simple-front.png",
+        "pcb-loader-cell/simple-back.png",
+        "pcb-loader-cell/simple-left.png",
+        "pcb-loader-cell/simple-right.png",
+        "pcb-loader-cell/simple-top.png",
+        "pcb-loader-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pcb-loader-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-loader-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 861304,
+      "nodes": 112,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        90
+      ],
+      "captures": [
+        "pcb-loader-cell/detailed-iso.png",
+        "pcb-loader-cell/detailed-front.png",
+        "pcb-loader-cell/detailed-back.png",
+        "pcb-loader-cell/detailed-left.png",
+        "pcb-loader-cell/detailed-right.png",
+        "pcb-loader-cell/detailed-top.png",
+        "pcb-loader-cell/detailed-bottom.png",
+        "pcb-loader-cell/action-0.png",
+        "pcb-loader-cell/action-50.png",
+        "pcb-loader-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pcb-unloader-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-unloader-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 131612,
+      "nodes": 83,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        72
+      ],
+      "captures": [
+        "pcb-unloader-cell/simple-iso.png",
+        "pcb-unloader-cell/simple-front.png",
+        "pcb-unloader-cell/simple-back.png",
+        "pcb-unloader-cell/simple-left.png",
+        "pcb-unloader-cell/simple-right.png",
+        "pcb-unloader-cell/simple-top.png",
+        "pcb-unloader-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pcb-unloader-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-unloader-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 863116,
+      "nodes": 112,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        101
+      ],
+      "captures": [
+        "pcb-unloader-cell/detailed-iso.png",
+        "pcb-unloader-cell/detailed-front.png",
+        "pcb-unloader-cell/detailed-back.png",
+        "pcb-unloader-cell/detailed-left.png",
+        "pcb-unloader-cell/detailed-right.png",
+        "pcb-unloader-cell/detailed-top.png",
+        "pcb-unloader-cell/detailed-bottom.png",
+        "pcb-unloader-cell/action-0.png",
+        "pcb-unloader-cell/action-50.png",
+        "pcb-unloader-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "solder-paste-printer",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.solder-paste-printer.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135220,
+      "nodes": 84,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        73
+      ],
+      "captures": [
+        "solder-paste-printer/simple-iso.png",
+        "solder-paste-printer/simple-front.png",
+        "solder-paste-printer/simple-back.png",
+        "solder-paste-printer/simple-left.png",
+        "solder-paste-printer/simple-right.png",
+        "solder-paste-printer/simple-top.png",
+        "solder-paste-printer/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "solder-paste-printer",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.solder-paste-printer",
+        "version": "1.0.0"
+      },
+      "bytes": 987380,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        114
+      ],
+      "captures": [
+        "solder-paste-printer/detailed-iso.png",
+        "solder-paste-printer/detailed-front.png",
+        "solder-paste-printer/detailed-back.png",
+        "solder-paste-printer/detailed-left.png",
+        "solder-paste-printer/detailed-right.png",
+        "solder-paste-printer/detailed-top.png",
+        "solder-paste-printer/detailed-bottom.png",
+        "solder-paste-printer/action-0.png",
+        "solder-paste-printer/action-50.png",
+        "solder-paste-printer/action-100.png"
+      ]
+    },
+    {
+      "id": "solder-paste-inspector",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.solder-paste-inspector.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 194260,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        99
+      ],
+      "captures": [
+        "solder-paste-inspector/simple-iso.png",
+        "solder-paste-inspector/simple-front.png",
+        "solder-paste-inspector/simple-back.png",
+        "solder-paste-inspector/simple-left.png",
+        "solder-paste-inspector/simple-right.png",
+        "solder-paste-inspector/simple-top.png",
+        "solder-paste-inspector/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "solder-paste-inspector",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.solder-paste-inspector",
+        "version": "1.0.0"
+      },
+      "bytes": 1275336,
+      "nodes": 178,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        162
+      ],
+      "captures": [
+        "solder-paste-inspector/detailed-iso.png",
+        "solder-paste-inspector/detailed-front.png",
+        "solder-paste-inspector/detailed-back.png",
+        "solder-paste-inspector/detailed-left.png",
+        "solder-paste-inspector/detailed-right.png",
+        "solder-paste-inspector/detailed-top.png",
+        "solder-paste-inspector/detailed-bottom.png",
+        "solder-paste-inspector/action-0.png",
+        "solder-paste-inspector/action-50.png",
+        "solder-paste-inspector/action-100.png"
+      ]
+    },
+    {
+      "id": "smt-pick-place-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.smt-pick-place-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 160512,
+      "nodes": 108,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        88,
+        92
+      ],
+      "captures": [
+        "smt-pick-place-cell/simple-iso.png",
+        "smt-pick-place-cell/simple-front.png",
+        "smt-pick-place-cell/simple-back.png",
+        "smt-pick-place-cell/simple-left.png",
+        "smt-pick-place-cell/simple-right.png",
+        "smt-pick-place-cell/simple-top.png",
+        "smt-pick-place-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "smt-pick-place-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.smt-pick-place-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1123228,
+      "nodes": 142,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        122,
+        126
+      ],
+      "captures": [
+        "smt-pick-place-cell/detailed-iso.png",
+        "smt-pick-place-cell/detailed-front.png",
+        "smt-pick-place-cell/detailed-back.png",
+        "smt-pick-place-cell/detailed-left.png",
+        "smt-pick-place-cell/detailed-right.png",
+        "smt-pick-place-cell/detailed-top.png",
+        "smt-pick-place-cell/detailed-bottom.png",
+        "smt-pick-place-cell/action-0.png",
+        "smt-pick-place-cell/action-50.png",
+        "smt-pick-place-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "reflow-oven-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.reflow-oven-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 148136,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        61,
+        87
+      ],
+      "captures": [
+        "reflow-oven-cell/simple-iso.png",
+        "reflow-oven-cell/simple-front.png",
+        "reflow-oven-cell/simple-back.png",
+        "reflow-oven-cell/simple-left.png",
+        "reflow-oven-cell/simple-right.png",
+        "reflow-oven-cell/simple-top.png",
+        "reflow-oven-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "reflow-oven-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.reflow-oven-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1101480,
+      "nodes": 150,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        136,
+        108,
+        139
+      ],
+      "captures": [
+        "reflow-oven-cell/detailed-iso.png",
+        "reflow-oven-cell/detailed-front.png",
+        "reflow-oven-cell/detailed-back.png",
+        "reflow-oven-cell/detailed-left.png",
+        "reflow-oven-cell/detailed-right.png",
+        "reflow-oven-cell/detailed-top.png",
+        "reflow-oven-cell/detailed-bottom.png",
+        "reflow-oven-cell/action-0.png",
+        "reflow-oven-cell/action-50.png",
+        "reflow-oven-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wave-solder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wave-solder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 132416,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        59,
+        71
+      ],
+      "captures": [
+        "wave-solder-cell/simple-iso.png",
+        "wave-solder-cell/simple-front.png",
+        "wave-solder-cell/simple-back.png",
+        "wave-solder-cell/simple-left.png",
+        "wave-solder-cell/simple-right.png",
+        "wave-solder-cell/simple-top.png",
+        "wave-solder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wave-solder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wave-solder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 774660,
+      "nodes": 109,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        88,
+        100
+      ],
+      "captures": [
+        "wave-solder-cell/detailed-iso.png",
+        "wave-solder-cell/detailed-front.png",
+        "wave-solder-cell/detailed-back.png",
+        "wave-solder-cell/detailed-left.png",
+        "wave-solder-cell/detailed-right.png",
+        "wave-solder-cell/detailed-top.png",
+        "wave-solder-cell/detailed-bottom.png",
+        "wave-solder-cell/action-0.png",
+        "wave-solder-cell/action-50.png",
+        "wave-solder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "selective-solder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.selective-solder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 160788,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        59,
+        87
+      ],
+      "captures": [
+        "selective-solder-cell/simple-iso.png",
+        "selective-solder-cell/simple-front.png",
+        "selective-solder-cell/simple-back.png",
+        "selective-solder-cell/simple-left.png",
+        "selective-solder-cell/simple-right.png",
+        "selective-solder-cell/simple-top.png",
+        "selective-solder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "selective-solder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.selective-solder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1053364,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        88,
+        127
+      ],
+      "captures": [
+        "selective-solder-cell/detailed-iso.png",
+        "selective-solder-cell/detailed-front.png",
+        "selective-solder-cell/detailed-back.png",
+        "selective-solder-cell/detailed-left.png",
+        "selective-solder-cell/detailed-right.png",
+        "selective-solder-cell/detailed-top.png",
+        "selective-solder-cell/detailed-bottom.png",
+        "selective-solder-cell/action-0.png",
+        "selective-solder-cell/action-50.png",
+        "selective-solder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pcb-aoi-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-aoi-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 179252,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        82
+      ],
+      "captures": [
+        "pcb-aoi-cell/simple-iso.png",
+        "pcb-aoi-cell/simple-front.png",
+        "pcb-aoi-cell/simple-back.png",
+        "pcb-aoi-cell/simple-left.png",
+        "pcb-aoi-cell/simple-right.png",
+        "pcb-aoi-cell/simple-top.png",
+        "pcb-aoi-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pcb-aoi-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-aoi-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1184276,
+      "nodes": 144,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        128
+      ],
+      "captures": [
+        "pcb-aoi-cell/detailed-iso.png",
+        "pcb-aoi-cell/detailed-front.png",
+        "pcb-aoi-cell/detailed-back.png",
+        "pcb-aoi-cell/detailed-left.png",
+        "pcb-aoi-cell/detailed-right.png",
+        "pcb-aoi-cell/detailed-top.png",
+        "pcb-aoi-cell/detailed-bottom.png",
+        "pcb-aoi-cell/action-0.png",
+        "pcb-aoi-cell/action-50.png",
+        "pcb-aoi-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pcb-xray-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-xray-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 124056,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        61
+      ],
+      "captures": [
+        "pcb-xray-cell/simple-iso.png",
+        "pcb-xray-cell/simple-front.png",
+        "pcb-xray-cell/simple-back.png",
+        "pcb-xray-cell/simple-left.png",
+        "pcb-xray-cell/simple-right.png",
+        "pcb-xray-cell/simple-top.png",
+        "pcb-xray-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pcb-xray-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-xray-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 884844,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        84
+      ],
+      "captures": [
+        "pcb-xray-cell/detailed-iso.png",
+        "pcb-xray-cell/detailed-front.png",
+        "pcb-xray-cell/detailed-back.png",
+        "pcb-xray-cell/detailed-left.png",
+        "pcb-xray-cell/detailed-right.png",
+        "pcb-xray-cell/detailed-top.png",
+        "pcb-xray-cell/detailed-bottom.png",
+        "pcb-xray-cell/action-0.png",
+        "pcb-xray-cell/action-50.png",
+        "pcb-xray-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pcb-router-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-router-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 172992,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        78,
+        82
+      ],
+      "captures": [
+        "pcb-router-cell/simple-iso.png",
+        "pcb-router-cell/simple-front.png",
+        "pcb-router-cell/simple-back.png",
+        "pcb-router-cell/simple-left.png",
+        "pcb-router-cell/simple-right.png",
+        "pcb-router-cell/simple-top.png",
+        "pcb-router-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pcb-router-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-router-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1145308,
+      "nodes": 141,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        124,
+        128
+      ],
+      "captures": [
+        "pcb-router-cell/detailed-iso.png",
+        "pcb-router-cell/detailed-front.png",
+        "pcb-router-cell/detailed-back.png",
+        "pcb-router-cell/detailed-left.png",
+        "pcb-router-cell/detailed-right.png",
+        "pcb-router-cell/detailed-top.png",
+        "pcb-router-cell/detailed-bottom.png",
+        "pcb-router-cell/action-0.png",
+        "pcb-router-cell/action-50.png",
+        "pcb-router-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pcb-vcut-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-vcut-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 158660,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80
+      ],
+      "captures": [
+        "pcb-vcut-cell/simple-iso.png",
+        "pcb-vcut-cell/simple-front.png",
+        "pcb-vcut-cell/simple-back.png",
+        "pcb-vcut-cell/simple-left.png",
+        "pcb-vcut-cell/simple-right.png",
+        "pcb-vcut-cell/simple-top.png",
+        "pcb-vcut-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pcb-vcut-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-vcut-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1014616,
+      "nodes": 208,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132
+      ],
+      "captures": [
+        "pcb-vcut-cell/detailed-iso.png",
+        "pcb-vcut-cell/detailed-front.png",
+        "pcb-vcut-cell/detailed-back.png",
+        "pcb-vcut-cell/detailed-left.png",
+        "pcb-vcut-cell/detailed-right.png",
+        "pcb-vcut-cell/detailed-top.png",
+        "pcb-vcut-cell/detailed-bottom.png",
+        "pcb-vcut-cell/action-0.png",
+        "pcb-vcut-cell/action-50.png",
+        "pcb-vcut-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pcb-laser-marker",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-laser-marker.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 168740,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        78,
+        82
+      ],
+      "captures": [
+        "pcb-laser-marker/simple-iso.png",
+        "pcb-laser-marker/simple-front.png",
+        "pcb-laser-marker/simple-back.png",
+        "pcb-laser-marker/simple-left.png",
+        "pcb-laser-marker/simple-right.png",
+        "pcb-laser-marker/simple-top.png",
+        "pcb-laser-marker/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pcb-laser-marker",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-laser-marker",
+        "version": "1.0.0"
+      },
+      "bytes": 1160200,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        124,
+        128
+      ],
+      "captures": [
+        "pcb-laser-marker/detailed-iso.png",
+        "pcb-laser-marker/detailed-front.png",
+        "pcb-laser-marker/detailed-back.png",
+        "pcb-laser-marker/detailed-left.png",
+        "pcb-laser-marker/detailed-right.png",
+        "pcb-laser-marker/detailed-top.png",
+        "pcb-laser-marker/detailed-bottom.png",
+        "pcb-laser-marker/action-0.png",
+        "pcb-laser-marker/action-50.png",
+        "pcb-laser-marker/action-100.png"
+      ]
+    },
+    {
+      "id": "conformal-coater-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.conformal-coater-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 175352,
+      "nodes": 96,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        82
+      ],
+      "captures": [
+        "conformal-coater-cell/simple-iso.png",
+        "conformal-coater-cell/simple-front.png",
+        "conformal-coater-cell/simple-back.png",
+        "conformal-coater-cell/simple-left.png",
+        "conformal-coater-cell/simple-right.png",
+        "conformal-coater-cell/simple-top.png",
+        "conformal-coater-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "conformal-coater-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.conformal-coater-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1175468,
+      "nodes": 142,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        128
+      ],
+      "captures": [
+        "conformal-coater-cell/detailed-iso.png",
+        "conformal-coater-cell/detailed-front.png",
+        "conformal-coater-cell/detailed-back.png",
+        "conformal-coater-cell/detailed-left.png",
+        "conformal-coater-cell/detailed-right.png",
+        "conformal-coater-cell/detailed-top.png",
+        "conformal-coater-cell/detailed-bottom.png",
+        "conformal-coater-cell/action-0.png",
+        "conformal-coater-cell/action-50.png",
+        "conformal-coater-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "coating-cure-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.coating-cure-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154692,
+      "nodes": 105,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        61,
+        92
+      ],
+      "captures": [
+        "coating-cure-cell/simple-iso.png",
+        "coating-cure-cell/simple-front.png",
+        "coating-cure-cell/simple-back.png",
+        "coating-cure-cell/simple-left.png",
+        "coating-cure-cell/simple-right.png",
+        "coating-cure-cell/simple-top.png",
+        "coating-cure-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "coating-cure-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.coating-cure-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1112332,
+      "nodes": 157,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        136,
+        108,
+        144
+      ],
+      "captures": [
+        "coating-cure-cell/detailed-iso.png",
+        "coating-cure-cell/detailed-front.png",
+        "coating-cure-cell/detailed-back.png",
+        "coating-cure-cell/detailed-left.png",
+        "coating-cure-cell/detailed-right.png",
+        "coating-cure-cell/detailed-top.png",
+        "coating-cure-cell/detailed-bottom.png",
+        "coating-cure-cell/action-0.png",
+        "coating-cure-cell/action-50.png",
+        "coating-cure-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "ic-programmer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.ic-programmer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 169796,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        101
+      ],
+      "captures": [
+        "ic-programmer-cell/simple-iso.png",
+        "ic-programmer-cell/simple-front.png",
+        "ic-programmer-cell/simple-back.png",
+        "ic-programmer-cell/simple-left.png",
+        "ic-programmer-cell/simple-right.png",
+        "ic-programmer-cell/simple-top.png",
+        "ic-programmer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "ic-programmer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.ic-programmer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1165620,
+      "nodes": 159,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        147
+      ],
+      "captures": [
+        "ic-programmer-cell/detailed-iso.png",
+        "ic-programmer-cell/detailed-front.png",
+        "ic-programmer-cell/detailed-back.png",
+        "ic-programmer-cell/detailed-left.png",
+        "ic-programmer-cell/detailed-right.png",
+        "ic-programmer-cell/detailed-top.png",
+        "ic-programmer-cell/detailed-bottom.png",
+        "ic-programmer-cell/action-0.png",
+        "ic-programmer-cell/action-50.png",
+        "ic-programmer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "in-circuit-tester",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.in-circuit-tester.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 123044,
+      "nodes": 87,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57
+      ],
+      "captures": [
+        "in-circuit-tester/simple-iso.png",
+        "in-circuit-tester/simple-front.png",
+        "in-circuit-tester/simple-back.png",
+        "in-circuit-tester/simple-left.png",
+        "in-circuit-tester/simple-right.png",
+        "in-circuit-tester/simple-top.png",
+        "in-circuit-tester/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "in-circuit-tester",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.in-circuit-tester",
+        "version": "1.0.0"
+      },
+      "bytes": 782144,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92
+      ],
+      "captures": [
+        "in-circuit-tester/detailed-iso.png",
+        "in-circuit-tester/detailed-front.png",
+        "in-circuit-tester/detailed-back.png",
+        "in-circuit-tester/detailed-left.png",
+        "in-circuit-tester/detailed-right.png",
+        "in-circuit-tester/detailed-top.png",
+        "in-circuit-tester/detailed-bottom.png",
+        "in-circuit-tester/action-0.png",
+        "in-circuit-tester/action-50.png",
+        "in-circuit-tester/action-100.png"
+      ]
+    },
+    {
+      "id": "flying-probe-tester",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.flying-probe-tester.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 164944,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        82
+      ],
+      "captures": [
+        "flying-probe-tester/simple-iso.png",
+        "flying-probe-tester/simple-front.png",
+        "flying-probe-tester/simple-back.png",
+        "flying-probe-tester/simple-left.png",
+        "flying-probe-tester/simple-right.png",
+        "flying-probe-tester/simple-top.png",
+        "flying-probe-tester/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flying-probe-tester",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.flying-probe-tester",
+        "version": "1.0.0"
+      },
+      "bytes": 1156396,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        128
+      ],
+      "captures": [
+        "flying-probe-tester/detailed-iso.png",
+        "flying-probe-tester/detailed-front.png",
+        "flying-probe-tester/detailed-back.png",
+        "flying-probe-tester/detailed-left.png",
+        "flying-probe-tester/detailed-right.png",
+        "flying-probe-tester/detailed-top.png",
+        "flying-probe-tester/detailed-bottom.png",
+        "flying-probe-tester/action-0.png",
+        "flying-probe-tester/action-50.png",
+        "flying-probe-tester/action-100.png"
+      ]
+    },
+    {
+      "id": "pcb-functional-tester",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-functional-tester.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 166116,
+      "nodes": 93,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        81
+      ],
+      "captures": [
+        "pcb-functional-tester/simple-iso.png",
+        "pcb-functional-tester/simple-front.png",
+        "pcb-functional-tester/simple-back.png",
+        "pcb-functional-tester/simple-left.png",
+        "pcb-functional-tester/simple-right.png",
+        "pcb-functional-tester/simple-top.png",
+        "pcb-functional-tester/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pcb-functional-tester",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pcb-functional-tester",
+        "version": "1.0.0"
+      },
+      "bytes": 1129756,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        127
+      ],
+      "captures": [
+        "pcb-functional-tester/detailed-iso.png",
+        "pcb-functional-tester/detailed-front.png",
+        "pcb-functional-tester/detailed-back.png",
+        "pcb-functional-tester/detailed-left.png",
+        "pcb-functional-tester/detailed-right.png",
+        "pcb-functional-tester/detailed-top.png",
+        "pcb-functional-tester/detailed-bottom.png",
+        "pcb-functional-tester/action-0.png",
+        "pcb-functional-tester/action-50.png",
+        "pcb-functional-tester/action-100.png"
+      ]
+    },
+    {
+      "id": "electronics-burnin-rack",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.electronics-burnin-rack.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 128240,
+      "nodes": 85,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        71,
+        61,
+        74
+      ],
+      "captures": [
+        "electronics-burnin-rack/simple-iso.png",
+        "electronics-burnin-rack/simple-front.png",
+        "electronics-burnin-rack/simple-back.png",
+        "electronics-burnin-rack/simple-left.png",
+        "electronics-burnin-rack/simple-right.png",
+        "electronics-burnin-rack/simple-top.png",
+        "electronics-burnin-rack/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "electronics-burnin-rack",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.electronics-burnin-rack",
+        "version": "1.0.0"
+      },
+      "bytes": 934064,
+      "nodes": 108,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        94,
+        84,
+        97
+      ],
+      "captures": [
+        "electronics-burnin-rack/detailed-iso.png",
+        "electronics-burnin-rack/detailed-front.png",
+        "electronics-burnin-rack/detailed-back.png",
+        "electronics-burnin-rack/detailed-left.png",
+        "electronics-burnin-rack/detailed-right.png",
+        "electronics-burnin-rack/detailed-top.png",
+        "electronics-burnin-rack/detailed-bottom.png",
+        "electronics-burnin-rack/action-0.png",
+        "electronics-burnin-rack/action-50.png",
+        "electronics-burnin-rack/action-100.png"
+      ]
+    },
+    {
+      "id": "wire-stripper-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wire-stripper-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 162316,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        85
+      ],
+      "captures": [
+        "wire-stripper-cell/simple-iso.png",
+        "wire-stripper-cell/simple-front.png",
+        "wire-stripper-cell/simple-back.png",
+        "wire-stripper-cell/simple-left.png",
+        "wire-stripper-cell/simple-right.png",
+        "wire-stripper-cell/simple-top.png",
+        "wire-stripper-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wire-stripper-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wire-stripper-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1071336,
+      "nodes": 157,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        143
+      ],
+      "captures": [
+        "wire-stripper-cell/detailed-iso.png",
+        "wire-stripper-cell/detailed-front.png",
+        "wire-stripper-cell/detailed-back.png",
+        "wire-stripper-cell/detailed-left.png",
+        "wire-stripper-cell/detailed-right.png",
+        "wire-stripper-cell/detailed-top.png",
+        "wire-stripper-cell/detailed-bottom.png",
+        "wire-stripper-cell/action-0.png",
+        "wire-stripper-cell/action-50.png",
+        "wire-stripper-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "terminal-crimp-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.terminal-crimp-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 178108,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        99
+      ],
+      "captures": [
+        "terminal-crimp-cell/simple-iso.png",
+        "terminal-crimp-cell/simple-front.png",
+        "terminal-crimp-cell/simple-back.png",
+        "terminal-crimp-cell/simple-left.png",
+        "terminal-crimp-cell/simple-right.png",
+        "terminal-crimp-cell/simple-top.png",
+        "terminal-crimp-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "terminal-crimp-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.terminal-crimp-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1269096,
+      "nodes": 174,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        162
+      ],
+      "captures": [
+        "terminal-crimp-cell/detailed-iso.png",
+        "terminal-crimp-cell/detailed-front.png",
+        "terminal-crimp-cell/detailed-back.png",
+        "terminal-crimp-cell/detailed-left.png",
+        "terminal-crimp-cell/detailed-right.png",
+        "terminal-crimp-cell/detailed-top.png",
+        "terminal-crimp-cell/detailed-bottom.png",
+        "terminal-crimp-cell/action-0.png",
+        "terminal-crimp-cell/action-50.png",
+        "terminal-crimp-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wire-tin-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wire-tin-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 158668,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        89
+      ],
+      "captures": [
+        "wire-tin-cell/simple-iso.png",
+        "wire-tin-cell/simple-front.png",
+        "wire-tin-cell/simple-back.png",
+        "wire-tin-cell/simple-left.png",
+        "wire-tin-cell/simple-right.png",
+        "wire-tin-cell/simple-top.png",
+        "wire-tin-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wire-tin-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wire-tin-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1055012,
+      "nodes": 150,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        141
+      ],
+      "captures": [
+        "wire-tin-cell/detailed-iso.png",
+        "wire-tin-cell/detailed-front.png",
+        "wire-tin-cell/detailed-back.png",
+        "wire-tin-cell/detailed-left.png",
+        "wire-tin-cell/detailed-right.png",
+        "wire-tin-cell/detailed-top.png",
+        "wire-tin-cell/detailed-bottom.png",
+        "wire-tin-cell/action-0.png",
+        "wire-tin-cell/action-50.png",
+        "wire-tin-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "wire-twist-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.wire-twist-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159464,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        84
+      ],
+      "captures": [
+        "wire-twist-cell/simple-iso.png",
+        "wire-twist-cell/simple-front.png",
+        "wire-twist-cell/simple-back.png",
+        "wire-twist-cell/simple-left.png",
+        "wire-twist-cell/simple-right.png",
+        "wire-twist-cell/simple-top.png",
+        "wire-twist-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "wire-twist-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.wire-twist-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1004244,
+      "nodes": 163,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        136
+      ],
+      "captures": [
+        "wire-twist-cell/detailed-iso.png",
+        "wire-twist-cell/detailed-front.png",
+        "wire-twist-cell/detailed-back.png",
+        "wire-twist-cell/detailed-left.png",
+        "wire-twist-cell/detailed-right.png",
+        "wire-twist-cell/detailed-top.png",
+        "wire-twist-cell/detailed-bottom.png",
+        "wire-twist-cell/action-0.png",
+        "wire-twist-cell/action-50.png",
+        "wire-twist-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "cable-coil-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.cable-coil-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 162968,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        83
+      ],
+      "captures": [
+        "cable-coil-cell/simple-iso.png",
+        "cable-coil-cell/simple-front.png",
+        "cable-coil-cell/simple-back.png",
+        "cable-coil-cell/simple-left.png",
+        "cable-coil-cell/simple-right.png",
+        "cable-coil-cell/simple-top.png",
+        "cable-coil-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "cable-coil-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.cable-coil-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1038504,
+      "nodes": 135,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        123
+      ],
+      "captures": [
+        "cable-coil-cell/detailed-iso.png",
+        "cable-coil-cell/detailed-front.png",
+        "cable-coil-cell/detailed-back.png",
+        "cable-coil-cell/detailed-left.png",
+        "cable-coil-cell/detailed-right.png",
+        "cable-coil-cell/detailed-top.png",
+        "cable-coil-cell/detailed-bottom.png",
+        "cable-coil-cell/action-0.png",
+        "cable-coil-cell/action-50.png",
+        "cable-coil-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "cable-continuity-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.cable-continuity-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 172988,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        101
+      ],
+      "captures": [
+        "cable-continuity-cell/simple-iso.png",
+        "cable-continuity-cell/simple-front.png",
+        "cable-continuity-cell/simple-back.png",
+        "cable-continuity-cell/simple-left.png",
+        "cable-continuity-cell/simple-right.png",
+        "cable-continuity-cell/simple-top.png",
+        "cable-continuity-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "cable-continuity-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.cable-continuity-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1168812,
+      "nodes": 159,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        147
+      ],
+      "captures": [
+        "cable-continuity-cell/detailed-iso.png",
+        "cable-continuity-cell/detailed-front.png",
+        "cable-continuity-cell/detailed-back.png",
+        "cable-continuity-cell/detailed-left.png",
+        "cable-continuity-cell/detailed-right.png",
+        "cable-continuity-cell/detailed-top.png",
+        "cable-continuity-cell/detailed-bottom.png",
+        "cable-continuity-cell/action-0.png",
+        "cable-continuity-cell/action-50.png",
+        "cable-continuity-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "connector-insert-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.connector-insert-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134884,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        83
+      ],
+      "captures": [
+        "connector-insert-cell/simple-iso.png",
+        "connector-insert-cell/simple-front.png",
+        "connector-insert-cell/simple-back.png",
+        "connector-insert-cell/simple-left.png",
+        "connector-insert-cell/simple-right.png",
+        "connector-insert-cell/simple-top.png",
+        "connector-insert-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "connector-insert-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.connector-insert-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 909544,
+      "nodes": 130,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        118
+      ],
+      "captures": [
+        "connector-insert-cell/detailed-iso.png",
+        "connector-insert-cell/detailed-front.png",
+        "connector-insert-cell/detailed-back.png",
+        "connector-insert-cell/detailed-left.png",
+        "connector-insert-cell/detailed-right.png",
+        "connector-insert-cell/detailed-top.png",
+        "connector-insert-cell/detailed-bottom.png",
+        "connector-insert-cell/action-0.png",
+        "connector-insert-cell/action-50.png",
+        "connector-insert-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "potting-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.potting-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 192744,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        69,
+        99
+      ],
+      "captures": [
+        "potting-cell/simple-iso.png",
+        "potting-cell/simple-front.png",
+        "potting-cell/simple-back.png",
+        "potting-cell/simple-left.png",
+        "potting-cell/simple-right.png",
+        "potting-cell/simple-top.png",
+        "potting-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "potting-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.potting-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1201456,
+      "nodes": 163,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        83,
+        103,
+        149
+      ],
+      "captures": [
+        "potting-cell/detailed-iso.png",
+        "potting-cell/detailed-front.png",
+        "potting-cell/detailed-back.png",
+        "potting-cell/detailed-left.png",
+        "potting-cell/detailed-right.png",
+        "potting-cell/detailed-top.png",
+        "potting-cell/detailed-bottom.png",
+        "potting-cell/action-0.png",
+        "potting-cell/action-50.png",
+        "potting-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vacuum-potting-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vacuum-potting-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154888,
+      "nodes": 105,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        57,
+        69,
+        92
+      ],
+      "captures": [
+        "vacuum-potting-cell/simple-iso.png",
+        "vacuum-potting-cell/simple-front.png",
+        "vacuum-potting-cell/simple-back.png",
+        "vacuum-potting-cell/simple-left.png",
+        "vacuum-potting-cell/simple-right.png",
+        "vacuum-potting-cell/simple-top.png",
+        "vacuum-potting-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vacuum-potting-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vacuum-potting-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1045060,
+      "nodes": 144,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        123,
+        83,
+        103,
+        131
+      ],
+      "captures": [
+        "vacuum-potting-cell/detailed-iso.png",
+        "vacuum-potting-cell/detailed-front.png",
+        "vacuum-potting-cell/detailed-back.png",
+        "vacuum-potting-cell/detailed-left.png",
+        "vacuum-potting-cell/detailed-right.png",
+        "vacuum-potting-cell/detailed-top.png",
+        "vacuum-potting-cell/detailed-bottom.png",
+        "vacuum-potting-cell/action-0.png",
+        "vacuum-potting-cell/action-50.png",
+        "vacuum-potting-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "servo-press-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.servo-press-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 124420,
+      "nodes": 76,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "servo-press-cell/simple-iso.png",
+        "servo-press-cell/simple-front.png",
+        "servo-press-cell/simple-back.png",
+        "servo-press-cell/simple-left.png",
+        "servo-press-cell/simple-right.png",
+        "servo-press-cell/simple-top.png",
+        "servo-press-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "servo-press-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.servo-press-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 815600,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99
+      ],
+      "captures": [
+        "servo-press-cell/detailed-iso.png",
+        "servo-press-cell/detailed-front.png",
+        "servo-press-cell/detailed-back.png",
+        "servo-press-cell/detailed-left.png",
+        "servo-press-cell/detailed-right.png",
+        "servo-press-cell/detailed-top.png",
+        "servo-press-cell/detailed-bottom.png",
+        "servo-press-cell/action-0.png",
+        "servo-press-cell/action-50.png",
+        "servo-press-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "orbital-rivet-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.orbital-rivet-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 138776,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "orbital-rivet-cell/simple-iso.png",
+        "orbital-rivet-cell/simple-front.png",
+        "orbital-rivet-cell/simple-back.png",
+        "orbital-rivet-cell/simple-left.png",
+        "orbital-rivet-cell/simple-right.png",
+        "orbital-rivet-cell/simple-top.png",
+        "orbital-rivet-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "orbital-rivet-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.orbital-rivet-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 916128,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "orbital-rivet-cell/detailed-iso.png",
+        "orbital-rivet-cell/detailed-front.png",
+        "orbital-rivet-cell/detailed-back.png",
+        "orbital-rivet-cell/detailed-left.png",
+        "orbital-rivet-cell/detailed-right.png",
+        "orbital-rivet-cell/detailed-top.png",
+        "orbital-rivet-cell/detailed-bottom.png",
+        "orbital-rivet-cell/action-0.png",
+        "orbital-rivet-cell/action-50.png",
+        "orbital-rivet-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "spin-rivet-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spin-rivet-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137384,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "spin-rivet-cell/simple-iso.png",
+        "spin-rivet-cell/simple-front.png",
+        "spin-rivet-cell/simple-back.png",
+        "spin-rivet-cell/simple-left.png",
+        "spin-rivet-cell/simple-right.png",
+        "spin-rivet-cell/simple-top.png",
+        "spin-rivet-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spin-rivet-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spin-rivet-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 914740,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "spin-rivet-cell/detailed-iso.png",
+        "spin-rivet-cell/detailed-front.png",
+        "spin-rivet-cell/detailed-back.png",
+        "spin-rivet-cell/detailed-left.png",
+        "spin-rivet-cell/detailed-right.png",
+        "spin-rivet-cell/detailed-top.png",
+        "spin-rivet-cell/detailed-bottom.png",
+        "spin-rivet-cell/action-0.png",
+        "spin-rivet-cell/action-50.png",
+        "spin-rivet-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "nut-insertion-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.nut-insertion-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 145992,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "nut-insertion-cell/simple-iso.png",
+        "nut-insertion-cell/simple-front.png",
+        "nut-insertion-cell/simple-back.png",
+        "nut-insertion-cell/simple-left.png",
+        "nut-insertion-cell/simple-right.png",
+        "nut-insertion-cell/simple-top.png",
+        "nut-insertion-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "nut-insertion-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.nut-insertion-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 876952,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "nut-insertion-cell/detailed-iso.png",
+        "nut-insertion-cell/detailed-front.png",
+        "nut-insertion-cell/detailed-back.png",
+        "nut-insertion-cell/detailed-left.png",
+        "nut-insertion-cell/detailed-right.png",
+        "nut-insertion-cell/detailed-top.png",
+        "nut-insertion-cell/detailed-bottom.png",
+        "nut-insertion-cell/action-0.png",
+        "nut-insertion-cell/action-50.png",
+        "nut-insertion-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "bearing-insertion-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bearing-insertion-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 144344,
+      "nodes": 82,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        69
+      ],
+      "captures": [
+        "bearing-insertion-cell/simple-iso.png",
+        "bearing-insertion-cell/simple-front.png",
+        "bearing-insertion-cell/simple-back.png",
+        "bearing-insertion-cell/simple-left.png",
+        "bearing-insertion-cell/simple-right.png",
+        "bearing-insertion-cell/simple-top.png",
+        "bearing-insertion-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bearing-insertion-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bearing-insertion-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 903116,
+      "nodes": 123,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        110
+      ],
+      "captures": [
+        "bearing-insertion-cell/detailed-iso.png",
+        "bearing-insertion-cell/detailed-front.png",
+        "bearing-insertion-cell/detailed-back.png",
+        "bearing-insertion-cell/detailed-left.png",
+        "bearing-insertion-cell/detailed-right.png",
+        "bearing-insertion-cell/detailed-top.png",
+        "bearing-insertion-cell/detailed-bottom.png",
+        "bearing-insertion-cell/action-0.png",
+        "bearing-insertion-cell/action-50.png",
+        "bearing-insertion-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "snap-assembly-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.snap-assembly-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 140692,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "snap-assembly-cell/simple-iso.png",
+        "snap-assembly-cell/simple-front.png",
+        "snap-assembly-cell/simple-back.png",
+        "snap-assembly-cell/simple-left.png",
+        "snap-assembly-cell/simple-right.png",
+        "snap-assembly-cell/simple-top.png",
+        "snap-assembly-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "snap-assembly-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.snap-assembly-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 871652,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "snap-assembly-cell/detailed-iso.png",
+        "snap-assembly-cell/detailed-front.png",
+        "snap-assembly-cell/detailed-back.png",
+        "snap-assembly-cell/detailed-left.png",
+        "snap-assembly-cell/detailed-right.png",
+        "snap-assembly-cell/detailed-top.png",
+        "snap-assembly-cell/detailed-bottom.png",
+        "snap-assembly-cell/action-0.png",
+        "snap-assembly-cell/action-50.png",
+        "snap-assembly-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "gasket-assembly-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.gasket-assembly-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 146736,
+      "nodes": 82,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        69
+      ],
+      "captures": [
+        "gasket-assembly-cell/simple-iso.png",
+        "gasket-assembly-cell/simple-front.png",
+        "gasket-assembly-cell/simple-back.png",
+        "gasket-assembly-cell/simple-left.png",
+        "gasket-assembly-cell/simple-right.png",
+        "gasket-assembly-cell/simple-top.png",
+        "gasket-assembly-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "gasket-assembly-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.gasket-assembly-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 905504,
+      "nodes": 123,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        110
+      ],
+      "captures": [
+        "gasket-assembly-cell/detailed-iso.png",
+        "gasket-assembly-cell/detailed-front.png",
+        "gasket-assembly-cell/detailed-back.png",
+        "gasket-assembly-cell/detailed-left.png",
+        "gasket-assembly-cell/detailed-right.png",
+        "gasket-assembly-cell/detailed-top.png",
+        "gasket-assembly-cell/detailed-bottom.png",
+        "gasket-assembly-cell/action-0.png",
+        "gasket-assembly-cell/action-50.png",
+        "gasket-assembly-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "adhesive-dots-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.adhesive-dots-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139132,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        68
+      ],
+      "captures": [
+        "adhesive-dots-cell/simple-iso.png",
+        "adhesive-dots-cell/simple-front.png",
+        "adhesive-dots-cell/simple-back.png",
+        "adhesive-dots-cell/simple-left.png",
+        "adhesive-dots-cell/simple-right.png",
+        "adhesive-dots-cell/simple-top.png",
+        "adhesive-dots-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "adhesive-dots-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.adhesive-dots-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 916488,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        109
+      ],
+      "captures": [
+        "adhesive-dots-cell/detailed-iso.png",
+        "adhesive-dots-cell/detailed-front.png",
+        "adhesive-dots-cell/detailed-back.png",
+        "adhesive-dots-cell/detailed-left.png",
+        "adhesive-dots-cell/detailed-right.png",
+        "adhesive-dots-cell/detailed-top.png",
+        "adhesive-dots-cell/detailed-bottom.png",
+        "adhesive-dots-cell/action-0.png",
+        "adhesive-dots-cell/action-50.png",
+        "adhesive-dots-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "uv-bonding-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.uv-bonding-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 146864,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "uv-bonding-cell/simple-iso.png",
+        "uv-bonding-cell/simple-front.png",
+        "uv-bonding-cell/simple-back.png",
+        "uv-bonding-cell/simple-left.png",
+        "uv-bonding-cell/simple-right.png",
+        "uv-bonding-cell/simple-top.png",
+        "uv-bonding-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "uv-bonding-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.uv-bonding-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 905632,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "uv-bonding-cell/detailed-iso.png",
+        "uv-bonding-cell/detailed-front.png",
+        "uv-bonding-cell/detailed-back.png",
+        "uv-bonding-cell/detailed-left.png",
+        "uv-bonding-cell/detailed-right.png",
+        "uv-bonding-cell/detailed-top.png",
+        "uv-bonding-cell/detailed-bottom.png",
+        "uv-bonding-cell/action-0.png",
+        "uv-bonding-cell/action-50.png",
+        "uv-bonding-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "coil-winding-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.coil-winding-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 140236,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64,
+        70,
+        76,
+        82,
+        88
+      ],
+      "captures": [
+        "coil-winding-cell/simple-iso.png",
+        "coil-winding-cell/simple-front.png",
+        "coil-winding-cell/simple-back.png",
+        "coil-winding-cell/simple-left.png",
+        "coil-winding-cell/simple-right.png",
+        "coil-winding-cell/simple-top.png",
+        "coil-winding-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "coil-winding-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.coil-winding-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 870656,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        93,
+        102,
+        111,
+        120,
+        129
+      ],
+      "captures": [
+        "coil-winding-cell/detailed-iso.png",
+        "coil-winding-cell/detailed-front.png",
+        "coil-winding-cell/detailed-back.png",
+        "coil-winding-cell/detailed-left.png",
+        "coil-winding-cell/detailed-right.png",
+        "coil-winding-cell/detailed-top.png",
+        "coil-winding-cell/detailed-bottom.png",
+        "coil-winding-cell/action-0.png",
+        "coil-winding-cell/action-50.png",
+        "coil-winding-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "stator-insert-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.stator-insert-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137760,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "stator-insert-cell/simple-iso.png",
+        "stator-insert-cell/simple-front.png",
+        "stator-insert-cell/simple-back.png",
+        "stator-insert-cell/simple-left.png",
+        "stator-insert-cell/simple-right.png",
+        "stator-insert-cell/simple-top.png",
+        "stator-insert-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "stator-insert-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.stator-insert-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 915116,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "stator-insert-cell/detailed-iso.png",
+        "stator-insert-cell/detailed-front.png",
+        "stator-insert-cell/detailed-back.png",
+        "stator-insert-cell/detailed-left.png",
+        "stator-insert-cell/detailed-right.png",
+        "stator-insert-cell/detailed-top.png",
+        "stator-insert-cell/detailed-bottom.png",
+        "stator-insert-cell/action-0.png",
+        "stator-insert-cell/action-50.png",
+        "stator-insert-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "rotor-balance-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.rotor-balance-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 159180,
+      "nodes": 89,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "rotor-balance-cell/simple-iso.png",
+        "rotor-balance-cell/simple-front.png",
+        "rotor-balance-cell/simple-back.png",
+        "rotor-balance-cell/simple-left.png",
+        "rotor-balance-cell/simple-right.png",
+        "rotor-balance-cell/simple-top.png",
+        "rotor-balance-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "rotor-balance-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.rotor-balance-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1081656,
+      "nodes": 129,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        102
+      ],
+      "captures": [
+        "rotor-balance-cell/detailed-iso.png",
+        "rotor-balance-cell/detailed-front.png",
+        "rotor-balance-cell/detailed-back.png",
+        "rotor-balance-cell/detailed-left.png",
+        "rotor-balance-cell/detailed-right.png",
+        "rotor-balance-cell/detailed-top.png",
+        "rotor-balance-cell/detailed-bottom.png",
+        "rotor-balance-cell/action-0.png",
+        "rotor-balance-cell/action-50.png",
+        "rotor-balance-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "battery-electrode-coater",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.battery-electrode-coater.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 184612,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        104,
+        58,
+        73,
+        112
+      ],
+      "captures": [
+        "battery-electrode-coater/simple-iso.png",
+        "battery-electrode-coater/simple-front.png",
+        "battery-electrode-coater/simple-back.png",
+        "battery-electrode-coater/simple-left.png",
+        "battery-electrode-coater/simple-right.png",
+        "battery-electrode-coater/simple-top.png",
+        "battery-electrode-coater/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "battery-electrode-coater",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.battery-electrode-coater",
+        "version": "1.0.0"
+      },
+      "bytes": 1259376,
+      "nodes": 194,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        173,
+        81,
+        101,
+        181
+      ],
+      "captures": [
+        "battery-electrode-coater/detailed-iso.png",
+        "battery-electrode-coater/detailed-front.png",
+        "battery-electrode-coater/detailed-back.png",
+        "battery-electrode-coater/detailed-left.png",
+        "battery-electrode-coater/detailed-right.png",
+        "battery-electrode-coater/detailed-top.png",
+        "battery-electrode-coater/detailed-bottom.png",
+        "battery-electrode-coater/action-0.png",
+        "battery-electrode-coater/action-50.png",
+        "battery-electrode-coater/action-100.png"
+      ]
+    },
+    {
+      "id": "electrode-calender-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.electrode-calender-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 168304,
+      "nodes": 124,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        73,
+        104
+      ],
+      "captures": [
+        "electrode-calender-cell/simple-iso.png",
+        "electrode-calender-cell/simple-front.png",
+        "electrode-calender-cell/simple-back.png",
+        "electrode-calender-cell/simple-left.png",
+        "electrode-calender-cell/simple-right.png",
+        "electrode-calender-cell/simple-top.png",
+        "electrode-calender-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "electrode-calender-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.electrode-calender-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1044312,
+      "nodes": 198,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        101,
+        173
+      ],
+      "captures": [
+        "electrode-calender-cell/detailed-iso.png",
+        "electrode-calender-cell/detailed-front.png",
+        "electrode-calender-cell/detailed-back.png",
+        "electrode-calender-cell/detailed-left.png",
+        "electrode-calender-cell/detailed-right.png",
+        "electrode-calender-cell/detailed-top.png",
+        "electrode-calender-cell/detailed-bottom.png",
+        "electrode-calender-cell/action-0.png",
+        "electrode-calender-cell/action-50.png",
+        "electrode-calender-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "electrode-slitter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.electrode-slitter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 167440,
+      "nodes": 127,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        73,
+        107
+      ],
+      "captures": [
+        "electrode-slitter-cell/simple-iso.png",
+        "electrode-slitter-cell/simple-front.png",
+        "electrode-slitter-cell/simple-back.png",
+        "electrode-slitter-cell/simple-left.png",
+        "electrode-slitter-cell/simple-right.png",
+        "electrode-slitter-cell/simple-top.png",
+        "electrode-slitter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "electrode-slitter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.electrode-slitter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1015644,
+      "nodes": 201,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        101,
+        176
+      ],
+      "captures": [
+        "electrode-slitter-cell/detailed-iso.png",
+        "electrode-slitter-cell/detailed-front.png",
+        "electrode-slitter-cell/detailed-back.png",
+        "electrode-slitter-cell/detailed-left.png",
+        "electrode-slitter-cell/detailed-right.png",
+        "electrode-slitter-cell/detailed-top.png",
+        "electrode-slitter-cell/detailed-bottom.png",
+        "electrode-slitter-cell/action-0.png",
+        "electrode-slitter-cell/action-50.png",
+        "electrode-slitter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "battery-winder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.battery-winder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154928,
+      "nodes": 92,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        56,
+        62,
+        72
+      ],
+      "captures": [
+        "battery-winder-cell/simple-iso.png",
+        "battery-winder-cell/simple-front.png",
+        "battery-winder-cell/simple-back.png",
+        "battery-winder-cell/simple-left.png",
+        "battery-winder-cell/simple-right.png",
+        "battery-winder-cell/simple-top.png",
+        "battery-winder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "battery-winder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.battery-winder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 899032,
+      "nodes": 120,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        79,
+        85,
+        95
+      ],
+      "captures": [
+        "battery-winder-cell/detailed-iso.png",
+        "battery-winder-cell/detailed-front.png",
+        "battery-winder-cell/detailed-back.png",
+        "battery-winder-cell/detailed-left.png",
+        "battery-winder-cell/detailed-right.png",
+        "battery-winder-cell/detailed-top.png",
+        "battery-winder-cell/detailed-bottom.png",
+        "battery-winder-cell/action-0.png",
+        "battery-winder-cell/action-50.png",
+        "battery-winder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "battery-stack-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.battery-stack-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 186544,
+      "nodes": 115,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        95,
+        99
+      ],
+      "captures": [
+        "battery-stack-cell/simple-iso.png",
+        "battery-stack-cell/simple-front.png",
+        "battery-stack-cell/simple-back.png",
+        "battery-stack-cell/simple-left.png",
+        "battery-stack-cell/simple-right.png",
+        "battery-stack-cell/simple-top.png",
+        "battery-stack-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "battery-stack-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.battery-stack-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1258412,
+      "nodes": 178,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        158,
+        162
+      ],
+      "captures": [
+        "battery-stack-cell/detailed-iso.png",
+        "battery-stack-cell/detailed-front.png",
+        "battery-stack-cell/detailed-back.png",
+        "battery-stack-cell/detailed-left.png",
+        "battery-stack-cell/detailed-right.png",
+        "battery-stack-cell/detailed-top.png",
+        "battery-stack-cell/detailed-bottom.png",
+        "battery-stack-cell/action-0.png",
+        "battery-stack-cell/action-50.png",
+        "battery-stack-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "battery-tab-welder",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.battery-tab-welder.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 162824,
+      "nodes": 93,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        81
+      ],
+      "captures": [
+        "battery-tab-welder/simple-iso.png",
+        "battery-tab-welder/simple-front.png",
+        "battery-tab-welder/simple-back.png",
+        "battery-tab-welder/simple-left.png",
+        "battery-tab-welder/simple-right.png",
+        "battery-tab-welder/simple-top.png",
+        "battery-tab-welder/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "battery-tab-welder",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.battery-tab-welder",
+        "version": "1.0.0"
+      },
+      "bytes": 1149940,
+      "nodes": 139,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        127
+      ],
+      "captures": [
+        "battery-tab-welder/detailed-iso.png",
+        "battery-tab-welder/detailed-front.png",
+        "battery-tab-welder/detailed-back.png",
+        "battery-tab-welder/detailed-left.png",
+        "battery-tab-welder/detailed-right.png",
+        "battery-tab-welder/detailed-top.png",
+        "battery-tab-welder/detailed-bottom.png",
+        "battery-tab-welder/action-0.png",
+        "battery-tab-welder/action-50.png",
+        "battery-tab-welder/action-100.png"
+      ]
+    },
+    {
+      "id": "battery-electrolyte-fill",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.battery-electrolyte-fill.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 165924,
+      "nodes": 100,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        79,
+        55,
+        87
+      ],
+      "captures": [
+        "battery-electrolyte-fill/simple-iso.png",
+        "battery-electrolyte-fill/simple-front.png",
+        "battery-electrolyte-fill/simple-back.png",
+        "battery-electrolyte-fill/simple-left.png",
+        "battery-electrolyte-fill/simple-right.png",
+        "battery-electrolyte-fill/simple-top.png",
+        "battery-electrolyte-fill/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "battery-electrolyte-fill",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.battery-electrolyte-fill",
+        "version": "1.0.0"
+      },
+      "bytes": 1083844,
+      "nodes": 128,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        107,
+        78,
+        115
+      ],
+      "captures": [
+        "battery-electrolyte-fill/detailed-iso.png",
+        "battery-electrolyte-fill/detailed-front.png",
+        "battery-electrolyte-fill/detailed-back.png",
+        "battery-electrolyte-fill/detailed-left.png",
+        "battery-electrolyte-fill/detailed-right.png",
+        "battery-electrolyte-fill/detailed-top.png",
+        "battery-electrolyte-fill/detailed-bottom.png",
+        "battery-electrolyte-fill/action-0.png",
+        "battery-electrolyte-fill/action-50.png",
+        "battery-electrolyte-fill/action-100.png"
+      ]
+    },
+    {
+      "id": "battery-seal-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.battery-seal-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134280,
+      "nodes": 84,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        72
+      ],
+      "captures": [
+        "battery-seal-cell/simple-iso.png",
+        "battery-seal-cell/simple-front.png",
+        "battery-seal-cell/simple-back.png",
+        "battery-seal-cell/simple-left.png",
+        "battery-seal-cell/simple-right.png",
+        "battery-seal-cell/simple-top.png",
+        "battery-seal-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "battery-seal-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.battery-seal-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 914200,
+      "nodes": 131,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        119
+      ],
+      "captures": [
+        "battery-seal-cell/detailed-iso.png",
+        "battery-seal-cell/detailed-front.png",
+        "battery-seal-cell/detailed-back.png",
+        "battery-seal-cell/detailed-left.png",
+        "battery-seal-cell/detailed-right.png",
+        "battery-seal-cell/detailed-top.png",
+        "battery-seal-cell/detailed-bottom.png",
+        "battery-seal-cell/action-0.png",
+        "battery-seal-cell/action-50.png",
+        "battery-seal-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "battery-formation-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.battery-formation-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 165848,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        86
+      ],
+      "captures": [
+        "battery-formation-cell/simple-iso.png",
+        "battery-formation-cell/simple-front.png",
+        "battery-formation-cell/simple-back.png",
+        "battery-formation-cell/simple-left.png",
+        "battery-formation-cell/simple-right.png",
+        "battery-formation-cell/simple-top.png",
+        "battery-formation-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "battery-formation-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.battery-formation-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1113624,
+      "nodes": 132,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        120
+      ],
+      "captures": [
+        "battery-formation-cell/detailed-iso.png",
+        "battery-formation-cell/detailed-front.png",
+        "battery-formation-cell/detailed-back.png",
+        "battery-formation-cell/detailed-left.png",
+        "battery-formation-cell/detailed-right.png",
+        "battery-formation-cell/detailed-top.png",
+        "battery-formation-cell/detailed-bottom.png",
+        "battery-formation-cell/action-0.png",
+        "battery-formation-cell/action-50.png",
+        "battery-formation-cell/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}

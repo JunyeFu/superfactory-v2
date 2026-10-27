@@ -1,0 +1,17 @@
+{
+  "rendered_batches": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10"
+  ],
+  "model_count": 1000,
+  "captured_images": 8500,
+  "actual_capture_files_checked": true
+}

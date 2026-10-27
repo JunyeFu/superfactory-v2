@@ -1,0 +1,3215 @@
+{
+  "scope": "actual_export_GLB_decoded_and_bound_by_product_presentation_declared_preview",
+  "batch": "B06",
+  "device_count": 50,
+  "lod_models": 100,
+  "checks": [
+    {
+      "id": "chain-conveyor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.chain-conveyor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135180,
+      "nodes": 93,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "chain-conveyor-cell/simple-iso.png",
+        "chain-conveyor-cell/simple-front.png",
+        "chain-conveyor-cell/simple-back.png",
+        "chain-conveyor-cell/simple-left.png",
+        "chain-conveyor-cell/simple-right.png",
+        "chain-conveyor-cell/simple-top.png",
+        "chain-conveyor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "chain-conveyor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.chain-conveyor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 836140,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        87
+      ],
+      "captures": [
+        "chain-conveyor-cell/detailed-iso.png",
+        "chain-conveyor-cell/detailed-front.png",
+        "chain-conveyor-cell/detailed-back.png",
+        "chain-conveyor-cell/detailed-left.png",
+        "chain-conveyor-cell/detailed-right.png",
+        "chain-conveyor-cell/detailed-top.png",
+        "chain-conveyor-cell/detailed-bottom.png",
+        "chain-conveyor-cell/action-0.png",
+        "chain-conveyor-cell/action-50.png",
+        "chain-conveyor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "modular-belt-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.modular-belt-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135564,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "modular-belt-cell/simple-iso.png",
+        "modular-belt-cell/simple-front.png",
+        "modular-belt-cell/simple-back.png",
+        "modular-belt-cell/simple-left.png",
+        "modular-belt-cell/simple-right.png",
+        "modular-belt-cell/simple-top.png",
+        "modular-belt-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "modular-belt-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.modular-belt-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 836512,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        87
+      ],
+      "captures": [
+        "modular-belt-cell/detailed-iso.png",
+        "modular-belt-cell/detailed-front.png",
+        "modular-belt-cell/detailed-back.png",
+        "modular-belt-cell/detailed-left.png",
+        "modular-belt-cell/detailed-right.png",
+        "modular-belt-cell/detailed-top.png",
+        "modular-belt-cell/detailed-bottom.png",
+        "modular-belt-cell/action-0.png",
+        "modular-belt-cell/action-50.png",
+        "modular-belt-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "screw-conveyor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.screw-conveyor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 153220,
+      "nodes": 97,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58
+      ],
+      "captures": [
+        "screw-conveyor-cell/simple-iso.png",
+        "screw-conveyor-cell/simple-front.png",
+        "screw-conveyor-cell/simple-back.png",
+        "screw-conveyor-cell/simple-left.png",
+        "screw-conveyor-cell/simple-right.png",
+        "screw-conveyor-cell/simple-top.png",
+        "screw-conveyor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "screw-conveyor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.screw-conveyor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 884948,
+      "nodes": 125,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81
+      ],
+      "captures": [
+        "screw-conveyor-cell/detailed-iso.png",
+        "screw-conveyor-cell/detailed-front.png",
+        "screw-conveyor-cell/detailed-back.png",
+        "screw-conveyor-cell/detailed-left.png",
+        "screw-conveyor-cell/detailed-right.png",
+        "screw-conveyor-cell/detailed-top.png",
+        "screw-conveyor-cell/detailed-bottom.png",
+        "screw-conveyor-cell/action-0.png",
+        "screw-conveyor-cell/action-50.png",
+        "screw-conveyor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vibrating-conveyor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vibrating-conveyor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 155284,
+      "nodes": 124,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        98
+      ],
+      "captures": [
+        "vibrating-conveyor-cell/simple-iso.png",
+        "vibrating-conveyor-cell/simple-front.png",
+        "vibrating-conveyor-cell/simple-back.png",
+        "vibrating-conveyor-cell/simple-left.png",
+        "vibrating-conveyor-cell/simple-right.png",
+        "vibrating-conveyor-cell/simple-top.png",
+        "vibrating-conveyor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vibrating-conveyor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vibrating-conveyor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1042652,
+      "nodes": 181,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        150
+      ],
+      "captures": [
+        "vibrating-conveyor-cell/detailed-iso.png",
+        "vibrating-conveyor-cell/detailed-front.png",
+        "vibrating-conveyor-cell/detailed-back.png",
+        "vibrating-conveyor-cell/detailed-left.png",
+        "vibrating-conveyor-cell/detailed-right.png",
+        "vibrating-conveyor-cell/detailed-top.png",
+        "vibrating-conveyor-cell/detailed-bottom.png",
+        "vibrating-conveyor-cell/action-0.png",
+        "vibrating-conveyor-cell/action-50.png",
+        "vibrating-conveyor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "bucket-elevator-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bucket-elevator-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 129540,
+      "nodes": 83,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58
+      ],
+      "captures": [
+        "bucket-elevator-cell/simple-iso.png",
+        "bucket-elevator-cell/simple-front.png",
+        "bucket-elevator-cell/simple-back.png",
+        "bucket-elevator-cell/simple-left.png",
+        "bucket-elevator-cell/simple-right.png",
+        "bucket-elevator-cell/simple-top.png",
+        "bucket-elevator-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bucket-elevator-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bucket-elevator-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 839040,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81
+      ],
+      "captures": [
+        "bucket-elevator-cell/detailed-iso.png",
+        "bucket-elevator-cell/detailed-front.png",
+        "bucket-elevator-cell/detailed-back.png",
+        "bucket-elevator-cell/detailed-left.png",
+        "bucket-elevator-cell/detailed-right.png",
+        "bucket-elevator-cell/detailed-top.png",
+        "bucket-elevator-cell/detailed-bottom.png",
+        "bucket-elevator-cell/action-0.png",
+        "bucket-elevator-cell/action-50.png",
+        "bucket-elevator-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "incline-conveyor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.incline-conveyor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 136480,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "incline-conveyor-cell/simple-iso.png",
+        "incline-conveyor-cell/simple-front.png",
+        "incline-conveyor-cell/simple-back.png",
+        "incline-conveyor-cell/simple-left.png",
+        "incline-conveyor-cell/simple-right.png",
+        "incline-conveyor-cell/simple-top.png",
+        "incline-conveyor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "incline-conveyor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.incline-conveyor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 837428,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        87
+      ],
+      "captures": [
+        "incline-conveyor-cell/detailed-iso.png",
+        "incline-conveyor-cell/detailed-front.png",
+        "incline-conveyor-cell/detailed-back.png",
+        "incline-conveyor-cell/detailed-left.png",
+        "incline-conveyor-cell/detailed-right.png",
+        "incline-conveyor-cell/detailed-top.png",
+        "incline-conveyor-cell/detailed-bottom.png",
+        "incline-conveyor-cell/action-0.png",
+        "incline-conveyor-cell/action-50.png",
+        "incline-conveyor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "telescopic-conveyor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.telescopic-conveyor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 135040,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        64
+      ],
+      "captures": [
+        "telescopic-conveyor-cell/simple-iso.png",
+        "telescopic-conveyor-cell/simple-front.png",
+        "telescopic-conveyor-cell/simple-back.png",
+        "telescopic-conveyor-cell/simple-left.png",
+        "telescopic-conveyor-cell/simple-right.png",
+        "telescopic-conveyor-cell/simple-top.png",
+        "telescopic-conveyor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "telescopic-conveyor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.telescopic-conveyor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 835992,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        87
+      ],
+      "captures": [
+        "telescopic-conveyor-cell/detailed-iso.png",
+        "telescopic-conveyor-cell/detailed-front.png",
+        "telescopic-conveyor-cell/detailed-back.png",
+        "telescopic-conveyor-cell/detailed-left.png",
+        "telescopic-conveyor-cell/detailed-right.png",
+        "telescopic-conveyor-cell/detailed-top.png",
+        "telescopic-conveyor-cell/detailed-bottom.png",
+        "telescopic-conveyor-cell/action-0.png",
+        "telescopic-conveyor-cell/action-50.png",
+        "telescopic-conveyor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "gravity-chute-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.gravity-chute-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 109080,
+      "nodes": 66,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57
+      ],
+      "captures": [
+        "gravity-chute-cell/simple-iso.png",
+        "gravity-chute-cell/simple-front.png",
+        "gravity-chute-cell/simple-back.png",
+        "gravity-chute-cell/simple-left.png",
+        "gravity-chute-cell/simple-right.png",
+        "gravity-chute-cell/simple-top.png",
+        "gravity-chute-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "gravity-chute-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.gravity-chute-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 730756,
+      "nodes": 89,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80
+      ],
+      "captures": [
+        "gravity-chute-cell/detailed-iso.png",
+        "gravity-chute-cell/detailed-front.png",
+        "gravity-chute-cell/detailed-back.png",
+        "gravity-chute-cell/detailed-left.png",
+        "gravity-chute-cell/detailed-right.png",
+        "gravity-chute-cell/detailed-top.png",
+        "gravity-chute-cell/detailed-bottom.png",
+        "gravity-chute-cell/action-0.png",
+        "gravity-chute-cell/action-50.png",
+        "gravity-chute-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "ball-transfer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.ball-transfer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 130312,
+      "nodes": 108,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92
+      ],
+      "captures": [
+        "ball-transfer-cell/simple-iso.png",
+        "ball-transfer-cell/simple-front.png",
+        "ball-transfer-cell/simple-back.png",
+        "ball-transfer-cell/simple-left.png",
+        "ball-transfer-cell/simple-right.png",
+        "ball-transfer-cell/simple-top.png",
+        "ball-transfer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "ball-transfer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.ball-transfer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 821136,
+      "nodes": 137,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        115
+      ],
+      "captures": [
+        "ball-transfer-cell/detailed-iso.png",
+        "ball-transfer-cell/detailed-front.png",
+        "ball-transfer-cell/detailed-back.png",
+        "ball-transfer-cell/detailed-left.png",
+        "ball-transfer-cell/detailed-right.png",
+        "ball-transfer-cell/detailed-top.png",
+        "ball-transfer-cell/detailed-bottom.png",
+        "ball-transfer-cell/action-0.png",
+        "ball-transfer-cell/action-50.png",
+        "ball-transfer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "turntable-conveyor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.turntable-conveyor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137340,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        64
+      ],
+      "captures": [
+        "turntable-conveyor-cell/simple-iso.png",
+        "turntable-conveyor-cell/simple-front.png",
+        "turntable-conveyor-cell/simple-back.png",
+        "turntable-conveyor-cell/simple-left.png",
+        "turntable-conveyor-cell/simple-right.png",
+        "turntable-conveyor-cell/simple-top.png",
+        "turntable-conveyor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "turntable-conveyor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.turntable-conveyor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 838296,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        87
+      ],
+      "captures": [
+        "turntable-conveyor-cell/detailed-iso.png",
+        "turntable-conveyor-cell/detailed-front.png",
+        "turntable-conveyor-cell/detailed-back.png",
+        "turntable-conveyor-cell/detailed-left.png",
+        "turntable-conveyor-cell/detailed-right.png",
+        "turntable-conveyor-cell/detailed-top.png",
+        "turntable-conveyor-cell/detailed-bottom.png",
+        "turntable-conveyor-cell/action-0.png",
+        "turntable-conveyor-cell/action-50.png",
+        "turntable-conveyor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pop-up-chain-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pop-up-chain-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139012,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        64
+      ],
+      "captures": [
+        "pop-up-chain-cell/simple-iso.png",
+        "pop-up-chain-cell/simple-front.png",
+        "pop-up-chain-cell/simple-back.png",
+        "pop-up-chain-cell/simple-left.png",
+        "pop-up-chain-cell/simple-right.png",
+        "pop-up-chain-cell/simple-top.png",
+        "pop-up-chain-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pop-up-chain-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pop-up-chain-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 839972,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        87
+      ],
+      "captures": [
+        "pop-up-chain-cell/detailed-iso.png",
+        "pop-up-chain-cell/detailed-front.png",
+        "pop-up-chain-cell/detailed-back.png",
+        "pop-up-chain-cell/detailed-left.png",
+        "pop-up-chain-cell/detailed-right.png",
+        "pop-up-chain-cell/detailed-top.png",
+        "pop-up-chain-cell/detailed-bottom.png",
+        "pop-up-chain-cell/action-0.png",
+        "pop-up-chain-cell/action-50.png",
+        "pop-up-chain-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "cross-belt-sorter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.cross-belt-sorter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137344,
+      "nodes": 88,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64,
+        72
+      ],
+      "captures": [
+        "cross-belt-sorter-cell/simple-iso.png",
+        "cross-belt-sorter-cell/simple-front.png",
+        "cross-belt-sorter-cell/simple-back.png",
+        "cross-belt-sorter-cell/simple-left.png",
+        "cross-belt-sorter-cell/simple-right.png",
+        "cross-belt-sorter-cell/simple-top.png",
+        "cross-belt-sorter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "cross-belt-sorter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.cross-belt-sorter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 866108,
+      "nodes": 116,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        87,
+        95
+      ],
+      "captures": [
+        "cross-belt-sorter-cell/detailed-iso.png",
+        "cross-belt-sorter-cell/detailed-front.png",
+        "cross-belt-sorter-cell/detailed-back.png",
+        "cross-belt-sorter-cell/detailed-left.png",
+        "cross-belt-sorter-cell/detailed-right.png",
+        "cross-belt-sorter-cell/detailed-top.png",
+        "cross-belt-sorter-cell/detailed-bottom.png",
+        "cross-belt-sorter-cell/action-0.png",
+        "cross-belt-sorter-cell/action-50.png",
+        "cross-belt-sorter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "push-sorter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.push-sorter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 152124,
+      "nodes": 96,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        80
+      ],
+      "captures": [
+        "push-sorter-cell/simple-iso.png",
+        "push-sorter-cell/simple-front.png",
+        "push-sorter-cell/simple-back.png",
+        "push-sorter-cell/simple-left.png",
+        "push-sorter-cell/simple-right.png",
+        "push-sorter-cell/simple-top.png",
+        "push-sorter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "push-sorter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.push-sorter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1031148,
+      "nodes": 154,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        132
+      ],
+      "captures": [
+        "push-sorter-cell/detailed-iso.png",
+        "push-sorter-cell/detailed-front.png",
+        "push-sorter-cell/detailed-back.png",
+        "push-sorter-cell/detailed-left.png",
+        "push-sorter-cell/detailed-right.png",
+        "push-sorter-cell/detailed-top.png",
+        "push-sorter-cell/detailed-bottom.png",
+        "push-sorter-cell/action-0.png",
+        "push-sorter-cell/action-50.png",
+        "push-sorter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "flap-sorter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.flap-sorter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 112776,
+      "nodes": 66,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57
+      ],
+      "captures": [
+        "flap-sorter-cell/simple-iso.png",
+        "flap-sorter-cell/simple-front.png",
+        "flap-sorter-cell/simple-back.png",
+        "flap-sorter-cell/simple-left.png",
+        "flap-sorter-cell/simple-right.png",
+        "flap-sorter-cell/simple-top.png",
+        "flap-sorter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flap-sorter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.flap-sorter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 734448,
+      "nodes": 89,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        80
+      ],
+      "captures": [
+        "flap-sorter-cell/detailed-iso.png",
+        "flap-sorter-cell/detailed-front.png",
+        "flap-sorter-cell/detailed-back.png",
+        "flap-sorter-cell/detailed-left.png",
+        "flap-sorter-cell/detailed-right.png",
+        "flap-sorter-cell/detailed-top.png",
+        "flap-sorter-cell/detailed-bottom.png",
+        "flap-sorter-cell/action-0.png",
+        "flap-sorter-cell/action-50.png",
+        "flap-sorter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "shoe-sorter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.shoe-sorter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 132144,
+      "nodes": 86,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "shoe-sorter-cell/simple-iso.png",
+        "shoe-sorter-cell/simple-front.png",
+        "shoe-sorter-cell/simple-back.png",
+        "shoe-sorter-cell/simple-left.png",
+        "shoe-sorter-cell/simple-right.png",
+        "shoe-sorter-cell/simple-top.png",
+        "shoe-sorter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "shoe-sorter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.shoe-sorter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 833092,
+      "nodes": 114,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        87
+      ],
+      "captures": [
+        "shoe-sorter-cell/detailed-iso.png",
+        "shoe-sorter-cell/detailed-front.png",
+        "shoe-sorter-cell/detailed-back.png",
+        "shoe-sorter-cell/detailed-left.png",
+        "shoe-sorter-cell/detailed-right.png",
+        "shoe-sorter-cell/detailed-top.png",
+        "shoe-sorter-cell/detailed-bottom.png",
+        "shoe-sorter-cell/action-0.png",
+        "shoe-sorter-cell/action-50.png",
+        "shoe-sorter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "spiral-conveyor-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.spiral-conveyor-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 409864,
+      "nodes": 298,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        281
+      ],
+      "captures": [
+        "spiral-conveyor-cell/simple-iso.png",
+        "spiral-conveyor-cell/simple-front.png",
+        "spiral-conveyor-cell/simple-back.png",
+        "spiral-conveyor-cell/simple-left.png",
+        "spiral-conveyor-cell/simple-right.png",
+        "spiral-conveyor-cell/simple-top.png",
+        "spiral-conveyor-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "spiral-conveyor-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.spiral-conveyor-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1424252,
+      "nodes": 326,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        304
+      ],
+      "captures": [
+        "spiral-conveyor-cell/detailed-iso.png",
+        "spiral-conveyor-cell/detailed-front.png",
+        "spiral-conveyor-cell/detailed-back.png",
+        "spiral-conveyor-cell/detailed-left.png",
+        "spiral-conveyor-cell/detailed-right.png",
+        "spiral-conveyor-cell/detailed-top.png",
+        "spiral-conveyor-cell/detailed-bottom.png",
+        "spiral-conveyor-cell/action-0.png",
+        "spiral-conveyor-cell/action-50.png",
+        "spiral-conveyor-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pallet-dispenser-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pallet-dispenser-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 112424,
+      "nodes": 71,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62
+      ],
+      "captures": [
+        "pallet-dispenser-cell/simple-iso.png",
+        "pallet-dispenser-cell/simple-front.png",
+        "pallet-dispenser-cell/simple-back.png",
+        "pallet-dispenser-cell/simple-left.png",
+        "pallet-dispenser-cell/simple-right.png",
+        "pallet-dispenser-cell/simple-top.png",
+        "pallet-dispenser-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pallet-dispenser-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pallet-dispenser-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 719136,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        85
+      ],
+      "captures": [
+        "pallet-dispenser-cell/detailed-iso.png",
+        "pallet-dispenser-cell/detailed-front.png",
+        "pallet-dispenser-cell/detailed-back.png",
+        "pallet-dispenser-cell/detailed-left.png",
+        "pallet-dispenser-cell/detailed-right.png",
+        "pallet-dispenser-cell/detailed-top.png",
+        "pallet-dispenser-cell/detailed-bottom.png",
+        "pallet-dispenser-cell/action-0.png",
+        "pallet-dispenser-cell/action-50.png",
+        "pallet-dispenser-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pallet-stacker-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pallet-stacker-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 111400,
+      "nodes": 71,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62
+      ],
+      "captures": [
+        "pallet-stacker-cell/simple-iso.png",
+        "pallet-stacker-cell/simple-front.png",
+        "pallet-stacker-cell/simple-back.png",
+        "pallet-stacker-cell/simple-left.png",
+        "pallet-stacker-cell/simple-right.png",
+        "pallet-stacker-cell/simple-top.png",
+        "pallet-stacker-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pallet-stacker-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pallet-stacker-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 718116,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        85
+      ],
+      "captures": [
+        "pallet-stacker-cell/detailed-iso.png",
+        "pallet-stacker-cell/detailed-front.png",
+        "pallet-stacker-cell/detailed-back.png",
+        "pallet-stacker-cell/detailed-left.png",
+        "pallet-stacker-cell/detailed-right.png",
+        "pallet-stacker-cell/detailed-top.png",
+        "pallet-stacker-cell/detailed-bottom.png",
+        "pallet-stacker-cell/action-0.png",
+        "pallet-stacker-cell/action-50.png",
+        "pallet-stacker-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "tray-denester-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tray-denester-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 164872,
+      "nodes": 101,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        62,
+        81,
+        85
+      ],
+      "captures": [
+        "tray-denester-cell/simple-iso.png",
+        "tray-denester-cell/simple-front.png",
+        "tray-denester-cell/simple-back.png",
+        "tray-denester-cell/simple-left.png",
+        "tray-denester-cell/simple-right.png",
+        "tray-denester-cell/simple-top.png",
+        "tray-denester-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tray-denester-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tray-denester-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1112640,
+      "nodes": 135,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        85,
+        115,
+        119
+      ],
+      "captures": [
+        "tray-denester-cell/detailed-iso.png",
+        "tray-denester-cell/detailed-front.png",
+        "tray-denester-cell/detailed-back.png",
+        "tray-denester-cell/detailed-left.png",
+        "tray-denester-cell/detailed-right.png",
+        "tray-denester-cell/detailed-top.png",
+        "tray-denester-cell/detailed-bottom.png",
+        "tray-denester-cell/action-0.png",
+        "tray-denester-cell/action-50.png",
+        "tray-denester-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "tray-stacker-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tray-stacker-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 164068,
+      "nodes": 101,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        69,
+        73,
+        92
+      ],
+      "captures": [
+        "tray-stacker-cell/simple-iso.png",
+        "tray-stacker-cell/simple-front.png",
+        "tray-stacker-cell/simple-back.png",
+        "tray-stacker-cell/simple-left.png",
+        "tray-stacker-cell/simple-right.png",
+        "tray-stacker-cell/simple-top.png",
+        "tray-stacker-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tray-stacker-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tray-stacker-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1111840,
+      "nodes": 135,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        103,
+        107,
+        126
+      ],
+      "captures": [
+        "tray-stacker-cell/detailed-iso.png",
+        "tray-stacker-cell/detailed-front.png",
+        "tray-stacker-cell/detailed-back.png",
+        "tray-stacker-cell/detailed-left.png",
+        "tray-stacker-cell/detailed-right.png",
+        "tray-stacker-cell/detailed-top.png",
+        "tray-stacker-cell/detailed-bottom.png",
+        "tray-stacker-cell/action-0.png",
+        "tray-stacker-cell/action-50.png",
+        "tray-stacker-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "bin-tipper-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.bin-tipper-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 136032,
+      "nodes": 78,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "bin-tipper-cell/simple-iso.png",
+        "bin-tipper-cell/simple-front.png",
+        "bin-tipper-cell/simple-back.png",
+        "bin-tipper-cell/simple-left.png",
+        "bin-tipper-cell/simple-right.png",
+        "bin-tipper-cell/simple-top.png",
+        "bin-tipper-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "bin-tipper-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.bin-tipper-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 902584,
+      "nodes": 124,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "bin-tipper-cell/detailed-iso.png",
+        "bin-tipper-cell/detailed-front.png",
+        "bin-tipper-cell/detailed-back.png",
+        "bin-tipper-cell/detailed-left.png",
+        "bin-tipper-cell/detailed-right.png",
+        "bin-tipper-cell/detailed-top.png",
+        "bin-tipper-cell/detailed-bottom.png",
+        "bin-tipper-cell/action-0.png",
+        "bin-tipper-cell/action-50.png",
+        "bin-tipper-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vibratory-bowl-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vibratory-bowl-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 142972,
+      "nodes": 68,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55
+      ],
+      "captures": [
+        "vibratory-bowl-cell/simple-iso.png",
+        "vibratory-bowl-cell/simple-front.png",
+        "vibratory-bowl-cell/simple-back.png",
+        "vibratory-bowl-cell/simple-left.png",
+        "vibratory-bowl-cell/simple-right.png",
+        "vibratory-bowl-cell/simple-top.png",
+        "vibratory-bowl-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vibratory-bowl-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vibratory-bowl-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 750228,
+      "nodes": 91,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78
+      ],
+      "captures": [
+        "vibratory-bowl-cell/detailed-iso.png",
+        "vibratory-bowl-cell/detailed-front.png",
+        "vibratory-bowl-cell/detailed-back.png",
+        "vibratory-bowl-cell/detailed-left.png",
+        "vibratory-bowl-cell/detailed-right.png",
+        "vibratory-bowl-cell/detailed-top.png",
+        "vibratory-bowl-cell/detailed-bottom.png",
+        "vibratory-bowl-cell/action-0.png",
+        "vibratory-bowl-cell/action-50.png",
+        "vibratory-bowl-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "step-feeder-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.step-feeder-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 127296,
+      "nodes": 78,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58
+      ],
+      "captures": [
+        "step-feeder-cell/simple-iso.png",
+        "step-feeder-cell/simple-front.png",
+        "step-feeder-cell/simple-back.png",
+        "step-feeder-cell/simple-left.png",
+        "step-feeder-cell/simple-right.png",
+        "step-feeder-cell/simple-top.png",
+        "step-feeder-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "step-feeder-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.step-feeder-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 808988,
+      "nodes": 106,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81
+      ],
+      "captures": [
+        "step-feeder-cell/detailed-iso.png",
+        "step-feeder-cell/detailed-front.png",
+        "step-feeder-cell/detailed-back.png",
+        "step-feeder-cell/detailed-left.png",
+        "step-feeder-cell/detailed-right.png",
+        "step-feeder-cell/detailed-top.png",
+        "step-feeder-cell/detailed-bottom.png",
+        "step-feeder-cell/action-0.png",
+        "step-feeder-cell/action-50.png",
+        "step-feeder-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "escapement-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.escapement-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 143880,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        85
+      ],
+      "captures": [
+        "escapement-cell/simple-iso.png",
+        "escapement-cell/simple-front.png",
+        "escapement-cell/simple-back.png",
+        "escapement-cell/simple-left.png",
+        "escapement-cell/simple-right.png",
+        "escapement-cell/simple-top.png",
+        "escapement-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "escapement-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.escapement-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1013740,
+      "nodes": 146,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108,
+        137
+      ],
+      "captures": [
+        "escapement-cell/detailed-iso.png",
+        "escapement-cell/detailed-front.png",
+        "escapement-cell/detailed-back.png",
+        "escapement-cell/detailed-left.png",
+        "escapement-cell/detailed-right.png",
+        "escapement-cell/detailed-top.png",
+        "escapement-cell/detailed-bottom.png",
+        "escapement-cell/action-0.png",
+        "escapement-cell/action-50.png",
+        "escapement-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "accumulation-buffer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.accumulation-buffer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 122708,
+      "nodes": 78,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61,
+        69
+      ],
+      "captures": [
+        "accumulation-buffer-cell/simple-iso.png",
+        "accumulation-buffer-cell/simple-front.png",
+        "accumulation-buffer-cell/simple-back.png",
+        "accumulation-buffer-cell/simple-left.png",
+        "accumulation-buffer-cell/simple-right.png",
+        "accumulation-buffer-cell/simple-top.png",
+        "accumulation-buffer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "accumulation-buffer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.accumulation-buffer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 789432,
+      "nodes": 101,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        84,
+        92
+      ],
+      "captures": [
+        "accumulation-buffer-cell/detailed-iso.png",
+        "accumulation-buffer-cell/detailed-front.png",
+        "accumulation-buffer-cell/detailed-back.png",
+        "accumulation-buffer-cell/detailed-left.png",
+        "accumulation-buffer-cell/detailed-right.png",
+        "accumulation-buffer-cell/detailed-top.png",
+        "accumulation-buffer-cell/detailed-bottom.png",
+        "accumulation-buffer-cell/action-0.png",
+        "accumulation-buffer-cell/action-50.png",
+        "accumulation-buffer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "carton-inverter-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.carton-inverter-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134900,
+      "nodes": 78,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "carton-inverter-cell/simple-iso.png",
+        "carton-inverter-cell/simple-front.png",
+        "carton-inverter-cell/simple-back.png",
+        "carton-inverter-cell/simple-left.png",
+        "carton-inverter-cell/simple-right.png",
+        "carton-inverter-cell/simple-top.png",
+        "carton-inverter-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "carton-inverter-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.carton-inverter-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 901452,
+      "nodes": 124,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "carton-inverter-cell/detailed-iso.png",
+        "carton-inverter-cell/detailed-front.png",
+        "carton-inverter-cell/detailed-back.png",
+        "carton-inverter-cell/detailed-left.png",
+        "carton-inverter-cell/detailed-right.png",
+        "carton-inverter-cell/detailed-top.png",
+        "carton-inverter-cell/detailed-bottom.png",
+        "carton-inverter-cell/action-0.png",
+        "carton-inverter-cell/action-50.png",
+        "carton-inverter-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "barcode-verifier-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.barcode-verifier-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 152852,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61
+      ],
+      "captures": [
+        "barcode-verifier-cell/simple-iso.png",
+        "barcode-verifier-cell/simple-front.png",
+        "barcode-verifier-cell/simple-back.png",
+        "barcode-verifier-cell/simple-left.png",
+        "barcode-verifier-cell/simple-right.png",
+        "barcode-verifier-cell/simple-top.png",
+        "barcode-verifier-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "barcode-verifier-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.barcode-verifier-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1025384,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108
+      ],
+      "captures": [
+        "barcode-verifier-cell/detailed-iso.png",
+        "barcode-verifier-cell/detailed-front.png",
+        "barcode-verifier-cell/detailed-back.png",
+        "barcode-verifier-cell/detailed-left.png",
+        "barcode-verifier-cell/detailed-right.png",
+        "barcode-verifier-cell/detailed-top.png",
+        "barcode-verifier-cell/detailed-bottom.png",
+        "barcode-verifier-cell/action-0.png",
+        "barcode-verifier-cell/action-50.png",
+        "barcode-verifier-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "dimension-weigh-scan-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.dimension-weigh-scan-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 131780,
+      "nodes": 85,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54
+      ],
+      "captures": [
+        "dimension-weigh-scan-cell/simple-iso.png",
+        "dimension-weigh-scan-cell/simple-front.png",
+        "dimension-weigh-scan-cell/simple-back.png",
+        "dimension-weigh-scan-cell/simple-left.png",
+        "dimension-weigh-scan-cell/simple-right.png",
+        "dimension-weigh-scan-cell/simple-top.png",
+        "dimension-weigh-scan-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "dimension-weigh-scan-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.dimension-weigh-scan-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 895776,
+      "nodes": 120,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77
+      ],
+      "captures": [
+        "dimension-weigh-scan-cell/detailed-iso.png",
+        "dimension-weigh-scan-cell/detailed-front.png",
+        "dimension-weigh-scan-cell/detailed-back.png",
+        "dimension-weigh-scan-cell/detailed-left.png",
+        "dimension-weigh-scan-cell/detailed-right.png",
+        "dimension-weigh-scan-cell/detailed-top.png",
+        "dimension-weigh-scan-cell/detailed-bottom.png",
+        "dimension-weigh-scan-cell/action-0.png",
+        "dimension-weigh-scan-cell/action-50.png",
+        "dimension-weigh-scan-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "laser-profile-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.laser-profile-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 154368,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61
+      ],
+      "captures": [
+        "laser-profile-cell/simple-iso.png",
+        "laser-profile-cell/simple-front.png",
+        "laser-profile-cell/simple-back.png",
+        "laser-profile-cell/simple-left.png",
+        "laser-profile-cell/simple-right.png",
+        "laser-profile-cell/simple-top.png",
+        "laser-profile-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "laser-profile-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.laser-profile-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1026904,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108
+      ],
+      "captures": [
+        "laser-profile-cell/detailed-iso.png",
+        "laser-profile-cell/detailed-front.png",
+        "laser-profile-cell/detailed-back.png",
+        "laser-profile-cell/detailed-left.png",
+        "laser-profile-cell/detailed-right.png",
+        "laser-profile-cell/detailed-top.png",
+        "laser-profile-cell/detailed-bottom.png",
+        "laser-profile-cell/action-0.png",
+        "laser-profile-cell/action-50.png",
+        "laser-profile-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "coordinate-measure-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.coordinate-measure-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 164572,
+      "nodes": 94,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        82
+      ],
+      "captures": [
+        "coordinate-measure-cell/simple-iso.png",
+        "coordinate-measure-cell/simple-front.png",
+        "coordinate-measure-cell/simple-back.png",
+        "coordinate-measure-cell/simple-left.png",
+        "coordinate-measure-cell/simple-right.png",
+        "coordinate-measure-cell/simple-top.png",
+        "coordinate-measure-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "coordinate-measure-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.coordinate-measure-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1156044,
+      "nodes": 140,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        128
+      ],
+      "captures": [
+        "coordinate-measure-cell/detailed-iso.png",
+        "coordinate-measure-cell/detailed-front.png",
+        "coordinate-measure-cell/detailed-back.png",
+        "coordinate-measure-cell/detailed-left.png",
+        "coordinate-measure-cell/detailed-right.png",
+        "coordinate-measure-cell/detailed-top.png",
+        "coordinate-measure-cell/detailed-bottom.png",
+        "coordinate-measure-cell/action-0.png",
+        "coordinate-measure-cell/action-50.png",
+        "coordinate-measure-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "roundness-measure-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.roundness-measure-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139192,
+      "nodes": 84,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        54,
+        71
+      ],
+      "captures": [
+        "roundness-measure-cell/simple-iso.png",
+        "roundness-measure-cell/simple-front.png",
+        "roundness-measure-cell/simple-back.png",
+        "roundness-measure-cell/simple-left.png",
+        "roundness-measure-cell/simple-right.png",
+        "roundness-measure-cell/simple-top.png",
+        "roundness-measure-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "roundness-measure-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.roundness-measure-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 813020,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        77,
+        100
+      ],
+      "captures": [
+        "roundness-measure-cell/detailed-iso.png",
+        "roundness-measure-cell/detailed-front.png",
+        "roundness-measure-cell/detailed-back.png",
+        "roundness-measure-cell/detailed-left.png",
+        "roundness-measure-cell/detailed-right.png",
+        "roundness-measure-cell/detailed-top.png",
+        "roundness-measure-cell/detailed-bottom.png",
+        "roundness-measure-cell/action-0.png",
+        "roundness-measure-cell/action-50.png",
+        "roundness-measure-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "roughness-measure-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.roughness-measure-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 140764,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        68
+      ],
+      "captures": [
+        "roughness-measure-cell/simple-iso.png",
+        "roughness-measure-cell/simple-front.png",
+        "roughness-measure-cell/simple-back.png",
+        "roughness-measure-cell/simple-left.png",
+        "roughness-measure-cell/simple-right.png",
+        "roughness-measure-cell/simple-top.png",
+        "roughness-measure-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "roughness-measure-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.roughness-measure-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 918136,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        109
+      ],
+      "captures": [
+        "roughness-measure-cell/detailed-iso.png",
+        "roughness-measure-cell/detailed-front.png",
+        "roughness-measure-cell/detailed-back.png",
+        "roughness-measure-cell/detailed-left.png",
+        "roughness-measure-cell/detailed-right.png",
+        "roughness-measure-cell/detailed-top.png",
+        "roughness-measure-cell/detailed-bottom.png",
+        "roughness-measure-cell/action-0.png",
+        "roughness-measure-cell/action-50.png",
+        "roughness-measure-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "hardness-test-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.hardness-test-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 137628,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "hardness-test-cell/simple-iso.png",
+        "hardness-test-cell/simple-front.png",
+        "hardness-test-cell/simple-back.png",
+        "hardness-test-cell/simple-left.png",
+        "hardness-test-cell/simple-right.png",
+        "hardness-test-cell/simple-top.png",
+        "hardness-test-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "hardness-test-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.hardness-test-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 914984,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "hardness-test-cell/detailed-iso.png",
+        "hardness-test-cell/detailed-front.png",
+        "hardness-test-cell/detailed-back.png",
+        "hardness-test-cell/detailed-left.png",
+        "hardness-test-cell/detailed-right.png",
+        "hardness-test-cell/detailed-top.png",
+        "hardness-test-cell/detailed-bottom.png",
+        "hardness-test-cell/action-0.png",
+        "hardness-test-cell/action-50.png",
+        "hardness-test-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "tensile-test-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.tensile-test-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 117768,
+      "nodes": 70,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        59
+      ],
+      "captures": [
+        "tensile-test-cell/simple-iso.png",
+        "tensile-test-cell/simple-front.png",
+        "tensile-test-cell/simple-back.png",
+        "tensile-test-cell/simple-left.png",
+        "tensile-test-cell/simple-right.png",
+        "tensile-test-cell/simple-top.png",
+        "tensile-test-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "tensile-test-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.tensile-test-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 748060,
+      "nodes": 93,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        82
+      ],
+      "captures": [
+        "tensile-test-cell/detailed-iso.png",
+        "tensile-test-cell/detailed-front.png",
+        "tensile-test-cell/detailed-back.png",
+        "tensile-test-cell/detailed-left.png",
+        "tensile-test-cell/detailed-right.png",
+        "tensile-test-cell/detailed-top.png",
+        "tensile-test-cell/detailed-bottom.png",
+        "tensile-test-cell/action-0.png",
+        "tensile-test-cell/action-50.png",
+        "tensile-test-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "compression-test-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.compression-test-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 126504,
+      "nodes": 76,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        64
+      ],
+      "captures": [
+        "compression-test-cell/simple-iso.png",
+        "compression-test-cell/simple-front.png",
+        "compression-test-cell/simple-back.png",
+        "compression-test-cell/simple-left.png",
+        "compression-test-cell/simple-right.png",
+        "compression-test-cell/simple-top.png",
+        "compression-test-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "compression-test-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.compression-test-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 817684,
+      "nodes": 111,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        99
+      ],
+      "captures": [
+        "compression-test-cell/detailed-iso.png",
+        "compression-test-cell/detailed-front.png",
+        "compression-test-cell/detailed-back.png",
+        "compression-test-cell/detailed-left.png",
+        "compression-test-cell/detailed-right.png",
+        "compression-test-cell/detailed-top.png",
+        "compression-test-cell/detailed-bottom.png",
+        "compression-test-cell/action-0.png",
+        "compression-test-cell/action-50.png",
+        "compression-test-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "torque-test-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.torque-test-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 136052,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55,
+        67
+      ],
+      "captures": [
+        "torque-test-cell/simple-iso.png",
+        "torque-test-cell/simple-front.png",
+        "torque-test-cell/simple-back.png",
+        "torque-test-cell/simple-left.png",
+        "torque-test-cell/simple-right.png",
+        "torque-test-cell/simple-top.png",
+        "torque-test-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "torque-test-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.torque-test-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 885600,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        90,
+        108
+      ],
+      "captures": [
+        "torque-test-cell/detailed-iso.png",
+        "torque-test-cell/detailed-front.png",
+        "torque-test-cell/detailed-back.png",
+        "torque-test-cell/detailed-left.png",
+        "torque-test-cell/detailed-right.png",
+        "torque-test-cell/detailed-top.png",
+        "torque-test-cell/detailed-bottom.png",
+        "torque-test-cell/action-0.png",
+        "torque-test-cell/action-50.png",
+        "torque-test-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "force-displacement-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.force-displacement-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 140100,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "force-displacement-cell/simple-iso.png",
+        "force-displacement-cell/simple-front.png",
+        "force-displacement-cell/simple-back.png",
+        "force-displacement-cell/simple-left.png",
+        "force-displacement-cell/simple-right.png",
+        "force-displacement-cell/simple-top.png",
+        "force-displacement-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "force-displacement-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.force-displacement-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 889648,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "force-displacement-cell/detailed-iso.png",
+        "force-displacement-cell/detailed-front.png",
+        "force-displacement-cell/detailed-back.png",
+        "force-displacement-cell/detailed-left.png",
+        "force-displacement-cell/detailed-right.png",
+        "force-displacement-cell/detailed-top.png",
+        "force-displacement-cell/detailed-bottom.png",
+        "force-displacement-cell/action-0.png",
+        "force-displacement-cell/action-50.png",
+        "force-displacement-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "pressure-decay-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.pressure-decay-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 139464,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "pressure-decay-cell/simple-iso.png",
+        "pressure-decay-cell/simple-front.png",
+        "pressure-decay-cell/simple-back.png",
+        "pressure-decay-cell/simple-left.png",
+        "pressure-decay-cell/simple-right.png",
+        "pressure-decay-cell/simple-top.png",
+        "pressure-decay-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "pressure-decay-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.pressure-decay-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 889008,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "pressure-decay-cell/detailed-iso.png",
+        "pressure-decay-cell/detailed-front.png",
+        "pressure-decay-cell/detailed-back.png",
+        "pressure-decay-cell/detailed-left.png",
+        "pressure-decay-cell/detailed-right.png",
+        "pressure-decay-cell/detailed-top.png",
+        "pressure-decay-cell/detailed-bottom.png",
+        "pressure-decay-cell/action-0.png",
+        "pressure-decay-cell/action-50.png",
+        "pressure-decay-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "helium-leak-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.helium-leak-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 146680,
+      "nodes": 92,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        66,
+        79
+      ],
+      "captures": [
+        "helium-leak-cell/simple-iso.png",
+        "helium-leak-cell/simple-front.png",
+        "helium-leak-cell/simple-back.png",
+        "helium-leak-cell/simple-left.png",
+        "helium-leak-cell/simple-right.png",
+        "helium-leak-cell/simple-top.png",
+        "helium-leak-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "helium-leak-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.helium-leak-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1006560,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        89,
+        108
+      ],
+      "captures": [
+        "helium-leak-cell/detailed-iso.png",
+        "helium-leak-cell/detailed-front.png",
+        "helium-leak-cell/detailed-back.png",
+        "helium-leak-cell/detailed-left.png",
+        "helium-leak-cell/detailed-right.png",
+        "helium-leak-cell/detailed-top.png",
+        "helium-leak-cell/detailed-bottom.png",
+        "helium-leak-cell/action-0.png",
+        "helium-leak-cell/action-50.png",
+        "helium-leak-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "flow-test-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.flow-test-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 127616,
+      "nodes": 77,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57
+      ],
+      "captures": [
+        "flow-test-cell/simple-iso.png",
+        "flow-test-cell/simple-front.png",
+        "flow-test-cell/simple-back.png",
+        "flow-test-cell/simple-left.png",
+        "flow-test-cell/simple-right.png",
+        "flow-test-cell/simple-top.png",
+        "flow-test-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "flow-test-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.flow-test-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 868488,
+      "nodes": 118,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92
+      ],
+      "captures": [
+        "flow-test-cell/detailed-iso.png",
+        "flow-test-cell/detailed-front.png",
+        "flow-test-cell/detailed-back.png",
+        "flow-test-cell/detailed-left.png",
+        "flow-test-cell/detailed-right.png",
+        "flow-test-cell/detailed-top.png",
+        "flow-test-cell/detailed-bottom.png",
+        "flow-test-cell/action-0.png",
+        "flow-test-cell/action-50.png",
+        "flow-test-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "electrical-safety-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.electrical-safety-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 172776,
+      "nodes": 113,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        101
+      ],
+      "captures": [
+        "electrical-safety-cell/simple-iso.png",
+        "electrical-safety-cell/simple-front.png",
+        "electrical-safety-cell/simple-back.png",
+        "electrical-safety-cell/simple-left.png",
+        "electrical-safety-cell/simple-right.png",
+        "electrical-safety-cell/simple-top.png",
+        "electrical-safety-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "electrical-safety-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.electrical-safety-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1168600,
+      "nodes": 159,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        147
+      ],
+      "captures": [
+        "electrical-safety-cell/detailed-iso.png",
+        "electrical-safety-cell/detailed-front.png",
+        "electrical-safety-cell/detailed-back.png",
+        "electrical-safety-cell/detailed-left.png",
+        "electrical-safety-cell/detailed-right.png",
+        "electrical-safety-cell/detailed-top.png",
+        "electrical-safety-cell/detailed-bottom.png",
+        "electrical-safety-cell/action-0.png",
+        "electrical-safety-cell/action-50.png",
+        "electrical-safety-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "metal-detector-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.metal-detector-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 149384,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61
+      ],
+      "captures": [
+        "metal-detector-cell/simple-iso.png",
+        "metal-detector-cell/simple-front.png",
+        "metal-detector-cell/simple-back.png",
+        "metal-detector-cell/simple-left.png",
+        "metal-detector-cell/simple-right.png",
+        "metal-detector-cell/simple-top.png",
+        "metal-detector-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "metal-detector-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.metal-detector-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1017588,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108
+      ],
+      "captures": [
+        "metal-detector-cell/detailed-iso.png",
+        "metal-detector-cell/detailed-front.png",
+        "metal-detector-cell/detailed-back.png",
+        "metal-detector-cell/detailed-left.png",
+        "metal-detector-cell/detailed-right.png",
+        "metal-detector-cell/detailed-top.png",
+        "metal-detector-cell/detailed-bottom.png",
+        "metal-detector-cell/action-0.png",
+        "metal-detector-cell/action-50.png",
+        "metal-detector-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "industrial-xray-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.industrial-xray-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 124796,
+      "nodes": 72,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        61
+      ],
+      "captures": [
+        "industrial-xray-cell/simple-iso.png",
+        "industrial-xray-cell/simple-front.png",
+        "industrial-xray-cell/simple-back.png",
+        "industrial-xray-cell/simple-left.png",
+        "industrial-xray-cell/simple-right.png",
+        "industrial-xray-cell/simple-top.png",
+        "industrial-xray-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "industrial-xray-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.industrial-xray-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 885584,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        84
+      ],
+      "captures": [
+        "industrial-xray-cell/detailed-iso.png",
+        "industrial-xray-cell/detailed-front.png",
+        "industrial-xray-cell/detailed-back.png",
+        "industrial-xray-cell/detailed-left.png",
+        "industrial-xray-cell/detailed-right.png",
+        "industrial-xray-cell/detailed-top.png",
+        "industrial-xray-cell/detailed-bottom.png",
+        "industrial-xray-cell/action-0.png",
+        "industrial-xray-cell/action-50.png",
+        "industrial-xray-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "ultrasonic-inspect-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.ultrasonic-inspect-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 136844,
+      "nodes": 80,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        67
+      ],
+      "captures": [
+        "ultrasonic-inspect-cell/simple-iso.png",
+        "ultrasonic-inspect-cell/simple-front.png",
+        "ultrasonic-inspect-cell/simple-back.png",
+        "ultrasonic-inspect-cell/simple-left.png",
+        "ultrasonic-inspect-cell/simple-right.png",
+        "ultrasonic-inspect-cell/simple-top.png",
+        "ultrasonic-inspect-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "ultrasonic-inspect-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.ultrasonic-inspect-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 886388,
+      "nodes": 121,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        108
+      ],
+      "captures": [
+        "ultrasonic-inspect-cell/detailed-iso.png",
+        "ultrasonic-inspect-cell/detailed-front.png",
+        "ultrasonic-inspect-cell/detailed-back.png",
+        "ultrasonic-inspect-cell/detailed-left.png",
+        "ultrasonic-inspect-cell/detailed-right.png",
+        "ultrasonic-inspect-cell/detailed-top.png",
+        "ultrasonic-inspect-cell/detailed-bottom.png",
+        "ultrasonic-inspect-cell/action-0.png",
+        "ultrasonic-inspect-cell/action-50.png",
+        "ultrasonic-inspect-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "eddy-current-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.eddy-current-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 146632,
+      "nodes": 95,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        61
+      ],
+      "captures": [
+        "eddy-current-cell/simple-iso.png",
+        "eddy-current-cell/simple-front.png",
+        "eddy-current-cell/simple-back.png",
+        "eddy-current-cell/simple-left.png",
+        "eddy-current-cell/simple-right.png",
+        "eddy-current-cell/simple-top.png",
+        "eddy-current-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "eddy-current-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.eddy-current-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1014836,
+      "nodes": 153,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        108
+      ],
+      "captures": [
+        "eddy-current-cell/detailed-iso.png",
+        "eddy-current-cell/detailed-front.png",
+        "eddy-current-cell/detailed-back.png",
+        "eddy-current-cell/detailed-left.png",
+        "eddy-current-cell/detailed-right.png",
+        "eddy-current-cell/detailed-top.png",
+        "eddy-current-cell/detailed-bottom.png",
+        "eddy-current-cell/action-0.png",
+        "eddy-current-cell/action-50.png",
+        "eddy-current-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "magnetic-particle-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.magnetic-particle-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 134668,
+      "nodes": 89,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        68,
+        76
+      ],
+      "captures": [
+        "magnetic-particle-cell/simple-iso.png",
+        "magnetic-particle-cell/simple-front.png",
+        "magnetic-particle-cell/simple-back.png",
+        "magnetic-particle-cell/simple-left.png",
+        "magnetic-particle-cell/simple-right.png",
+        "magnetic-particle-cell/simple-top.png",
+        "magnetic-particle-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "magnetic-particle-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.magnetic-particle-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 981544,
+      "nodes": 118,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        97,
+        105
+      ],
+      "captures": [
+        "magnetic-particle-cell/detailed-iso.png",
+        "magnetic-particle-cell/detailed-front.png",
+        "magnetic-particle-cell/detailed-back.png",
+        "magnetic-particle-cell/detailed-left.png",
+        "magnetic-particle-cell/detailed-right.png",
+        "magnetic-particle-cell/detailed-top.png",
+        "magnetic-particle-cell/detailed-bottom.png",
+        "magnetic-particle-cell/action-0.png",
+        "magnetic-particle-cell/action-50.png",
+        "magnetic-particle-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "color-spectrometer-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.color-spectrometer-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 142212,
+      "nodes": 81,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        68
+      ],
+      "captures": [
+        "color-spectrometer-cell/simple-iso.png",
+        "color-spectrometer-cell/simple-front.png",
+        "color-spectrometer-cell/simple-back.png",
+        "color-spectrometer-cell/simple-left.png",
+        "color-spectrometer-cell/simple-right.png",
+        "color-spectrometer-cell/simple-top.png",
+        "color-spectrometer-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "color-spectrometer-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.color-spectrometer-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 919564,
+      "nodes": 122,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        109
+      ],
+      "captures": [
+        "color-spectrometer-cell/detailed-iso.png",
+        "color-spectrometer-cell/detailed-front.png",
+        "color-spectrometer-cell/detailed-back.png",
+        "color-spectrometer-cell/detailed-left.png",
+        "color-spectrometer-cell/detailed-right.png",
+        "color-spectrometer-cell/detailed-top.png",
+        "color-spectrometer-cell/detailed-bottom.png",
+        "color-spectrometer-cell/action-0.png",
+        "color-spectrometer-cell/action-50.png",
+        "color-spectrometer-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vision-gauge-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vision-gauge-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 180264,
+      "nodes": 98,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        57,
+        82
+      ],
+      "captures": [
+        "vision-gauge-cell/simple-iso.png",
+        "vision-gauge-cell/simple-front.png",
+        "vision-gauge-cell/simple-back.png",
+        "vision-gauge-cell/simple-left.png",
+        "vision-gauge-cell/simple-right.png",
+        "vision-gauge-cell/simple-top.png",
+        "vision-gauge-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vision-gauge-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vision-gauge-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 1185308,
+      "nodes": 144,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        92,
+        128
+      ],
+      "captures": [
+        "vision-gauge-cell/detailed-iso.png",
+        "vision-gauge-cell/detailed-front.png",
+        "vision-gauge-cell/detailed-back.png",
+        "vision-gauge-cell/detailed-left.png",
+        "vision-gauge-cell/detailed-right.png",
+        "vision-gauge-cell/detailed-top.png",
+        "vision-gauge-cell/detailed-bottom.png",
+        "vision-gauge-cell/action-0.png",
+        "vision-gauge-cell/action-50.png",
+        "vision-gauge-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "environment-test-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.environment-test-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 122468,
+      "nodes": 79,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        58,
+        61
+      ],
+      "captures": [
+        "environment-test-cell/simple-iso.png",
+        "environment-test-cell/simple-front.png",
+        "environment-test-cell/simple-back.png",
+        "environment-test-cell/simple-left.png",
+        "environment-test-cell/simple-right.png",
+        "environment-test-cell/simple-top.png",
+        "environment-test-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "environment-test-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.environment-test-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 883240,
+      "nodes": 102,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        81,
+        84
+      ],
+      "captures": [
+        "environment-test-cell/detailed-iso.png",
+        "environment-test-cell/detailed-front.png",
+        "environment-test-cell/detailed-back.png",
+        "environment-test-cell/detailed-left.png",
+        "environment-test-cell/detailed-right.png",
+        "environment-test-cell/detailed-top.png",
+        "environment-test-cell/detailed-bottom.png",
+        "environment-test-cell/action-0.png",
+        "environment-test-cell/action-50.png",
+        "environment-test-cell/action-100.png"
+      ]
+    },
+    {
+      "id": "vibration-test-cell",
+      "lod": "simple",
+      "module_ref": {
+        "id": "sf.native500.media.vibration-test-cell.simple",
+        "version": "1.0.0"
+      },
+      "bytes": 112924,
+      "nodes": 64,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        55
+      ],
+      "captures": [
+        "vibration-test-cell/simple-iso.png",
+        "vibration-test-cell/simple-front.png",
+        "vibration-test-cell/simple-back.png",
+        "vibration-test-cell/simple-left.png",
+        "vibration-test-cell/simple-right.png",
+        "vibration-test-cell/simple-top.png",
+        "vibration-test-cell/simple-bottom.png"
+      ]
+    },
+    {
+      "id": "vibration-test-cell",
+      "lod": "detailed",
+      "module_ref": {
+        "id": "sf.native500.media.vibration-test-cell",
+        "version": "1.0.0"
+      },
+      "bytes": 684160,
+      "nodes": 99,
+      "phase_ids": [
+        "load",
+        "auto",
+        "unload"
+      ],
+      "decode": true,
+      "phase_seek": true,
+      "reverse_seek": true,
+      "moving_nodes": [
+        78
+      ],
+      "captures": [
+        "vibration-test-cell/detailed-iso.png",
+        "vibration-test-cell/detailed-front.png",
+        "vibration-test-cell/detailed-back.png",
+        "vibration-test-cell/detailed-left.png",
+        "vibration-test-cell/detailed-right.png",
+        "vibration-test-cell/detailed-top.png",
+        "vibration-test-cell/detailed-bottom.png",
+        "vibration-test-cell/action-0.png",
+        "vibration-test-cell/action-50.png",
+        "vibration-test-cell/action-100.png"
+      ]
+    }
+  ],
+  "native_actual_run_wait_save_reopen": "not_executed_by_asset_reviewer"
+}
