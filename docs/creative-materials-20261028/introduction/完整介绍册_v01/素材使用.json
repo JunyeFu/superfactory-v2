@@ -1,0 +1,156 @@
+[
+  {
+    "page": 1,
+    "file": "assets/B60-105-zoom-minus960.jpg",
+    "crop": [
+      620,
+      355,
+      1500,
+      1080
+    ],
+    "kind": "软件实拍"
+  },
+  {
+    "page": 2,
+    "file": "assets/C12-reopened-4000-contact.jpg",
+    "crop": [
+      0,
+      0,
+      2202,
+      1352
+    ],
+    "kind": "软件实拍"
+  },
+  {
+    "page": 3,
+    "file": "diagrams/01_产业课题接续.drawio.png",
+    "crop": [
+      0,
+      0,
+      1951,
+      461
+    ],
+    "kind": "编辑示意图；非软件运行截图"
+  },
+  {
+    "page": 5,
+    "file": "diagrams/02_完整工作链.drawio.png",
+    "crop": [
+      0,
+      0,
+      2017,
+      241
+    ],
+    "kind": "编辑示意图；非软件运行截图"
+  },
+  {
+    "page": 7,
+    "file": "diagrams/03_两画布与显示层次.drawio.png",
+    "crop": [
+      0,
+      0,
+      2001,
+      521
+    ],
+    "kind": "编辑示意图；非软件运行截图"
+  },
+  {
+    "page": 8,
+    "file": "assets/C12-reopened-1500-wait.jpg",
+    "crop": [
+      530,
+      475,
+      1775,
+      1010
+    ],
+    "kind": "软件实拍"
+  },
+  {
+    "page": 8,
+    "file": "assets/C12-reopened-4000-contact.jpg",
+    "crop": [
+      530,
+      475,
+      1775,
+      1010
+    ],
+    "kind": "软件实拍"
+  },
+  {
+    "page": 9,
+    "file": "diagrams/04_专业成果接入.drawio.png",
+    "crop": [
+      0,
+      0,
+      1531,
+      531
+    ],
+    "kind": "编辑示意图；非软件运行截图"
+  },
+  {
+    "page": 10,
+    "file": "assets/B60-105-zoom-minus960.jpg",
+    "crop": [
+      650,
+      400,
+      1400,
+      1050
+    ],
+    "kind": "软件实拍"
+  },
+  {
+    "page": 11,
+    "file": "diagrams/05_Agent工作方式.drawio.png",
+    "crop": [
+      0,
+      0,
+      2081,
+      530
+    ],
+    "kind": "编辑示意图；非软件运行截图"
+  },
+  {
+    "page": 12,
+    "file": "diagrams/06_软件在环链路.drawio.png",
+    "crop": [
+      0,
+      0,
+      2041,
+      591
+    ],
+    "kind": "编辑示意图；非软件运行截图"
+  },
+  {
+    "page": 12,
+    "file": "assets/Native-cloud-R354-original.png",
+    "crop": [
+      260,
+      100,
+      1950,
+      860
+    ],
+    "kind": "软件实拍"
+  },
+  {
+    "page": 15,
+    "file": "diagrams/07_贡献与接手.drawio.png",
+    "crop": [
+      0,
+      0,
+      1951,
+      520
+    ],
+    "kind": "编辑示意图；非软件运行截图"
+  },
+  {
+    "page": 17,
+    "file": "assets/C12-calendar-label-fixed.jpg",
+    "crop": [
+      280,
+      965,
+      1800,
+      1270
+    ],
+    "kind": "软件实拍"
+  }
+]

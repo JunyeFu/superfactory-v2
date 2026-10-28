@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,32,&H00FFFFFF,&H00FFFFFF,&H00332814,&H00332814,0,0,0,0,100,100,0,0,1,1,0,2,40,40,18,1
+Style: Badge,Microsoft YaHei,20,&H00228AFF,&H00228AFF,&H00332814,&H00332814,0,0,0,0,100,100,0,0,1,0,0,1,20,20,18,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.00,00:00:12.00,Default,,0,0,0,,从模板建立纸包装演示工程，预览将创建的厂房、\N设备和生产方案。
+Dialogue: 0,00:00:12.00,00:00:16.90,Default,,0,0,0,,采用模板后启动本地方案。
+Dialogue: 0,00:00:16.90,00:00:30.00,Default,,0,0,0,,工厂中有九十二台设备模型，已经联线的路线与独\N立演示单元分别记录。
+Dialogue: 0,00:00:30.00,00:00:38.90,Default,,0,0,0,,本次实际运行包含八类订单，累计接受一百件。
+Dialogue: 0,00:00:38.90,00:00:52.06,Default,,0,0,0,,工厂全景帮助观察分区，底部时间轴让工序与等待\N保持同一时间关系。
+Dialogue: 0,00:00:52.06,00:00:58.00,Default,,0,0,0,,这里展示实际运行记录的回放。
+Dialogue: 0,00:00:58.00,00:01:04.92,Default,,0,0,0,,选中纸袋筒成型机，连续回放加工阶段。
+Dialogue: 0,00:01:04.92,00:01:18.00,Default,,0,0,0,,观察时点和设备机构一起变化，画面来自这一次运\N行，没有用生成动画替代。
+Dialogue: 0,00:01:18.00,00:01:27.00,Default,,0,0,0,,将演示工程另存到专用目录，原工程和旧运行记录\N保留。
+Dialogue: 0,00:01:27.00,00:01:35.91,Default,,0,0,0,,重新启动同一稳定程序，打开刚保存的工程，选择\N原来的运行记录。
+Dialogue: 0,00:01:35.91,00:01:42.75,Default,,0,0,0,,布局与结果完整恢复，全部运行数据已经核对一致\N。
+Dialogue: 0,00:01:42.75,00:01:49.00,Default,,0,0,0,,这是本地流程的素材粗剪，其余镜头继续补录。
+Dialogue: 0,00:00:00.00,00:01:49.00,Badge,,0,0,0,,素材粗剪 · 模板 1.6.0
